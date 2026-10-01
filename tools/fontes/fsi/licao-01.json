@@ -1,0 +1,31 @@
+{"n": 1, "paginas": "vol. 1, p. 1–6",
+ "titulo": {"pt": "Cumprimentando alguém", "en": "Greeting someone"},
+ "dialogo": [
+  {"sp": "A", "s": "สวัสดี|sà-wàt-dii ครับ|kráp", "fsi": "sawàtdii khráp", "en": "Hello.", "pt": "Olá."},
+  {"sp": "A", "s": "คุณ|kun สบายดี|sà-baai-dii หรือ|rʉ̌ʉ ครับ|kráp", "fsi": "khun sabaajdii rʉ̌ʉ khráp", "en": "How are you?", "pt": "Você está bem?"},
+  {"sp": "B", "s": "ผม|pǒm สบายดี|sà-baai-dii ครับ|kráp", "fsi": "phǒm sabaajdii khráp", "en": "I'm fine.", "pt": "Estou bem."},
+  {"sp": "B", "s": "ขอบคุณ|kɔ̀ɔp-kun", "fsi": "khɔ̀ɔpkhun", "en": "Thank you.", "pt": "Obrigado."},
+  {"sp": "B", "s": "แล้ว|lɛ́ɛo คุณ|kun ล่ะ|lâ ครับ|kráp", "fsi": "lɛ́ɛw khun lâ khráp", "en": "And you?", "pt": "E você?"},
+  {"sp": "A", "s": "ผม|pǒm สบายดี|sà-baai-dii ครับ|kráp", "fsi": "phǒm sabaajdii khráp", "en": "I'm fine.", "pt": "Estou bem."}
+ ],
+ "vocab": [
+  {"th": "สวัสดี", "p": "sà-wàt-dii", "fsi": "sawàtdii", "pt": "olá; tchau", "en": "hello; goodbye"},
+  {"th": "สบายดี", "p": "sà-baai-dii", "fsi": "sabaajdii", "pt": "estar bem", "en": "to be well"},
+  {"th": "ผม", "p": "pǒm", "fsi": "phǒm", "pt": "eu (homem)", "en": "I (male)"},
+  {"th": "ดิฉัน", "p": "dì-chǎn", "fsi": "dichǎn", "pt": "eu (mulher, formal)", "en": "I (female)"},
+  {"th": "คุณ", "p": "kun", "fsi": "khun", "pt": "você", "en": "you"},
+  {"th": "เขา", "p": "kǎo", "fsi": "khǎw", "pt": "ele; ela; eles", "en": "he; she; they"},
+  {"th": "ดี", "p": "dii", "fsi": "dii", "pt": "bom", "en": "good"},
+  {"th": "ขอบคุณ", "p": "kɔ̀ɔp-kun", "fsi": "khɔ̀ɔpkhun", "pt": "obrigado(a)", "en": "thank you"},
+  {"th": "ครับ", "p": "kráp", "fsi": "khráp", "pt": "partícula de polidez (homem)", "en": "polite particle (male)"},
+  {"th": "ค่ะ", "p": "kâ", "fsi": "khâ", "pt": "partícula de polidez (mulher, afirmação)", "en": "polite particle (female, statement)"},
+  {"th": "คะ", "p": "ká", "fsi": "khá", "pt": "partícula de polidez (mulher, pergunta)", "en": "polite particle (female, question)"},
+  {"th": "แล้ว", "p": "lɛ́ɛo", "fsi": "lɛ́ɛw", "pt": "já; e então", "en": "already; and then"},
+  {"th": "ล่ะ", "p": "lâ", "fsi": "lâ", "pt": "e ...? (devolve a pergunta)", "en": "and ...? (turns the question back)"},
+  {"th": "หรือ", "p": "rʉ̌ʉ", "fsi": "rʉ̌ʉ", "pt": "ou; é? (pede confirmação)", "en": "or; is it? (asks for confirmation)"}
+ ],
+ "notas": [
+  {"t": {"pt": "Pronomes", "en": "Pronouns"}, "e": {"pt": "ผม é 'eu' só para homens; ดิฉัน é 'eu' para mulheres; คุณ é o 'você' polido; เขา serve para ele, ela ou eles (só pessoas). Analogia: o pronome 'eu' já vem com crachá de gênero.", "en": "ผม 'I' is used by men; ดิฉัน by women; คุณ is polite 'you'; เขา covers he, she and they (people only)."}},
+  {"t": {"pt": "O verbo não muda", "en": "Verbs don't change"}, "e": {"pt": "สบายดี (estar bem) serve para estou, está, estamos: o sujeito vem antes e o verbo fica igual.", "en": "สบายดี works for am, is, are: the subject comes first and the verb stays the same."}, "ex": "ผม|pǒm สบายดี|sà-baai-dii"},
+  {"t": {"pt": "Perguntas com palavra final", "en": "Questions with a final word"}, "e": {"pt": "Uma afirmação vira pergunta com uma palavra no fim. หรือ pede confirmação ('é mesmo?'); ล่ะ devolve a pergunta ('e você?'). Analogia: a palavra final é o ponto de interrogação falado.", "en": "A statement becomes a question with a final word. หรือ asks for confirmation; ล่ะ turns the question back ('and you?')."}, "ex": "คุณ|kun สบายดี|sà-baai-dii หรือ|rʉ̌ʉ"}
+ ]}

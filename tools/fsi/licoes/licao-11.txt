@@ -1,0 +1,611 @@
+# FSI Thai Basic Course, lição 11 (OCR das páginas v1-212.txt…v1-231.txt). Siga tools/TAREFA-FSI.md.
+
+=== v1-212 ===
+THAI BASIC COURSE
+LESSON ELEVEN
+11.0 BASIC DIALOG: At the Language School
+A: thfi roonrian s¥%on phaas&a At the language school
+where you studied are
+thfi khun rian mii khonthaj there many Thais?
+1Xaj khon mj
+B: l1&aj khon Yes, many.
+Ac mii nakrian phaasta thaj thawraj How many Thai language
+students are there?
+Br maj sf@ap khrap I dontt know.
+As naj chan khun mii nakrian How many students are
+kid khon there in your class?
+B: haa khon khrap Five.
+A: khun rian araj kan baan What (things) are you
+studying?
+Bs aan, phdut, khY¥an 1é plee Reading, speaking,
+writing, and translating.
+A: khaw sSon phaas%a araj baan What languages do they
+teach?
+
+B: 1&%aj phaas¥a khrap.mii phaas%a Many languages. Viet-
+juan, laaw, faranseet, sapeen namese, Lao, French,
+aan _ " ; ; Spanish, and other
+
+lé phaas¥a yyn yyn languages.
+As mii khruu ch@at taan taan Altogether how many
+aes a . teachers of different
+(thanmot) thawraj khrap nationalities are there?
+B: lkaj sip khon khrap Several tens (less than
+a hundred).
+171
+
+=== v1-213 ===
+THAI BASIC COURSE
+11.1 GRAMMAR NOTES
+a) kan teach other, mutually, as a group! can be used
+1. As a pluralizer of the subject of the sentences
+pit pratuu kan 'you (plural) shut the door! or
+2. to indicate that two or more persons or things
+are mutually involved in some activity or are
+related in some other way.
+As| khruu phfut phaas¥a thaj | kap nakrian
+Br nakrian phiut phaas%a thaj kap khruu
+A + Bs} khruu ie nakrian | phQut phaas%a thaj kan
+kap
+A:| 'The teacher speaks Thai with the student?.
+B:| 'The student speaks Thai with the teacher!. :
+A + B:] 'The teacher and student speak Thai with each othert.
+b) araj, khraj, and naj all have interrogative and inde-
+finite meaning (neither singular or plural). When
+used in negative sentences the meaning is indefinite:
+phdm maj daj duu araj 'I didn't see anything.!
+maj mii khraj saap (There is no one that knows.)
+'No one knows.! ,
+khun maj d@j paj n&j rd tDidn't you go anywhere??
+" 172
+
+=== v1-214 ===
+THAI BASIC COURSE
+araj, khraj, and naj can be made plural by the addition
+of baan. (Here they have interrogative meaning. )
+mii nansyy araj baan 'What books are there?!
+khun ca paj naj baan 'What places are you going to?!
+khun phQut phaas&a thaj TWho all do you speak Thai with
+. m . oN
+kap khraj bday with
+
+c) Numerais* include all of the cardinal numbers plus some
+other quantity words. Numerals occur in constructions
+before classifiers. Some of the quantity words are l&aj
+Imany, several!, baan 'some!, kii "how many?!, thik teach,
+every!, ndoj 'few!, and maj-kii 'not many?.
+khruu 14aj khon 'several teachers!
+nansY¥y baan 1ém tsome books!
+té kid tua thow many books?!
+dinsSo m@j-kii théen tnot many pencils!
+nakrian nooj khon 'few students!
+The Thai numerical system is a decimal system, and with a
+few exceptions compound numbers are made by multiplying
+by and / or adding to the numbers from 1 to 10.
+The numbers from 1 to 10 arer nyn '1', s¥Son t2', skam
+13t, sii 141, h&a 151, hok 161, cet I7', pest 181,
+kAaw "91, sip "tol,
+Multiples of ten (except 20) are made by putting the
+multiplier in front of ten, thus 30 is sam sip (3 x 10),
+
+lpor a full treatment of numerais, see Noss, 109 ff.
+
+173 .
+
+=== v1-215 ===
+THAI BASIC COURSE
+
+70 is cet sip (7 x 10), etc. Numbers to be added to 10
+or multiples of 10 occur afterwards, thus 13 is sip sdiam
+{1 x 10 + 3), 34 is stam sip sii (3 x 10 + 4), ete. 20
+is jfi sip; 22 is jf sip sdon.
+Except for the number 'one! itself, et 1s used for 'one!,
+thus 21 is jfi sip et; 51 is haa sip ét, etc.
+100 is nyn réoj or rdoj, but 101 is rdoj et. 400 is
+sil roajs 423 is sii rooj jf sip stam, etc.
+1000 is nyy phan or phan; 10,000 is nyn myyn or myyn.
+100,000 is nyn s€en or s¥en, and 1,000,000 is nyn laan
+or laan.
+15,000 is (nyn) myyn haa phan (1 x 10,000 plus 5 x 1000).
+sip h@a phan (15 x 1,000) is not acceptable.
+450,000 is sii s¥en haa myyn (4 x 100,000 plus 5 x 10,000),
+sii rdoj haa sip phan (450 x 1,000) is not acceptable.
+
+da) One sentence may be included in another and serve as a
+modifier or specifier of some part of that sentence.
+tht may serve as a connector between the main sentence
+and the included sentence.
+
+Main sentence: | nans¥y dit
+Included sentence: khaw khYan
+Resultant sentence: | ndnsyy thfi khaw khian dii
+'The books he writes are good.!
+174
+
+=== v1-216 ===
+THAI BASIC COURSE
+thti khaw khYan serves as a modifier of nans¥y. A response
+to the question nansyy araj dii 'what books are good?!
+could be nans¥y thii khaw khian 'the books he writes!.
+Main sentence: nansYy 16m nan aii
+Included sentence: khaw khYan
+Resultant sentence: nans¥y 16m thfti| khaw khY¥an | dii
+'The book he wrote is good!t.
+thfi khaw khYan serves as a specifier of (nans¥y) 18m.
+A response to the question nansyy lém naj dii 'Which
+book is good?! could be 1@m thfi khaw khY¥an 'the one he
+wrote!,
+
+e) yyn means ‘other! in the sense of a different one not an
+additional one of the same kind. yyn yyn means ‘others'!;
+it acts as a pluralizer after nouns.
+
+phaas%a yyn tanother (different) language!
+phaasda yyn yyn tother (different) languages!
+wees LE yyn yyn (lit. tand others!) tet cetera!
+11.2 GRAMMAR DRILLS
+a) Recognition and Familiarization Drill
+1. khaw phiut phaasXathaj kap phdm He speaks Thai with me.
+phSm phQut phaasXathaj kap khaw I speak Thai with him.
+raw phOut phaasXathaj kan We speak Thai together.
+2. khaw ruucak khon nan . He knows that person.
+khon nan rducak khaw That person knows him.
+khaw ruucak kan They know each other.
+175
+
+=== v1-217 ===
+THAI BASIC COURSE ,
+3. ph&m rian phaas%a thaj I study Thai.
+ph¥an phdm rian phaas&a thaj My friend studies Thai.
+raw rian phaasSa thaj kan We both study Thai.
+b) Combination Drill
+Patterns 1 and 2 Pattern 3
+1. phdm phiut phaasta ankrit kap khaw raw phiut phaas%a
+khaw phdut phaasXa ankrit kap phim ankrit kan
+2. khruu phfut phaasXa thaj kap nakrian khruu lé nakrian phiut
+nakrian philut phaas%a thaj kap khruu phaas&a tha!’ kan
+3. khun coon phfut phaasda jeeraman khun coon 1é khun
+khun cim phiut phaas¥a jeeraman cim phiut phaas%a
+jJgeraman kan
+4, phan ph&m ruucak khun khun kap ph¥an ph&dm ~
+khun rducak phfan phdm ruueak kan
+5. khun meerfi paj talaat kap khun ceennfi khun meerfi 1é khun
+khun ceennti paj talaat kap khun meerfi ceennfi paj talaat
+kan
+6. khun coon paj roonrian khun coon kap khun
+khun cim paj roonrian cim paj roonrian
+kan
+176
+
+=== v1-218 ===
+THAI BASIC COURSE
+c) Recognition and Familiarization Drill
+1. khon nan phaiut phaas¥a araj What languages does
+: 2
+daj baan that person speak?
+khaw phQut phaas%a ankrit, He speaks English,
+faranseet, 1é thaj French, and Thai.
+2. khon nan phiut phaas%a araj What language does
+that person speak?
+khaw phiut phaasXa thaj He speaks Thai.
+3. thfinti mii khraj Who is here?
+thfinfi mii nakrian There are students here.
+4, thtinfi: mii khraj baan Who is here?
+thtinfi mii khruu, nakrian 1é There are teachers,
+nékphaas%a students, and linguists.
+5. naj eesia mii prathéet araj baan : What are some of the
+countries in Asia?
+naj eesia mii prath@et india, ciin, In Asia there are India,
+. , A N N China, Japan, Thailand,
+jfipun, thaj le prathéet yyn yyn ana other countries.
+6. naj juroop mii prath@et araj baan What are some of the
+countries in Europe?
+naj juroop: mii prathéet faranseet, In Europe there are
+: France, Spain, Italy,
+sapeen, italit, jeeraman, le Germany, and other
+prath€et yyn yyn countries.
+177
+
+=== v1-219 ===
+THAI BASIC COURSE
+OE
+7. naj ameerikaa mil rat araj baan What are some of the
+states in America?
+naj ameerikaa mii rat njuu jdok, In America there are
+. the states of New York
+f >
+mesachuset, michikeen, khelifoonia, Massachusetts, Michigan,
+1é rat yyn yyn. California, and other
+states.
+8. thfi sahaprachaach@at mii khon What are some of the
+a a nationalities in the
+chaat araj baan U.N. ?
+thti sahaprachaachaat mii Khon ankrit In the U.N. there are
+faranseet, khon eesia lé chaat yyn Englishmen, Frenchmen,
+sn Asians, and other
+vy nationalities.
+9. khun tham araj pen baan What do you know how
+to do?
+phSm khYan 1é phdut phaas%a I can write and speak
+ankrit pen English.
+10. khaw tham araj pen baan What doeS she know
+how to do?
+khaw tham aah¥an 1é ifan dek pen She can cook and take
+care of children.
+ll. khaw ken araj baan What things is he
+good at?
+khaw rian nans¥y ken, 1én kiilaa He's a good student,
+. ‘ . a good athlete, and
+ken 1€ thamnaan ken a good worker.
+178
+
+=== v1-220 ===
+THAI BASIC COURSE
+d) Response Drill
+Cue Question Response
+ankrit khaw phdut phaasSa araj khaw phQut phaas%a ankrit
+What language does he He speaks English.
+speak?
+thaj 16 khaw phQut phaasda araj khaw ph@ut phaas%a
+ankrit paan thaj 16 ankrit
+What languages does he He speaks Thai and
+speak? English.
+nakrian naj h3nnan mii khraj mii nakrian
+Who's in that room? Students.
+khruu 1é naj h3nnan mii khraj baan mii khruu 1é nakrian
+nakrian Who is in that room? - Teachers and students.
+lXaj ch@at thfi sahaprachaach@at mii mii khon chaat 1%aj
+khon chaat araj baan chaat
+What nationalities are There are many.
+there at the U.N.?
+thtithamnaan wannii khun ca paj naj paj thfithamnaan
+Where are you going today? To the office.
+talaat, wannii khun ca paj n&j baan paj talaat 1é prajsanii
+prajsanii Where (all) are you going To the market and the
+today? Post Office.
+Khelifoonia, naj ameerikaa mii rat araj mii rat khelifoonia
+njuujook,  baan njuujdok 16 floridaa
+floridaa What are some of the California, New York
+states in America? and Florida
+179
+
+=== v1-221 ===
+THAI BASIC COURSE
+thaj, ciin, naj eesia mii prathéet mii prathéet thaj, clin,
+jfipun, 16 araj baan jtipun, 16 prathéet
+prathéet yyn yyn
+yyn yyn What are some of the Thailand, China,
+countries in Asia? Japan, etc.
+phranakhoon, myan thaj mii canwat araJj mii canwat phranakhoon,
+ubon, baan ubon, 1é chianmaj
+chianmaj What are some of the Phranakorn, Ubol,
+provinces in Thailand? and Chiangmai.
+chianmaj, n. pha@ak n¥a mii canwat mii canwat chianmaj
+uttaradit araj baan 1é uttaradit
+What are some of the Chiangmai and
+provinces in Northern Uttaradit.
+Thailand? :
+ubon 1€ udoon phaak is%an mii canwat mii canwat ubon 16
+araj baan udoon
+What are some of the Ubol and Udorn.
+provinces in N. E.
+Thailand?
+krunthéep khon phaak klaan phQut khaw phQut phaas%a
+phaas&a araj krunthéep
+What language do Central Bangkok Thai.
+Thai speak?
+krunthéep 1é khon pak t@j phiut phaas%a khaw phQut phaas%a
+pak taj araj baan krunthéep 1& phaas¥a
+pak taj
+What languages do Southern Bangkok Thai and
+(Thai) people speak? Southern Thai.
+180
+
+=== v1-222 ===
+THAI BASIC COURSE
+e) Substitution Drill
+
+Cue Pattern
+
+nakrian nakrian h@a khon 5 students
+
+khruu khruu haa khon 5 teachers
+
+nyy khruu nyn khon 1 teacher
+
+. mSo mda nyn khon 1 doctor
+
+hok m5o hok khon 6 doctors
+
+chaaw ameerikan chaaw ameerikan hok khon 6 Americans
+
+sip chaaw ameerikan sip khon 10 Americans
+
+thah%an bok thah¥anbok sip khon 10 soldiers
+
+rooj thahSanbok réoaj khon 100 soldiers
+
+khon (khon) raoj khon 100 people
+
+f) Substitution Drill
+
+Cue Pattern
+
+Kaj nakrian aj khon many students
+
+khruu kbruu l’aj khon many teachers
+
+laaj sip khruu laaj sip khon many tens of
+teachers
+
+thah%an thah%an l¥aj sip khon many tens of
+soldiers -
+
+phatthanaakoon phatthanaakoon l¥aj sip khon many tens of com-
+munity Develop-
+ment workers
+
+181
+
+=== v1-223 ===
+THAI BASIC COURSE
+lBaj rdoj phatthanaakoon 1¥aj rdoj many hundreds of
+~~ Community Develep-
+khon ment workers
+kha@araatchakaan kh@ar@atchakaan thaj l&aj many hundreds of
+thaj rooj khon Thai government
+employees
+ldaj phan kh@aradatchakaan thaj l¥aj many thousands of
+phan khon Thai government
+—-- employees
+g) Substitution Drill
+MODEL: A+ khun syy nans¥y rykhrap 'You bought some books?!
+B: khrap '¥Yes, I did.!
+A: (syy) kii 16m khrap 'How many?!
+B: hok 18m knrap 'Six.!
+Pairs of students are to go through the exchange above
+Substituting the following cue words for those underlined
+and making other changes where appropriate:
+l. naalikaa, nyn 5. ph&enthti, sii
+2. dins%o, sXam 6. nans¥yphim, haa
+3. paakkaa, s%on 7. rQup, cet
+4. kawti, sip 8. samut, kaw
+Repeat the drill above using khaaj and mii for syy .
+182
+
+=== v1-224 ===
+THAI BASIC COURSE
+h) Substitution Drill
+MODEL: A: nakrian paj ryplaaw 'Did the students go?!
+B: paj khrap "Yes, they did.!
+A. (paj) kit khon khrap 'How many (went)?!
+B. hok khon khrap WSix.!
+Substitute the following cue words for the underlined
+words above:
+1. khruu, 3 5. tamruat, 40
+2. mdo, 11 6. khaardatchakaan, 25
+3. chaaw ameerikaan, 5,000 7. pndokhaa, 100
+4, thah¥anbok, 5,000
+i) Substitution Drill
+Cue Pattern
+khruu khruu baan khon some teachers
+jti-sip s¥on khruu jfi-sip son khon 22 teachers
+sip peet khruu sip peet khon 18 teachers
+sii-sip khruu sii-sip khon 40 teachers
+hok-sip cet khruu hok-sip cét khon 67 teachers
+sham rooj khruu s%am rd0j khon 300 teachers
+kaw-sip et khruu kaw-sip ét khon - 91 teachers
+sXam-sip sit khruu sXam-sip sii khon 34 teachers
+nooj khruu ndoj khon few teachers
+thuk khruu thik khon every teacher
+183
+
+=== v1-225 ===
+THAI BASIC COURSE
+j) Recognition and Familiarization Drill
+1. roonrian thfi khun rian mii khruu phaas%a thaj 14aj khon
+The school you're studying at has many Thai language teachers.
+2. kha@ar@atchakaan thfi ca paj myanthaj tdon rian phaas%a thaj
+Government employees that are going to Thailand must
+study Thai.
+3. nakrian thfi rian thtinti pen khon ameerikan..
+Students who study here are Americans.
+4, khon thfti tham raatchakaan rfak waa khaar@atchakaan.
+People who do government work are government employees.
+5. khon thfi juu b@an nan pen phfan phdm
+The people wno live in that house are my friends.
+6. phGujin thti paj kap khun sliaj
+The girl who goes with you is pretty.
+7. khon thfi ca rian phaas%a d@j dii tdon phiut phaas%a nan same
+People who are going to learn a language well must speak
+it constantly.
+184
+
+=== v1-226 ===
+THAI BASIC COURSE
+k) Expansion Drill (Combine Sentences 1 and 2 and form
+Sentence 3.)
+Sentence 1 Sentence 2 , Sentence 3
+paan stiaj thfi khun juu paan thfi khun jiu stiaj
+the house is that you live in The house you live in
+pretty is pretty.
+nans¥y dil thfi khun syy nans¥y thfi khun syy dii
+book is good that you bought The book you bought is
+is good.
+roonrian dii thfi khaw kheaj roonrian thiti khaw kheej
+rian rian dit
+school is good that he used to The school he used to
+study (at) study at is good.
+nansYy dii thti khaw khYan nansyy thti khaw khYan dii
+book is good that he wrote The book he wrote is
+good.
+raanaahfan dit thfi khun book raanaahSan thfti khun book
+aii
+restaurant is that you told The restaurant that you -
+good (about) told (me about) is good.
+canwat dil thfi khun ca paj canwat thfi khun ca paJ
+dil
+province is good that you are The province you are
+going (to) going to is good.
+185
+
+=== v1-227 ===
+THAI BASIC COURSE
+mii khruu thaj 1xaj  thti khun rian mii khruu thaj 1&aj khon
+khon thfi roonrian thfi roonrian thfi khun
+rian
+There are many that you study There are many Thai
+Thai teachers at (at) teachers at the school
+the school. where you study at.
+rot stiaj thti pn&ujin rot thti phQujin khonnan
+khonnan khap khap staj
+car is pretty that that woman The car that woman is
+is driving driving is pretty.
+1) Sentence Combination Drill (Combine sentences 1, 2, 3
+to form sentence 4.)
+1
+Sentences 1, 2, 3 Sentence 4
+1. khaw pen khruu khruu thfi son phaas&athaj
+khaw s%on phaas¥athaj pen khonthaj
+khaw pen khonthaj
+2. khaw pen phGujin phiujin thfi paj kap khun stiaj
+khaw paj kap khun
+khaw stiaj
+3. khaw pen nakrian nakrian thfi rian thfinfi pen
+khaw rian thtinti khon ameerikan
+khaw pen khon ameerikan
+line student may give an acceptable response which differs
+from the one given here.
+186
+
+=== v1-228 ===
+THAI BASIC COURSE
+4, khaw pen naékrian nakrian thfi jaak pnQut phaas%a
+khaw jaak phQut phaasda taanprathéet ken t3on phut
+taan prathéet ken samde
+khaw t3on phdut samSe
+5. khaw pen kh@ardatchakaan kha@ar@atchakaan krasuan
+krasuan taanprathéet taanprathéet thfi ca paj myan
+khaw ca paj myanthaj thaj tSon rian phaas&athaj
+khaw t3on rian phaas%athaj ;
+m) Response Drill
+Cue Question Response
+1. thti khaw khYan nans¥y 1ém n&j dii 1ém thti khaw khYan
+that he wrote Which book is good? The one he wrote.
+2. thti chf¥y phimphaa phfujin khon n&j khon thfi chfy
+stiaj phimphaa
+who is named Which woman is The one named
+Pimpa pretty? Pimpa.
+3. thfi maa caak nakrian khon n¥j khon thfi maa caak
+juusit ken juusit
+who came from Which student is The one from USIS.
+USIS smart? .
+4, thfi khun son paakkaa daam nXJj daam thfi khun son
+haj phim dii haj phdm
+that you sent Which pen is The one you sent
+me good? me.
+187
+
+=== v1-229 ===
+THAI BASIC COURSE
+5. thfi kamlan phfut khun th¥awoon, khon khon thiti kamlan
+naj ph@ut
+
+who is speaking Which person is The one who is
+
+Thaworn? speaking.
+6. thti phiut rew khun meerti, khon n¥j  khon thfi phiut rew
+that speaks fast Which person is The one who speaks
+Mary? . fast.
+7. thti thamnaan thfi  khun coon, khonn&j khon thfi thamnaan
+juusd3om thti juusdom
+who works at Which person is The one who works
+USOM John? at USOM.
+11.3 EXERCISES
+
+a) Find out what some of the activities are that students
+engage in with their wives, friends, and others.
+
+b) Ask questions about the number of various kinds of objects
+(windows, pencils, etc.) there are in your classroom.
+
+c) Ask and answer questions concerning the number of people
+employed in various institutions (egs. State Department,
+etc.)
+
+d) Ask and answer questions about the following:
+
+1. countries in Asia and Europe
+2. provinces in Thailand
+3. cities in the U.S., and in Thailand
+4. nationalities in the U.N., in Asia, in Europe, and
+in Thailand
+5. provinces and cities in various parts of Thailand
+188
+
+=== v1-230 ===
+THAI BASIC COURSE
+
+e) Find out how many pedple in the classroom have various
+skills, such as the ability to drive a car, play tennis,
+etc.
+
+f) Find out which objects in the classroom are considered to
+be good by other students.
+
+g) The instructor will put problems in addition on the, board
+beginning with easy ones and proceding to more difficult
+ones, thus
+
+6+ 7 =? The students are to read the problems and
+supply the correct answers.
+11.4 VOCABULARY
+eesia Asia
+yyn yyn other, others, other ones
+book to tell
+cet seven
+chan class, rank, grade, floor (in a building)
+floridéa Florida
+haa five
+hok 3ix ;
+hok~sip sixty
+jaak to want to
+jti-sip twenty
+kaaw nine .
+kaw-sip ninety
+kaw-sip et ninety one
+khelifoonia California
+kit how many, how much (question word)
+kiilaa sport(s), athletics
+189
+
+=== v1-231 ===
+THAI BASIC COURSE
+l&aj many, several
+laan million .
+1é and
+ifan dek to take care of children, to raise children
+michikeen Michigan
+mesachuset Massachusetts
+myyn ten thousand
+naj in, inside
+nakphaas%a linguistic scientist
+nooj few
+nyn (nyn) one
+pest eight
+phan thousand
+phimphaa Pimpa (female first name)
+rew fast, soon
+rooj hundred
+sahaprachaachaat The United Nations
+stam three
+stam-sip thirty
+sten hundred thousand
+sii-sip forty
+sip ten
+thanmot altogetner
+thawraj how many, how much (question word)
+thfinan there
+tdn must, have to
+
+190

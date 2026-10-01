@@ -1,0 +1,525 @@
+# FSI Thai Basic Course, lição 23 (OCR das páginas v2-051.txt…v2-066.txt). Siga tools/TAREFA-FSI.md.
+
+=== v2-051 ===
+THAI BASIC COURSE
+LESSON TWENTY-THREE
+23.0 BASIC DIALOG: Conversation About Length of Residence
+A: khun juu myan thaj maa daj How long have you been
+- 2
+El pli léew living in Thailand?
+B: gsdon pili kwaa léew khrap More than two years.
+As 1éew phy&n khun la khrap And your friend? Has
+s 7 ?
+maa juu naan léew rgo he been here long’
+B: khaw ph$n maa khrap He just came.
+As khaw ca juu kKii pli khrap How many years will he
+be (here)?
+Bt jaan nooj s¥oj pii, jaan mfak At least two years. At
+sid pil most four years.
+A: thammaj khaw thyn phiut How is it that he speaks
+‘ 9
+phaasta thaj d&j chat jannan Thai so clearly?
+lakhrap
+Bs phrs khaw kheej rian maa He studied it previously.
+kdon khrap
+A: thtinXj khrap Where?
+B: thfi ameerikaa In America.
+At khdw rian jou naan thawraj khrap How long did he study?
+Br sip dyan khrap Ten months.
+369
+
+=== v2-052 ===
+THAI BASIC COURSE
+23.1 NOTES ON THE DIALOG
+a) After constructions giving numerical amounts kwaa is
+translated as 'more than!. For example,
+s$on pii kwaa 'More than 2 years?
+sip 1ft kwaa 'More that 10 Liters!
+When used with baat 'baht! (Thai currency), the position
+of kwaa is important, thus
+sip baat kwaa means 'more than ten baht but
+less than eleven!,
+
+but sip kwaa baat means 'tmore than ten but
+
+less than twenty!.
+b) phsy ‘just! occurs just before the main verb in the
+sentence and refers to the recent past.
+khaw ph8n maa tHe just came.!
+c) phtut thoorasap means 'to talk on the telephone. !
+23.2 GRAMMAR NOTES
+a) The verbs Juu, and maa may be used in conjunction with
+
+d&j and léew to indicate whether (1) an activity is
+
+complete or incomplete, and (2) whether it lasted for
+
+a long or short period of time. When verbs are used
+
+in this manner, they may be called Aspect Particles.
+
+1. When jou is used as an aspect particle, it indicates
+that the activity referred to continued for a par-
+ticular period of time. juu does not itself indicate
+the time of an action but may be used in combination
+with time expressions as in the following examples
+
+khaw ca rian nans¥y juu sSon pii
+'tHelll be studying for 2 years (no more or less)!.
+370
+
+=== v2-053 ===
+THAI BASIC COURSE
+2. When maa... léew occur together as aspect markers
+there is indication that the action originated in
+the past and is continuing into the present.
+khédw thamnaan maa 2 pii léew
+'He has been working for 2 years (and still is)!.
+3. aaj + Time Expression refers only to the passage of a
+specific period of times; when it is followed by leew,
+there is indication that the period of time referred
+to continues into the present; when used without time
+or aspect particles, it is interpreted as ‘indefinite
+past time!.
+khaw thamnaan d@j 2 pii 'He worked for 2 years.!
+khaw thamnaan d@j 2 pii léew 'He'ls been working for
+2 years (and still is
+working) t.
+In the chart below the use and meaning of jou, daj, maa, and
+leew are illustrated:
+Aspect Particles and
+khaw thamnaan juu 2 pil Past Time;
+: . a Specific
+knaw thamynaan juu daj 2 pili Period of
+khaw thamnaan a&j | 2 pit Timel
+Khaw thamnaan juu Present 3
+khaw kamlan thamnaan jJuu Progressive
+khaw thamnaan {seu 2 pili 1éew
+maa Present,
+khaw thamnaan {su - ou Perfect
+maa | daj | 2 pii | leew
+khaw thamnaan aaj | 2 pit | 1éew
+khaw ca thamnaan eee 2 pil Future?
+khaw ca thamnaan gaa 2 pit Futures; Specific
+period of time
+371
+
+=== v2-054 ===
+THAI BASIC COURSE
+
+1. He worked (for) two years.
+
+2. He is working.
+
+3. He has been working...
+
+4, He has been working... (focus on starting point)
+
+5. He will be working two years.
+
+Special note: If either maa or juu occurs in the main
+
+sentence, it can not occur as a particle,
+thus khaw maa juu myan thaj daj 2 pii léew
+(Two years have passed since he came to live
+in Thailand).
+'Hels been living in Thailand for 2 years.!
+
+Neither maa d&j 2 pili léew nor juu d&j2 pili léew
+
+can occur after khaw maa juu myan thaj.
+
+b) thammaj twhy! may occur at the beginning of the sentence
+or at the end. Its position is determined by the expected
+answer, thus
+1. thammaj is at the end of the sentence if the response
+
+is a Verb Phrase indicating purpose, thus
+
+Q: paj thammaj tWhy are you going?!
+(What is the purpose?)
+
+A: paj syy kh3on 'To shop.!
+
+2. thammaj is at the beginning of the sentence if the
+response expected normally begins with phro 'because!l,
+and provides an explanation as to why certain actions
+took place or why certain situations exist; thus
+Q: thammaj paj syy thtin@n tWhy did you buy there?!
+
+thammaj maj syy thtinfi twhy not shop here?!
+Ar phrd thfinan (kn¥Son) Because things are
+. N wt
+thtuk kwha cheaper there
+372
+
+=== v2-055 ===
+THAI BASIC COURSE
+
+3. thammaj always occurs at the beginning of negative
+questions.
+
+4, thyn may occur with thammaj. It serves as an inten-
+sifier of the question. Observe the following example:
+thammaj khun m4j jaak jau woochintan
+
+tWhy don't you like living in Washington?!
+thammaj khun thyn m@j jaak juu woochintan
+tHow is that you don't like living in Washington?!
+22.3 GRAMMAR DRILLS
+a) Recognition and Familiarization Drill
+Question Response
+1. khun juu myan thaj maa (aaj) ph3m juu myan thaj maa (d&j)
+pt pit - sdon pii léew
+, leew
+naan thawraj
+How long have you been Two years.
+living in Thalland?
+2. khun thamnaan thfinfi maa phim thamnaan thfinfi maa
+a ’ a 1i 1é
+(aaj) ee pit iéew (a&j) 1%aj pii léew
+naan thawraj
+How long have you been Several years.
+working here?
+3. khun rian phaas¥a thaj maa phim rian phaasta thaj maa
+(d4j) Kit dyan léew (48j) h@a dyan léew
+How many months have you Five months.
+been studying Thai?
+373
+
+=== v2-056 ===
+THAI BASIC COURSE
+4,  khun pen khruu maa (daj) phdm pen khruu maa (d&j)
+kii pili léew (nyn) pii kwaa 1léew
+How many years have
+you been a teacher? More than a year.
+5. khun rdueak khaw maa phSm ruucak khaw maa
+(d@j) naan thawraj Léew (d&j) sXam pii léew
+How long have you
+been knowing him? Three years.
+6. khun ténnaan maa (d&j) phim ténnaan maa (d4j)
+kii pili léew kyap pili léew
+How many years have
+you been married? Almost a year.
+b) Recognition and Familiarization Drill
+Question Response
+1. khun maa juu thfinfi 4aj phim maa jou thfinfi daj
+naan thawraj léew khrap hok dyan lLéew khrap
+How long ago was it that you
+you came to live here? Six months (ago).
+2. khun maa thamnaan thfinfi phdm maa thamnaan thftinfi
+aaj naan thawraj léew khrap daj nyn pii léew khrap
+How long ago was it that
+you came to work here? One year (ago).
+3. khun maa rian nans¥y thtinti phdm maa rian nans¥y thtinti
+dfj kii dyan 1léew aaj son dyan léew
+How many months ago was it
+that you came to study here? Two months (ago).
+374
+
+=== v2-057 ===
+THAI BASIC COURSE
+4, khun maa pen khruu thfinfi phdm maa pen khruu thfinfi
+aaj kii pit léew daj kyap nyn pit 1éew khrap
+How many years ago was it
+that you came to be a
+teacher here? Almost a year (ago).
+c¢) Response Drill
+
+Cue Question Response
+
+1. l&aj pli khun tham raatchakaan phém tham raatchakaan maa
+maa d&j naanthawraj léew d&j l¥aj pii léew
+
+How long have you been
+a government employee? Several years.
+
+2. s&am dyan khun maa rian phaas%athaj ph3m maa rian phaas&%a thaj
+thti ef-és-aj d@j kii thti éf-és-aj d&j s%am
+dyan léew dyan 1éew
+
+How many months have
+you been studying
+Thai at FSI? Three months.
+
+3. aathf{t kwaa khun rian phaasXa thaj phdm rian phaasxa thaj
+
+maa d&j kii aath{t leew maa d@j aath{t kwaa léew
+How many weeks have
+you been studying Thai? More than a week.
+4, g%Son pii khun ruucak khaw maa d&j  phdm riucak khaw maa d@j
+naan thawraj léew son pil kwaa léew
+How long have you
+been knowing him? More than two years.
+375
+
+=== v2-058 ===
+THAI BASIC COURSE
+5. haa dyan khun klap maa ameerikaa phim k1lap maa ameerikaa
+aaj dii dyan léew d&j hfa dyan léew
+How many months has
+it been since you
+came back to America? Five months.
+6. sd&am khun n&n khooj khaw maa phdm n@n khooj khaw maa
+chiiamoon d&j kit chiamoon léew daj sXam chamoon léew
+How many hours have
+you been sitting
+waiting for him? Three hours.
+7. khr¥yn raw khuj kan maa d&@j kii raw khuj kan maa d@j
+chiiamoon naathii léew khrfn chiamoon léew
+How many minutes have
+you been conversing? A half hour.
+d) Transformation Drill
+Pattern 1 Pattern 2
+1. khun riucak khaw maa naan khun riucak kbaw maa naan
+léew léew rSkhrap
+Youtve been knowing him Have you been knowing
+for a long time. him for long?
+2. khun thamnaan thfinfi maa khun thamnaan thfinfi maa
+naan 1éew naan léew r&Skhrap
+You've been working here Have you been working
+for a long time. here long?
+376
+
+=== v2-059 ===
+THAI BASIC COURSE
+3. khun rian phaas%a thaj maa khun rian phaasda thaj maa
+naan léew naan léew r¥khrap
+You've been studying Have you been studying
+Thai for a long time. Thai for long?
+4, khun juu thtinfi maa naan khun jiu thfinfi maa naan
+1éew 1lgew r&khrap
+You've been living here Have you been living
+for a long time. here long?
+5. khun sfap ryannfi maa naan khun s8ap ryannf{i maa naan
+léew léew rSkhrap
+Youlve been knowing Have you been knowing
+about this matter about this matter for
+for a long time. long?
+6. khun jaak hén khaw maa naan khun jaak h¥n khaw maa naan
+1éew léew rSkhrap
+Youive been wanting to Have you been wanting
+see him for a long time. to see him for long?
+7. khun ch3op khéw maa naan khun ch3op khaw maa naan
+1éew léew r¥khrap
+Youtve liked her for a Have you liked her long?
+long time.
+377
+
+=== v2-060 ===
+THAI BASIC COURSE
+e) Response Drill
+Question Response
+1. khun maa juu myanthaj d@j naan 1éew r&Skhrap ph$n maa khrap
+Have you been living in Thailand long? I just came.
+2. khun maa khooj phdm d&j naan léew r8khrap ph$n maa khrap
+Have you been waiting for me long? I just came.
+3. khun maa rian phaas¥a thaj d@j naan 1éew ph3n maa khrap
+rSkhrap
+Have you been studying Thai for long? I just started.
+4, khun rducak khaw maa naan léew rSkhrap ph$yn ruucak khrap
+Have you been knowing him for long? I just met him.
+5. khun rian nans¥y 1@mnfi maa naan léew r¥khrap phn rian khrap
+Have you been reading this book long? I just began.
+f) Expansion Drill
+thammaj
+thammaj lakhrap
+thammaj thyn chat lakhrap
+thammaj thyn chat jannan lakhrap
+thammaj thyn phQut a&j chdt janndn lakhrap
+thammaj thyn philut phaasX%athaj d@j chat jannan lakhrap
+thammaj khaw thyn ph@ut phaas¥a thaj d@j chat Jannan lakhrap
+378
+
+=== v2-061 ===
+THAI BASIC COURSE
+g) Recognition and Familiarization Drill
+1. khaw phSn maa myan thaj . thammaj khaw thyn ph@ut phaas¥a
+thaj d&j chat janndn lakhrap
+He just came to Thailand. How is that he can speak
+Thal so clearly?
+2. khdw maj ch3op aakaat rdon . thammaj khdw thyn jaak paj jiu
+myan thaj lakhrap
+He doesn't like hot weather. How is that he wants to
+go to Thailand?
+3. khaw maj kheej maa rian thti ameerikaa . thammaj khaw thyn
+phiut phaas%a ankrit d@j dii lakhrap
+He has never studied in America. How is that he speaks
+English (so) well?
+4. \khdw bdok waa khaw maj mii neen . thammaj khaw thyn syy
+rot lakhrap
+He said he didn't have any money. How is it that he speaks
+buying a car?
+h) Substitution Drill
+Cue Pattern
+thammaj (khun) (thyn) m&j paj thamnaan
+Why is it that you aren't going to work?
+1. phiut thammaj khun thyn m&j phdut
+Why is it that you dontt talk?
+2. chdop khdw thammaj khun thyn mj ch3op khaw
+Why is that you don't like him?
+379
+
+=== v2-062 ===
+THAI BASIC COURSE
+3. mAj jaak juu  thammaj khun thyn maj jaak juu woochintan
+woochintan Why is it that you don't like to live
+in Washington?
+4, m&j maa rian  thammaj khun thyn maj maa rian nans¥y
+nans¥y How is it that you aren't studying?
+5. maj khawcaj thammaj khun thyn maj khaweaj
+How does it happen that you don't understand?
+6. mAj khap rot thammaj khun thyn mj khap rét maa roonrian
+maa roonrian Why is it that you don't drive to school?
+1) Response Drill
+Cue Question Response :
+1. rian maa kdon thammaj khaw thyn phiut (phrd) khaw khoaj
+thaj d@j chat rian maa kdon
+How does it come about Because he studied
+that he speaks Thai so previously.
+well?
+2. maj ch3op thammaj khun thyn m8j (phrd) ph&m mj chdop
+aakaat n&aw jaak paj noorawee aakaat nwaw
+How is that you don!t Because I don't
+want to go to Norway? like cold weather.
+3. maj sabaaj thammaj mfawaannfi khaw (phrd) khaw maj
+thyn m@j maa thamyaan sabaaj
+Why was it that he
+didn t come to work
+yesterday? Because he was ill.
+380
+
+=== v2-063 ===
+THAI BASIC COURSE
+
+4, khap rdét thammaj phanrajaa khun (phrd) khaw khap rét
+
+maj pen thyn maj khap rot maj pen
+Why isn't your wife Because she doesn't
+driving? know how.
+
+5. thaan thammaj khun thyn t3y (phrd) thaan r@atcha-
+raabchakaan maa rian phaasd%a thaj kaan jaak haj ph&m
+jaak h@j phdm ruiu phaas%a thaj
+riu phaasa&a Why did you have to Because the Govern-
+th come to study Thai? ment wanted me to
+
+aj know Thai.
+
+6. maj waan thammaj khun thyn m3j (phrd) phSm m3j wan
+
+aw rot paj kée
+Why didn't you take Because I wasn't
+your car to get it free.
+repaired?
+j)} Recognition and Familiarization Drill
+Question Response
+1. khaw rian phaas%a thaj ju kKii khaw rian juu nyn pii
+pili
+How many years did he study
+Thai? He studied one year.
+2. khun pen thah¥an juu kii pil ph&Sm pen thah¥an juu s¥on pii
+How many years were you I was a soldier for two
+a soldier? years.
+3. khun fan théep jiu kii chilamoon phSm fan théep juu khrfy
+chiamoon
+How many hours did you listen I listened to the tape
+to the tape? for half an hour.
+381
+
+=== v2-064 ===
+THAI BASIC COURSE
+4, khun ph@ut thoorasap jiu khaw phQut thoorasap jiu
+naan thawraj jtislp h@a naathii
+How long did he talk on He talked 25 minutes
+the telephone? on the phone.
+5. khaw thamnaan juu thfi khaw thamnaan juu thfin@n
+wianean kii pli s3on pii khrfn
+How many years did he He worked there two
+work in Vientiane? and a half years.
+23.4 COMPREHENSION EXERCISES (Listen to the passages and answer
+the questions. )
+a) m§fa pid 1941 - th¥n 1943 khun thoom pen thah¥an juu
+thfi ookinaawaa . khaw pen juu s8on pit, dYawnfi
+khun thoom pen kh@arfatchakaan krasuan taan prathéet
+Question Response
+1. khun thoom khsaj pen khoeaj
+thah¥an maj
+2. thfi nXj thti ookinaawaa
+3. pen juu kit pli sSon pli
+4, t&ntée pil khoos¥o araj 1941 - 1943
+th¥n khoosSo araj
+5. @¥awnfi khaw thamnaan araj  khdw pen kh@ar@atchakaan
+krasuan taanprathéet-
+382
+
+=== v2-065 ===
+THAI BASIC COURSE
+b) my&chdawnfi khun prichaa paj talaat . khaw phop phfan
+thti talaat . khdw khuj kap phan juu s¥on chQamoon
+Question Response
+1. my@chaawnfi khun khaw phdép phfan
+prichaa phdép khraj
+2, thtinkj thti talaat
+3. khaw khuj kap phfan khaw khuj kap phfan
+juu naan thawraj juu s¥on chiamoon
+c) miste samft thamnaan thti krasuantaan prathéet maa
+d&j 1¥aj pil léew . khaw kheej paj juu 1l¥aj prathéet .
+khadw kheej paj pen konstin thti chianmaj jiu s%am
+pil . weelaanfi , khaw juu thfi woochint&n
+Question Response
+1. miste sam{t thamnaan thfi 1¥aj pili léew
+krasuan taanprathéet
+maa daj kii pii léew
+2. khaw kheaj paj juu taan khesj
+prathéet maj khdw kheej paj jiu l¥aj
+prathéet
+3. khdw kheej paj jou kheej , khaw kheej paj
+myanthaj maj pen konsun thfi chianmaj
+4, khaw pen konstin juu thf khaw pen juu s¥am pii
+chianmaj Ki pii
+383
+
+=== v2-066 ===
+THAI BASIC COURSE
+23.5 EXERCISES
+
+a) Different students will find out how long other students
+have been doing different kinds of activities. The
+following are some examples: (1) living here, (2)
+learning Thai, (3) married, (4) playing some sport,
+(5) knowing how to do something, such as driving a car,
+etc.
+
+b) One student will give a short biography of himself.
+Other students will question him about certain parts
+of it, in particular how long some parts of it lasted
+(egs. how long he was in the armed forces, etc.).
+
+c) One student says he went some particular place. A second
+student asks him why he went there. When the first student
+gives a reason, the second one asks him why he didn't go
+some other place. The first student gives his reasons.
+
+23.6 VOCABULARY
+
+ookinaawaa Okinawa
+
+chat plain(ly), clear(ly), distinct(ly)
+
+jaan maak at most
+
+jaan ndoj at least
+
+ift liter
+
+maa kdon previously
+
+noorawee Norway
+
+phén just
+
+thyn that, so, then, if 1t comes to the
+
+point that
+384

@@ -1,0 +1,556 @@
+# FSI Thai Basic Course, lição 4 (OCR das páginas v1-076.txt…v1-092.txt). Siga tools/TAREFA-FSI.md.
+
+=== v1-076 ===
+THAI BASIC COURSE
+LESSON FOUR
+4.0 BASIC DIALOG: Establishing Identity and Ownership of Objects.
+
+A: ch@aj sdn nans¥y 1ém nan Could you hand me that
+
+naj ph3m ndoj, d&j maj khrap book?
+B: d&j khrap Yes.
+
+nans¥y 16m nii dii This book is good.
+
+khSon khraj khrap Whose is it?
+A. kh%Son phfan phdm khrap A friend of mine.
+B: phan khun chfy araj khrap What!s your friend's name?
+A: (khaw ch¥y) coon khrap His name's John.
+Bi khon n¥j ch¥y coon khrap Which person is named John?
+A:  khon noon khrap That person over there.
+B: léew nn khraj khrap Then who's (that) there?
+A: phQujin ry phfuchaaj khrap The woman or the man?
+B: phQuchaaj khrap The man.
+A: nan nakrian khrap That's a student.
+B: khun ruucak khaw maj khrap Do you know him?
+A: ruducak khrap Yes, I do.
+B: khaw pen khraj khrap Who is he?
+A: khaw pen phfan ph&m khrap Hets my friend.
+
+35
+
+=== v1-077 ===
+THAI BASIC COURSE
+4.1 GRAMMAR NOTES
+a) The following type of construction is used to indicate
+the number of items when referring to concrete nounss
+Noun + Number + Unit Classifier?
+
+nansyy sdoy 1ém ttwo books!
+
+nakrian don khon 'two students!
+
+kawti sdon tua 'two chairs!
+When specifying a particular noun ina class, the follow-
+ing type of construction is used:
+
+Noun + Unit Classifier + Determiner
+
+phfan khon nan 'That friend!
+
+samut 1ém nfi 'This notebook!
+
+paakkaa daam n&j which pen?!
+A unit classifier is one of a special class of nouns
+which are used in constructions to enumerate or specify
+concrete nouns. There are about 200 unit classifiers in
+Thai, and each of them is normally used with a large
+number of concrete nouns of very different meanings.
+Since the unit classifier must be used in any situation
+in which you wish to indicate the number of items (of
+concrete nouns) or wish to specify a particular item out
+of a group (of concrete nouns), you will have to learn
+which unit classifier is used with each noun. Since
+there is usually no obvious connection between the clas-
+sifier and its Noun, using the correct one will be a
+matter of having learned it.
+There are a few classifiers for which noun reference is
+relatively predictable:
+
+tion a full treatment of unit classifiers, see Noss, Richard
+B., Thai Reference Grammar, U. S. Government Printing Office,
+Washington, D.C., 1964, pp. 104, 105.
+36
+
+=== v1-078 ===
+THAI BASIC COURSE
+Unit Classifier Noun Reference
+
+khon People (professions and
+positions held by people)
+
+tua animals, objects with
+arms and legs
+
+pheen flat objects
+
+baj containers
+
+thén sticks
+
+b) After a noun has been mentioned or otherwise identified,
+Classifier+Determiner or Number+Classifier can replace
+it in sentences following immediately:
+
+1) A: nfi nans¥y 2 1€ém 'Here are 2 books.
+x
+16m n&j khSon khun Which is yours?!
+x
+B: 18m nan khrap 'That one!l.
+2) A: mit nans¥y maj 'Do you have any books?t
+x .
+Bs mii sSon 18m khrap 'T have two.!
+x
+The classifier functions like a substitute word here,
+but it can not occur without either a number before it
+or a determiner after it.
+
+) khdon 'of! or 'belonging to! is used to indicate 'posses-
+siont, It occurs after the thing possessed and before
+the possessor. Its occurrence in the Noun Phrase is
+optional when the head noun (thing possessed) is present,
+thus:
+
+nansYy khYon khaw this book!
+37
+
+=== v1-079 ===
+THAI BASIC COURSE
+or nans¥y khaw this book!
+but the occurrence of kh¥on is obligatory when the head
+noun is not present, thus:
+kh¥on khaw Vhist
+Tne head noun can be omitted only after it has been
+identified since kh3on khaw acts as a replacement for
+the whole Noun Phrase.
+
+d) khraj like araj (see 2.2a) has the same position in the
+
+sentence as the noun it refers to, thus:
+Questions khaw pen khraj (lit: he is who)
+Who is he?
+Answer: khaw pen phfan phSm ‘He's my friend.!
+Quéstions khun coon pen khraj (lit: John is who)
+What is John?
+Answere khun coon pen khruu 'John'!s my teacher.!
+phdm
+When the main verb in the sentence is pen, khraj normally
+occurs in the predicate. Observe that it may be trans-
+lated 'twnhat! in some situations.
+
+e) The verb 'to bel is translated differently according to
+its subject and complement. Observe the following
+examples:
+
+Subject Verb Complement
+
+nfi (khyy) phfan khaw 'This is his friend.!
+
+khun coon pen khruu phdm ‘John is my teacher.!
+
+khaw chfy coon 'He is (named) John.t
+38
+
+=== v1-080 ===
+THAI BASIC COURSE
+4,2 GRAMMAR DRILLS .
+a) Response Drill
+The instructor points at a student as he asks the question
+and gives the actual name of the student as the cue. He
+asks every student the question.
+Questions: nén/nfi khraj khrap Who is that/this?
+Cue: (actual name of student
+pointed at)
+Answers: nfi/n@n khun (Joe) This/that is (Joe).
+khrap
+b) Response Drill
+The instructor gives a cue and points at a student.
+One student asks and another answers questions like
+the following:
+Instructors khun th&awoon (pointing at a student)
+Student 1: n&an/nfi khun th&awoon, That/this is Mr.
+chaj maj khrap Thaworn, isn't it?
+Student 2: maj chaj khrap No, it isn't.
+Student 11 n&n/nfi khraj khrap Who is that/this?
+Student 21 (nan/nfi) khun (That/this is)
+1. khun cim 4.  khun coon
+2. khruu 5. khruu khaw
+3. khun meerfi 6. khun prasset
+Repeat the drill using actual names of students in the class.
+39
+
+=== v1-081 ===
+THAI BASIC COURSE
+ec) Substitution Drill
+Cue Pattern
+nans¥y khraj khrap Whose book (is it)?
+naalikaa naalikaa khraj khrap Whose watch (is it)?
+dinsd3o dinsSo khraj khrap Whose pencil (is it)?
+raup rQup khraj khrap Whose picture (is it)?
+Kawti Kawti khraj khrap Whose chair (is it)?
+paakkaa paakkaa khraj khrap Whose pen (is it)?
+nans¥yphim nansYyphim khraj khrap Whose newspaper (is it)?
+purli burili khraj khrap Whose cigarette (is it)?
+nansyy nans¥y khraj khrap Whose book (is it)?
+d) Response Drill
+The instructor points at an object near a student and
+asks him whose is it. The student!s response indicates
+the actual owner.)
+MODEL: Instructor: nan/nfi nans¥y khraj khrap
+WWhose book is that/this?!
+Student: kh%on phm/khaw/khun cim
+'Mine/his/Jimts!- ,
+1. dins%So 4, paakkaa 7. nans¥y
+2. naalikaa 5. samut 8. pburii
+3. riiup 6. nansYyphim 9. kawti
+This drill may be repeated one time with students repetating
+the thing referred to in the answer: nansYy khSoyn phdm and
+one time with students repeating the thing referred to and
+nan / nfi: nfi nans¥y phim
+, 40
+
+=== v1-082 ===
+THAI BASIC COURSE
+
+e) Expansion Drill
+Cue Expansion
+1) khSon khraj khrap Whose?
+
+nansYy nans¥y khSon khraj khrap Whose book?
+
+nan n@n nans¥y khSon khraj khrap Whose book is that?
+2) khSon khraj khrap Whose?
+
+paakkaa paakkaa khSon khraj khrap Whose pen?
+
+nan nan paakkaa kh3on khraj khrap Whose pen is that?
+3) kh3on khraj khrap Whose?
+
+samut samut khSon khraj khrap Whose notebook?
+
+nti nfi samut kh¥on khraj khrap Whose notebook is this?
+4) khSon khraj khrap Whose?
+
+dins¥o dinsSo khSon khraj khrap Whose pencil?
+
+nan nan dinsSo kh¥on khraj khrap Whose pencil is that?
+
+f) Reduction Drill (Change from Pattern 1 to Pattern 2)
+
+Pattern 1 Pattern 2
+nans¥y kh%Son khraj nans¥y khraj Whose book?
+paakkaa kh¥Son khraj paakkaa khraj Whose pen?
+phfan kh¥on phdm ph¥an phdm My friend.
+k€wfi kh¥Son khraj kawti khraj Whose chair.
+samut kh3on nakrian samut nakrian Student's notebook.
+phanrajaa kh3on khun coon phanrajaa khun coon Johhts wife.
+khruu khSon raw khruu raw Our teacher.
+saSmii kh¥%on khaw saadmii khdaw Her husband.
+41
+
+=== v1-083 ===
+THAI BASIC COURSE
+g) Recognition and Familiarization Drill
+Question Response
+khon n&j ch¥y coon khon nan khrap Which person is named John?
+That one.
+khon n&j chfy cim khon noon khrap Which person is named Jim?
+The one over there.
+khon naj chfy meerTi khon nan khrap Which person is named Mary?
+That one.
+khon naj pen ph¥ankhun = khon noon khrap Which person is your friend?
+The one over there.
+khon n&j pen khruu khon nan khrap Which person is the teacher?
+That one.
+khon n&j pen nakrian khon nan khrap Which person is a student?
+That one.
+h) Response Drill (The instructor asks the names of students.)
+Instructors khon naj chfy Which person is named
+(actual name) ?
+Student: khon nfi/nan
+(pointing to the student): This/that person.
+i) Expansion Drill
+1) n&j Which?
+khon naj Which one (person) ?
+nakrian khon n&¥j Which student?
+nakrian phQuchaaj khon n&j Which male student?
+2) nii This
+khon nfi This one (person).
+phitujin khon nfi This female.
+nakrian phQujYn khon nfi This female student.
+he
+
+=== v1-084 ===
+THAI BASIC COURSE
+3) noon That over there.
+khon noon That one over there.
+khruu khon noon That teacher over there.
+khruu kh3on khun khon noon That teacher of yours
+over there.
+4) nan That.
+khon nan That one (person).
+ph§an khon nan That friend.
+phf§an khSon khun khon nan That friend of yours.
+phfan phujgYn kh¥on khun khon nan That female friend of
+yours.
+Jj) Expansion Drill
+1) khon n&j ch¥y coon Which person is named
+John?
+nakrian nakrian khon n&j ch¥y Which student is named
+John?
+coon
+phfuchaaj nakrian phQuchaaj khon Which male student is
+A named John?
+naj ch¥y coon
+2) khon nan ch}y nonjaw That person is named
+Nongyaw.
+phfan phdm phfan phSm khon nan That friend of mine
+chy nonjaw is named Nongyaw.
+phaujiy ph¥an phOujYn phSm khon That female friend of
+, a mine is named Nongyaw.
+nan chyy nonjaw
+3) nans¥y 1ém nan aii That book is good.
+khSon khun nansyy khSon khun 1ém That book of yours
+nan dii 1s good.
+43
+
+=== v1-085 ===
+THAI BASIC COURSE
+4) khon nan siiaj That one (person) is
+pretty.
+phfan ph¥an khon nan stiaj That friend is pretty.
+khSon khun phfan kh¥on khun khon That friend of yours
+nan stiaj is pretty.
+phiujin phfan ph@ujfn kh3on That female friend of
+khun khon nan stiaj yours is pretty.
+k) Transformation Drill
+Pattern 1 Pattern 2
+khon n&j ch¥y cim khun cim, khon n¥j Which one (person)
+is Jim?
+khon n&j chfy khun praph@at, khon Which one is Prabas?
+praphaat naj
+khon nj ch¥y khun prasaet, khon Which one is Prasert?
+prassat naj
+khon naj chfy khun nutchanan, khon Which one is Nuchanan?
+nutchanan nj
+khon n&j pen khruu khruu khSoyn khun, Which is your teacher?
+khSon khun khon n&j
+khon n&j pen phanrajaa khun Which one is Thawornts
+phanrajaa khun thaawoon, khon naj wife?
+th&awoon
+khon naj pen sXamii stamii khun meerfi, Which one is Mary's
+khun meerti khon n&j husband?
+4y
+
+=== v1-086 ===
+THAI BASIC COURSE
+1) Recognition and Familiarization Drill
+Question Response
+phaujin ry phfiuchaaj phiuchaaj khrap Woman or man? Man.
+chfy coon ry cim cim khrap Is (he) named John
+or Jim? Jim
+khon nan ry khon noon khon noon khrap That one or the
+one over there?
+The one over there.
+khaw pen khruu ry nakrian nakrian khrap Is he teacher or a
+student? A student.
+dii ry maj aii aii khrap (Is it) good or not?
+(It's) good.
+stiaj ry maj stiaj maj stiaj khrap (Is she) pretty or
+not? (She is) not
+(pretty).
+kh¥on khun ry kh¥on khaw khSon khaw khrap Yours or his? His.
+m) Response Drill (Pairs of students engage in an exchange
+of the following kind using actual names
+of other students).
+Student 1: khaw chfy (actual name) ;
+Student 2: khraj khrap, khon nfi ry
+khon nan (pointing at students)
+Student 1: khon nfi/ndn khrap
+45
+
+=== v1-087 ===
+THAI BASIC COURSE
+n) Response Drill
+Cue Question Response
+cim ch§y coon ry cim (ch¥y) cim khrap
+noon Khon nan ry khon noon khon noon knrap
+khruu pen phfan ry pen khruu (pen) khruu khrap
+khun khSon khun ry kh¥on phdm khSon khun khrap
+sttaj pha@ujin khon nan stiaj ry maj stiaj stiaj khrap
+maj ehfy nfi dii ry maj aii maj dii khrap
+o) Response Drill
+Cue
+chfy cim khaw pen khraj khaw chf¥y cim
+pen phfan phdm khaw pen khraj khaw pen ph¥an phdm
+chSy cim, pen phfan khon nan pen khraj khaw ch$y cim, pen
+phdm phfan phim
+ch¥y meerfti, pen khaw pen khraj khaw chfy meerti, pen
+phanrajaa khun coon phanrajaa khun coon
+ch¥y praphaat khaw pen khraj khaw chfy praphaat
+pen khruu phim khaw pen khraj khaw pen khruu phdm
+chf¥y praphaat, pen  khaw pen khraj khaw chfy praphaat
+khruu phdm pen khruu phdm
+ch§y Khun chotchdoj khon nan pen khraj khaw ch¥y chotchdoj
+pen khruu khon noon pen khraj khaw pen khruu
+chyy coon, pen khon nfi pen khraj khaw ch¥y coon, pen
+ph¥an phdm phfan phim
+6
+
+=== v1-088 ===
+THAI BASIC COURSE
+p) Recognition and Familiarization Drill
+The instructor points at two or move of the objects as he
+asks the question and s@lects cne of them as he gives the
+response.
+Question Response
+1) nans¥y 1€m n¥j aii 1ém nan Which book is pood?
+That one.
+2) paakkaa d@am n&j dit d&am nfi Which pen is good?
+This one.
+3) dinsSo thén nXj dii théyn nit Which pencil is good?
+Tnis one.
+4) -kawti tua n&j dit tua nan Which chair is good?
+That one.
+5) ph&enthfi phéen n¥j dii phéen nfii Which map is good?
+This one.
+
+q) Response Drill (Selecting two each of the objects listed
+below, the instructor asks questions about
+ownership using the following model):
+
+Instructor: nfi nans¥y sSon 1ém, Here are 2 books.
+16m n¥j khSon khun Which (one) is yours?
+Student: 1ém nfi/nan This one/that one.
+1) kawts 3) dins%o 5) naalikaa
+2) samut 4) paakkaa
+In the question khun may be replaced by khaw or phim / dichan.
+AT
+
+=== v1-089 ===
+THAI BASIC COURSE
+r) Substitution Drill
+Cue Pattern
+
+nansyy 16m nfi dit
+
+samut samut 16m nfi dii
+
+paakkaa paakkaa da@am nfi aii
+
+dins¥o dinsdo théy nfi dii
+
+to (tua) to tua nfi dit
+
+phéenthti ph€enthfti phéen nfi dii
+
+riiup (baj) rQup baj nfi dii
+
+nakrian nakrian khon nii dii
+
+khruu khruu khon nfi dii
+
+naalikaa naalikaa ryan nfi dit
+
+nansyy nansyy 16m nfi did
+
+s) Substitution Drill
+Cue Pattern
+
+ch@aj son nags¥y 16m nan naj ph&m
+ndoj, daj maj khrap
+
+paakkaa, noon ch@aj son paakkaa d@am noon h&j ph&Sm
+ndoj, aaj maj khrap
+
+raup, nan ehG@aj son rQup baj nan haj ph&dm
+nooj, d&j maj khrap
+
+ph¥enthfi, nan chaj son ph¥enthti phéen nan haj ph&dm
+ndoj, aaj maj khrap
+
+nans¥y, noon ch@aj son nans¥y 16m noon haj ph&m
+ndoj, d&aj maj khrap
+
+48
+
+=== v1-090 ===
+THAI BASIC COURSE
+dins%o, nan chQaj son dinsSo thén nan h@j ph&m
+nooj, d&aj maj khrap
+naalikaa, nan chilaj son naalikaa ryan nan hj phSm
+nooj, d&j maj khrap
+4,3 EXERCISE
+
+a) One student points at an object and asks who it belongs
+to. Another student (the actual owner) says that it's
+his. Continue until ownership has been established for
+all the objects the students are familiar with.
+
+b) Find out the names of all the students by asking questions
+like this: What's the name of that person? A student will
+respond with the real name.
+
+c) Find out the names of all the students by asking questions
+like this: Who is named ? (using the names of
+students). The student with the name will responds TI am
+(named) .
+
+a) One student will point to an object and will ask another
+student if it's his. He will respond that it is.
+
+e) Find out if other students think various objects in the
+room are good or beautiful.
+
+f) Ask someone to pass you something. He pretends he isn't
+sure which one you want and asks, 'This one or that one!.
+You indicate which one and he passes it. You thank him.
+
+49
+
+=== v1-091 ===
+THAI BASIC COURSE
+4,4 VOCABULARY
+baj classifier for 'picture!, etc.
+cim Jim (name)
+chotehdoj Chotchoi (Thai female first name)
+chialaj please
+daam classifier for 'pen', etc.
+daj can, could, be able
+haj for (the benefit of)
+khon (chon)* people, also classifier for humans
+khdon of, belonging to
+khraj who, what (in some constructions)
+16m classifier for !'book!
+nonjaw Nongyaw (Thai female first name)
+nakrian (khon) student, pupil
+nan, n@n that (determiner)
+naj which (one(s)) (determiner)
+nfi, nfi this (determiner)
+nitchanan Nuchanan (female first name)
+noon, ndon the one over there (determiner)
+pen to be
+phanrajaa, pharijaa, wife (elegant term)
+phanjaa (khon)
+phéen classifier for 'map, picture, paper!
+sheet-like
+phfiuchaaj (khon) man, boy (male human of any age)
+phiujin (khon) woman, girl (female human of any age)
+line unit classifier for each noun is given after the noun.
+50
+
+=== v1-092 ===
+THAI BASIC COURSE
+prassat Prasert (male first name)
+raw we, our, us
+ruucak to know, to be acquainted with, to be
+familiar with
+ryy, ry, ete. or
+ryan classifier for 'watch, clock!
+sfamii (khon) husband (elegant term)
+son to pass, to hand (someone something)
+sdon two
+tua classifier for 'animals, objects with
+legs (chairs, tables, etc.)!
+thén classifier for tpencil', etc.
+51

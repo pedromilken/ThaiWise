@@ -1,0 +1,41 @@
+{"n": 2, "paginas": "vol. 1, p. 7–19",
+ "titulo": {"pt": "Descobrindo o nome de alguém", "en": "Finding out someone's name"},
+ "dialogo": [
+  {"sp": "A", "s": "สวัสดี|sà-wàt-dii ครับ|kráp", "fsi": "sawàtdii khráp", "en": "Hello.", "pt": "Olá."},
+  {"sp": "A", "s": "ผม|pǒm ชื่อ|chʉ̂ʉ ประภาส|bprà-pâat", "fsi": "phǒm chʉ̂ʉ praphâat", "en": "My name is Prabas.", "pt": "Meu nome é Prabas."},
+  {"sp": "A", "s": "ขอโทษ|kɔ̌ɔ-tôot คุณ|kun ชื่อ|chʉ̂ʉ อะไร|à-rai ครับ|kráp", "fsi": "khɔ̌ɔthôot, khun chʉ̂ʉ ʔaraj khráp", "en": "Excuse me. What's your name?", "pt": "Com licença. Como você se chama?"},
+  {"sp": "B", "s": "ผม|pǒm ชื่อ|chʉ̂ʉ จอห์น|jɔɔn ครับ|kráp", "fsi": "phǒm chʉ̂ʉ coon khráp", "en": "My name's John.", "pt": "Meu nome é John."},
+  {"sp": "A", "s": "ขอโทษ|kɔ̌ɔ-tôot คุณ|kun ชื่อ|chʉ̂ʉ อะไร|à-rai นะ|ná ครับ|kráp", "fsi": "khɔ̌ɔthôot, khun chʉ̂ʉ ʔaraj ná khráp", "en": "Excuse me. What's your name (again)?", "pt": "Desculpe, qual é mesmo o seu nome?"},
+  {"sp": "A", "s": "กรุณา|gà-rú-naa พูด|pûut อีกที|ìik-tii ได้|dâai ไหม|mǎi ครับ|kráp", "fsi": "karunaa phûut ʔìik thii, dâj máj khráp", "en": "Could you please repeat that?", "pt": "Poderia repetir, por favor?"},
+  {"sp": "B", "s": "ขอโทษ|kɔ̌ɔ-tôot คุณ|kun ประภาส|bprà-pâat นามสกุล|naam-sà-gun อะไร|à-rai ครับ|kráp", "fsi": "khɔ̌ɔthôot, khun praphâat naamsakun ʔaraj khráp", "en": "Excuse me, Mr. Prabas what? (family name)", "pt": "Com licença, senhor Prabas de quê? (sobrenome)"},
+  {"sp": "A", "s": "ผม|pǒm นามสกุล|naam-sà-gun รักไทย|rák-tai ครับ|kráp", "fsi": "phǒm naamsakun rákthaj khráp", "en": "My family name's Rakthai.", "pt": "Meu sobrenome é Rakthai."},
+  {"sp": "A", "s": "คุณ|kun จอห์น|jɔɔn นามสกุล|naam-sà-gun สมิธ|sà-mít ใช่|châi ไหม|mǎi ครับ|kráp", "fsi": "khun coon naamsakun samít, châj máj khráp", "en": "Mr. John, your family name is Smith, isn't it?", "pt": "Senhor John, seu sobrenome é Smith, não é?"},
+  {"sp": "B", "s": "ไม่|mâi ใช่|châi ครับ|kráp", "fsi": "mâj châj khráp", "en": "No, it isn't.", "pt": "Não é."},
+  {"sp": "B", "s": "ผม|pǒm นามสกุล|naam-sà-gun บราวน์|braao", "fsi": "phǒm naamsakun braaw", "en": "My family name's Brown.", "pt": "Meu sobrenome é Brown."},
+  {"sp": "A", "s": "จอห์น|jɔɔn บราวน์|braao หรือ|rʉ̌ʉ ครับ|kráp", "fsi": "coon braaw rʉ̌ʉ khráp", "en": "John Brown, huh?", "pt": "John Brown, é?"}
+ ],
+ "vocab": [
+  {"th": "ชื่อ", "p": "chʉ̂ʉ", "fsi": "chʉ̂ʉ", "pt": "nome; chamar-se", "en": "name; to be named"},
+  {"th": "อะไร", "p": "à-rai", "fsi": "ʔaraj", "pt": "o quê", "en": "what"},
+  {"th": "ขอโทษ", "p": "kɔ̌ɔ-tôot", "fsi": "khɔ̌ɔthôot", "pt": "com licença; desculpe", "en": "excuse me"},
+  {"th": "นามสกุล", "p": "naam-sà-gun", "fsi": "naamsakun", "pt": "sobrenome", "en": "family name"},
+  {"th": "กรุณา", "p": "gà-rú-naa", "fsi": "karunaa", "pt": "por favor, tenha a bondade", "en": "please, kindly"},
+  {"th": "พูด", "p": "pûut", "fsi": "phûut", "pt": "falar", "en": "to speak"},
+  {"th": "อีก", "p": "ìik", "fsi": "ʔìik", "pt": "mais; de novo", "en": "more; again"},
+  {"th": "อีกที", "p": "ìik-tii", "fsi": "ʔìik thii", "pt": "mais uma vez", "en": "once more"},
+  {"th": "ได้ไหม", "p": "dâai-mǎi", "fsi": "dâj máj", "pt": "pode? consegue? (pedido)", "en": "can you? could you?"},
+  {"th": "ใช่", "p": "châi", "fsi": "châj", "pt": "sim, é isso", "en": "yes, that's right"},
+  {"th": "ใช่ไหม", "p": "châi-mǎi", "fsi": "châj máj", "pt": "não é? (confirmação)", "en": "isn't it?"},
+  {"th": "ไม่ใช่", "p": "mâi-châi", "fsi": "mâj châj", "pt": "não é isso", "en": "no, it isn't"},
+  {"th": "ไหม", "p": "mǎi", "fsi": "máj", "pt": "partícula de pergunta sim/não", "en": "yes/no question particle"},
+  {"th": "นะ", "p": "ná", "fsi": "ná", "pt": "partícula que suaviza", "en": "softening particle"},
+  {"th": "เปล่า", "p": "bplàao", "fsi": "plàaw", "pt": "não (discordância forte)", "en": "no (strong disagreement)"},
+  {"th": "ที", "p": "tii", "fsi": "thii", "pt": "vez", "en": "time, instance"},
+  {"th": "ว่า", "p": "wâa", "fsi": "wâa", "pt": "que (após dizer, pensar)", "en": "that (after say, think)"}
+ ],
+ "notas": [
+  {"t": {"pt": "ชื่อ é o primeiro nome", "en": "ชื่อ is the given name"}, "e": {"pt": "Na Tailândia as pessoas são chamadas pelo primeiro nome, com คุณ antes: คุณประภาส. O sobrenome é นามสกุล. Analogia: é como no Brasil chamar o médico de 'doutor Pedro', não 'doutor Milken'.", "en": "Thais are addressed by their given name with คุณ before it. The family name is นามสกุล."}, "ex": "คุณ|kun ประภาส|bprà-pâat"},
+  {"t": {"pt": "อะไร fica no lugar da resposta", "en": "อะไร sits where the answer goes"}, "e": {"pt": "Pergunta: คุณชื่ออะไร. Resposta: ผมชื่อจอห์น. A palavra interrogativa ocupa a posição da informação que falta.", "en": "Question: คุณชื่ออะไร. Answer: ผมชื่อจอห์น. The question word takes the slot of the missing information."}, "ex": "คุณ|kun ชื่อ|chʉ̂ʉ อะไร|à-rai"},
+  {"t": {"pt": "Sim e não: ใช่ / ไม่ใช่ / เปล่า", "en": "Yes and no"}, "e": {"pt": "ใช่ไหม no fim pede confirmação ('não é?'). Responde-se ใช่ (é) ou ไม่ใช่ (não é); เปล่า nega com mais força. Analogia: ใช่ไหม é estender a mão esperando um 'toca aqui'.", "en": "ใช่ไหม asks 'isn't it?'. Answer ใช่ (yes) or ไม่ใช่ (no); เปล่า denies more strongly."}},
+  {"t": {"pt": "Pedidos com กรุณา ... ได้ไหม", "en": "Requests: กรุณา ... ได้ไหม"}, "e": {"pt": "กรุณา abre um pedido polido e ได้ไหม no fim pergunta se a pessoa pode fazê-lo. Analogia: é o 'poderia ..., por favor?' em duas peças, uma em cada ponta da frase.", "en": "กรุณา opens a polite request and ได้ไหม at the end asks whether the person can do it."}}
+ ]}

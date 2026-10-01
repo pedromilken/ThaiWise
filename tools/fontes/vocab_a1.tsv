@@ -1,0 +1,333 @@
+# ThaiWise · vocabulário A1 (autoral). Colunas: tailandês, Paiboon+ (sílabas separadas por hífen), português, inglês.
+# O RTGS é derivado do Paiboon+ por tools/build_data.py. "## tema pt | tema en" abre uma unidade.
+## Cumprimentos e perguntas | Greetings and questions
+สวัสดี	sà-wàt-dii	olá; tchau	hello; goodbye
+ขอบคุณ	kɔ̀ɔp-kun	obrigado(a)	thank you
+ครับ	kráp	partícula de polidez (falante homem)	polite particle (male speaker)
+ค่ะ	kâ	partícula de polidez (mulher, afirmação)	polite particle (female, statement)
+คะ	ká	partícula de polidez (mulher, pergunta)	polite particle (female, question)
+ขอโทษ	kɔ̌ɔ-tôot	desculpe; com licença	sorry; excuse me
+ไม่เป็นไร	mâi-bpen-rai	não tem problema; de nada	never mind; you're welcome
+ใช่	châi	sim, é isso	yes, that's right
+ไม่	mâi	não (nega verbo ou adjetivo)	not
+ไม่ใช่	mâi-châi	não é isso	no, that's not it
+สบายดี	sà-baai-dii	estar bem	to be well
+ไหม	mǎi	partícula de pergunta sim/não	yes/no question particle
+ลาก่อน	laa-gɔ̀ɔn	adeus	goodbye (for long)
+ชื่อ	chʉ̂ʉ	nome; chamar-se	name; to be called
+อะไร	à-rai	o quê	what
+ใคร	krai	quem	who
+ที่ไหน	tîi-nǎi	onde	where
+เมื่อไร	mʉ̂ʉa-rài	quando	when
+ทำไม	tam-mai	por quê	why
+อย่างไร	yàang-rai	como	how
+เท่าไร	tâo-rài	quanto	how much
+กี่	gìi	quantos (+ classificador)	how many (+ classifier)
+ได้	dâai	poder; conseguir	can; to get
+ขอ	kɔ̌ɔ	pedir; por favor, me dê	to ask for; may I have
+## Pessoas e família | People and family
+ผม	pǒm	eu (homem)	I (male)
+ดิฉัน	dì-chǎn	eu (mulher, formal)	I (female, formal)
+ฉัน	chǎn	eu (informal)	I (informal)
+คุณ	kun	você	you
+เขา	kǎo	ele; ela	he; she
+เรา	rao	nós	we
+พวกเขา	pûuak-kǎo	eles; elas	they
+คน	kon	pessoa; classificador de pessoas	person; classifier for people
+ผู้ชาย	pûu-chaai	homem	man
+ผู้หญิง	pûu-yǐng	mulher	woman
+เด็ก	dèk	criança	child
+เพื่อน	pʉ̂ʉan	amigo(a)	friend
+ครู	kruu	professor(a)	teacher
+นักเรียน	nák-riian	aluno(a)	student
+พ่อ	pɔ̂ɔ	pai	father
+แม่	mɛ̂ɛ	mãe	mother
+พี่	pîi	irmão ou irmã mais velho(a)	older sibling
+น้อง	nɔ́ɔng	irmão ou irmã mais novo(a)	younger sibling
+ลูก	lûuk	filho(a)	child (offspring)
+สามี	sǎa-mii	marido	husband
+ภรรยา	pan-rá-yaa	esposa	wife
+ครอบครัว	krɔ̂ɔp-kruua	família	family
+หมอ	mɔ̌ɔ	médico(a)	doctor
+ตำรวจ	dtam-rùuat	policial	police officer
+ประเทศ	bprà-têet	país	country
+ไทย	tai	Tailândia; tailandês	Thailand; Thai
+ภาษา	paa-sǎa	língua, idioma	language
+ภาษาไทย	paa-sǎa-tai	língua tailandesa	Thai language
+ภาษาอังกฤษ	paa-sǎa-ang-grìt	língua inglesa	English language
+## Números e dinheiro | Numbers and money
+ศูนย์	sǔun	zero	zero
+หนึ่ง	nʉ̀ng	um	one
+สอง	sɔ̌ɔng	dois	two
+สาม	sǎam	três	three
+สี่	sìi	quatro	four
+ห้า	hâa	cinco	five
+หก	hòk	seis	six
+เจ็ด	jèt	sete	seven
+แปด	bpɛ̀ɛt	oito	eight
+เก้า	gâo	nove	nine
+สิบ	sìp	dez	ten
+สิบเอ็ด	sìp-èt	onze	eleven
+ยี่สิบ	yîi-sìp	vinte	twenty
+ร้อย	rɔ́ɔi	cem	hundred
+พัน	pan	mil	thousand
+หมื่น	mʉ̀ʉn	dez mil	ten thousand
+ล้าน	láan	milhão	million
+ครึ่ง	krʉ̂ng	metade, meio	half
+บาท	bàat	baht (moeda)	baht (currency)
+เงิน	ngən	dinheiro; prata	money; silver
+ราคา	raa-kaa	preço	price
+แพง	pɛɛng	caro	expensive
+ถูก	tùuk	barato; correto	cheap; correct
+อัน	an	classificador geral de objetos	general classifier for objects
+ตัว	dtuua	classificador de animais e roupas	classifier for animals and clothes
+ใบ	bai	classificador de folhas, bilhetes, frutas	classifier for sheets, tickets, fruit
+เล่ม	lêm	classificador de livros	classifier for books
+แก้ว	gɛ̂ɛo	copo (classificador de bebidas)	glass (classifier for drinks)
+ขวด	kùuat	garrafa	bottle
+จาน	jaan	prato	plate
+## Tempo e calendário | Time and calendar
+วัน	wan	dia	day
+วันนี้	wan-níi	hoje	today
+พรุ่งนี้	prûng-níi	amanhã	tomorrow
+เมื่อวาน	mʉ̂ʉa-waan	ontem	yesterday
+ตอนเช้า	dtɔɔn-cháao	de manhã	in the morning
+ตอนบ่าย	dtɔɔn-bàai	à tarde	in the afternoon
+ตอนเย็น	dtɔɔn-yen	no fim da tarde	in the early evening
+กลางคืน	glaang-kʉʉn	à noite	at night
+ชั่วโมง	chûua-moong	hora (duração)	hour (duration)
+นาที	naa-tii	minuto	minute
+โมง	moong	hora (do relógio, de dia)	o'clock (daytime)
+ทุ่ม	tûm	hora da noite (19h a 23h)	evening hour (7 to 11 pm)
+สัปดาห์	sàp-daa	semana	week
+เดือน	dʉʉan	mês	month
+ปี	bpii	ano	year
+ตอนนี้	dtɔɔn-níi	agora	now
+เวลา	wee-laa	tempo; horário	time
+เร็ว	reo	rápido; cedo	fast; early
+ช้า	cháa	devagar; tarde	slow; late
+สาย	sǎai	atrasado (de manhã)	late (in the morning)
+ก่อน	gɔ̀ɔn	antes; primeiro	before; first
+หลัง	lǎng	depois; atrás; costas	after; behind; back
+แล้ว	lɛ́ɛo	já; e então	already; and then
+วันจันทร์	wan-jan	segunda-feira	Monday
+วันเสาร์	wan-sǎo	sábado	Saturday
+วันอาทิตย์	wan-aa-tít	domingo	Sunday
+## Comida e bebida | Food and drink
+กิน	gin	comer	to eat
+ดื่ม	dʉ̀ʉm	beber	to drink
+ข้าว	kâao	arroz; refeição	rice; meal
+น้ำ	náam	água	water
+กาแฟ	gaa-fɛɛ	café	coffee
+ชา	chaa	chá	tea
+นม	nom	leite	milk
+ไก่	gài	frango	chicken
+หมู	mǔu	porco	pork
+เนื้อ	nʉ́ʉa	carne bovina; carne	beef; meat
+ปลา	bplaa	peixe	fish
+กุ้ง	gûng	camarão	shrimp
+ไข่	kài	ovo	egg
+ผัก	pàk	verdura	vegetable
+ผลไม้	pǒn-lá-mái	fruta	fruit
+ก๋วยเตี๋ยว	gǔuai-dtǐiao	macarrão de arroz (sopa)	noodle soup
+อาหาร	aa-hǎan	comida	food
+อร่อย	à-rɔ̀i	gostoso	delicious
+เผ็ด	pèt	apimentado	spicy
+หวาน	wǎan	doce	sweet
+เค็ม	kem	salgado	salty
+เปรี้ยว	bprîiao	azedo	sour
+ร้อน	rɔ́ɔn	quente	hot
+เย็น	yen	frio; fresco	cold; cool
+หิว	hǐu	com fome	hungry
+อิ่ม	ìm	satisfeito, cheio	full (after eating)
+ร้านอาหาร	ráan-aa-hǎan	restaurante	restaurant
+เก็บเงิน	gèp-ngən	cobrar; a conta	to collect payment; the bill
+ช้อน	chɔ́ɔn	colher	spoon
+## Verbos do dia a dia | Everyday verbs
+เป็น	bpen	ser (categoria, profissão)	to be (category, role)
+อยู่	yùu	estar; ficar; morar	to be at; to stay; to live
+มี	mii	ter; haver	to have; there is
+ไป	bpai	ir	to go
+มา	maa	vir	to come
+ทำ	tam	fazer	to do; to make
+ดู	duu	ver, assistir	to look; to watch
+ฟัง	fang	ouvir, escutar	to listen
+พูด	pûut	falar	to speak
+อ่าน	àan	ler	to read
+เขียน	kǐian	escrever	to write
+รู้	rúu	saber	to know (a fact)
+รู้จัก	rúu-jàk	conhecer	to know (a person, place)
+เข้าใจ	kâo-jai	entender	to understand
+ชอบ	chɔ̂ɔp	gostar	to like
+อยาก	yàak	querer (fazer algo)	to want (to do)
+เอา	ao	querer (algo); pegar	to want (a thing); to take
+ซื้อ	sʉ́ʉ	comprar	to buy
+ขาย	kǎai	vender	to sell
+นอน	nɔɔn	dormir; deitar-se	to sleep; to lie down
+ตื่น	dtʉ̀ʉn	acordar	to wake up
+ทำงาน	tam-ngaan	trabalhar	to work
+เรียน	riian	estudar	to study
+สอน	sɔ̌ɔn	ensinar	to teach
+ช่วย	chûuai	ajudar	to help
+ให้	hâi	dar; deixar	to give; to let
+รอ	rɔɔ	esperar	to wait
+กลับ	glàp	voltar	to return
+ถาม	tǎam	perguntar	to ask
+ตอบ	dtɔ̀ɔp	responder	to answer
+เล่น	lên	brincar; jogar; tocar	to play
+## Lugares e direções | Places and directions
+บ้าน	bâan	casa	house; home
+โรงเรียน	roong-riian	escola	school
+โรงพยาบาล	roong-pá-yaa-baan	hospital	hospital
+โรงแรม	roong-rɛɛm	hotel	hotel
+ตลาด	dtà-làat	mercado	market
+ห้องน้ำ	hɔ̂ng-náam	banheiro	bathroom
+ห้อง	hɔ̂ng	quarto, sala	room
+ถนน	tà-nǒn	rua	road; street
+สนามบิน	sà-nǎam-bin	aeroporto	airport
+สถานี	sà-tǎa-nii	estação	station
+ธนาคาร	tá-naa-kaan	banco	bank
+วัด	wát	templo	temple
+ทะเล	tá-lee	mar	sea
+เมือง	mʉʉang	cidade	city; town
+กรุงเทพฯ	grung-têep	Bangkok	Bangkok
+ที่นี่	tîi-nîi	aqui	here
+ที่นั่น	tîi-nân	ali	there
+ซ้าย	sáai	esquerda	left
+ขวา	kwǎa	direita	right
+ตรงไป	dtrong-bpai	siga em frente	go straight
+ใกล้	glâi	perto	near
+ไกล	glai	longe	far
+ข้างใน	kâang-nai	dentro	inside
+ข้างนอก	kâang-nɔ̂ɔk	fora	outside
+บน	bon	em cima	on; above
+ใต้	dtâi	embaixo	under; below
+เลี้ยว	líiao	virar (dobrar)	to turn
+หยุด	yùt	parar	to stop
+## Transporte e viagem | Transport and travel
+รถ	rót	carro; veículo	car; vehicle
+รถเมล์	rót-mee	ônibus	bus
+รถไฟ	rót-fai	trem	train
+รถไฟฟ้า	rót-fai-fáa	trem elevado (BTS)	skytrain
+เครื่องบิน	krʉ̂ʉang-bin	avião	airplane
+เรือ	rʉʉa	barco	boat
+แท็กซี่	tɛ́k-sîi	táxi	taxi
+มอเตอร์ไซค์	mɔɔ-dtəə-sai	moto	motorbike
+ตั๋ว	dtǔua	bilhete, passagem	ticket
+เดินทาง	dəən-taang	viajar	to travel
+เดิน	dəən	andar	to walk
+ขับ	kàp	dirigir	to drive
+นั่ง	nâng	sentar; ir de (veículo)	to sit; to ride
+ขึ้น	kʉ̂n	subir; embarcar	to go up; to get on
+ลง	long	descer; desembarcar	to go down; to get off
+ถึง	tʉ̌ng	chegar; até	to arrive; until
+ออก	ɔ̀ɔk	sair	to exit; to leave
+เข้า	kâo	entrar	to enter
+แผนที่	pɛ̌ɛn-tîi	mapa	map
+กระเป๋า	grà-bpǎo	bolsa; mala	bag; suitcase
+หนังสือเดินทาง	nǎng-sʉ̌ʉ-dəən-taang	passaporte	passport
+เที่ยว	tîiao	passear	to go out; to travel for fun
+ทาง	taang	caminho	way; route
+## Descrever: qualidades, cores e clima | Describing: qualities, colours, weather
+ดี	dii	bom	good
+สวย	sǔuai	bonito(a)	beautiful
+ใหญ่	yài	grande	big
+เล็ก	lék	pequeno	small
+ใหม่	mài	novo	new
+เก่า	gào	velho (coisa)	old (thing)
+แก่	gɛ̀ɛ	velho, idoso (pessoa)	old (person)
+สูง	sǔung	alto	tall; high
+ยาว	yaao	longo, comprido	long
+สั้น	sân	curto	short
+มาก	mâak	muito	very; a lot
+น้อย	nɔ́ɔi	pouco	little; few
+ง่าย	ngâai	fácil	easy
+ยาก	yâak	difícil	difficult
+สนุก	sà-nùk	divertido	fun
+เหนื่อย	nʉ̀ʉai	cansado	tired
+ดีใจ	dii-jai	contente	glad
+เสียใจ	sǐia-jai	triste; lamentar	sad; sorry
+สี	sǐi	cor	colour
+แดง	dɛɛng	vermelho	red
+ขาว	kǎao	branco	white
+ดำ	dam	preto	black
+เขียว	kǐiao	verde	green
+เหลือง	lʉ̌ʉang	amarelo	yellow
+ฟ้า	fáa	azul-claro; céu	light blue; sky
+อากาศ	aa-gàat	clima; ar	weather; air
+หนาว	nǎao	frio (tempo)	cold (weather)
+ฝน	fǒn	chuva	rain
+ฝนตก	fǒn-dtòk	chover	to rain
+## Corpo e saúde | Body and health
+หัว	hǔua	cabeça	head
+ตา	dtaa	olho	eye
+หู	hǔu	orelha	ear
+จมูก	jà-mùuk	nariz	nose
+ปาก	bpàak	boca	mouth
+มือ	mʉʉ	mão	hand
+เท้า	táao	pé	foot
+ขา	kǎa	perna	leg
+ท้อง	tɔ́ɔng	barriga	belly
+ฟัน	fan	dente	tooth
+ปวด	bpùuat	doer (dor contínua)	to ache
+เจ็บ	jèp	doer (dor aguda)	to hurt
+ป่วย	bpùuai	doente	sick
+ไม่สบาย	mâi-sà-baai	indisposto	unwell
+ยา	yaa	remédio	medicine
+คลินิก	klí-ník	clínica	clinic
+ไข้	kâi	febre	fever
+หวัด	wàt	resfriado	cold (illness)
+อาบน้ำ	àap-náam	tomar banho	to shower; to bathe
+แปรงฟัน	bprɛɛng-fan	escovar os dentes	to brush one's teeth
+ช่วยด้วย	chûuai-dûuai	socorro!	help!
+## Casa e objetos | Home and objects
+ประตู	bprà-dtuu	porta	door
+หน้าต่าง	nâa-dtàang	janela	window
+โต๊ะ	dtó	mesa	table
+เก้าอี้	gâo-îi	cadeira	chair
+เตียง	dtiiang	cama	bed
+โทรศัพท์	too-rá-sàp	telefone	telephone
+มือถือ	mʉʉ-tʉ̌ʉ	celular	mobile phone
+หนังสือ	nǎng-sʉ̌ʉ	livro	book
+ปากกา	bpàak-gaa	caneta	pen
+กระดาษ	grà-dàat	papel	paper
+เสื้อ	sʉ̂ʉa	camisa; roupa (parte de cima)	shirt; top
+กางเกง	gaang-geeng	calça	trousers
+รองเท้า	rɔɔng-táao	sapato	shoes
+หมวก	mùuak	chapéu, boné	hat
+นาฬิกา	naa-lí-gaa	relógio	clock; watch
+คอมพิวเตอร์	kɔm-piu-dtə̂ə	computador	computer
+แอร์	ɛɛ	ar-condicionado	air conditioner
+ไฟ	fai	luz; fogo	light; fire
+กุญแจ	gun-jɛɛ	chave	key
+ของ	kɔ̌ɔng	coisa; de (posse)	thing; of (possession)
+นี่	nîi	isto (pronome)	this (pronoun)
+นั่น	nân	isso (pronome)	that (pronoun)
+นี้	níi	este(a) (após o substantivo)	this (after the noun)
+นั้น	nán	esse(a) (após o substantivo)	that (after the noun)
+โน้น	nóon	aquele(a) lá	that over there
+## Ligar ideias e marcar o tempo | Linking ideas and marking time
+และ	lɛ́	e	and
+กับ	gàp	com; e	with; and
+หรือ	rʉ̌ʉ	ou; é? (no fim, pede confirmação)	or; (sentence-final) is it?
+แต่	dtɛ̀ɛ	mas	but
+เพราะ	prɔ́	porque	because
+ถ้า	tâa	se	if
+ก็	gɔ̂ɔ	então; também (liga orações)	then; also (linking)
+ด้วย	dûuai	também; junto	also; too
+ทุกวัน	túk-wan	todo dia	every day
+บ่อย	bɔ̀i	com frequência	often
+บางครั้ง	baang-kráng	às vezes	sometimes
+เสมอ	sà-mə̌ə	sempre	always
+ยัง	yang	ainda	still; yet
+ยังไม่	yang-mâi	ainda não	not yet
+จะ	jà	marcador de futuro	future marker
+กำลัง	gam-lang	estar fazendo (progressivo)	progressive marker
+เคย	kəəi	já ter feito (experiência)	to have ever done
+ต้อง	dtɔ̂ng	precisar, ter de	must; have to
+ควร	kuuan	dever (conselho)	should
+นิดหน่อย	nít-nɔ̀i	um pouco	a little
+ทั้งหมด	táng-mòt	tudo; ao todo	all; in total
+อีก	ìik	mais; de novo	more; again
+คนเดียว	kon-diiao	sozinho	alone
+ด้วยกัน	dûuai-gan	juntos	together

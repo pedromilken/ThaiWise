@@ -1,0 +1,711 @@
+# FSI Thai Basic Course, lição 12 (OCR das páginas v1-232.txt…v1-255.txt). Siga tools/TAREFA-FSI.md.
+
+=== v1-232 ===
+THAI BASIC COURSE
+LESSON TWELVE
+12.0 BASIC DIALOG: My Family
+A: khun mii phfindon ldaj Do you have many brothers
+- ° 9?
+khon maj khrdp and sisters?
+B: khun phdo khun m&e phdm My parents have five children.
+mii 1Quk naa khon khrap
+A: khan pen khon thfi Which are you?
+thawraj
+B: phdm pen khon klaan I'm the middle one.
+mii phfichaaj son khon, There are two older brothers,
+ndonsXaw goon khon two younger sisters.
+A: phfichaaj khSon khun Are your older brothers
+‘ ca ?
+ténnaan ryjan married (yet)
+B: tén 1ésw khon nyn, iik One is married, and one is
+khon nyn jan pen sdot (still) single.
+A: khSothdot 1&ew khun la And you?
+khrap
+B: phdm mii khrdopkhrua I have a family.
+1léew khrap :
+At khSothdot, khun mii but Do you have children?
+ryplaaw khrap
+B: mii khon diaw khrap I have only one.
+pen phfuchaaj He's a boy. .
+A: aaji thawraj khrap How old is he?
+B: hok khuap khrap Six.
+191
+
+=== v1-233 ===
+THAI BASIC COURSE
+12.1 NOTES ON THE DIALOG
+a) The chart below gives the terms used in Thai for different
+members of the immediate family in terms of age, sex, and
+relationship to the speaker (Ego):
+khrSopkhrua phém 'My Family?
+phdo 'father! més ‘'mother! |
+1fiuk 1Quk 1fuk 1Quk 1Quk
+khon khon khon khon | khon
+too thfti sSon klaan thfi sii lek ;
+(thti 3) (sut thoon)
+loldest "second Imiddle "fourth 'youngest
+ehild! chilat (third) ehild! ehild!
+ehild!t
+1fiuk 1fuk lauk 1Quk 10uk
+chaaj sdaw chaaj saaw chaaj
+‘sont 'Gdaughter! 'son! ‘daughter! 'tson!
+phti phti EGO ndon noon
+chaaj staw phdm shaw chaaj
+tolder Tolder tyt tyounger Tyounger
+brother! sister! sister! brother!
+1. noon alone means: ‘younger brothers and/or sisters!
+phfi alone means: folder brothers and/or sisters!
+phfinson alone means: tolder and younger brothers and/or
+sisters!
+192
+
+=== v1-234 ===
+THAI BASIC COURSE
+2. but = lQuk 'child! but is more elegant;
+lfuk is more common.
+3. lfuk khon nyn ~ means 'a child!
+lfuk nyn khon means ‘one chila!
+lfuk khon diaw means ‘only one child!.
+
+b) tennaan tto marry'; tén 'decorate, adorn! + naan
+‘ceremony! teen is a verb and naan is its noun
+complement. In responses to questions only the
+verb is necessary.
+
+12.2 GRAMMAR NOTES
+a) Ordinal number constructions consist of thfi + cardinal
+numbers (or question word replacements for them).
+thti sii 'fourth! : thti + sii ryt
+thfi cet ‘seventh! 1 thti + cet 71
+thti nyy rooj *hundredth! : thii + nyy réaj tloot, ete.
+thti thawraj 'the how manyeth!: thti + thawraj thow many!
+
+b) réek means 'to be first in time, quality, in a series or
+sequence, or from point of origin.
+phdm pen lfuksit khon 'I was his first student.!
+réek kh¥on khaw
+thti nyy refers to the first item in a numbered series
+of lessons, floors (in a building), etc.
+chan thfti nyn 'the first floor!
+bot thfi ny) 'tlesson one!
+
+193
+
+=== v1-235 ===
+THAI BASIC COURSE
+ec) Ordinal numbers occur immediately after classifiers and
+in construction with them.
+1Q@uk khon thfi_sXam 'the third child!
+nans¥y 1lém thfi cet Ithe seventh book!
+d) aaju tage! is a noun and is used in equational sentences
+like the following:
+Noun Phrase = Noun Phrase
+khaw aaju jfi-sip pii
+'He (is) 20 (age-20-year).!
+In questions aaju thawra J is used generally for asking
+someone's age but aaju kil pii may used for younger
+persons. The response is usually (number of years)
++ pli but for persons under 12, (number of years)
++ khuap is used.
+For example:
+Q: luk khon lék aaju kii pili 'How old is your
+youngest?!
+A: hok khuap '(He's) six.!
+Q@: khun ph3o khun aaju thawraj 'How old is your
+father?!
+At h@a-sip sdam pii 1531
+e) lésw ry jan tor not yet?! is used in questions to find
+out the state of an action (complete or not complete).
+leew is often omitted or occurs in reduced form in lyjan
+or loejan. It may occur as yjan or ajan in very rapid
+speech. The responses to it are either:
+1. jan ‘not yet! (or) 2. Verb + 1Sew 'Action completed!.
+Q: khun thaan kh@aw léew ry jan 'Have you eaten yet?!
+R: Negative: jan khrap tNo.! (lit. tot yet.t)
+Affirmative: thaan léew khrap '(Yes), I have.!
+194
+
+=== v1-236 ===
+THAI BASIC COURSE
+f) Observe the use of jan maj and jan maj daj in the examples
+below:
+1. khaw jan juu thfinii. - 'Shets still here.
+khaw jan maj paj. 'She hasn't gone yet.!
+2. ph&’m khit waa khaw paj 'IT thought he had gone
+ole . , on business already,
+thura leew tee khaw but he hadntt.!
+jan maj aaj paj
+The meaning of the first example is 'He nasn't gone yet
+(because he doesn't want or need to), but he may go yett.
+The meaning of the second example is 'He could (or should)
+have gone, but he didn't. (See 5.2a).
+ge) When classifier phrases with diaw or laaj refer to the
+pronoun subject of the sentence, they occur after the
+main verb, usually at the end of the sentence.
+khaw paj khon diaw ~ 'He went by himself.!
+khaw paj kan laaj khon 'Several of them went
+together.!
+12.3 GRAMMAR DRILLS
+a) Transformation Drill
+Pattern 1 Pattern 2
+1. khaw pen phtichaj ph&Sm phSm pen nsonchaaj khaw
+He is my older brother. I am his younger brother.
+2. th@an pen khun phdo phim phSm pen lfiukchaaj thaan
+He is my father. I am his son.
+3. khaw pen khun ph3o phaujin phfujin khon nan pen
+khon nan lfuks%aw khaw
+Hels that girl's father. That girl is his daughter.
+195
+
+=== v1-237 ===
+THAI BASIC COURSE :
+4. khaw pen ndonchaaj phdm ph3m pen phfichaaj khaw
+He is my younger brother. Itm his older brother.
+5. khaw pen noonsXaw phdm phim pen phfichaaj khaw
+She's my younger sister. Itm her older brother.
+6. khaw pen ndonsXaw dichan dichan pen phtfis¥aw khaw
+She is my younger sister. I'm her older sister.
+7. khaw pen phfis¥aw phdm phSm pen ndoonchaaj khaw
+She's my older sister. I'm her younger brother.
+8. khaw pen phfichaaj ph&3m phém pen ndonchaaj khaw
+Hels my older brother. Itm his younger brother.
+9. khadw pen ndonehaaj dichan dichan pen phfisXaw khaw
+He's my younger brother. I'm his older sister.
+10. tha@an pen khun mée phdm phém pen lflukchaaj thaan
+She's my mother. Itm her gon.
+b) Substitution Drill
+Cue Pattern
+too khaw pen lGuk khon too Hets the oldest child.
+sdon khaw pen liuk khon thfi son Shets the second child.
+réek khaw pen l@uk khon résk Hets the first child.
+sXam  khaw pen l@uk khon thfi s%am Shets the third child.
+klaan khaw pen ifiuk khon klaay Hets the middle child.
+haa khaw pen l(iuk khon thfi haa He's the fifth child.
+1ék khaw pen 1Quk khon 1ék She's the smallest child.
+(youngest)
+196
+
+=== v1-238 ===
+THAI BASIC COURSE
+
+sii khaw pen lQuk khon thfi sii He's the fourth child.
+
+cet khéw pen l@uk khon thfi cet She's the seventh child.
+
+too khaw pen lf@uk khon too He's the oldest child.
+
+, ce) Response Drill .
+
+Cue Question Response
+
+1. s¥am lfukchaaj khon thfi thawraj (1@ukchaaj) khon thfi s%am
+Which son (is it)? The third.
+
+2. sii nakrian khon thfi thawraj (nakrian) khon thfi sii
+Which student (is it)? The fourth.
+
+3. hok khruu khon thti thawraj (khruu) khon thfi hok
+Which teacher (is it)? The sixth.
+
+4, gon m%So khon thfi thawraj (mSo) khon thti s¥Son
+Which doctor (is it)? The second.
+
+5. stam chaawnaa khon thfi thawraj (chaawnaa) khon thfi sam
+Which farmer (is it)? The third.
+
+6. nyn nansYy 16m thti thawraj (nans¥y) 1ém thfi nyn
+Which book (is it)? The first.
+
+7. s%on paakkaa daam thfi thawraj (paakkaa) daam thii s¥on
+Which pen (is it)? The second.
+
+8. peet rot khan thti thawraj (rot) khan thfi pset
+Which car (is it)? The eighth.
+
+197
+
+=== v1-239 ===
+THAI BASIC COURSE
+9. cet kradaat phen thfi thawraj (kradaat) pheen thti cet
+Which sheet of paper The first.
+(is it)?
+10. nyn potndn bot thfi thawraj (botnan) bot thfi nyn
+Which lesson (is it)? The first.
+ad) Response Drill
+1. 1ék khaw pen lfiuk khon thft khaw pen 1Quk khon 1ék
+thawraj
+Which child is he? He's the youngest (child).
+2. too khaw pen lfukchaaj khon khaw pen ifukchaaj khon
+thfi thawraj too
+Which son is he? Hets the oldest (son).
+3. klaan khun pen lfuk knon thfi phém pen iQuk khon klaan
+thawraj
+Which child are you? Itm the middle child.
+4. too khaw pen lfiuks¥aw khon khaw pen l@uks%aw khon
+thti thawraj too
+Which daughter is she? She's the oldest daughter.
+5. 1ék khun pen lQ@ukchaaj khon phdm pen lfukchaaj khon
+thti thawraj 1ék
+Which son are you? I'm the youngest son.
+6. klaan dek khon nan pen lfuk khon dek khon nan pen 1fuk khon
+thfi thawraj kh¥on khaw klaan kh¥on khaw
+Which of his children That child is his
+is that child? middle child.
+198
+
+=== v1-240 ===
+THAI BASIC COURSE
+T. 16k dek khonnfi pen n¥on khon dek khonnfi pen ndon
+thfi thawraj kh¥on khaw khon 1ék kh¥on khaw
+Which of his younger That child is the
+siblings is this child? youngest of his
+siblings.
+8. too khun pen lfuk khon thfi ph3m pen lfluk khon too
+thawraj
+Which child are you? I'm the oldest (child).
+e) Recognition and Familiarization Drill
+1. phdm pen lduksit khon réek I was his first student.
+kh3on khaw
+2. khaéw pen khruu phaasdathaj khon She was the first Thai
+résk khSon éf-és-aj teacher at FSI.
+3. nans¥y 1@m nfi pen nans¥y 1ém This book was the first
+réek thfi khdw khYan book he wrote.
+4, rdt khan nfi pen rét khan r@ek This car is my first car.
+kh3on phim
+5. phaaskathaj pen phaasda Thai is the first foreign
+taanpratnéet phaasXaréek language I studied.
+thti phdm rian
+6. khaw pen khon r€ek thti ph&dm He is the first person
+eo. I met.
+ruucak
+199
+
+=== v1-241 ===
+THAI BASIC COURSE
+7. mo khon nan pen mo khon réek That doctor was the first
+naj canwat nii doctor in this province.
+8. prathaanaathipbadii woochintan President Washington was
+? the first American
+pen prathaanaathipbadii khon president.
+r€éek khSon ameerikaa
+f) Response Drill
+Cues Question Response
+1. ph@ug¥n khonndn  phQujin khonndn aaji  khaw aajd sip nok pili
+Kili pil Kili pii She's 16.
+How old is that
+woman?
+2. khun phdo khun, khun phSokhun aaju th@an aaju
+thawraj (50) thawraj naa sip pil
+How old is your Hels 50.
+father?
+3. phfan khun, phfan khun aaja khaw aaju sXam-sip
+thawraj (30) thawraj pit
+How old is your She's thirty.
+friend?
+4, phtichaaj khun, phfichaaj khun khaw aaju jfi-sip
+thawraj (29) aaju thawraj kaw pil
+How old is your He's 29.
+older brother?
+5. lfiukchaaj khun, lQukchaaj khun aaja khaw aaju son
+kii khuap (2) kii khuap khuap
+How old is your Hels 2.
+son?
+200
+
+=== v1-242 ===
+THAI BASIC COURSE
+6. ndonsXaw khun, ndonsXaw khun aaju khaw aaju sip
+thawraj (10) thawraj khuap
+How old is your Shels 10.
+sister?
+g) Recognition and Familiarization Drill
+khon diaw He has only one child.
+1. khaw mii 1Quk {sion nyn He has a child.
+nyn khon He has one child.
+khon diaw He has only one wife.
+2. khaw mii phanrajaa {khon nyn He has a wife.
+nyn khon He has one wife.
+16m diaw I have only one book.
+3. ph&m mii nans¥y {22 nyn I have a book
+nyyn 1ém I have one book.
+daam diaw I have only one pen.
+4, phdm mii paakkaa | céa8 nyn I have a pen.
+nyn daam I have one pen.
+khon diaw He has only one student.
+5. khaw mii nakrian fon nyyn He has a student.
+nyn khon He has one student.
+201
+
+=== v1-243 ===
+THAI BASIC COURSE
+h) Response Drill
+
+Cue Question Response
+
+1. diaw khaw mii lfiuk kii khon Khaw mii lfiuk knon diaw
+How many children does He has only one child.
+he have?
+
+2. l1Xaj  khaw mii phfan kii khon khaw mii ph¥an 1¥aj khon
+How many friends does He has many friends.
+he have?
+
+3. diaw khaw mii nans¥y kii 1€m khaw mii nans¥y 1ém diaw
+How many books does He has only one book.
+he have?
+
+A, diaw khadw syy samut kii 1@m khaw syy samut 16m diaw
+How many notebooks did He bought only one
+he buy? notebook.
+
+5. ¥aj  khdw rducak khon thaj kli khaw ruucak khon thaj
+
+khon l4aj khon
+How many Thais does he He knows many Thais.
+know ?
+
+6. diaw khaw raucak khon ankrit khaw ruucak khon ankrit
+
+kii khon khon diaw
+How many Englishmen does He knows only one
+he know? Englishman.
+
+7. diaw khaw paj kap khraj khaw paj khon diaw
+Who did he go with? He went by himself.
+
+202
+
+=== v1-244 ===
+THAI BASIC COURSE
+8. l&aj khaw paj kap khraj khaw paj kan l4aj khon
+Who did they go with? Several of them went
+together.
+9. diaw khaw thaan khaaw kap khraj khaw thaan khon diaw
+Who does he eat with? He eats alone.
+i) Substitution Drill
+Cue Pattern
+1. chy cim, coon khon nyn chfy cim, lik khon nyn chfy coon
+One person is named Jims another,John.
+2. pen thaj, ameerikan khon nyn pen thaj, iik khon nyn pen ameerikan
+One person is Thais; another, American.
+3. pen khruu, thahdan khon nyn pen khruu, ik khon nyn pen thah¥an
+One person is a teacher; another, a soldier.
+4. pen phfi, noon khon nyn pen phii, Lik khon nyy pen ndan
+One is an older sibling; another is a
+younger sibling.
+5. stiaj, maj stiaj khon nyn stiaj, lik khon nyn maj stiaj
+One person is pretty; another, not.
+6. ken, maj ken khon nyn kén, lik khon nyn maj ken
+One person is skillful; another isn't.
+7. phut phaas&a khon nyn pha@ut phaas%a ankrit aaj,
+ankrit daj, lik khon nyn phiut maj aaj
+maj daj One person can speak English; another
+can't.
+203
+
+=== v1-245 ===
+THAI BASIC COURSE
+8. juu myan thaj, khon nyn juu myan thaj, lik khon nyn juu
+juu ameerikaa ameerikaa
+One person is in Thailand; another in
+America. .
+g. ténnaan léew khon nyn ténnaan léew, lik khon nyn jan
+jan pen sdot pen soot
+One person is married; another is
+still single.
+10. paj léew, jan juu khon nyn paj léew, Lik khon nyn jay juu
+One person has gone; another is still
+here.
+Jj) Response Drill
+Cue Question Response
+1. cim, coon son khon nan ch3y ch¥y cim khon nyn, lik
+araj khon nyn chfy coon
+What are those two One is named Jim,
+people named? the other John.
+2. tén léew, jan ndonchaaj khun ténnaan tén léew khon nyn, lik
+pen soot léew ryjan khon nyn_jan pen soot
+Are your younger One is; one isn't.
+brothers married yet?
+3. pen m3o, pen phf¥an khun sSon khon pen mSo khon nyn,
+khadardatchakaan nan thamnaan araj Lik khon nyy pen
+khrap kh@ar@atchakaan
+What do your two One's a doctor; the
+friends do for a other a government
+living? employee.
+204
+
+=== v1-246 ===
+THAI BASIC COURSE
+4, phflut daj son khon nan phdut phfut d@j khon nyn
+phiut maj aaj phaas¥a ankrit daj iik khon nyn phdut
+maj maj aaj
+5. dii, maj dii nans¥y sSon 1ém nan dii 1€m nyn, lik
+dii maj 1@m nyn maj dii
+Are those two One is good; the
+books good? other isn't.
+k) Substitution Drill
+Cue Pattern
+1. rducak ph§an phSm  khun rducak phfan phSm léew ryjan khrap
+Have you met my friend yet? :
+2. khaw ruucak khaw rducak phfan ph&m léew ryjan khrap
+Has he met my friend yet?
+3. paj thamnaan khaw paj thamnaan léew ryjan khrap
+Has he gone to work yet?
+4, phfut phaasda khaw ph@ut phaas%a thaj daj léew ryjan khrap
+thaj daj Can he speak Thai yet?
+5. khun khun phQut phaasXa thaj daj léew ryjan khrap
+Can you speak Thai yet?
+6. syy nansY¥y khun syy nans¥y léew ryjan khrap
+Have you bought the books yet?
+205
+
+=== v1-247 ===
+THAI BASIC COURSE
+7. thaan khaaw khun thaan khaaw léew ryjan khrap
+Have you eaten yet?
+8. mii khrdopkhrua khun mii khrSopkhrua léew ryjan khrap
+Do you have a family yet?
+9. aan nans¥y 1ém nan khun aan nansYy 1m nan léew ryjan khrap
+Have you read that book yet?
+10. rian bot thti sip  khun rian bot thfi sip léew ryjan khrap
+Have you studied lesson 10 yet?
+1) Response Drill
+Cue Question Response
+1. yes khun rian bot thfi sip léew ryjan khrap rian léew khrap
+Have you studied lesson 10 already? Yes, we have.
+2. no khun thaan kh@aw léew ryjan khrap jan khrap
+Have you eaten yet? Not yet.
+3. yes khaw paj thamnaan léew ryjan khrap paj léew khrap
+Has he gone to work yet? Yes, he has.
+4. no khun sSon khon rducak kan léew ryjan jan khrap
+khrap
+Have you two met yet? Not yet.
+5. no khaw mii nans¥y léew ryjan khrap jan khrap
+Does he have the books yet? Not yet.
+206
+
+=== v1-248 ===
+THAI BASIC COURSE
+6. yes  thfinan aakaat ndaw ryjan n&aw léew khrap
+Is it cold there yet? Yes, it is.
+7. no khun ph@ut kap khaw léew ryjan khrap jan khrap
+Have you spoken with him yet? Not yet.
+8. yes  khun phut phaasda thaj daj léew ryjan aaj léew
+khrap
+Can you speak Thai yet? Yes, I can.
+9. no khun khYan phaas¥a thaj d&j léew ryjan jan khrap
+khrap
+Can you write Thai yet? Not yet.
+10. yes khaw khap rot pen léew ryjan khrap pen léew khrap
+Does he know how to drive yet? Yes, he does.
+ll. no khaw waaj nam pen léew ryjan jan khrap
+Can he swim yet? Not yet.
+m) Transformation Drill (Add a negative statement with jan
+to the affirmative statement.)
+Affirmative Statement Negative Statement
+1. phdm maa 1éew tes khaw jan maj maa :
+Iive come already but he hasn't yet.
+2. phdSm mii nans¥y léew tee khaw Jan maj mit
+I have books already but he doesn't yet.
+3. phaas%a thaj phSm dii léew tee phaas%a thaj khSon khaw jan
+maj dii
+My Thai's good already but his isn't yet.
+207
+
+=== v1-249 ===
+THAI BASIC COURSE
+4. khun ken 1léew tee khaw jan maj ken
+You are already good but hé isn't yet.
+(at something)
+5. ph&m kheej paj myan thaj léew tée khaw jan mAj kheaj
+I've already been to Thailand but he hasn't yet.
+6. ph&m khap rot pen léew tée khaw jan maj pen
+I already know how to drive but he doesn't yet.
+7. ph&m ruucak khun léew tee khaw Jan maj rducak
+Itve already met you but he hasn't yet.
+n) Substitution Drill
+Cue ‘
+1. klap baan khaw jan m@j klap baan
+He hasn't gone home yet.
+2. kheej thaan khaw Jan maj khoej thaan aahfan thaJ
+aah%an thaj He hasn't ever eaten Thai food.
+3. ken khaw jan maj ken
+He isn't good (at doing something) yet.
+a a na *
+4, phut phaas%athaj end phiut phaas&a thaj jan maj ken
+jan phdut phaas%a thaj maj ken
+He doesn't speak Thai well yet.
+5. pen khaw Jan m&j pen
+He doesn't know how to do it yet.
+208
+
+=== v1-250 ===
+THAI BASIC COURSE
+6. waaj nam pen hd waaj nam jan maj pen
+aw —_
+jan waaj nam m@j pen
+He doesn!t know how to swim yet.
+7. aaj khaw Jan maj d&j
+He is unable to do it yet. .
+8. paj thamnaan daj ehé jan paj thamnaan maj daj
+aw
+paj thamnaan jan maj daj
+He is unable to go to work yet.
+o) Transformation Drill (Add a negative statement with
+jan maj daj to the affirmative
+statement.)
+Affirmative Statement Negative Statement .
+1. ph&m kh{t waa kha4w paj léew tée khaw jan maj d@j paj
+I thought he had gone already, but he hadn'it.
+2. ph&m khit waa khaw tham léew tée khaw jan maj d@j tham
+I thought he had already done it, but he hadn't.
+3. ph&m xhit waa khdw rian bot nfi tée khaw jan mAj d&j rian
+1éew
+I thought he had already
+studied this lesson, but he hadn't.
+4, phdm khf{t waa khaw thaan léew tee khaw jan maj d@j thaan
+I thought he had already eaten, but he hadn'tt.
+5. ph&m kh{t waa khaw pen konstin léew tee khaw Jan maj d&@j pen
+I thought he was already the
+consul, but he wasn't.
+209
+
+=== v1-251 ===
+THAI BASIC COURSE
+6. ph&m khit waa khaw sSon khun léew té&6 khaw Jan mai d@j s%Son
+I thought he had already taught
+it to you, but he hadn't.
+7. phdm khit waa khaw aan nans¥y lém tee khaw jan maj d@j aan
+nii léew
+I thought he had already read
+this book, but he hadn't.
+8. ph&dm khit waa khaw phim cotm¥aj tee khaw jan mj d&j phim
+1éew
+I thought he had already typed
+the letter , but he hadn't.
+g. phdm khit waa khaw syy nans¥y 1@ém tee khaw jan maj d@j syy
+nan 1lésw
+I thought he had already
+bought that book , but he hadn't.
+10. ph&m khit waa khaw fan théep an t&e khaw Jan mj d@j fan
+nii léew
+I thought he had already listened
+to this tape , but he hadn't.
+210
+
+=== v1-252 ===
+THAI BASIC COURSE
+Pp) Sentence Construction Drill
+One student forms a sentence like Sentence 1 and another
+forms a question like Sentence 2 from the cues given.
+The first student answers the question.
+Cue Sentence 1 Sentence 2
+1. paj son cotm%aj phim jan maj d@j paj khun jan maj d@j paj
+son cotmiaj son cotm’aj r&Skhrap
+I haven't mailed Haven't you mailed
+the letters yet. the letters yet?
+2. thaan aahdan phdm jan m@j daj thaan khun jan maj d@j thaan
+klaanwan aah%an klaanwan aah%an klaanwan r&khrap
+I haven't eaten Haven't you eaten
+lunch yet. lunch yet?
+3. ken phim jan maj ken khun jan maj ken
+rkhrap
+Itm not good yet. Arentt you good yet?
+4, ph@ut phaasXathaj ph&m phfut phaas%a khun phfut phaas%a
+thaj jan maj daj thaj jan maj daj
+(ph3m jan phQut rékhrap
+phaas&a thaj maj
+aaj)
+I can't speak Thai Can't you speak
+yet. Thai yet?
+5. ruducak khaw phSm jan maj rducak khun jan m@j ruucak
+khaw khaw r&Skhrap
+I haven't met her Haven't you met
+yet. her yet?
+211
+
+=== v1-253 ===
+THAI BASIC COURSE
+6. syy nansY¥y phim jan maj aaj syy khun jan maj d&j syy
+nans¥y nans¥y rSkhrap
+I haventt bought Haven't you bought
+books yet. books yet?
+12.4 EXERCISES
+a) Make up a family chart (like the one in 12.1) for each
+member of the class and the tutor.
+b) Ask questions about each memeber of the family in order
+to find out the following information:
+1. name
+2. age
+3. present and past occupations
+4, residence
+5. place of work
+6. travel experience
+7- languages spoken
+8. skill in sports and other activities
+ec) If some of the people in the class have children, find
+out the name, sex, and age of them.
+12.5 VOCABULARY
+aah&San klaanwan lunch, noontime meal
+aaju age (in years)
+an classifiers of things
+bot (bot) lesson (in a textbook)
+but (khon) child (elegant usage) (one's direct
+descendant)
+dek (khon) child (immature person)
+212
+
+=== v1-254 ===
+THAI BASIC COURSE
+diaw one only, only
+jan still, not yet
+khan classifier for cars, and other vehicles
+khit to think
+khon klaan the middle one (of children)
+khon 1ék the youngest one (of children)
+khon sut thdon the youngest one (of children)
+khon too the oldest one (of children)
+khrdopkhrua the family
+(khrSopkhrua)
+khuap year (of age for people under 14 years)
+khun phdo parents (polite usage)
+khun mée (khon)
+klaanwan in the daytime, by day
+lek small, little (in size)
+1éew already (used to indicate completed
+action)
+1éew ry jan or not yet? (used in questions)
+léew ly jan
+léew 14 jan
+1éew y jan
+léew 6 jan
+1fiuk (khon) child (common usage, refers to one's
+direct descendant)
+1@uksit (khon) student, pupil
+mée (khon) mother
+ndon (khon) younger brothers and/or sisters
+ndon chaaj (khon) younger brother(s)
+ndon s%aw (khon) younger sister(s)
+naan ceremony
+213
+
+=== v1-255 ===
+THAI BASIC COURSE
+phfi (khon) older brother(s) and/or sister(s)
+phti chaaj (khon) older brother(s)
+phfi ndon (khon) brother(s) and sister(s)
+phti s&aw (khon) older sister(s)
+phdo (khon) father
+pili year
+prathaan
+aathipboodii (khon) the president of a country
+réek to be first
+ryjan yet (question word)
+soot to be single, unmarried
+ten to decorate, adorn (the verb in té.) naan)
+ten naan to marry, to get married, to be married
+thfi form that is used with numerals to form
+ordinal numbers, hence thfi sfam 'thirdl,
+etc.
+too big, large, mature
+214
