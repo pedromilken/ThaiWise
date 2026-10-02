@@ -1,0 +1,432 @@
+{
+ "n": 35,
+ "paginas": "vol. 2, p. 616–630",
+ "titulo": {
+  "pt": "A casa nova do John White",
+  "en": "John White finds a house"
+ },
+ "dialogo": [
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn ไวท์|waai เป็น|bpen ข้าราชการ|kâa-râat-chá-gaan กระทรวง|grà-suuang ต่างประเทศ|dtàang-bprà-têet",
+   "fsi": "khun cɔɔn waaj pen khâarâatchakaan krasuaŋ tàaŋprathêet",
+   "en": "Mr. John White is a State Department official",
+   "pt": "O senhor John White é funcionário do Departamento de Estado"
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi สถานทูต|sà-tǎan-tûut อเมริกัน|à-mee-rí-gan",
+   "fsi": "thîi sathǎanthûut ʔameerikan",
+   "en": "at the American Embassy.",
+   "pt": "e trabalha na Embaixada americana."
+  },
+  {
+   "sp": "N",
+   "s": "เวลา|wee-laa นี้|níi เขา|kǎo พัก|pák อยู่|yùu ที่|tîi โรงแรม|roong-rɛɛm รามา|raa-maa",
+   "fsi": "weelaa níi kháw phák jùu thîi rooŋrɛɛm raamaa",
+   "en": "At present he is staying at the Rama Hotel.",
+   "pt": "Por enquanto, está hospedado no Hotel Rama."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo หา|hǎa บ้านเช่า|bâan-châo มา|maa หลาย|lǎai วัน|wan แล้ว|lɛ́ɛo",
+   "fsi": "kháw hǎa bâanchâw maa lǎaj wan lɛ́ɛw",
+   "en": "He has been looking for a house for many days.",
+   "pt": "Faz vários dias que procura casa para alugar."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ไม่|mâi อยาก|yàak อยู่|yùu อพาร์ตเมนต์|à-páat-mén",
+   "fsi": "kháw mâj jàak jùu ʔaphâatmén",
+   "en": "He doesn't want to live in an apartment",
+   "pt": "Não quer morar em apartamento"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ เขา|kǎo ชอบ|chɔ̂ɔp อยู่|yùu บ้าน|bâan มาก|mâak กว่า|gwàa",
+   "fsi": "phrɔ́ kháw chɔ̂ɔp jùu bâan mâak kwàa",
+   "en": "because he prefers a house.",
+   "pt": "porque prefere casa."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo อยาก|yàak ได้|dâai บ้าน|bâan ใหญ่ๆ|yài-yài",
+   "fsi": "kháw jàak dâj bâan jàjjàj",
+   "en": "He wants a big house",
+   "pt": "Quer uma casa bem grande"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ ครอบครัว|krɔ̂ɔp-kruua ของ|kɔ̌ɔng เขา|kǎo มี|mii ด้วยกัน|dûuai-gan ห้า|hâa คน|kon",
+   "fsi": "phrɔ́ khrɔ̂ɔpkhrua khɔ̌ɔŋ kháw mii dûajkan hâa khon",
+   "en": "because there are five people in his family:",
+   "pt": "porque são cinco pessoas na família:"
+  },
+  {
+   "sp": "N",
+   "s": "คือ|kʉʉ คุณ|kun จอห์น|jɔɔn ภรรยา|pan-rá-yaa และ|lɛ́ ลูก|lûuk สาม|sǎam คน|kon",
+   "fsi": "khʉʉ khun cɔɔn phanrajaa lɛ́ lûuk sǎam khon",
+   "en": "John, his wife and three children.",
+   "pt": "o John, a esposa e três filhos."
+  },
+  {
+   "sp": "N",
+   "s": "บ้าน|bâan ดีๆ|dii-dii ใน|nai กรุงเทพฯ|grung-têep หายาก|hǎa-yâak",
+   "fsi": "bâan diidii naj kruŋthêep hǎajâak",
+   "en": "Good houses in Bangkok are hard to find",
+   "pt": "Casa boa em Bangkok é difícil de achar"
+  },
+  {
+   "sp": "N",
+   "s": "และ|lɛ́ ค่าเช่า|kâa-châo ก็|gɔ̂ɔ แพง|pɛɛng เหลือเกิน|lʉ̌ʉa-gəən",
+   "fsi": "lɛ́ khâachâw kɔ̂ɔ phɛɛŋ lʉ̌akəən",
+   "en": "and the rent is far too expensive.",
+   "pt": "e o aluguel é caro demais."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn ได้|dâai ค่าเช่า|kâa-châo บ้าน|bâan เดือน|dʉʉan ละ|lá ห้า|hâa พัน|pan บาท|bàat",
+   "fsi": "khun cɔɔn dâj khâachâw bâan dʉan lá hâa phan bàat",
+   "en": "John gets a housing allowance of 5,000 baht a month,",
+   "pt": "O John recebe auxílio-moradia de cinco mil baht por mês,"
+  },
+  {
+   "sp": "N",
+   "s": "แต่|dtɛ̀ɛ บ้าน|bâan ที่|tîi เขา|kǎo ไป|bpai ดู|duu ไว้|wái",
+   "fsi": "tɛ̀ɛ bâan thîi kháw paj duu wáj",
+   "en": "but the houses he has looked at",
+   "pt": "mas as casas que ele já viu"
+  },
+  {
+   "sp": "N",
+   "s": "ค่าเช่า|kâa-châo อย่างต่ำ|yàang-dtàm เดือน|dʉʉan ละ|lá ห้า|hâa พัน|pan ห้า|hâa",
+   "fsi": "khâachâw jàaŋtàm dʉan lá hâa phan hâa",
+   "en": "rent for at least 5,500 a month.",
+   "pt": "custam no mínimo cinco mil e quinhentos."
+  },
+  {
+   "sp": "N",
+   "s": "เดี๋ยวนี้|dǐiao-níi ค่าเช่า|kâa-châo บ้าน|bâan ใน|nai กรุงเทพฯ|grung-têep แพง|pɛɛng มาก|mâak",
+   "fsi": "dǐawníi khâachâw bâan naj kruŋthêep phɛɛŋ mâak",
+   "en": "Today rent in Bangkok is very high",
+   "pt": "Hoje o aluguel em Bangkok está muito alto"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ มี|mii คน|kon ต้องการ|dtɔ̂ng-gaan เช่า|châo มาก|mâak ขึ้น|kʉ̂n",
+   "fsi": "phrɔ́ mii khon tɔ̂ŋkaan châw mâak khʉ̂n",
+   "en": "because more people want to rent.",
+   "pt": "porque cada vez mais gente quer alugar."
+  },
+  {
+   "sp": "N",
+   "s": "วันนี้|wan-níi เป็น|bpen วันเสาร์|wan-sǎo คุณ|kun จอห์น|jɔɔn ไป|bpai หา|hǎa นายหน้า|naai-nâa",
+   "fsi": "wanníi pen wansǎw khun cɔɔn paj hǎa naajnâa",
+   "en": "Today is Saturday; John goes to see an agent.",
+   "pt": "Hoje é sábado, e o John foi ver um corretor."
+  },
+  {
+   "sp": "N",
+   "s": "นายหน้า|naai-nâa พา|paa เขา|kǎo ไป|bpai ดู|duu บ้าน|bâan หลัง|lǎng หนึ่ง|nʉ̀ng",
+   "fsi": "naajnâa phaa kháw paj duu bâan lǎŋ nʉ̀ŋ",
+   "en": "The agent takes him to see a house",
+   "pt": "O corretor o levou para ver uma casa"
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi ถนน|tà-nǒn สุขุมวิท|sù-kǔm-wít ซอย|sɔɔi ยี่สิบเจ็ด|yîi-sìp-jèt",
+   "fsi": "thîi thanǒn sùkhǔmwít sɔɔj jîisìpcèt",
+   "en": "on Sukhumvit, Soi 27.",
+   "pt": "na Sukhumvit, travessa 27."
+  },
+  {
+   "sp": "N",
+   "s": "บ้าน|bâan นี้|níi เป็น|bpen บ้าน|bâan กลางเก่ากลางใหม่|glaang-gào-glaang-mài",
+   "fsi": "bâan níi pen bâan klaaŋkàwklaaŋmàj",
+   "en": "This house is neither old nor brand new.",
+   "pt": "É uma casa nem velha nem nova."
+  },
+  {
+   "sp": "N",
+   "s": "เป็น|bpen ตึก|dtʉ̀k สอง|sɔ̌ɔng ชั้น|chán",
+   "fsi": "pen tʉ̀k sɔ̌ɔŋ chán",
+   "en": "It's a two-story masonry house",
+   "pt": "É de alvenaria, com dois andares,"
+  },
+  {
+   "sp": "N",
+   "s": "มี|mii ห้องนอน|hɔ̂ng-nɔɔn สาม|sǎam ห้อง|hɔ̂ng ห้องน้ำ|hɔ̂ng-náam สอง|sɔ̌ɔng ห้อง|hɔ̂ng",
+   "fsi": "mii hɔ̂ŋnɔɔn sǎam hɔ̂ŋ hɔ̂ŋnáam sɔ̌ɔŋ hɔ̂ŋ",
+   "en": "with three bedrooms and two bathrooms.",
+   "pt": "três quartos e dois banheiros."
+  },
+  {
+   "sp": "N",
+   "s": "มี|mii ห้องรับแขก|hɔ̂ng-ráp-kɛ̀ɛk ใหญ่|yài ห้องอาหาร|hɔ̂ng-aa-hǎan และ|lɛ́ ห้องครัว|hɔ̂ng-kruua ทันสมัย|tan-sà-mǎi",
+   "fsi": "mii hɔ̂ŋrápkhɛ̀ɛk jàj hɔ̂ŋʔaahǎan lɛ́ hɔ̂ŋkhrua thansamǎj",
+   "en": "There's a big living room, a dining room and a modern kitchen.",
+   "pt": "Tem uma sala grande, sala de jantar e cozinha moderna."
+  },
+  {
+   "sp": "N",
+   "s": "มี|mii โรงรถ|roong-rót อยู่|yùu ติดกับ|dtìt-gàp บ้าน|bâan",
+   "fsi": "mii rooŋrót jùu tìtkàp bâan",
+   "en": "There's a carport adjoining the house.",
+   "pt": "A garagem é colada à casa."
+  },
+  {
+   "sp": "N",
+   "s": "หลังบ้าน|lǎng-bâan มี|mii ห้องเก็บของ|hɔ̂ng-gèp-kɔ̌ɔng และ|lɛ́ เรือน|rʉʉan คนใช้|kon-chái",
+   "fsi": "lǎŋbâan mii hɔ̂ŋkèpkhɔ̌ɔŋ lɛ́ rʉan khonchái",
+   "en": "At the back there's a storeroom and servants' quarters.",
+   "pt": "Nos fundos há um depósito e a casa dos empregados."
+  },
+  {
+   "sp": "N",
+   "s": "หน้าบ้าน|nâa-bâan มี|mii สนาม|sà-nǎam กว้าง|gwâang",
+   "fsi": "nâabâan mii sanǎam kwâaŋ",
+   "en": "In front there's a big lawn.",
+   "pt": "Na frente há um gramado amplo."
+  },
+  {
+   "sp": "N",
+   "s": "เจ้าของ|jâo-kɔ̌ɔng บ้าน|bâan คิด|kít ค่าเช่า|kâa-châo เดือน|dʉʉan ละ|lá ห้า|hâa พัน|pan ห้า|hâa ร้อย|rɔ́ɔi บาท|bàat",
+   "fsi": "câwkhɔ̌ɔŋ bâan khít khâachâw dʉan lá hâa phan hâa rɔ́ɔj bàat",
+   "en": "The landlord charged 5,500 baht a month,",
+   "pt": "O dono pediu cinco mil e quinhentos por mês,"
+  },
+  {
+   "sp": "N",
+   "s": "แต่|dtɛ̀ɛ เขา|kǎo ลด|lót ให้|hâi คุณ|kun จอห์น|jɔɔn ห้า|hâa ร้อย|rɔ́ɔi บาท|bàat",
+   "fsi": "tɛ̀ɛ kháw lót hâj khun cɔɔn hâa rɔ́ɔj bàat",
+   "en": "but he came down 500 baht for John,",
+   "pt": "mas fez quinhentos de desconto para o John,"
+  },
+  {
+   "sp": "N",
+   "s": "เป็น|bpen ห้า|hâa พัน|pan บาท|bàat ถ้วน|tûuan",
+   "fsi": "pen hâa phan bàat thûan",
+   "en": "which makes exactly 5,000.",
+   "pt": "fechando em cinco mil redondos."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ให้|hâi คุณ|kun จอห์น|jɔɔn ทำ|tam สัญญา|sǎn-yaa เช่า|châo หนึ่ง|nʉ̀ng ปี|bpii",
+   "fsi": "kháw hâj khun cɔɔn tham sǎnjaa châw nʉ̀ŋ pii",
+   "en": "He had John sign a one-year lease",
+   "pt": "Pediu que o John assinasse contrato de um ano"
+  },
+  {
+   "sp": "N",
+   "s": "กับ|gàp จ่าย|jàai เงิน|ngən ล่วงหน้า|lûuang-nâa ให้|hâi เขา|kǎo สาม|sǎam เดือน|dʉʉan",
+   "fsi": "kàp càaj ŋən lûaŋnâa hâj kháw sǎam dʉan",
+   "en": "and pay three months in advance.",
+   "pt": "e pagasse três meses adiantado."
+  },
+  {
+   "sp": "N",
+   "s": "ค่าเช่า|kâa-châo นี้|níi รวม|ruuam ทั้ง|táng เครื่องเรือน|krʉ̂ʉang-rʉʉan",
+   "fsi": "khâachâw níi ruam tháŋ khrʉ̂aŋrʉan",
+   "en": "The rent includes furniture.",
+   "pt": "O aluguel já inclui a mobília."
+  },
+  {
+   "sp": "N",
+   "s": "มี|mii เครื่องเรือน|krʉ̂ʉang-rʉʉan พร้อม|prɔ́ɔm ขาด|kàat แต่|dtɛ̀ɛ เครื่องปรับอากาศ|krʉ̂ʉang-bpràp-aa-gàat",
+   "fsi": "mii khrʉ̂aŋrʉan phrɔ́ɔm khàat tɛ̀ɛ khrʉ̂aŋpràpʔaakàat",
+   "en": "It's fully furnished except for air conditioners.",
+   "pt": "Vem toda mobiliada, só falta ar-condicionado."
+  },
+  {
+   "sp": "N",
+   "s": "ส่วน|sùuan ค่าน้ำ|kâa-náam ค่าไฟ|kâa-fai ค่าโทรศัพท์|kâa-too-rá-sàp และ|lɛ́ ค่าแก๊ส|kâa-gɛ́t",
+   "fsi": "sùan khâanáam khâafaj khâathoorasàp lɛ́ khâakɛ́t",
+   "en": "As for water, electricity, telephone and gas,",
+   "pt": "Quanto a água, luz, telefone e gás,"
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn ต้อง|dtɔ̂ng เสีย|sǐia เอง|eeng",
+   "fsi": "khun cɔɔn tɔ̂ŋ sǐa ʔeeŋ",
+   "en": "John has to pay them himself.",
+   "pt": "o John paga por conta própria."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn บอก|bɔ̀ɔk เจ้าของ|jâo-kɔ̌ɔng บ้าน|bâan ว่า|wâa จะ|jà ย้าย|yáai ไป|bpai",
+   "fsi": "khun cɔɔn bɔ̀ɔk câwkhɔ̌ɔŋ bâan wâa cà jáaj paj",
+   "en": "John told the landlord he would move in",
+   "pt": "O John avisou o dono que vai se mudar"
+  },
+  {
+   "sp": "N",
+   "s": "วันที่|wan-tîi หนึ่ง|nʉ̀ng ธันวาคม|tan-waa-kom",
+   "fsi": "wanthîi nʉ̀ŋ thanwaakhom",
+   "en": "on December 1st.",
+   "pt": "no dia primeiro de dezembro."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ใหญ่ๆ",
+   "p": "yài-yài",
+   "fsi": "jàjjàj",
+   "pt": "bem grande",
+   "en": "quite big"
+  },
+  {
+   "th": "ดีๆ",
+   "p": "dii-dii",
+   "fsi": "diidii",
+   "pt": "bem bom, de qualidade",
+   "en": "really good"
+  },
+  {
+   "th": "เหลือเกิน",
+   "p": "lʉ̌ʉa-gəən",
+   "fsi": "lʉ̌akəən",
+   "pt": "demais, excessivamente",
+   "en": "too, so very"
+  },
+  {
+   "th": "ไว้",
+   "p": "wái",
+   "fsi": "wáj",
+   "pt": "deixar guardado; já (ação feita com vista ao futuro)",
+   "en": "to keep; (done in advance)"
+  },
+  {
+   "th": "อย่างต่ำ",
+   "p": "yàang-dtàm",
+   "fsi": "jàaŋtàm",
+   "pt": "no mínimo",
+   "en": "at least"
+  },
+  {
+   "th": "ต่ำ",
+   "p": "dtàm",
+   "fsi": "tàm",
+   "pt": "baixo",
+   "en": "low"
+  },
+  {
+   "th": "กลางเก่ากลางใหม่",
+   "p": "glaang-gào-glaang-mài",
+   "fsi": "klaaŋkàwklaaŋmàj",
+   "pt": "seminovo, nem velho nem novo",
+   "en": "half old, half new"
+  },
+  {
+   "th": "ติดกับ",
+   "p": "dtìt-gàp",
+   "fsi": "tìtkàp",
+   "pt": "colado a, encostado em",
+   "en": "adjoining"
+  },
+  {
+   "th": "ถ้วน",
+   "p": "tûuan",
+   "fsi": "thûan",
+   "pt": "exato, redondo (valor)",
+   "en": "exactly, even"
+  },
+  {
+   "th": "ส่วน",
+   "p": "sùuan",
+   "fsi": "sùan",
+   "pt": "quanto a; parte",
+   "en": "as for; part"
+  },
+  {
+   "th": "เบา",
+   "p": "bao",
+   "fsi": "baw",
+   "pt": "leve",
+   "en": "light (weight)"
+  },
+  {
+   "th": "หนัก",
+   "p": "nàk",
+   "fsi": "nàk",
+   "pt": "pesado; duro (trabalho)",
+   "en": "heavy; hard"
+  },
+  {
+   "th": "แข็ง",
+   "p": "kɛ̌ng",
+   "fsi": "khɛ̌ŋ",
+   "pt": "duro, rígido",
+   "en": "hard, firm"
+  },
+  {
+   "th": "ลำบาก",
+   "p": "lam-bàak",
+   "fsi": "lambàak",
+   "pt": "difícil, sofrido",
+   "en": "hard, troublesome"
+  },
+  {
+   "th": "เลว",
+   "p": "leeo",
+   "fsi": "leew",
+   "pt": "ruim, de má qualidade",
+   "en": "bad"
+  },
+  {
+   "th": "สะอาด",
+   "p": "sà-àat",
+   "fsi": "saʔàat",
+   "pt": "limpo",
+   "en": "clean"
+  },
+  {
+   "th": "สกปรก",
+   "p": "sòk-gà-bpròk",
+   "fsi": "sòkkapròk",
+   "pt": "sujo",
+   "en": "dirty"
+  },
+  {
+   "th": "เตี้ย",
+   "p": "dtîia",
+   "fsi": "tîa",
+   "pt": "baixo (de altura)",
+   "en": "short (in height)"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "ขึ้น e ลง com verbos de estado: ficando mais…",
+    "en": "ขึ้น / ลง with stative verbs"
+   },
+   "e": {
+    "pt": "ขึ้น e ลง mostram para que lado a qualidade está mudando: ดีขึ้น (está melhorando), เลวลง (está piorando), แพงขึ้น (encarecendo), ถูกลง (barateando). O primeiro de cada par usa ขึ้น, o outro usa ลง: เร็วขึ้น/ช้าลง, ร้อนขึ้น/หนาวลง, อ้วนขึ้น/ผอมลง. Analogia: é um termômetro — ขึ้น sobe a escala, ลง desce.",
+    "en": "ขึ้น / ลง after stative verbs show the direction of change: ดีขึ้น getting better, เลวลง getting worse."
+   },
+   "ex": "อากาศ|aa-gàat ร้อน|rɔ́ɔn ขึ้น|kʉ̂n"
+  },
+  {
+   "t": {
+    "pt": "จนลง × จนขึ้น",
+    "en": "Intensifying with ขึ้น"
+   },
+   "e": {
+    "pt": "Verbos que costumam usar ลง podem usar ขึ้น para dizer que uma situação ruim se intensifica: จนลง (ficou mais pobre, quem era rico) × จนขึ้น (ficou ainda mais pobre, quem já era pobre).",
+    "en": "With a usually-ลง verb, ขึ้น intensifies an existing state: จนขึ้น even poorer."
+   },
+   "ex": "เขา|kǎo จน|jon ขึ้น|kʉ̂n"
+  },
+  {
+   "t": {
+    "pt": "Pares de opostos",
+    "en": "Pairs of opposites"
+   },
+   "e": {
+    "pt": "ดี/เลว, เก่ง/แย่, แพง/ถูก, สะอาด/สกปรก, ร้อน/หนาว, หนัก/เบา, ยาว/สั้น, อ้วน/ผอม, ยาก/ง่าย, สูง/เตี้ย, แข็ง/อ่อน, สบาย/ลำบาก, รวย/จน. Aprender em pares fixa os dois de uma vez.",
+    "en": "Common stative-verb opposites, learned in pairs."
+   },
+   "ex": "กระเป๋า|grà-bpǎo นี้|níi หนัก|nàk"
+  }
+ ]
+}

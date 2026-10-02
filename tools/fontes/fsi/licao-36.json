@@ -1,0 +1,359 @@
+{
+ "n": 36,
+ "paginas": "vol. 2, p. 631–645",
+ "titulo": {
+  "pt": "Comprando tecido",
+  "en": "Buying clothing"
+ },
+ "dialogo": [
+  {
+   "sp": "V",
+   "s": "ซื้อ|sʉ́ʉ อะไร|à-rai คะ|ká",
+   "fsi": "sʉ́ʉ ʔaraj khá",
+   "en": "What would you like to buy?",
+   "pt": "O que o senhor deseja?"
+  },
+  {
+   "sp": "C",
+   "s": "ขอ|kɔ̌ɔ ชม|chom ผ้าไหม|pâa-mǎi ไทย|tai หน่อย|nɔ̀i ครับ|kráp",
+   "fsi": "khɔ̌ɔ chom phâamǎj thaj nɔ̀j khráp",
+   "en": "I'd like to look at some Thai silk.",
+   "pt": "Queria ver uns tecidos de seda tailandesa."
+  },
+  {
+   "sp": "V",
+   "s": "ต้องการ|dtɔ̂ng-gaan ผ้า|pâa ตัด|dtàt เสื้อ|sʉ̂ʉa ผู้ชาย|pûu-chaai หรือ|rʉ̌ʉ ผู้หญิง|pûu-yǐng คะ|ká",
+   "fsi": "tɔ̂ŋkaan phâa tàt sʉ̂a phûuchaaj rʉ̌ʉ phûujǐŋ khá",
+   "en": "Do you want fabric for men's or women's clothing?",
+   "pt": "É tecido para roupa masculina ou feminina?"
+  },
+  {
+   "sp": "C",
+   "s": "ผ้า|pâa ตัด|dtàt กางเกง|gaang-geeng ผู้ชาย|pûu-chaai",
+   "fsi": "phâa tàt kaaŋkeeŋ phûuchaaj",
+   "en": "Fabric for men's pants.",
+   "pt": "Tecido para calça masculina."
+  },
+  {
+   "sp": "V",
+   "s": "นี่|nîi ค่ะ|kâ",
+   "fsi": "nîi khâ",
+   "en": "Here it is.",
+   "pt": "Aqui está."
+  },
+  {
+   "sp": "V",
+   "s": "อย่าง|yàang นี้|níi ราคา|raa-kaa หลา|lǎa ละ|lá หกสิบ|hòk-sìp บาท|bàat",
+   "fsi": "jàaŋ níi raakhaa lǎa lá hòksìp bàat",
+   "en": "This kind is 60 baht a yard,",
+   "pt": "Este sai a sessenta baht a jarda,"
+  },
+  {
+   "sp": "V",
+   "s": "อย่าง|yàang นั้น|nán แปดสิบ|bpɛ̀ɛt-sìp",
+   "fsi": "jàaŋ nán pɛ̀ɛtsìp",
+   "en": "that kind 80,",
+   "pt": "aquele, oitenta,"
+  },
+  {
+   "sp": "V",
+   "s": "และ|lɛ́ อย่าง|yàang โน้น|nóon ร้อย|rɔ́ɔi ยี่สิบ|yîi-sìp",
+   "fsi": "lɛ́ jàaŋ nóon rɔ́ɔj jîisìp",
+   "en": "and the kind over there, 120.",
+   "pt": "e aquele lá, cento e vinte."
+  },
+  {
+   "sp": "C",
+   "s": "สอง|sɔ̌ɔng อย่าง|yàang แรก|rɛ̂ɛk นั้น|nán ต่างกัน|dtàang-gan ยังไง|yang-ngai ครับ|kráp",
+   "fsi": "sɔ̌ɔŋ jàaŋ rɛ̂ɛk nán tàaŋkan jaŋŋaj khráp",
+   "en": "What's the difference between the first two kinds?",
+   "pt": "Qual a diferença entre os dois primeiros?"
+  },
+  {
+   "sp": "V",
+   "s": "เนื้อผ้า|nʉ́ʉa-pâa เหมือนกัน|mʉ̌ʉan-gan ค่ะ|kâ",
+   "fsi": "nʉ́aphâa mʉ̌ankan khâ",
+   "en": "The texture is the same,",
+   "pt": "O tecido é igual,"
+  },
+  {
+   "sp": "V",
+   "s": "แต่|dtɛ̀ɛ ราคา|raa-kaa ไม่|mâi เท่ากัน|tâo-gan",
+   "fsi": "tɛ̀ɛ raakhaa mâj thâwkan",
+   "en": "but they are not equal in price,",
+   "pt": "mas o preço não é o mesmo,"
+  },
+  {
+   "sp": "V",
+   "s": "เพราะ|prɔ́ อย่าง|yàang แปดสิบ|bpɛ̀ɛt-sìp บาท|bàat หน้า|nâa กว้าง|gwâang กว่า|gwàa",
+   "fsi": "phrɔ́ jàaŋ pɛ̀ɛtsìp bàat nâa kwâaŋ kwàa",
+   "en": "because the 80-baht one is wider.",
+   "pt": "porque o de oitenta é mais largo."
+  },
+  {
+   "sp": "V",
+   "s": "เป็น|bpen ผ้า|pâa อย่างดี|yàang-dii ที่สุด|tîi-sùt",
+   "fsi": "pen phâa jàaŋdii thîisùt",
+   "en": "It's the best kind.",
+   "pt": "Este é o de melhor qualidade."
+  },
+  {
+   "sp": "V",
+   "s": "เนื้อ|nʉ́ʉa หนา|nǎa ทน|ton มาก|mâak",
+   "fsi": "nʉ́a nǎa thon mâak",
+   "en": "It's heavy and very durable,",
+   "pt": "É encorpado e muito resistente,"
+  },
+  {
+   "sp": "V",
+   "s": "และ|lɛ́ ไม่|mâi ค่อย|kɔ̂i ยับ|yáp",
+   "fsi": "lɛ́ mâj khɔ̂j jáp",
+   "en": "and hardly wrinkles.",
+   "pt": "e quase não amassa."
+  },
+  {
+   "sp": "C",
+   "s": "ซัก|sák น้ำ|náam ได้|dâai ไหม|mǎi ครับ|kráp",
+   "fsi": "sák náam dâj máj khráp",
+   "en": "Is it washable?",
+   "pt": "Pode lavar na água?"
+  },
+  {
+   "sp": "V",
+   "s": "ได้|dâai ค่ะ|kâ แต่|dtɛ̀ɛ ซักแห้ง|sák-hɛ̂ɛng ดี|dii กว่า|gwàa",
+   "fsi": "dâj khâ tɛ̀ɛ sák hɛ̂ɛŋ dii kwàa",
+   "en": "Yes, but it's better to have it dry cleaned.",
+   "pt": "Pode, mas é melhor lavar a seco."
+  },
+  {
+   "sp": "C",
+   "s": "ซัก|sák แล้ว|lɛ́ɛo หด|hòt ไหม|mǎi ครับ|kráp",
+   "fsi": "sák lɛ́ɛw hòt máj khráp",
+   "en": "Once it's washed, does it shrink?",
+   "pt": "Depois de lavar, encolhe?"
+  },
+  {
+   "sp": "V",
+   "s": "นิดหน่อย|nít-nɔ̀i ค่ะ|kâ",
+   "fsi": "nítnɔ̀j khâ",
+   "en": "A little.",
+   "pt": "Um pouquinho."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ชม",
+   "p": "chom",
+   "fsi": "chom",
+   "pt": "olhar, apreciar; elogiar",
+   "en": "to look at, admire; to praise"
+  },
+  {
+   "th": "ผ้า",
+   "p": "pâa",
+   "fsi": "phâa",
+   "pt": "tecido, pano",
+   "en": "cloth"
+  },
+  {
+   "th": "ผ้าไหม",
+   "p": "pâa-mǎi",
+   "fsi": "phâamǎj",
+   "pt": "seda",
+   "en": "silk"
+  },
+  {
+   "th": "ผ้าฝ้าย",
+   "p": "pâa-fâai",
+   "fsi": "phâafâaj",
+   "pt": "algodão (tecido)",
+   "en": "cotton"
+  },
+  {
+   "th": "หลา",
+   "p": "lǎa",
+   "fsi": "lǎa",
+   "pt": "jarda (≈ 91 cm)",
+   "en": "yard"
+  },
+  {
+   "th": "ต่างกัน",
+   "p": "dtàang-gan",
+   "fsi": "tàaŋkan",
+   "pt": "ser diferente, diferir",
+   "en": "to differ"
+  },
+  {
+   "th": "เนื้อผ้า",
+   "p": "nʉ́ʉa-pâa",
+   "fsi": "nʉ́aphâa",
+   "pt": "textura do tecido",
+   "en": "texture"
+  },
+  {
+   "th": "เท่า",
+   "p": "tâo",
+   "fsi": "thâw",
+   "pt": "igual (em tamanho, quantidade); tantas vezes",
+   "en": "equal; times"
+  },
+  {
+   "th": "เท่ากัน",
+   "p": "tâo-gan",
+   "fsi": "thâwkan",
+   "pt": "igual um ao outro",
+   "en": "equal"
+  },
+  {
+   "th": "อย่างดี",
+   "p": "yàang-dii",
+   "fsi": "jàaŋdii",
+   "pt": "de boa qualidade",
+   "en": "good quality"
+  },
+  {
+   "th": "หนา",
+   "p": "nǎa",
+   "fsi": "nǎa",
+   "pt": "grosso, encorpado",
+   "en": "thick"
+  },
+  {
+   "th": "บาง",
+   "p": "baang",
+   "fsi": "baaŋ",
+   "pt": "fino (espessura)",
+   "en": "thin"
+  },
+  {
+   "th": "ทน",
+   "p": "ton",
+   "fsi": "thon",
+   "pt": "resistente; aguentar",
+   "en": "durable; to endure"
+  },
+  {
+   "th": "ยับ",
+   "p": "yáp",
+   "fsi": "jáp",
+   "pt": "amassar, amarrotar",
+   "en": "to wrinkle"
+  },
+  {
+   "th": "ซักแห้ง",
+   "p": "sák-hɛ̂ɛng",
+   "fsi": "sák hɛ̂ɛŋ",
+   "pt": "lavar a seco",
+   "en": "to dry clean"
+  },
+  {
+   "th": "รีด",
+   "p": "rîit",
+   "fsi": "rîit",
+   "pt": "passar (roupa)",
+   "en": "to iron"
+  },
+  {
+   "th": "หด",
+   "p": "hòt",
+   "fsi": "hòt",
+   "pt": "encolher",
+   "en": "to shrink"
+  },
+  {
+   "th": "ย้อม",
+   "p": "yɔ́ɔm",
+   "fsi": "jɔ́ɔm",
+   "pt": "tingir",
+   "en": "to dye"
+  },
+  {
+   "th": "แคบ",
+   "p": "kɛ̂ɛp",
+   "fsi": "khɛ̂ɛp",
+   "pt": "estreito",
+   "en": "narrow"
+  },
+  {
+   "th": "ชนิด",
+   "p": "chà-nít",
+   "fsi": "chanít",
+   "pt": "tipo, espécie (por característica)",
+   "en": "kind, type"
+  },
+  {
+   "th": "เม็ด",
+   "p": "mét",
+   "fsi": "mét",
+   "pt": "grão, semente; comprimido",
+   "en": "grain, seed; pill"
+  },
+  {
+   "th": "หนอน",
+   "p": "nɔ̌ɔn",
+   "fsi": "nɔ̌ɔn",
+   "pt": "lagarta, verme",
+   "en": "worm"
+  },
+  {
+   "th": "ความเห็น",
+   "p": "kwaam-hěn",
+   "fsi": "khwaamhěn",
+   "pt": "opinião",
+   "en": "opinion"
+  },
+  {
+   "th": "มิตรภาพ",
+   "p": "mít-dtrà-pâap",
+   "fsi": "míttraphâap",
+   "pt": "amizade (e nome de rodovia)",
+   "en": "friendship"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "อย่าง × ชนิด: tipo",
+    "en": "อย่าง vs ชนิด"
+   },
+   "e": {
+    "pt": "อย่าง é tipo pensando em qualidade (อย่างดี, อย่างถูก, อย่างแพง); ชนิด é tipo pela característica (ชนิดสีไม่ตก = que não desbota; ผ้ามีหลายชนิด: ผ้าไหม, ผ้าฝ้าย, ผ้าไนล่อน). Analogia: อย่าง é a etiqueta de preço; ชนิด é a etiqueta de composição.",
+    "en": "อย่าง: kind by quality; ชนิด: kind by characteristic."
+   },
+   "ex": "ผ้า|pâa มี|mii หลาย|lǎai ชนิด|chà-nít"
+  },
+  {
+   "t": {
+    "pt": "Comparando: เท่า, กว่า, ที่สุด",
+    "en": "Comparison: เท่า, กว่า, ที่สุด"
+   },
+   "e": {
+    "pt": "Igualdade: verbo de estado + เท่ากัน (ของสองอย่างนี้แพงเท่ากัน) ou + เท่ากับ X (พูดได้ดีเท่ากับคุณ). Desigualdade: verbo de estado + กว่า (ขับเร็วกว่าผม). Superlativo: + ที่สุด (ดีที่สุด). Para distinguir 'mais que ele (gosta)' use ที่: ผมชอบคุณมากกว่าที่เขาชอบคุณ.",
+    "en": "เท่ากัน / เท่ากับ: equal; กว่า: more; ที่สุด: most."
+   },
+   "ex": "เขา|kǎo เก่ง|gèng ที่สุด|tîi-sùt ใน|nai ชั้น|chán"
+  },
+  {
+   "t": {
+    "pt": "Frases equacionais: sem verbo de ligação",
+    "en": "Equational sentences"
+   },
+   "e": {
+    "pt": "O tailandês junta um sujeito e um verbo de estado sem nenhum 'ser': ผ้านี้หน้าแคบ = este tecido é estreito; บ้านหลังนั้นค่าเช่าแพง = aquela casa tem aluguel caro. Delas saem expressões nominais: รถราคาแพง = carros caros.",
+    "en": "Subject + stative verb with no copula: ผ้านี้หน้าแคบ."
+   },
+   "ex": "บ้าน|bâan หลัง|lǎng นั้น|nán ค่าเช่า|kâa-châo แพง|pɛɛng"
+  },
+  {
+   "t": {
+    "pt": "… ดีกว่า: é melhor…",
+    "en": "… ดีกว่า: it's better to …"
+   },
+   "e": {
+    "pt": "Verbo ou frase + ดีกว่า = é melhor fazer isso: ซักแห้งดีกว่า (melhor lavar a seco); ผมว่าคุณอยู่บ้านดีกว่า (acho melhor você ficar em casa).",
+    "en": "Verb phrase + ดีกว่า: it's better to …"
+   },
+   "ex": "กลับ|glàp บ้าน|bâan ดีกว่า|dii-gwàa"
+  }
+ ]
+}
