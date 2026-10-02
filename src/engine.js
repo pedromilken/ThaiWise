@@ -6,7 +6,7 @@ const ENGINE = (() => {
   const WORD = {}; DATA.words.forEach(w => { if (!WORD[w.t]) WORD[w.t] = w; });
   const UNITS = {}; DATA.levels.forEach(L => L.units.forEach(u => { UNITS[u.id] = u; }));
   const CONS = {}; DATA.script.cons.forEach(c => { CONS[c.c] = c; });
-  const DIMS = ["listen", "speak", "read", "write", "translate", "tone", "grammar"];
+  const DIMS = ["listen", "speak", "read", "write", "translate", "tone", "grammar", "pragma"];
   const TONES = ["M", "L", "F", "H", "R"];
   const UNLOCK = 0.6, L0 = 0.15;
 
@@ -99,8 +99,14 @@ const ENGINE = (() => {
     DATA.gSent.filter(s => s.lv === lv).forEach(s => out.push({ id: `${skill}:${s.id}`, skill, lv, type: "order", dim: "grammar", d: 3, c: .05, s }));
     return out;
   }
+  /* cenas culturais: escolher a forma adequada à situação (pronome, partícula, registro, gesto) */
+  function cultItems(lv) {
+    const skill = "c" + lv;
+    return (DATA.cult || []).filter(c => c.lv === lv).map(c => ({ id: `${skill}:${c.id}`, skill, lv, type: "scene", dim: "pragma", d: 2, c: .25, g: c.g, cena: c.cena, ctx: c.ctx }));
+  }
   function itemsFor(skill, caps) {
     if (skill[0] === "g") return grammarItems(+skill.slice(1));
+    if (skill[0] === "c") return cultItems(+skill.slice(1));
     const u = UNITS[skill]; if (!u) return [];
     if (u.kind === "script") return scriptItems(u, caps);
     if (u.kind === "fsi") return fsiItems(u, caps);
@@ -126,7 +132,7 @@ const ENGINE = (() => {
       case "fin": return ["k", "t", "p", "n", "m", "ng", "i", "o"].map(k => ({ key: k, label: "-" + k, rom: 1 }));
       case "live": return [{ key: "1", label: "1" }, { key: "0", label: "0" }];
       case "tone": return TONES.map(k => ({ key: k, label: k }));
-      case "gap": return shuffle(it.g.o, r).map(o => ({ key: o[0], label: o[0], th: 1, p: o[1], r: o[2] }));
+      case "gap": case "scene": return shuffle(it.g.o, r).map(o => ({ key: o[0], label: o[0], th: 1, p: o[1], r: o[2] }));
       case "dmean": { const L = DATA.fsi[UNITS[it.skill].n], d = L.dialogo[it.dl], key = lang === "en" ? "en" : "pt";
         const others = shuffle(L.dialogo.filter((x, j) => j !== it.dl && x[key] && x[key] !== d[key]), r).slice(0, 3);
         return shuffle([d, ...others], r).map(x => ({ key: x[key], label: x[key] })); }
@@ -146,7 +152,7 @@ const ENGINE = (() => {
       case "vlen": return S.vow[it.v].len;
       case "live": return String(S.syl[it.sy].live);
       case "tone": return S.syl[it.sy].tone;
-      case "gap": return it.g.a;
+      case "gap": case "scene": return it.g.a;
       case "dmean": { const d = DATA.fsi[UNITS[it.skill].n].dialogo[it.dl]; return lang === "en" ? d.en : d.pt; }
     }
     return it.w;
@@ -195,6 +201,6 @@ const ENGINE = (() => {
     const prev = levelUnits(u.lv - 1); return prev.length ? .5 * L0 + .5 * prev.reduce((a, x) => a + M(x.id), 0) / prev.length : L0;
   }
 
-  return { WORD, UNITS, CONS, DIMS, TONES, UNLOCK, L0, gloss, toneOf, setTone, bare, syllables, romVariants, clusters, itemsFor, wordItems, scriptItems, grammarItems, fsiItems,
+  return { WORD, UNITS, CONS, DIMS, TONES, UNLOCK, L0, gloss, toneOf, setTone, bare, syllables, romVariants, clusters, itemsFor, wordItems, scriptItems, grammarItems, fsiItems, cultItems,
     options, answerKey, toneRule, pick, levelOpen, unitOpen, skillOpen, prior, shuffle, rng, wordOf, levelUnits };
 })();

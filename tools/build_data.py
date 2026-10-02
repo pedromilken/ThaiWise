@@ -169,15 +169,27 @@ def main():
         levels[lv]["units"].append(unit)
         fsi[n] = {k: Lj[k] for k in ("n", "titulo", "dialogo", "notas", "paginas") if k in Lj}
 
+    # cenas culturais: pragmática com etiquetas de contexto (lugar, relação, registro)
+    cult = []
+    cp = F / "cultura.json"
+    I18N = (ROOT / "src" / "i18n.js").read_text(encoding="utf-8")
+    if cp.exists():
+        for C in json.loads(cp.read_text(encoding="utf-8"))["cenas"]:
+            if C["a"] not in [o.split("|")[0] for o in C["o"]]: errs.append(f"cena {C['id']}: resposta fora das opções")
+            for k, v in C["ctx"].items():
+                if f"cv_{v}:" not in I18N or f"ctx_{k}:" not in I18N: errs.append(f"cena {C['id']}: etiqueta {k}={v} sem tradução em src/i18n.js")
+            cult.append({"id": C["id"], "lv": C["lv"], "cena": C["cena"], "ctx": C["ctx"], "g": {
+                "s": toks(C["s"].replace("___", "___|")), "o": [[a, b, rtgs(b)] for a, b in (o.split("|") for o in C["o"])],
+                "a": C["a"], "x": C.get("x", ""), "h": C.get("h", "")}})
     DATA = {"levels": levels, "words": words, "script": {"cons": cons, "vow": vow, "syl": syl}, "grammar": grammar,
-            "gItems": gItems, "gSent": gSent, "fsi": fsi}
+            "gItems": gItems, "gSent": gSent, "fsi": fsi, "cult": cult}
     if errs:
         print("\n".join("ERRO: " + e for e in errs)); sys.exit(1)
     js = "/* Gerado por tools/build_data.py. Não edite à mão. */\nconst DATA = " + json.dumps(DATA, ensure_ascii=False, separators=(",", ":")) + ";\n"
-    (ROOT / "src" / "data.js").write_text(js, encoding="utf-8")
+    (ROOT / "src" / "data.js").write_text(js, encoding="utf-8", newline="\n")
     nU = sum(len(L["units"]) for L in levels)
     print(f"data.js: {len(words)} palavras, {nU} unidades, {len(cons)} consoantes, {len(vow)} vogais, {len(syl)} sílabas de tom, "
-          f"{sum(len(v) for v in grammar.values())} pontos de gramática, {len(gItems)} lacunas, {len(gSent)} frases, {len(fsi)} lições FSI; "
+          f"{sum(len(v) for v in grammar.values())} pontos de gramática, {len(gItems)} lacunas, {len(gSent)} frases, {len(cult)} cenas culturais, {len(fsi)} lições FSI; "
           f"{len(js.encode())//1024} KB")
 
 if __name__ == "__main__":

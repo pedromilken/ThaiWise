@@ -1,0 +1,1060 @@
+{
+ "cenas": [
+  {
+   "id": "c1-01",
+   "lv": 1,
+   "cena": {
+    "pt": "No mercado. Você (homem) agradece à vendedora.",
+    "en": "At the market. You (a man) thank the vendor."
+   },
+   "ctx": {
+    "lugar": "mercado",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "ขอบคุณ|kɔ̀ɔp-kun ___",
+   "o": [
+    "ครับ|kráp",
+    "ค่ะ|kâ",
+    "คะ|ká",
+    "จ้ะ|jâ"
+   ],
+   "a": "ครับ",
+   "x": "Homem fecha com ครับ, em qualquer situação."
+  },
+  {
+   "id": "c1-02",
+   "lv": 1,
+   "cena": {
+    "pt": "Primeira aula. Você é mulher e se apresenta à turma.",
+    "en": "First class. You are a woman introducing yourself."
+   },
+   "ctx": {
+    "lugar": "escola",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "___ ชื่อ|chʉ̂ʉ อันนา|an-naa ค่ะ|kâ",
+   "o": [
+    "ดิฉัน|dì-chǎn",
+    "ผม|pǒm",
+    "มัน|man",
+    "กู|guu"
+   ],
+   "a": "ดิฉัน",
+   "x": "Mulher, situação nova e educada: ดิฉัน."
+  },
+  {
+   "id": "c1-03",
+   "lv": 1,
+   "cena": {
+    "pt": "Você é mulher e pergunta o preço de um objeto.",
+    "en": "You are a woman asking the price of an item."
+   },
+   "ctx": {
+    "lugar": "mercado",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "อัน|an นี้|níi เท่าไร|tâo-rài ___",
+   "o": [
+    "คะ|ká",
+    "ค่ะ|kâ",
+    "ครับ|kráp",
+    "จ๊ะ|já"
+   ],
+   "a": "คะ",
+   "x": "Pergunta de mulher: คะ (tom alto), não ค่ะ."
+  },
+  {
+   "id": "c1-04",
+   "lv": 1,
+   "cena": {
+    "pt": "Você (homem) cumprimenta Somchai, colega novo no escritório.",
+    "en": "You (a man) greet Somchai, a new colleague."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "igual",
+    "registro": "neutro"
+   },
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp ___ สมชาย|sǒm-chaai",
+   "o": [
+    "คุณ|kun",
+    "มึง|mʉng",
+    "มัน|man",
+    "นาง|naang"
+   ],
+   "a": "คุณ",
+   "x": "คุณ + primeiro nome: o padrão educado."
+  },
+  {
+   "id": "c1-05",
+   "lv": 1,
+   "cena": {
+    "pt": "Você (mulher) encontra a professora Mali na escola.",
+    "en": "You (a woman) meet teacher Mali at school."
+   },
+   "ctx": {
+    "lugar": "escola",
+    "relacao": "superior",
+    "registro": "formal"
+   },
+   "s": "สวัสดี|sà-wàt-dii ค่ะ|kâ ___ มาลี|maa-lii",
+   "o": [
+    "คุณครู|kun-kruu",
+    "น้อง|nɔ́ɔng",
+    "มัน|man",
+    "เธอ|təə"
+   ],
+   "a": "คุณครู",
+   "x": "Professora de escola: คุณครู + nome."
+  },
+  {
+   "id": "c1-06",
+   "lv": 1,
+   "cena": {
+    "pt": "No restaurante, você pede água.",
+    "en": "At a restaurant, you ask for water."
+   },
+   "ctx": {
+    "lugar": "restaurante",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "___ น้ำ|náam หน่อย|nɔ̀i ครับ|kráp",
+   "o": [
+    "ขอ|kɔ̌ɔ",
+    "ห้าม|hâam",
+    "อย่า|yàa",
+    "ไม่|mâi"
+   ],
+   "a": "ขอ",
+   "x": "Pedir uma coisa: ขอ + coisa + หน่อย."
+  },
+  {
+   "id": "c1-07",
+   "lv": 1,
+   "cena": {
+    "pt": "Numa festa, um colega da sua idade pergunta seu apelido.",
+    "en": "At a party, a peer asks your nickname."
+   },
+   "ctx": {
+    "lugar": "festa",
+    "relacao": "igual",
+    "registro": "informal"
+   },
+   "s": "___ ชื่อเล่น|chʉ̂ʉ-lên ว่า|wâa ต้น|dtôn",
+   "o": [
+    "เรา|rao",
+    "ข้าพเจ้า|kâa-pá-jâo",
+    "ท่าน|tâan",
+    "มัน|man"
+   ],
+   "a": "เรา",
+   "x": "Entre iguais, informal: เรา."
+  },
+  {
+   "id": "c1-08",
+   "lv": 1,
+   "cena": {
+    "pt": "Na calçada, você esbarra em alguém.",
+    "en": "On the sidewalk, you bump into someone."
+   },
+   "ctx": {
+    "lugar": "rua",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "___ ครับ|kráp",
+   "o": [
+    "ขอโทษ|kɔ̌ɔ-tôot",
+    "ขอบใจ|kɔ̀ɔp-jai",
+    "ยินดีด้วย|yin-dii-dûuai",
+    "เชิญ|chəən"
+   ],
+   "a": "ขอโทษ",
+   "x": "Pedir desculpas: ขอโทษ."
+  },
+  {
+   "id": "c2-01",
+   "lv": 2,
+   "cena": {
+    "pt": "Na feira, a vendedora tem uns 60 anos.",
+    "en": "At the market, the vendor is about 60."
+   },
+   "ctx": {
+    "lugar": "mercado",
+    "relacao": "mais_velho",
+    "registro": "informal"
+   },
+   "s": "___ ครับ|kráp มะม่วง|má-mûuang กิโล|gì-loo ละ|lá เท่าไร|tâo-rài",
+   "o": [
+    "ป้า|bpâa",
+    "น้อง|nɔ́ɔng",
+    "หนู|nǔu",
+    "มึง|mʉng"
+   ],
+   "a": "ป้า",
+   "x": "Mulher com idade de mãe: ป้า (tia)."
+  },
+  {
+   "id": "c2-02",
+   "lv": 2,
+   "cena": {
+    "pt": "No restaurante, o garçom tem uns 18 anos. Você pede a conta.",
+    "en": "At a restaurant, the waiter is about 18. You ask for the bill."
+   },
+   "ctx": {
+    "lugar": "restaurante",
+    "relacao": "mais_novo",
+    "registro": "informal"
+   },
+   "s": "___ ครับ|kráp เก็บ|gèp เงิน|ngən ด้วย|dûuai",
+   "o": [
+    "น้อง|nɔ́ɔng",
+    "ป้า|bpâa",
+    "ลุง|lung",
+    "ท่าน|tâan"
+   ],
+   "a": "น้อง",
+   "x": "Atendente jovem: น้อง."
+  },
+  {
+   "id": "c2-03",
+   "lv": 2,
+   "cena": {
+    "pt": "Você pega um táxi; o motorista tem uns 60 anos.",
+    "en": "You take a taxi; the driver is about 60."
+   },
+   "ctx": {
+    "lugar": "rua",
+    "relacao": "mais_velho",
+    "registro": "informal"
+   },
+   "s": "___ ครับ|kráp ไป|bpai สยาม|sà-yǎam",
+   "o": [
+    "ลุง|lung",
+    "น้อง|nɔ́ɔng",
+    "ป้า|bpâa",
+    "หนู|nǔu"
+   ],
+   "a": "ลุง",
+   "x": "Homem com idade de pai ou mais: ลุง (tio)."
+  },
+  {
+   "id": "c2-04",
+   "lv": 2,
+   "cena": {
+    "pt": "Moça de 20 anos se apresenta à avó de uma amiga.",
+    "en": "A 20-year-old introduces herself to a friend's grandmother."
+   },
+   "ctx": {
+    "lugar": "familia",
+    "relacao": "mais_velho",
+    "registro": "informal"
+   },
+   "s": "___ ชื่อ|chʉ̂ʉ มะลิ|má-lí ค่ะ|kâ",
+   "o": [
+    "หนู|nǔu",
+    "กู|guu",
+    "ผม|pǒm",
+    "ข้าพเจ้า|kâa-pá-jâo"
+   ],
+   "a": "หนู",
+   "x": "Jovem falando com idosos: หนู."
+  },
+  {
+   "id": "c2-05",
+   "lv": 2,
+   "cena": {
+    "pt": "A irmã mais velha avisa o caçula que vai levá-lo à escola.",
+    "en": "An older sister tells her little brother she'll take him to school."
+   },
+   "ctx": {
+    "lugar": "familia",
+    "relacao": "mais_novo",
+    "registro": "informal"
+   },
+   "s": "___ จะ|jà ไป|bpai ส่ง|sòng ที่|tîi โรงเรียน|roong-riian",
+   "o": [
+    "พี่|pîi",
+    "น้อง|nɔ́ɔng",
+    "ป้า|bpâa",
+    "ท่าน|tâan"
+   ],
+   "a": "พี่",
+   "x": "O mais velho fala de si como พี่."
+  },
+  {
+   "id": "c2-06",
+   "lv": 2,
+   "cena": {
+    "pt": "Placa num parque público.",
+    "en": "A sign in a public park."
+   },
+   "ctx": {
+    "lugar": "rua",
+    "relacao": "publico",
+    "registro": "formal"
+   },
+   "s": "___ เด็ด|dèt ดอกไม้|dɔ̀ɔk-mái",
+   "o": [
+    "ห้าม|hâam",
+    "ขอ|kɔ̌ɔ",
+    "ช่วย|chûuai",
+    "เถอะ|tə̀"
+   ],
+   "a": "ห้าม",
+   "x": "Proibição oficial: ห้าม."
+  },
+  {
+   "id": "c2-07",
+   "lv": 2,
+   "cena": {
+    "pt": "Uma mãe lembra o filho, com carinho, de almoçar.",
+    "en": "A mother gently reminds her son to have lunch."
+   },
+   "ctx": {
+    "lugar": "familia",
+    "relacao": "mais_novo",
+    "registro": "informal"
+   },
+   "s": "อย่า|yàa ลืม|lʉʉm กิน|gin ข้าว|kâao ___",
+   "o": [
+    "นะ|ná",
+    "หรอก|rɔ̀ɔk",
+    "เหรอ|rə̌ə",
+    "ล่ะ|lâ"
+   ],
+   "a": "นะ",
+   "x": "นะ suaviza a ordem."
+  },
+  {
+   "id": "c2-08",
+   "lv": 2,
+   "cena": {
+    "pt": "A vizinha idosa pergunta 'กินข้าวหรือยัง?'. Você já comeu.",
+    "en": "Your elderly neighbour asks if you've eaten. You have."
+   },
+   "ctx": {
+    "lugar": "familia",
+    "relacao": "mais_velho",
+    "registro": "informal"
+   },
+   "s": "กิน|gin ___ ครับ|kráp",
+   "o": [
+    "แล้ว|lɛ́ɛo",
+    "ไหม|mǎi",
+    "เหรอ|rə̌ə",
+    "หรอก|rɔ̀ɔk"
+   ],
+   "a": "แล้ว",
+   "x": "Resposta a หรือยัง: …แล้ว (já)."
+  },
+  {
+   "id": "c3-01",
+   "lv": 3,
+   "cena": {
+    "pt": "Num ponto turístico, você pede a um desconhecido que tire sua foto.",
+    "en": "At a landmark, you ask a stranger to take your photo."
+   },
+   "ctx": {
+    "lugar": "rua",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "___ ช่วย|chûuai ถ่าย|tàai รูป|rûup ให้|hâi หน่อย|nɔ̀i ได้|dâai ไหม|mǎi คะ|ká",
+   "o": [
+    "รบกวน|róp-guuan",
+    "ห้าม|hâam",
+    "อย่า|yàa",
+    "ต้อง|dtɔ̂ng"
+   ],
+   "a": "รบกวน",
+   "x": "Desculpar-se por incomodar: รบกวน."
+  },
+  {
+   "id": "c3-02",
+   "lv": 3,
+   "cena": {
+    "pt": "Um colega te chama para uma festa no sábado. Você não quer ir.",
+    "en": "A colleague invites you to a party on Saturday. You don't want to go."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "igual",
+    "registro": "neutro"
+   },
+   "s": "วันเสาร์|wan-sǎo นี้|níi ไม่|mâi ค่อย|kɔ̂i ___ ครับ|kráp",
+   "o": [
+    "สะดวก|sà-dùuak",
+    "อยาก|yàak",
+    "ชอบ|chɔ̂ɔp",
+    "ว่าง|wâang"
+   ],
+   "a": "สะดวก",
+   "x": "Recusa elegante: ไม่ค่อยสะดวก; ไม่อยาก seria seco."
+  },
+  {
+   "id": "c3-03",
+   "lv": 3,
+   "cena": {
+    "pt": "O anfitrião insiste para você comer mais. Você já está satisfeito.",
+    "en": "Your host insists you eat more. You're full."
+   },
+   "ctx": {
+    "lugar": "familia",
+    "relacao": "mais_velho",
+    "registro": "neutro"
+   },
+   "s": "อิ่ม|ìm แล้ว|lɛ́ɛo ___ ครับ|kráp",
+   "o": [
+    "ขอบคุณ|kɔ̀ɔp-kun",
+    "ห้าม|hâam",
+    "เถอะ|tə̀",
+    "ไง|ngai"
+   ],
+   "a": "ขอบคุณ",
+   "x": "Recusa com gratidão: อิ่มแล้ว ขอบคุณครับ."
+  },
+  {
+   "id": "c3-04",
+   "lv": 3,
+   "cena": {
+    "pt": "Alguém derruba café na sua mesa e pede desculpas.",
+    "en": "Someone spills coffee on your table and apologizes."
+   },
+   "ctx": {
+    "lugar": "restaurante",
+    "relacao": "desconhecido",
+    "registro": "neutro"
+   },
+   "s": "___ ครับ|kráp",
+   "o": [
+    "ไม่เป็นไร|mâi-bpen-rai",
+    "ยินดีด้วย|yin-dii-dûuai",
+    "ขอบใจ|kɔ̀ɔp-jai",
+    "เสียใจด้วย|sǐia-jai-dûuai"
+   ],
+   "a": "ไม่เป็นไร",
+   "x": "Desarmar a situação: ไม่เป็นไร."
+  },
+  {
+   "id": "c3-05",
+   "lv": 3,
+   "cena": {
+    "pt": "Você conta quantos monges vieram à cerimônia.",
+    "en": "You count how many monks came to the ceremony."
+   },
+   "ctx": {
+    "lugar": "templo",
+    "relacao": "monge",
+    "registro": "formal"
+   },
+   "s": "มี|mii พระ|prá มา|maa ห้า|hâa ___",
+   "o": [
+    "รูป|rûup",
+    "คน|kon",
+    "ตัว|dtuua",
+    "อัน|an"
+   ],
+   "a": "รูป",
+   "x": "Monges se contam com รูป."
+  },
+  {
+   "id": "c3-06",
+   "lv": 3,
+   "cena": {
+    "pt": "Um colega oferece ajuda, mas você não quer dar trabalho.",
+    "en": "A colleague offers help but you don't want to impose."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "igual",
+    "registro": "neutro"
+   },
+   "s": "ไม่|mâi ต้อง|dtɔ̂ng หรอก|rɔ̀ɔk ผม|pǒm ___",
+   "o": [
+    "เกรงใจ|greeng-jai",
+    "น้อยใจ|nɔ́ɔi-jai",
+    "ดีใจ|dii-jai",
+    "หงุดหงิด|ngùt-ngìt"
+   ],
+   "a": "เกรงใจ",
+   "x": "Não querer incomodar: เกรงใจ."
+  },
+  {
+   "id": "c3-07",
+   "lv": 3,
+   "cena": {
+    "pt": "A atendente adolescente da loja te ajuda. Você agradece.",
+    "en": "A teenage shop assistant helps you. You thank her."
+   },
+   "ctx": {
+    "lugar": "mercado",
+    "relacao": "mais_novo",
+    "registro": "informal"
+   },
+   "s": "___ นะ|ná น้อง|nɔ́ɔng",
+   "o": [
+    "ขอบใจ|kɔ̀ɔp-jai",
+    "ขออภัย|kɔ̌ɔ-à-pai",
+    "กราบ|gràap",
+    "ยินดีด้วย|yin-dii-dûuai"
+   ],
+   "a": "ขอบใจ",
+   "x": "Para alguém mais novo: ขอบใจ."
+  },
+  {
+   "id": "c3-08",
+   "lv": 3,
+   "cena": {
+    "pt": "Você chega atrasado à reunião das 9h.",
+    "en": "You arrive late to the 9 a.m. meeting."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "igual",
+    "registro": "neutro"
+   },
+   "s": "ขอโทษ|kɔ̌ɔ-tôot ที่|tîi มา|maa ___ ครับ|kráp",
+   "o": [
+    "สาย|sǎai",
+    "ดึก|dʉ̀k",
+    "ก่อน|gɔ̀ɔn",
+    "เร็ว|reo"
+   ],
+   "a": "สาย",
+   "x": "Atraso de manhã: สาย."
+  },
+  {
+   "id": "c4-01",
+   "lv": 4,
+   "cena": {
+    "pt": "Reunião com o diretor. Você é mulher e apresenta uma proposta.",
+    "en": "Meeting with the director. You are a woman presenting a proposal."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "superior",
+    "registro": "formal"
+   },
+   "s": "___ ขอ|kɔ̌ɔ เสนอ|sà-nə̌ə อย่างนี้|yàang-níi ค่ะ|kâ",
+   "o": [
+    "ดิฉัน|dì-chǎn",
+    "ฉัน|chǎn",
+    "หนู|nǔu",
+    "กู|guu"
+   ],
+   "a": "ดิฉัน",
+   "x": "Formal no trabalho: ดิฉัน; ฉัน soaria íntimo demais."
+  },
+  {
+   "id": "c4-02",
+   "lv": 4,
+   "cena": {
+    "pt": "Dois amigos homens, íntimos desde a faculdade, conversam no bar. (Reconhecer, não usar.)",
+    "en": "Two close male friends from university chat at a bar. (Recognise, don't use.)"
+   },
+   "ctx": {
+    "lugar": "festa",
+    "relacao": "intimo",
+    "registro": "vulgar"
+   },
+   "s": "___ จะ|jà ไป|bpai ไหน|nǎi วะ|wá",
+   "o": [
+    "มึง|mʉng",
+    "ท่าน|tâan",
+    "คุณ|kun",
+    "เธอ|təə"
+   ],
+   "a": "มึง",
+   "x": "Entre íntimos, มึง é normal; com estranhos, é ofensa."
+  },
+  {
+   "id": "c4-03",
+   "lv": 4,
+   "cena": {
+    "pt": "O chefe te chama. Você (homem) responde com muito respeito.",
+    "en": "Your boss calls you. You (a man) answer very respectfully."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "superior",
+    "registro": "formal"
+   },
+   "s": "ครับ|kráp ___",
+   "o": [
+    "ผม|pǒm",
+    "มึง|mʉng",
+    "จ้ะ|jâ",
+    "หรอก|rɔ̀ɔk"
+   ],
+   "a": "ผม",
+   "x": "Resposta respeitosa: ครับผม."
+  },
+  {
+   "id": "c4-04",
+   "lv": 4,
+   "cena": {
+    "pt": "Formulário. Você preenche o nome de uma mulher casada.",
+    "en": "A form. You fill in the name of a married woman."
+   },
+   "ctx": {
+    "lugar": "documento",
+    "relacao": "publico",
+    "registro": "formal"
+   },
+   "s": "___ มาลี|maa-lii ใจดี|jai-dii",
+   "o": [
+    "นาง|naang",
+    "นางสาว|naang-sǎao",
+    "นาย|naai",
+    "เด็กหญิง|dèk-yǐng"
+   ],
+   "a": "นาง",
+   "x": "Mulher casada em documento: นาง."
+  },
+  {
+   "id": "c4-05",
+   "lv": 4,
+   "cena": {
+    "pt": "Você conhece a mãe da sua namorada.",
+    "en": "You meet your girlfriend's mother."
+   },
+   "ctx": {
+    "lugar": "familia",
+    "relacao": "mais_velho",
+    "registro": "formal"
+   },
+   "s": "ผม|pǒm ___ คุณแม่|kun-mɛ̂ɛ ของ|kɔ̌ɔng แฟน|fɛɛn",
+   "o": [
+    "ไหว้|wâi",
+    "ชี้|chíi",
+    "จับ|jàp",
+    "กอด|gɔ̀ɔt"
+   ],
+   "a": "ไหว้",
+   "x": "Cumprimento a alguém mais velho: o wai."
+  },
+  {
+   "id": "c4-06",
+   "lv": 4,
+   "cena": {
+    "pt": "A garçonete faz o wai para você, cliente.",
+    "en": "The waitress wais you, the customer."
+   },
+   "ctx": {
+    "lugar": "restaurante",
+    "relacao": "mais_novo",
+    "registro": "neutro"
+   },
+   "s": "ยิ้ม|yím และ|lɛ́ ___ หัว|hǔua",
+   "o": [
+    "พยัก|pá-yák",
+    "ตี|dtii",
+    "จับ|jàp",
+    "ชี้|chíi"
+   ],
+   "a": "พยัก",
+   "x": "Adultos não devolvem o wai a atendentes: sorriso e aceno (พยักหัว)."
+  },
+  {
+   "id": "c4-07",
+   "lv": 4,
+   "cena": {
+    "pt": "O pai de um colega faleceu.",
+    "en": "A colleague's father has passed away."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "igual",
+    "registro": "formal"
+   },
+   "s": "___ ด้วย|dûuai นะ|ná ครับ|kráp",
+   "o": [
+    "เสียใจ|sǐia-jai",
+    "ยินดี|yin-dii",
+    "ดีใจ|dii-jai",
+    "ขอบใจ|kɔ̀ɔp-jai"
+   ],
+   "a": "เสียใจ",
+   "x": "Condolências: เสียใจด้วย."
+  },
+  {
+   "id": "c4-08",
+   "lv": 4,
+   "cena": {
+    "pt": "Você (mulher) ouve o chefe chamar seu nome do outro lado da sala.",
+    "en": "You (a woman) hear your boss call your name across the room."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "superior",
+    "registro": "neutro"
+   },
+   "s": "___ ดิฉัน|dì-chǎn อยู่|yùu นี่|nîi ค่ะ|kâ",
+   "o": [
+    "ขา|kǎa",
+    "คะ|ká",
+    "ครับ|kráp",
+    "จ๊ะ|já"
+   ],
+   "a": "ขา",
+   "x": "Responder a um chamado (mulher): ขา."
+  },
+  {
+   "id": "c5-01",
+   "lv": 5,
+   "cena": {
+    "pt": "Manchete de jornal sobre uma honraria.",
+    "en": "Newspaper headline about an award."
+   },
+   "ctx": {
+    "lugar": "midia",
+    "relacao": "publico",
+    "registro": "formal"
+   },
+   "s": "เขา|kǎo ___ รางวัล|raang-wan จาก|jàak รัฐบาล|rát-tà-baan",
+   "o": [
+    "ได้รับ|dâai-ráp",
+    "โดน|doon",
+    "ถูก|tùuk",
+    "ให้|hâi"
+   ],
+   "a": "ได้รับ",
+   "x": "Coisa boa, registro de notícia: ได้รับ."
+  },
+  {
+   "id": "c5-02",
+   "lv": 5,
+   "cena": {
+    "pt": "E-mail formal a um professor universitário. Saudação inicial.",
+    "en": "Formal email to a university professor. Opening."
+   },
+   "ctx": {
+    "lugar": "escola",
+    "relacao": "superior",
+    "registro": "formal"
+   },
+   "s": "เรียน|riian ___ สมชาย|sǒm-chaai",
+   "o": [
+    "อาจารย์|aa-jaan",
+    "มึง|mʉng",
+    "น้อง|nɔ́ɔng",
+    "แก|gɛɛ"
+   ],
+   "a": "อาจารย์",
+   "x": "Cartas formais abrem com เรียน (prezado) + título + nome."
+  },
+  {
+   "id": "c5-03",
+   "lv": 5,
+   "cena": {
+    "pt": "Fecho de um ofício pedindo análise de um pedido.",
+    "en": "Closing of an official letter asking for consideration."
+   },
+   "ctx": {
+    "lugar": "documento",
+    "relacao": "superior",
+    "registro": "formal"
+   },
+   "s": "จึง|jʉng เรียน|riian มา|maa เพื่อ|pʉ̂ʉa โปรด|bpròot ___",
+   "o": [
+    "พิจารณา|pí-jaa-rá-naa",
+    "กิน|gin",
+    "เที่ยว|tîiao",
+    "หลับ|làp"
+   ],
+   "a": "พิจารณา",
+   "x": "Fórmula fixa: จึงเรียนมาเพื่อโปรดพิจารณา."
+  },
+  {
+   "id": "c5-04",
+   "lv": 5,
+   "cena": {
+    "pt": "Discurso de formatura. Você abre a fala.",
+    "en": "Graduation speech. You open your address."
+   },
+   "ctx": {
+    "lugar": "cerimonia",
+    "relacao": "publico",
+    "registro": "cerimonial"
+   },
+   "s": "___ ขอ|kɔ̌ɔ ขอบคุณ|kɔ̀ɔp-kun ทุก|túk ท่าน|tâan",
+   "o": [
+    "ข้าพเจ้า|kâa-pá-jâo",
+    "กู|guu",
+    "หนู|nǔu",
+    "เรา|rao"
+   ],
+   "a": "ข้าพเจ้า",
+   "x": "Eu de discurso: ข้าพเจ้า."
+  },
+  {
+   "id": "c5-05",
+   "lv": 5,
+   "cena": {
+    "pt": "Placa de obras na calçada.",
+    "en": "Roadworks sign on the sidewalk."
+   },
+   "ctx": {
+    "lugar": "rua",
+    "relacao": "publico",
+    "registro": "formal"
+   },
+   "s": "___ ใน|nai ความ|kwaam ไม่|mâi สะดวก|sà-dùuak",
+   "o": [
+    "ขออภัย|kɔ̌ɔ-à-pai",
+    "ขอบใจ|kɔ̀ɔp-jai",
+    "ยินดีด้วย|yin-dii-dûuai",
+    "ไม่เป็นไร|mâi-bpen-rai"
+   ],
+   "a": "ขออภัย",
+   "x": "Desculpa formal em avisos: ขออภัย."
+  },
+  {
+   "id": "c5-06",
+   "lv": 5,
+   "cena": {
+    "pt": "Restaurante elegante. O garçom convida você a se servir.",
+    "en": "Upscale restaurant. The waiter invites you to eat."
+   },
+   "ctx": {
+    "lugar": "restaurante",
+    "relacao": "desconhecido",
+    "registro": "formal"
+   },
+   "s": "เชิญ|chəən ___ ครับ|kráp",
+   "o": [
+    "รับประทาน|ráp-bprà-taan",
+    "แดก|dɛ̀ɛk",
+    "เสวย|sà-wə̌əi",
+    "ฉัน|chǎn"
+   ],
+   "a": "รับประทาน",
+   "x": "Formal para clientes: รับประทาน; เสวย é só da realeza, ฉัน só de monges."
+  },
+  {
+   "id": "c5-07",
+   "lv": 5,
+   "cena": {
+    "pt": "Reunião de negócios. O parceiro quer dizer 'não' sem dizer não.",
+    "en": "Business meeting. The partner wants to say no without saying it."
+   },
+   "ctx": {
+    "lugar": "escritorio",
+    "relacao": "desconhecido",
+    "registro": "formal"
+   },
+   "s": "เรา|rao ขอ|kɔ̌ɔ รับ|ráp ไว้|wái ___",
+   "o": [
+    "พิจารณา|pí-jaa-rá-naa",
+    "กิน|gin",
+    "ทิ้ง|tíng",
+    "ลืม|lʉʉm"
+   ],
+   "a": "พิจารณา",
+   "x": "ขอรับไว้พิจารณา: 'vamos considerar' — muitas vezes um não diplomático."
+  },
+  {
+   "id": "c5-08",
+   "lv": 5,
+   "cena": {
+    "pt": "Relatório oficial sobre o fechamento das escolas.",
+    "en": "Official report on school closures."
+   },
+   "ctx": {
+    "lugar": "midia",
+    "relacao": "publico",
+    "registro": "formal"
+   },
+   "s": "___ ฝน|fǒn ตก|dtòk หนัก|nàk โรงเรียน|roong-riian จึง|jʉng ปิด|bpìt",
+   "o": [
+    "เนื่องจาก|nʉ̂ʉang-jàak",
+    "ถ้า|tâa",
+    "จน|jon",
+    "ทั้งๆที่|táng-táng-tîi"
+   ],
+   "a": "เนื่องจาก",
+   "x": "Causa em texto formal: เนื่องจาก … จึง."
+  },
+  {
+   "id": "c6-01",
+   "lv": 6,
+   "cena": {
+    "pt": "Noticiário sobre uma viagem do Rei.",
+    "en": "News about the King's journey."
+   },
+   "ctx": {
+    "lugar": "palacio",
+    "relacao": "realeza",
+    "registro": "cerimonial"
+   },
+   "s": "ในหลวง|nai-lǔuang ___ ไป|bpai เชียงใหม่|chiiang-mài",
+   "o": [
+    "เสด็จ|sà-dèt",
+    "เดิน|dəən",
+    "ขับ|kàp",
+    "วิ่ง|wîng"
+   ],
+   "a": "เสด็จ",
+   "x": "Ir, para a realeza: เสด็จ."
+  },
+  {
+   "id": "c6-02",
+   "lv": 6,
+   "cena": {
+    "pt": "Comunicado do palácio: Sua Majestade já se recolheu.",
+    "en": "Palace notice: His Majesty has retired for the night."
+   },
+   "ctx": {
+    "lugar": "palacio",
+    "relacao": "realeza",
+    "registro": "cerimonial"
+   },
+   "s": "พระองค์|prá-ong ___ แล้ว|lɛ́ɛo",
+   "o": [
+    "บรรทม|ban-tom",
+    "นอน|nɔɔn",
+    "จำวัด|jam-wát",
+    "หลับ|làp"
+   ],
+   "a": "บรรทม",
+   "x": "Dormir, para a realeza: บรรทม (จำวัด é para monges)."
+  },
+  {
+   "id": "c6-03",
+   "lv": 6,
+   "cena": {
+    "pt": "Sua família vai convidar monges para uma cerimônia em casa.",
+    "en": "Your family will invite monks for a merit-making ceremony at home."
+   },
+   "ctx": {
+    "lugar": "templo",
+    "relacao": "monge",
+    "registro": "cerimonial"
+   },
+   "s": "เรา|rao จะ|jà ___ พระ|prá มา|maa ทำบุญ|tam-bun ที่|tîi บ้าน|bâan",
+   "o": [
+    "นิมนต์|ní-mon",
+    "เชิญ|chəən",
+    "ชวน|chuuan",
+    "เรียก|rîiak"
+   ],
+   "a": "นิมนต์",
+   "x": "Convidar um monge: นิมนต์."
+  },
+  {
+   "id": "c6-04",
+   "lv": 6,
+   "cena": {
+    "pt": "Um monge fala de si mesmo.",
+    "en": "A monk speaks about himself."
+   },
+   "ctx": {
+    "lugar": "templo",
+    "relacao": "monge",
+    "registro": "cerimonial"
+   },
+   "s": "___ จะ|jà ไป|bpai บิณฑบาต|bin-tá-bàat",
+   "o": [
+    "อาตมา|àat-dtà-maa",
+    "ผม|pǒm",
+    "กู|guu",
+    "ข้าพเจ้า|kâa-pá-jâo"
+   ],
+   "a": "อาตมา",
+   "x": "Eu de monge: อาตมา."
+  },
+  {
+   "id": "c6-05",
+   "lv": 6,
+   "cena": {
+    "pt": "O monge pergunta a um visitante de onde ele vem.",
+    "en": "The monk asks a visitor where he comes from."
+   },
+   "ctx": {
+    "lugar": "templo",
+    "relacao": "monge",
+    "registro": "cerimonial"
+   },
+   "s": "___ มา|maa จาก|jàak ไหน|nǎi",
+   "o": [
+    "โยม|yoom",
+    "มึง|mʉng",
+    "ท่าน|tâan",
+    "น้อง|nɔ́ɔng"
+   ],
+   "a": "โยม",
+   "x": "O monge chama o leigo de โยม."
+  },
+  {
+   "id": "c6-06",
+   "lv": 6,
+   "cena": {
+    "pt": "O abade do templo da aldeia faleceu.",
+    "en": "The village temple's abbot has passed away."
+   },
+   "ctx": {
+    "lugar": "templo",
+    "relacao": "monge",
+    "registro": "cerimonial"
+   },
+   "s": "หลวงพ่อ|lǔuang-pɔ̂ɔ ___ แล้ว|lɛ́ɛo",
+   "o": [
+    "มรณภาพ|mɔɔ-rá-ná-pâap",
+    "ตาย|dtaai",
+    "สิ้นพระชนม์|sîn-prá-chon",
+    "เสียชีวิต|sǐia-chii-wít"
+   ],
+   "a": "มรณภาพ",
+   "x": "Morte de monge: มรณภาพ."
+  },
+  {
+   "id": "c6-07",
+   "lv": 6,
+   "cena": {
+    "pt": "De manhã, os fiéis oferecem comida aos monges.",
+    "en": "In the morning, lay people offer food to the monks."
+   },
+   "ctx": {
+    "lugar": "templo",
+    "relacao": "monge",
+    "registro": "cerimonial"
+   },
+   "s": "ญาติ|yâat ___ อาหาร|aa-hǎan แด่|dɛ̀ɛ พระ|prá",
+   "o": [
+    "ถวาย|tà-wǎai",
+    "ให้|hâi",
+    "ขาย|kǎai",
+    "ส่ง|sòng"
+   ],
+   "a": "ถวาย",
+   "x": "Oferecer a monges e à realeza: ถวาย."
+  },
+  {
+   "id": "c6-08",
+   "lv": 6,
+   "cena": {
+    "pt": "Você comenta sobre um conhecido que nunca saiu da cidade e acha que sabe tudo.",
+    "en": "You comment on someone who never left town and thinks he knows it all."
+   },
+   "ctx": {
+    "lugar": "festa",
+    "relacao": "igual",
+    "registro": "literario"
+   },
+   "s": "เขา|kǎo เหมือน|mʉ̌ʉan ___",
+   "o": [
+    "กบในกะลา|gòp-nai-gà-laa",
+    "ใจดีสู้เสือ|jai-dii-sûu-sʉ̌ʉa",
+    "น้ำซึมบ่อทราย|náam-sʉm-bɔ̀ɔ-saai",
+    "ปิดทองหลังพระ|bpìt-tɔɔng-lǎng-prá"
+   ],
+   "a": "กบในกะลา",
+   "x": "Visão estreita: o sapo na casca de coco."
+  }
+ ]
+}

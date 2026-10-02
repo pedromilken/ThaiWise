@@ -28,5 +28,5 @@ html = f"""<!doctype html>
 </body>
 </html>
 """
-(root / "index.html").write_text(html, encoding="utf-8")
+(root / "index.html").write_text(html, encoding="utf-8", newline="\n")
 print("index.html gerado:", len(html.encode()) // 1024, "KB")

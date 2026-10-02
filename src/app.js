@@ -42,6 +42,7 @@ function sentence(toks, gapLabel) {
 const LVCODE = lv => DATA.levels[lv].code;
 const skillName = s => {
   if (s[0] === "g") return `${LVCODE(+s.slice(1))} · ${t("theory")}`;
+  if (s[0] === "c") return `${LVCODE(+s.slice(1))} · ${t("culture")}`;
   const u = E.UNITS[s]; if (!u) return s;
   if (u.kind === "script") return `${t("lvScript")} · ${L_(u)}`;
   if (u.kind === "fsi") return `${LVCODE(u.lv)} · ${t("fsiLesson")} ${u.n}`;
@@ -61,10 +62,12 @@ function record(it, ok, opts = {}) {
   const preds = KT.predictAll(tr, it, c);
   blendUpdate(tr, it, c, ok ? 1 : 0, w); tr.L = KT.mastery(tr, PILOT); tr.n++; if (ok) tr.c++;
   const dt = dimTrack(it.lv, it.dim); blendUpdate(dt, it, c, ok ? 1 : 0, w); dt.L = KT.mastery(dt, PILOT); dt.n++; if (ok) dt.c++;
+  /* KT contextual: cada etiqueta da cena (lugar, relação, registro) tem seu próprio rastreador */
+  if (it.ctx) for (const [k, v] of Object.entries(it.ctx)) { const ct = dimTrack("ctx", k + "=" + v); blendUpdate(ct, it, c, ok ? 1 : 0, w); ct.L = KT.mastery(ct, PILOT); ct.n++; if (ok) ct.c++; }
   if (ok) S.solved[it.id] = 1;
   const x = GAME.gain(S, it.d, ok); S.xp = Math.max(0, S.xp + x); if (x > 0) S.xpTotal += x;
   S.streak = ok ? S.streak + 1 : 0; S.best = Math.max(S.best, S.streak); S.lastWrong = !ok;
-  S.log.push({ ts: Date.now(), item: it.id, skill: it.skill, lv: it.lv, dim: it.dim, type: it.type, ok: ok ? 1 : 0, counted: 1, w, c: +c.toFixed(3), d: it.d, hint: opts.hint ? 1 : 0, keyed: S.keyed[it.skill] ? 1 : 0, free: S.free ? 1 : 0, prior: tr.prior, lang: S.lang, rom: S.rom, mode: S.mode, before: +was.toFixed(3), after: +tr.L.toFixed(3), preds, extra: opts.extra || undefined });
+  S.log.push({ ts: Date.now(), item: it.id, skill: it.skill, lv: it.lv, dim: it.dim, type: it.type, ok: ok ? 1 : 0, counted: 1, ctx: it.ctx || undefined, w, c: +c.toFixed(3), d: it.d, hint: opts.hint ? 1 : 0, keyed: S.keyed[it.skill] ? 1 : 0, free: S.free ? 1 : 0, prior: tr.prior, lang: S.lang, rom: S.rom, mode: S.mode, before: +was.toFixed(3), after: +tr.L.toFixed(3), preds, extra: opts.extra || undefined });
   save(); return x;
 }
 function status(skill) {
@@ -159,7 +162,7 @@ function pArsenal(m) {
 }
 function pModule(m) {
   const lv = +ROUTE.arg, L = DATA.levels[lv], key = "m" + lv;
-  const tabs = lv === 0 ? ["writing", "theory", "practice", "support"] : ["theory", "practice", "vocab", "fsiTab", "support"];
+  const tabs = lv === 0 ? ["writing", "theory", "practice", "support"] : ["theory", "practice", "culture", "vocab", "fsiTab", "support"];
   if (!TAB[key] || !tabs.includes(TAB[key])) TAB[key] = tabs[0];
   add(m, el("div", { class: "row between" }, el("button", { class: "btn ghost small", onclick: () => go("arsenal") }, "← " + t("back")),
     lv ? el("div", { class: "meter" }, el("span", {}, t("mastery") + " " + pct(M("g" + lv))), el("div", { class: "track" }, el("div", { class: "fill", style: `width:${pct(M("g" + lv))}` }))) : null),
@@ -170,6 +173,13 @@ function pModule(m) {
   if (tab === "writing") scriptTables(box);
   else if (tab === "theory") lv === 0 ? theory0(box) : grammarTheory(box, lv);
   else if (tab === "practice") { if (lv === 0) unitList(box, L.units); else if (!E.levelOpen(S, lv, M)) add(box, el("p", { class: "note" }, t("lockedLevel"))); else practice(box, "g" + lv, E.grammarItems(lv)); }
+  else if (tab === "culture") {
+    add(box, el("p", { class: "muted" }, t("cultIntro")));
+    const its = E.cultItems(lv);
+    if (!its.length) add(box, el("p", { class: "muted" }, t("pending")));
+    else if (!E.levelOpen(S, lv, M)) add(box, el("p", { class: "note" }, t("lockedLevel")));
+    else practice(box, "c" + lv, its);
+  }
   else if (tab === "vocab") { add(box, el("p", { class: "muted" }, t("modIntro", { c: L.cefr, cu: L.cu, w: DATA.words.filter(w => w.lv === lv).length, u: L.units.length }))); unitList(box, L.units.filter(u => u.kind !== "fsi")); }
   else if (tab === "fsiTab") { const f = L.units.filter(u => u.kind === "fsi"); if (!f.length) add(box, el("p", { class: "note" }, t("fsiNone"))); else unitList(box, f); }
   else if (tab === "support") supportTab(box);
@@ -341,6 +351,8 @@ function practice(box, s, items) {
     case "vlsn": { const v = Sc.vow[it.v]; mc(el("div", { class: "prompt center" }, el("button", { class: "btn act", onclick: () => say(v.ex) }, "▶ " + t("playAgain"))), opts); if (!CUR.played) { CUR.played = true; setTimeout(() => say(v.ex), 300); } break; }
     case "live": case "tone": { const y = Sc.syl[it.sy]; mc(big(y.t, S.lang === "pt" ? el("div", { class: "muted" }, y.pt) : null), opts); break; }
     case "gap": mc(el("div", { class: "prompt" }, sentence(it.g.s), it.g.h ? el("div", { class: "muted" }, it.g.h) : null), opts); break;
+    case "scene": mc(el("div", { class: "prompt" }, el("div", { class: "scene" }, "🎎 ", L_(it.cena)),
+      el("div", { class: "ctx" }, Object.entries(it.ctx).map(([k, v]) => el("span", { class: "tag plain" }, t("ctx_" + k) + ": " + t("cv_" + v)))), sentence(it.g.s)), opts); break;
     case "order": orderBody(card, it, finish); break;
     case "dmean": { const d = DATA.fsi[E.UNITS[it.skill].n].dialogo[it.dl]; mc(el("div", { class: "prompt" }, el("span", { class: "sp " + d.sp }, d.sp), " ", sentence(d.s)), opts); break; }
   }
@@ -421,14 +433,20 @@ function pReport(m) {
   const lvls = DATA.levels.filter(L => L.units.length);
   add(m, el("h3", {}, t("repSkills")), el("div", { class: "scroll" }, el("table", { class: "grid" }, el("thead", {}, el("tr", {}, el("th", {}, t("colSkill")), lvls.map(L => el("th", {}, L.lv ? L.code : "ก")))),
     el("tbody", {}, E.DIMS.map(d => el("tr", {}, el("td", {}, t("dim_" + d)), lvls.map(L => { const tr = S.dims[L.lv + ":" + d]; return el("td", {}, tr && tr.n ? el("span", { class: "cellbar", style: `--p:${Math.round(KT.mastery(tr, PILOT) * 100)}` }, pct(KT.mastery(tr, PILOT)), el("small", {}, " n=" + tr.n)) : el("span", { class: "muted" }, "—")); })))))));
+  /* KT contextual: domínio pragmático por lugar, relação e registro */
+  const cx = Object.keys(S.dims).filter(k => k.startsWith("ctx:") && S.dims[k].n).sort();
+  if (cx.length) add(m, el("h3", {}, "🎎 " + t("repCtx")), el("p", { class: "muted small" }, t("repCtxNote")), el("div", { class: "scroll" }, el("table", { class: "grid" },
+    el("thead", {}, el("tr", {}, [t("colCtx"), t("colN"), t("colMastery")].map(x => el("th", {}, x)))),
+    el("tbody", {}, cx.map(k => { const [kk, v] = k.slice(4).split("="), tr = S.dims[k], mm = KT.mastery(tr, PILOT);
+      return el("tr", {}, el("td", {}, t("ctx_" + kk) + ": " + t("cv_" + v)), el("td", {}, tr.n), el("td", {}, el("span", { class: "cellbar", style: `--p:${Math.round(mm * 100)}` }, pct(mm)))); })))));
   if (!CAPS.voice) add(m, el("p", { class: "muted small" }, t("noVoice"))); if (!CAPS.mic) add(m, el("p", { class: "muted small" }, t("noMic")));
   add(m, el("h3", {}, t("repLevels")));
   lvls.forEach(L => {
-    const ids = L.units.map(u => u.id).concat(L.lv && DATA.grammar[L.lv] ? ["g" + L.lv] : []); if (!ids.some(id => S.skills[id] && S.skills[id].n) && !E.levelOpen(S, L.lv, M)) return;
+    const ids = L.units.map(u => u.id).concat(L.lv && DATA.grammar[L.lv] ? ["g" + L.lv] : []).concat(L.lv && E.cultItems(L.lv).length ? ["c" + L.lv] : []); if (!ids.some(id => S.skills[id] && S.skills[id].n) && !E.levelOpen(S, L.lv, M)) return;
     add(m, el("h4", {}, L.lv ? L.code + " · " + L.cu : t("lvScript")), el("div", { class: "scroll" }, el("table", { class: "grid" }, el("thead", {}, el("tr", {}, ["colSkill", "colN", "colAcc", "colMastery", "colStatus"].map(k => el("th", {}, t(k))))),
       el("tbody", {}, ids.map(id => { const s = statsOf(id), st = status(id); return el("tr", { class: st }, el("td", {}, skillName(id)), el("td", {}, s.n), el("td", {}, s.acc == null ? "—" : pct(s.acc)), el("td", {}, S.skills[id] && S.skills[id].n ? pct(M(id)) : t("notYet")), el("td", {}, t("st_" + st))); })))));
   });
-  const todo = []; Object.keys(S.skills).forEach(id => { if (id[0] === "g" || status(id) === "locked") return; const its = E.itemsFor(id, CAPS), miss = its.filter(i => !S.solved[i.id]).length; if (miss) todo.push(el("li", {}, skillName(id) + ": " + t("itemsLeft", { n: miss }))); });
+  const todo = []; Object.keys(S.skills).forEach(id => { if (id[0] === "g" || id[0] === "c" || status(id) === "locked") return; const its = E.itemsFor(id, CAPS), miss = its.filter(i => !S.solved[i.id]).length; if (miss) todo.push(el("li", {}, skillName(id) + ": " + t("itemsLeft", { n: miss }))); });
   add(m, el("h3", {}, t("repTodo")), todo.length ? el("ul", {}, todo.slice(0, 20)) : el("p", { class: "muted" }, t("nothingLeft")));
   add(m, el("h3", {}, t("repModels")), el("div", { class: "scroll" }, el("table", { class: "grid" }, el("thead", {}, el("tr", {}, ["", "n", "Brier ↓", "AUC ↑", "Acc ↑"].map(x => el("th", {}, x)))),
     el("tbody", {}, KT.IDS.map(k => { const sc = KT.score(all, k); return el("tr", {}, el("td", {}, k + (k === PILOT ? " (piloto)" : "")), el("td", {}, sc ? sc.n : 0), el("td", {}, sc ? sc.brier.toFixed(3) : "—"), el("td", {}, sc && sc.auc != null ? sc.auc.toFixed(3) : "—"), el("td", {}, sc ? pct(sc.acc) : "—")); })))));

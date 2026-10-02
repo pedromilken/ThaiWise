@@ -61,6 +61,20 @@ ok(E.levelOpen(S0, 0, M0) && E.levelOpen(S0, 1, M0) && !E.levelOpen(S0, 2, M0), 
 ok(E.levelOpen(S0, 2, M1), "A2 abre com o A1 dominado");
 ok(E.unitOpen(S0, "v1u01", M0) && !E.unitOpen(S0, "v1u02", M0) && E.unitOpen(S0, "f01", M0), "trilhas temática e FSI encadeadas separadamente");
 ok(Math.abs(E.prior("v1u01", M0) - .15) < 1e-9 && Math.abs(E.prior("v1u02", M1) - .575) < 1e-9, "prior hierárquico");
+/* cenas culturais */
+for (let lv = 1; lv <= 6; lv++) {
+  const cs = E.cultItems(lv);
+  ok(cs.length >= 8, "nível " + lv + " tem ≥ 8 cenas culturais");
+  cs.forEach(it => {
+    ok(it.type === "scene" && it.dim === "pragma" && it.skill === "c" + lv, it.id + " é cena com dimensão pragmática");
+    ok(it.ctx && ["lugar", "relacao", "registro"].every(k => it.ctx[k]), it.id + " tem as três etiquetas de contexto");
+    ok(it.cena && it.cena.pt && it.cena.en, it.id + " descreve a cena em pt e en");
+    const op = E.options(it, "pt", 1).map(o => o.key); ok(op.length === 4 && op.includes(E.answerKey(it, "pt")), it.id + ": 4 opções e a resposta entre elas");
+    ok(it.g.s.filter(x => x[0] === "___").length === 1, it.id + ": exatamente uma lacuna");
+  });
+}
+ok(E.itemsFor("c3", {}).length === E.cultItems(3).length, "itemsFor reconhece a habilidade cultural");
+ok(E.DIMS.includes("pragma"), "dimensão pragmática registrada");
 for (let lv = 1; lv <= 6; lv++) ok((DATA.grammar[lv] || []).length >= 10, "nível " + lv + " tem gramática autoral (≥ 10 pontos)");
 { const vazio = DATA.levels.find(L => L.lv > 1 && !L.units.length);
   ok(!vazio || !E.levelOpen(S0, vazio.lv, M1), "nível sem conteúdo não abre"); }

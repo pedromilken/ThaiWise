@@ -68,6 +68,8 @@ for g in D['gItems']:
     for t in g['s'] + g['o']: TOK.setdefault(t[0], (t[1], g['pt_id']))
 for g in D['gSent']:
     for t in g['t']: TOK.setdefault(t[0], (t[1], g['pt_id']))
+for c in D.get('cult', []):
+    for t in c['g']['s'] + c['g']['o']: TOK.setdefault(t[0], (t[1], c['id']))
 VISTO = {w['t'] for w in D['words']}
 ALL = list(D['words']) + [{'t': t, 'p': p, 'u': u} for t, (p, u) in TOK.items() if t not in VISTO and t != '___' and p]
 for w in ALL:

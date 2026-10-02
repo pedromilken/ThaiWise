@@ -13,6 +13,7 @@ Treino adaptativo de **tailandês**: escrita e regra dos tons, vocabulário e gr
 | Gramática | autoral, com analogia, exemplo, Paiboon+, 2 lacunas e 1 frase por ponto | **92 pontos** em todos os níveis (A1 22 · A2 20 · B1 12 · B2 13 · C1 13 · C2 12), 177 lacunas, 92 frases para montar |
 | Cultura | pontos marcados com “Cultura:” dentro da gramática | nomes e apelidos, parentesco como pronome, escada da polidez, เกรงใจ e o “não” indireto, pronomes por contexto, títulos, o wai, partículas de gênero, agradecer e desculpar, tabus, interjeições; e no C2 ราชาศัพท์, linguagem monástica, verbos de morte por hierarquia |
 | Lições do FSI | FSI Thai Basic Course (Foreign Service Institute, domínio público), convertidas para escrita tailandesa | **40 de 40**: diálogos, vocabulário e notas de gramática (A1–B2) |
+| Cultura em prática | autoral | 48 cenas (8 por nível) com etiquetas de lugar, relação e registro |
 | Total | | **1.585 palavras**, 82 unidades, 6.969 testes automáticos |
 
 ## Qualidade da pronúncia
@@ -22,6 +23,15 @@ O OCR do FSI perdeu quase todas as marcas de tom, então três camadas conferem 
 - `tools/fsi-conferir.js` converte a transcrição Haas do livro para Paiboon+ por regra e compara consoantes, vogais e tons;
 - `tools/tom-auditar.py` recalcula o tom de toda palavra de uma sílaba a partir da escrita tailandesa (classe + sílaba viva/morta + marca) e aponta divergências; empréstimos irregulares (เทป, แฟลต, เมตร, แบงก์…) ficam numa lista de exceções;
 - `tools/nivel-conferir.js` valida os níveis autorais (formato, Paiboon+, duplicatas entre níveis).
+
+## Cultura em prática e *knowledge tracing* contextual
+
+Cada módulo de A1 a C2 tem a aba **Cultura**: 48 cenas (8 por nível) em que o aluno lê a situação — quem fala, com quem, onde — e escolhe a forma adequada (pronome, partícula, título, gesto, registro, provérbio). As cenas ficam em `tools/fontes/cultura.json`.
+
+- **Habilidade própria por nível** (`c1`…`c6`) e **dimensão própria** (`pragma`), separadas da gramática: errar ครับ/ค่ะ não derruba o domínio de classificadores, e vice-versa.
+- **Etiquetas de contexto** em toda cena: `lugar` (mercado, escritório, templo, palácio…), `relacao` (mais velho, mais novo, superior, monge, realeza…) e `registro` (informal → cerimonial). Cada etiqueta tem seu próprio rastreador (`S.dims["ctx:lugar=templo"]`), e o Relatório mostra a tabela **Cultura por contexto**.
+- Cada resposta é registrada no log com as etiquetas (`ctx`), o que permite estudar **transferência pragmática entre contextos** (o acerto no mercado se mantém no escritório?) a partir do JSON exportado.
+- O `build_data.py` rejeita etiqueta sem tradução, e o `tom-auditar.py` confere também os tokens das cenas.
 
 ## Níveis: CEFR alinhado ao CU-TFL
 
