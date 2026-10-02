@@ -61,7 +61,8 @@ ok(E.levelOpen(S0, 0, M0) && E.levelOpen(S0, 1, M0) && !E.levelOpen(S0, 2, M0), 
 ok(E.levelOpen(S0, 2, M1), "A2 abre com o A1 dominado");
 ok(E.unitOpen(S0, "v1u01", M0) && !E.unitOpen(S0, "v1u02", M0) && E.unitOpen(S0, "f01", M0), "trilhas temática e FSI encadeadas separadamente");
 ok(Math.abs(E.prior("v1u01", M0) - .15) < 1e-9 && Math.abs(E.prior("v1u02", M1) - .575) < 1e-9, "prior hierárquico");
-ok(!E.levelOpen(S0, 5, M1), "nível sem conteúdo não abre");
+{ const vazio = DATA.levels.find(L => L.lv > 1 && !L.units.length);
+  ok(!vazio || !E.levelOpen(S0, vazio.lv, M1), "nível sem conteúdo não abre"); }
 
 /* motor de KT herdado */
 const tr = KT.ensure({ L: .15 }); const it0 = E.itemsFor("v1u01", caps).find(i => i.d === 2);

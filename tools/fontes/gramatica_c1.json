@@ -1,0 +1,512 @@
+{
+ "lv": 5,
+ "pontos": [
+  {
+   "id": "g5-01",
+   "t": "การ e ความ: transformando em substantivo",
+   "e": "การ + verbo de ação vira o nome da atividade (เลือกตั้ง → การเลือกตั้ง, 'a eleição'); ความ + verbo de estado ou de sentimento vira o nome da qualidade (จน → ความยากจน, 'a pobreza'; สุข → ความสุข, 'a felicidade'). Analogia: são os sufixos '-ção' e '-dade' do português, só que vêm na frente.",
+   "ex": "การ|gaan ศึกษา|sʉ̀k-sǎa สำคัญ|sǎm-kan มาก|mâak",
+   "pt": "A educação é muito importante.",
+   "en": "Education is very important.",
+   "gaps": [
+    {
+     "s": "___ ลงทุน|long-tun ต้อง|dtɔ̂ng ใช้|chái เวลา|wee-laa",
+     "o": [
+      "การ|gaan",
+      "ความ|kwaam",
+      "ผู้|pûu",
+      "นัก|nák"
+     ],
+     "a": "การ",
+     "x": "ลงทุน é ação: o nome da atividade usa การ."
+    },
+    {
+     "s": "___ รุนแรง|run-rɛɛng ใน|nai สังคม|sǎng-kom เพิ่มขึ้น|pə̂əm-kʉ̂n",
+     "o": [
+      "ความ|kwaam",
+      "การ|gaan",
+      "ผู้|pûu",
+      "ที่|tîi"
+     ],
+     "a": "ความ",
+     "x": "รุนแรง é qualidade (violento): o nome usa ความ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ความ|kwaam ยากจน|yâak-jon เป็น|bpen ปัญหา|bpan-hǎa ใหญ่|yài",
+     "pt": "A pobreza é um grande problema.",
+     "en": "Poverty is a big problem."
+    }
+   ]
+  },
+  {
+   "id": "g5-02",
+   "t": "Conectivos formais de texto",
+   "e": "No texto formal, as frases se ligam com conectivos próprios: อย่างไรก็ตาม (no entanto), นอกจากนี้ (além disso), ดังนั้น ou เพราะฉะนั้น (portanto), ทั้งนี้ (nesse sentido), กล่าวคือ (ou seja). Analogia: são as placas de trânsito do texto — avisam se vem curva, contramão ou reta.",
+   "ex": "นอกจากนี้|nɔ̂ɔk-jàak-níi รัฐบาล|rát-tà-baan ยัง|yang ลด|lót ภาษี|paa-sǐi",
+   "pt": "Além disso, o governo ainda reduziu impostos.",
+   "en": "Moreover, the government also cut taxes.",
+   "gaps": [
+    {
+     "s": "เศรษฐกิจ|sèet-tà-gìt ดีขึ้น|dii-kʉ̂n ___ คน|kon ยัง|yang ว่างงาน|wâang-ngaan มาก|mâak",
+     "o": [
+      "อย่างไรก็ตาม|yàang-rai-gɔ̂ɔ-dtaam",
+      "นอกจากนี้|nɔ̂ɔk-jàak-níi",
+      "กล่าวคือ|glàao-kʉʉ",
+      "เพราะ|prɔ́"
+     ],
+     "a": "อย่างไรก็ตาม",
+     "x": "Há contraste (melhorou, mas…): no entanto."
+    },
+    {
+     "s": "โรงงาน|roong-ngaan ปล่อย|bplɔ̀i ควัน|kwan มาก|mâak ___ อากาศ|aa-gàat จึง|jʉng เสีย|sǐia",
+     "o": [
+      "ดังนั้น|dang-nán",
+      "อย่างไรก็ตาม|yàang-rai-gɔ̂ɔ-dtaam",
+      "แม้ว่า|mɛ́ɛ-wâa",
+      "ซึ่ง|sʉ̂ng"
+     ],
+     "a": "ดังนั้น",
+     "x": "Consequência: portanto."
+    }
+   ],
+   "ord": [
+    {
+     "s": "อย่างไรก็ตาม|yàang-rai-gɔ̂ɔ-dtaam ปัญหา|bpan-hǎa นี้|níi ยัง|yang ไม่|mâi จบ|jòp",
+     "pt": "No entanto, este problema ainda não acabou.",
+     "en": "However, this problem is not over yet."
+    }
+   ]
+  },
+  {
+   "id": "g5-03",
+   "t": "เนื่องจาก … จึง: causa e efeito",
+   "e": "เนื่องจาก + causa, (sujeito) + จึง + efeito: เนื่องจากฝนตกหนัก ถนนจึงน้ำท่วม = devido à chuva forte, as ruas alagaram. จึง vem depois do sujeito e antes do verbo. Analogia: เนื่องจาก abre a porta da causa; จึง fecha a porta da consequência.",
+   "ex": "เนื่องจาก|nʉ̂ʉang-jàak ฝน|fǒn ตก|dtòk ถนน|tà-nǒn จึง|jʉng ปิด|bpìt",
+   "pt": "Por causa da chuva, a rua foi fechada.",
+   "en": "Because of the rain, the road was closed.",
+   "gaps": [
+    {
+     "s": "___ ราคา|raa-kaa น้ำมัน|nám-man สูง|sǔung ค่าครองชีพ|kâa-krɔɔng-chîip จึง|jʉng เพิ่มขึ้น|pə̂əm-kʉ̂n",
+     "o": [
+      "เนื่องจาก|nʉ̂ʉang-jàak",
+      "ดังนั้น|dang-nán",
+      "แต่|dtɛ̀ɛ",
+      "ซึ่ง|sʉ̂ng"
+     ],
+     "a": "เนื่องจาก",
+     "x": "A causa abre a frase com เนื่องจาก."
+    },
+    {
+     "s": "เขา|kǎo ป่วย|bpùuai เขา|kǎo ___ ไม่|mâi มา|maa ประชุม|bprà-chum",
+     "o": [
+      "จึง|jʉng",
+      "แต่|dtɛ̀ɛ",
+      "ถ้า|tâa",
+      "ก่อน|gɔ̀ɔn"
+     ],
+     "a": "จึง",
+     "x": "Consequência antes do verbo: จึง."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เนื่องจาก|nʉ̂ʉang-jàak มี|mii โรคระบาด|rôok-rá-bàat โรงเรียน|roong-riian จึง|jʉng ปิด|bpìt",
+     "pt": "Por causa da epidemia, as escolas fecharam.",
+     "en": "Due to the epidemic, schools closed."
+    }
+   ]
+  },
+  {
+   "id": "g5-04",
+   "t": "ได้รับ: a passiva formal e positiva",
+   "e": "ได้รับ + verbo forma a passiva quando a coisa é boa ou neutra: ได้รับเชิญ (foi convidado), ได้รับเลือก (foi eleito), ได้รับอนุญาต (recebeu permissão). Para o que é ruim, usa-se ถูก (ถูกจับ = foi preso). Analogia: ได้รับ é receber um presente; ถูก é levar uma multa.",
+   "ex": "เขา|kǎo ได้รับ|dâai-ráp เลือก|lʉ̂ʉak เป็น|bpen ผู้แทน|pûu-tɛɛn",
+   "pt": "Ele foi eleito representante.",
+   "en": "He was elected representative.",
+   "gaps": [
+    {
+     "s": "โครงการ|kroong-gaan นี้|níi ___ อนุญาต|à-nú-yâat แล้ว|lɛ́ɛo",
+     "o": [
+      "ได้รับ|dâai-ráp",
+      "ถูก|tùuk",
+      "เป็น|bpen",
+      "ให้|hâi"
+     ],
+     "a": "ได้รับ",
+     "x": "Permissão é algo bom: ได้รับ."
+    },
+    {
+     "s": "ขโมย|kà-mooi ___ จับ|jàp เมื่อวาน|mʉ̂ʉa-waan",
+     "o": [
+      "ถูก|tùuk",
+      "ได้รับ|dâai-ráp",
+      "ได้|dâai",
+      "มี|mii"
+     ],
+     "a": "ถูก",
+     "x": "Ser preso é ruim para o sujeito: ถูก."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เธอ|təə ได้รับ|dâai-ráp รางวัล|raang-wan จาก|jàak รัฐบาล|rát-tà-baan",
+     "pt": "Ela recebeu um prêmio do governo.",
+     "en": "She received an award from the government."
+    }
+   ]
+  },
+  {
+   "id": "g5-05",
+   "t": "ซึ่ง: o 'que' formal",
+   "e": "ซึ่ง liga uma explicação ao que veio antes, como 'o qual': ประเทศไทยซึ่งมีประชากรหกสิบล้านคน = a Tailândia, que tem sessenta milhões de habitantes. ที่ identifica ('o livro que comprei'); ซึ่ง acrescenta informação e soa mais escrito. Analogia: ซึ่ง é o par de vírgulas que abre um aposto.",
+   "ex": "กรุงเทพฯ|grung-têep ซึ่ง|sʉ̂ng เป็น|bpen เมืองหลวง|mʉʉang-lǔuang มี|mii รถ|rót มาก|mâak",
+   "pt": "Bangkok, que é a capital, tem muitos carros.",
+   "en": "Bangkok, which is the capital, has a lot of cars.",
+   "gaps": [
+    {
+     "s": "รัฐธรรมนูญ|rát-tà-tam-má-nuun ___ เป็น|bpen กฎหมาย|gòt-mǎai สูงสุด|sǔung-sùt",
+     "o": [
+      "ซึ่ง|sʉ̂ng",
+      "จึง|jʉng",
+      "แต่|dtɛ̀ɛ",
+      "ก็|gɔ̂ɔ"
+     ],
+     "a": "ซึ่ง",
+     "x": "Explicação acrescentada ao nome: ซึ่ง."
+    },
+    {
+     "s": "ผล|pǒn การ|gaan วิจัย|wí-jai ___ เผยแพร่|pə̌əi-prɛ̂ɛ เมื่อวาน|mʉ̂ʉa-waan",
+     "o": [
+      "ซึ่ง|sʉ̂ng",
+      "เพราะ|prɔ́",
+      "ดังนั้น|dang-nán",
+      "ถ้า|tâa"
+     ],
+     "a": "ซึ่ง",
+     "x": "Relativo formal: ซึ่ง."
+    }
+   ],
+   "ord": [
+    {
+     "s": "นักข่าว|nák-kàao ซึ่ง|sʉ̂ng สัมภาษณ์|sǎm-pâat เขา|kǎo มา|maa จาก|jàak ญี่ปุ่น|yîi-bpùn",
+     "pt": "O jornalista que o entrevistou veio do Japão.",
+     "en": "The reporter who interviewed him came from Japan."
+    }
+   ]
+  },
+  {
+   "id": "g5-06",
+   "t": "โดย: por meio de, por (agente)",
+   "e": "โดย indica o meio (โดยรถไฟ = de trem), o modo (โดยเร็ว = rapidamente) ou, na passiva formal, o agente (เขียนโดย… = escrito por…). Expressões fixas: โดยเฉพาะ (especialmente), โดยตรง (diretamente), โดยทั่วไป (em geral).",
+   "ex": "หนังสือ|nǎng-sʉ̌ʉ เล่ม|lêm นี้|níi เขียน|kǐian โดย|dooi นักข่าว|nák-kàao",
+   "pt": "Este livro foi escrito por um jornalista.",
+   "en": "This book was written by a journalist.",
+   "gaps": [
+    {
+     "s": "ผู้ป่วย|pûu-bpùuai ได้รับ|dâai-ráp การ|gaan รักษา|rák-sǎa ___ แพทย์|pɛ̂ɛt",
+     "o": [
+      "โดย|dooi",
+      "ซึ่ง|sʉ̂ng",
+      "จึง|jʉng",
+      "กับ|gàp"
+     ],
+     "a": "โดย",
+     "x": "Agente da passiva formal: โดย."
+    },
+    {
+     "s": "เขา|kǎo ชอบ|chɔ̂ɔp ผลไม้|pǒn-lá-mái ___ มะม่วง|má-mûuang",
+     "o": [
+      "โดยเฉพาะ|dooi-chà-pɔ́",
+      "โดยตรง|dooi-dtrong",
+      "ดังนั้น|dang-nán",
+      "ซึ่ง|sʉ̂ng"
+     ],
+     "a": "โดยเฉพาะ",
+     "x": "'Especialmente' = โดยเฉพาะ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "รัฐบาล|rát-tà-baan แก้|gɛ̂ɛ ปัญหา|bpan-hǎa โดย|dooi ลด|lót ภาษี|paa-sǐi",
+     "pt": "O governo resolveu o problema reduzindo impostos.",
+     "en": "The government solved the problem by cutting taxes."
+    }
+   ]
+  },
+  {
+   "id": "g5-07",
+   "t": "ต่อ, แก่, แด่: 'a, para' no registro formal",
+   "e": "Para dizer a quem algo se dirige, o texto formal usa ต่อ (diante de, em relação a: แถลงต่อสื่อ = declarou à imprensa), แก่ (para alguém de status igual ou inferior: มอบรางวัลแก่นักเรียน) e แด่ (para alguém superior ou venerado: ถวายแด่พระ). Na fala, tudo isso vira ให้ ou กับ.",
+   "ex": "รัฐบาล|rát-tà-baan มอบ|mɔ̂ɔp ทุน|tun แก่|gɛ̀ɛ นักเรียน|nák-riian",
+   "pt": "O governo concedeu bolsas aos estudantes.",
+   "en": "The government granted scholarships to students.",
+   "gaps": [
+    {
+     "s": "นายกรัฐมนตรี|naa-yók-rát-tà-mon-dtrii แถลง|tà-lɛ̌ɛng ___ สื่อ|sʉ̀ʉ",
+     "o": [
+      "ต่อ|dtɔ̀ɔ",
+      "แด่|dɛ̀ɛ",
+      "ซึ่ง|sʉ̂ng",
+      "โดย|dooi"
+     ],
+     "a": "ต่อ",
+     "x": "Declarar diante de: ต่อ."
+    },
+    {
+     "s": "ประชาชน|bprà-chaa-chon ถวาย|tà-wǎai อาหาร|aa-hǎan ___ พระ|prá",
+     "o": [
+      "แด่|dɛ̀ɛ",
+      "แก่|gɛ̀ɛ",
+      "ต่อ|dtɔ̀ɔ",
+      "จาก|jàak"
+     ],
+     "a": "แด่",
+     "x": "Para monges (superiores): แด่."
+    }
+   ],
+   "ord": [
+    {
+     "s": "โรงเรียน|roong-riian มอบ|mɔ̂ɔp รางวัล|raang-wan แก่|gɛ̀ɛ นักเรียน|nák-riian",
+     "pt": "A escola deu prêmios aos alunos.",
+     "en": "The school gave awards to the students."
+    }
+   ]
+  },
+  {
+   "id": "g5-08",
+   "t": "ผู้ + verbo: quem faz",
+   "e": "ผู้ + verbo forma o nome de quem pratica a ação: ผู้เช่า (inquilino), ผู้ชม (espectador), ผู้บริโภค (consumidor), ผู้ป่วย (paciente), ผู้แทน (representante). Diferente de นัก (profissão ou hábito: นักข่าว) e ช่าง (ofício manual: ช่างไม้). Analogia: é o '-dor' de 'consumidor'.",
+   "ex": "ผู้|pûu บริโภค|bɔɔ-rí-pôok มี|mii สิทธิ|sìt-tí เลือก|lʉ̂ʉak",
+   "pt": "O consumidor tem o direito de escolher.",
+   "en": "Consumers have the right to choose.",
+   "gaps": [
+    {
+     "s": "___ ชม|chom ชอบ|chɔ̂ɔp รายการ|raai-gaan นี้|níi",
+     "o": [
+      "ผู้|pûu",
+      "การ|gaan",
+      "ความ|kwaam",
+      "ที่|tîi"
+     ],
+     "a": "ผู้",
+     "x": "Quem assiste: ผู้ชม."
+    },
+    {
+     "s": "___ ข่าว|kàao ถาม|tǎam คำถาม|kam-tǎam มาก|mâak",
+     "o": [
+      "นัก|nák",
+      "ผู้|pûu",
+      "ช่าง|châang",
+      "การ|gaan"
+     ],
+     "a": "นัก",
+     "x": "Profissão de jornalista: นักข่าว."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ผู้|pûu ป่วย|bpùuai ต้อง|dtɔ̂ng พักผ่อน|pák-pɔ̀ɔn มากๆ|mâak-mâak",
+     "pt": "O paciente precisa descansar bastante.",
+     "en": "The patient needs plenty of rest."
+    }
+   ]
+  },
+  {
+   "id": "g5-09",
+   "t": "ถึงแม้ว่า … ก็: concessão",
+   "e": "ถึงแม้ว่า (ou แม้ว่า) + fato, (sujeito) + ก็ + resultado inesperado: ถึงแม้ว่าเขาจะรวย เขาก็ไม่มีความสุข = embora seja rico, ele não é feliz. O ก็ marca que, apesar de tudo, o resultado vale. Analogia: ถึงแม้ว่า é o 'apesar da chuva'; ก็ é o 'o jogo continuou'.",
+   "ex": "ถึงแม้ว่า|tʉ̌ng-mɛ́ɛ-wâa ฝน|fǒn ตก|dtòk เขา|kǎo ก็|gɔ̂ɔ มา|maa",
+   "pt": "Mesmo chovendo, ele veio.",
+   "en": "Even though it rained, he came.",
+   "gaps": [
+    {
+     "s": "ถึงแม้ว่า|tʉ̌ng-mɛ́ɛ-wâa งาน|ngaan จะ|jà หนัก|nàk เขา|kǎo ___ ไม่|mâi บ่น|bòn",
+     "o": [
+      "ก็|gɔ̂ɔ",
+      "จึง|jʉng",
+      "ซึ่ง|sʉ̂ng",
+      "เลย|ləəi"
+     ],
+     "a": "ก็",
+     "x": "Resultado apesar do obstáculo: ก็."
+    },
+    {
+     "s": "___ เศรษฐกิจ|sèet-tà-gìt ไม่|mâi ดี|dii บริษัท|bɔɔ-rí-sàt ก็|gɔ̂ɔ ยัง|yang มี|mii กำไร|gam-rai",
+     "o": [
+      "ถึงแม้ว่า|tʉ̌ng-mɛ́ɛ-wâa",
+      "เนื่องจาก|nʉ̂ʉang-jàak",
+      "ดังนั้น|dang-nán",
+      "ถ้า|tâa"
+     ],
+     "a": "ถึงแม้ว่า",
+     "x": "Concessão: ถึงแม้ว่า."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ถึงแม้ว่า|tʉ̌ng-mɛ́ɛ-wâa เขา|kǎo จะ|jà รวย|ruuai เขา|kǎo ก็|gɔ̂ɔ ไม่|mâi มี|mii ความสุข|kwaam-sùk",
+     "pt": "Embora seja rico, ele não é feliz.",
+     "en": "Although he is rich, he is not happy."
+    }
+   ]
+  },
+  {
+   "id": "g5-10",
+   "t": "ไม่ว่า … ก็: seja qual for",
+   "e": "ไม่ว่า + palavra interrogativa, … ก็ … = não importa o quê/quem/onde: ไม่ว่าใครก็ต้องเสียภาษี = seja quem for, tem que pagar imposto; ไม่ว่าจะไปไหน เขาก็พกกล้อง = aonde quer que vá, leva a câmera.",
+   "ex": "ไม่ว่า|mâi-wâa ใคร|krai ก็|gɔ̂ɔ ต้อง|dtɔ̂ng เสีย|sǐia ภาษี|paa-sǐi",
+   "pt": "Seja quem for, tem que pagar imposto.",
+   "en": "Whoever it is has to pay taxes.",
+   "gaps": [
+    {
+     "s": "___ จะ|jà ไป|bpai ไหน|nǎi เขา|kǎo ก็|gɔ̂ɔ ไป|bpai ด้วย|dûuai",
+     "o": [
+      "ไม่ว่า|mâi-wâa",
+      "แม้ว่า|mɛ́ɛ-wâa",
+      "ดังนั้น|dang-nán",
+      "ซึ่ง|sʉ̂ng"
+     ],
+     "a": "ไม่ว่า",
+     "x": "Seja onde for: ไม่ว่า + ไหน."
+    },
+    {
+     "s": "ไม่ว่า|mâi-wâa ราคา|raa-kaa เท่าไร|tâo-rài ผม|pǒm ___ จะ|jà ซื้อ|sʉ́ʉ",
+     "o": [
+      "ก็|gɔ̂ɔ",
+      "จึง|jʉng",
+      "แต่|dtɛ̀ɛ",
+      "ถึง|tʉ̌ng"
+     ],
+     "a": "ก็",
+     "x": "Fechamento de ไม่ว่า: ก็."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ไม่ว่า|mâi-wâa อากาศ|aa-gàat จะ|jà เป็น|bpen อย่างไร|yàang-rai เขา|kǎo ก็|gɔ̂ɔ วิ่ง|wîng",
+     "pt": "Faça o tempo que fizer, ele corre.",
+     "en": "Whatever the weather, he runs."
+    }
+   ]
+  },
+  {
+   "id": "g5-11",
+   "t": "ยิ่ง … ยิ่ง: quanto mais, mais",
+   "e": "ยิ่ง + A + ยิ่ง + B = quanto mais A, mais B: ยิ่งเรียนยิ่งสนุก (quanto mais estuda, mais divertido); ยิ่งเร็วยิ่งดี (quanto antes, melhor). Sozinho antes de adjetivo, ยิ่ง intensifica: ยิ่งใหญ่ (grandioso).",
+   "ex": "ยิ่ง|yîng เรียน|riian ยิ่ง|yîng สนุก|sà-nùk",
+   "pt": "Quanto mais estudo, mais divertido fica.",
+   "en": "The more I study, the more fun it gets.",
+   "gaps": [
+    {
+     "s": "ยิ่ง|yîng เร็ว|reo ___ ดี|dii",
+     "o": [
+      "ยิ่ง|yîng",
+      "จึง|jʉng",
+      "ก็|gɔ̂ɔ",
+      "มาก|mâak"
+     ],
+     "a": "ยิ่ง",
+     "x": "Segunda metade do par: ยิ่ง."
+    },
+    {
+     "s": "___ ใช้|chái พลังงาน|pá-lang-ngaan มาก|mâak ยิ่ง|yîng เสีย|sǐia เงิน|ngən มาก|mâak",
+     "o": [
+      "ยิ่ง|yîng",
+      "ไม่ว่า|mâi-wâa",
+      "ถ้า|tâa",
+      "ซึ่ง|sʉ̂ng"
+     ],
+     "a": "ยิ่ง",
+     "x": "Primeira metade do par: ยิ่ง."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ยิ่ง|yîng อ่าน|àan ยิ่ง|yîng เข้าใจ|kâo-jai",
+     "pt": "Quanto mais leio, mais entendo.",
+     "en": "The more I read, the more I understand."
+    }
+   ]
+  },
+  {
+   "id": "g5-12",
+   "t": "ตาม: segundo, de acordo com",
+   "e": "ตาม + fonte = de acordo com: ตามรายงาน (segundo o relatório), ตามกฎหมาย (conforme a lei), ตามที่… (conforme…). É a palavra das notícias e dos documentos. Analogia: é o 'segundo fontes' do jornal.",
+   "ex": "ตาม|dtaam รายงาน|raai-ngaan เศรษฐกิจ|sèet-tà-gìt ดีขึ้น|dii-kʉ̂n",
+   "pt": "Segundo o relatório, a economia melhorou.",
+   "en": "According to the report, the economy improved.",
+   "gaps": [
+    {
+     "s": "___ กฎหมาย|gòt-mǎai ทุก|túk คน|kon มี|mii สิทธิ|sìt-tí เท่ากัน|tâo-gan",
+     "o": [
+      "ตาม|dtaam",
+      "ซึ่ง|sʉ̂ng",
+      "โดยเฉพาะ|dooi-chà-pɔ́",
+      "แต่|dtɛ̀ɛ"
+     ],
+     "a": "ตาม",
+     "x": "Conforme a lei: ตามกฎหมาย."
+    },
+    {
+     "s": "___ ที่|tîi ผม|pǒm ได้|dâai แจ้ง|jɛ̂ɛng ไว้|wái",
+     "o": [
+      "ตาม|dtaam",
+      "จึง|jʉng",
+      "ยิ่ง|yîng",
+      "ก็|gɔ̂ɔ"
+     ],
+     "a": "ตาม",
+     "x": "Conforme o que informei: ตามที่."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ตาม|dtaam ข้อมูล|kɔ̂ɔ-muun นี้|níi ประชากร|bprà-chaa-gɔɔn เพิ่มขึ้น|pə̂əm-kʉ̂n",
+     "pt": "Segundo estes dados, a população aumentou.",
+     "en": "According to these data, the population grew."
+    }
+   ]
+  },
+  {
+   "id": "g5-13",
+   "t": "Registro falado × escrito",
+   "e": "A mesma ideia muda de roupa conforme o registro: comer é กิน (comum), ทาน (educado), รับประทาน (formal); 'não' é ไม่ na fala e มิ ou มิได้ no texto solene; 'muito' é เยอะ na conversa e จำนวนมาก no relatório; 'porque' é เพราะ, e no texto formal เนื่องจาก. Analogia: é trocar a camiseta pelo terno — a pessoa é a mesma.",
+   "ex": "กรุณา|gà-rú-naa รับประทาน|ráp-bprà-taan อาหาร|aa-hǎan ก่อน|gɔ̀ɔn",
+   "pt": "Por favor, sirva-se antes.",
+   "en": "Please eat first (formal).",
+   "gaps": [
+    {
+     "s": "ใน|nai รายงาน|raai-ngaan ทางการ|taang-gaan ใช้|chái คำ|kam ว่า|wâa ___",
+     "o": [
+      "รับประทาน|ráp-bprà-taan",
+      "กิน|gin",
+      "แดก|dɛ̀ɛk",
+      "เยอะ|yə́"
+     ],
+     "a": "รับประทาน",
+     "x": "Registro formal de comer: รับประทาน."
+    },
+    {
+     "s": "ข้อมูล|kɔ̂ɔ-muun มี|mii ___ มาก|mâak",
+     "o": [
+      "จำนวน|jam-nuuan",
+      "เยอะ|yə́",
+      "แยะ|yɛ́",
+      "ตั้ง|dtâng"
+     ],
+     "a": "จำนวน",
+     "x": "'Em grande quantidade' formal: จำนวนมาก."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เนื่องจาก|nʉ̂ʉang-jàak ผู้|pûu ชม|chom จำนวน|jam-nuuan มาก|mâak",
+     "pt": "Devido ao grande número de espectadores.",
+     "en": "Due to the large number of viewers."
+    }
+   ]
+  }
+ ]
+}
