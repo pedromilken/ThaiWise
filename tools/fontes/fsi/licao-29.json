@@ -1,0 +1,297 @@
+{
+ "n": 29,
+ "paginas": "vol. 2, p. 481–511",
+ "titulo": {
+  "pt": "Vamos comer fora",
+  "en": "Going out to eat"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "ผม|pǒm จะ|jà ไป|bpai หา|hǎa อะไร|à-rai ทาน|taan ข้างนอก|kâang-nɔ̂ɔk",
+   "fsi": "phǒm cà paj hǎa ʔaraj thaan khâaŋnɔ̂ɔk",
+   "en": "I'm going out for something to eat.",
+   "pt": "Vou sair para comer alguma coisa."
+  },
+  {
+   "sp": "A",
+   "s": "ไป|bpai ด้วยกัน|dûuai-gan ไหม|mǎi",
+   "fsi": "paj dûajkan máj",
+   "en": "Want to come along?",
+   "pt": "Quer vir junto?"
+  },
+  {
+   "sp": "B",
+   "s": "ไป|bpai",
+   "fsi": "paj",
+   "en": "Yes.",
+   "pt": "Quero."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun ชวน|chuuan ใคร|krai ไป|bpai ด้วย|dûuai หรือเปล่า|rʉ̌ʉ-bplàao",
+   "fsi": "khun chuan khraj paj dûaj rʉ̌ʉplàaw",
+   "en": "Did you ask anybody else to go along?",
+   "pt": "Você chamou mais alguém?"
+  },
+  {
+   "sp": "A",
+   "s": "ไม่|mâi ได้|dâai ชวน|chuuan ใคร|krai เพราะ|prɔ́ ไม่|mâi มี|mii ใคร|krai อยู่|yùu",
+   "fsi": "mâj dâj chuan khraj phrɔ́ mâj mii khraj jùu",
+   "en": "No, I didn't, because nobody was in.",
+   "pt": "Não chamei, porque não tinha ninguém."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun สมศรี|sǒm-sǐi ล่ะ|lâ",
+   "fsi": "khun sǒmsǐi lâ",
+   "en": "How about Somsri?",
+   "pt": "E a Somsri?"
+  },
+  {
+   "sp": "A",
+   "s": "ไม่|mâi มา|maa",
+   "fsi": "mâj maa",
+   "en": "She didn't come.",
+   "pt": "Ela não veio."
+  },
+  {
+   "sp": "A",
+   "s": "ป่วย|bpùuai",
+   "fsi": "pùaj",
+   "en": "She's sick.",
+   "pt": "Está doente."
+  },
+  {
+   "sp": "B",
+   "s": "งั้น|ngán ทาน|taan เสร็จ|sèt แล้ว|lɛ́ɛo",
+   "fsi": "ŋán thaan sèt lɛ́ɛw",
+   "en": "Then, after we have eaten,",
+   "pt": "Então, depois de comer,"
+  },
+  {
+   "sp": "B",
+   "s": "ถ้า|tâa เรา|rao มี|mii เวลา|wee-laa พอ|pɔɔ",
+   "fsi": "thâa raw mii weelaa phɔɔ",
+   "en": "if we have time,",
+   "pt": "se der tempo,"
+  },
+  {
+   "sp": "B",
+   "s": "ไป|bpai เยี่ยม|yîiam เขา|kǎo สัก|sàk หน่อย|nɔ̀i",
+   "fsi": "paj jîam kháw sàk nɔ̀j",
+   "en": "let's go visit her for a while.",
+   "pt": "a gente passa para visitar ela um pouquinho."
+  },
+  {
+   "sp": "A",
+   "s": "ดี|dii ไหม|mǎi",
+   "fsi": "dii máj",
+   "en": "OK?",
+   "pt": "Que tal?"
+  },
+  {
+   "sp": "B",
+   "s": "เอา|ao สิ|sì ครับ|kráp",
+   "fsi": "ʔaw sì khráp",
+   "en": "Good idea!",
+   "pt": "Fechado!"
+  },
+  {
+   "sp": "B",
+   "s": "งั้น|ngán เรา|rao รีบ|rîip ไป|bpai กัน|gan เถอะ|tə̀",
+   "fsi": "ŋán raw rîip paj kan thə̀",
+   "en": "Then let's hurry,",
+   "pt": "Então vamos andando,"
+  },
+  {
+   "sp": "B",
+   "s": "เดี๋ยว|dǐiao จะ|jà กลับ|glàp มา|maa ไม่|mâi ทัน|tan",
+   "fsi": "dǐaw cà klàp maa mâj than",
+   "en": "or we won't get back on time.",
+   "pt": "senão não voltamos a tempo."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "หรือเปล่า",
+   "p": "rʉ̌ʉ-bplàao",
+   "fsi": "rʉ̌ʉplàaw",
+   "pt": "ou não? (pergunta de sim ou não)",
+   "en": "or not? (yes/no question)"
+  },
+  {
+   "th": "ป่วย",
+   "p": "bpùuai",
+   "fsi": "pùaj",
+   "pt": "doente",
+   "en": "sick"
+  },
+  {
+   "th": "เยี่ยม",
+   "p": "yîiam",
+   "fsi": "jîam",
+   "pt": "visitar; excelente",
+   "en": "to visit; excellent"
+  },
+  {
+   "th": "รีบ",
+   "p": "rîip",
+   "fsi": "rîip",
+   "pt": "apressar-se",
+   "en": "to hurry"
+  },
+  {
+   "th": "เถอะ",
+   "p": "tə̀",
+   "fsi": "thə̀",
+   "pt": "vamos…, por que não (sugestão)",
+   "en": "let's, why not"
+  },
+  {
+   "th": "ทัน",
+   "p": "tan",
+   "fsi": "than",
+   "pt": "dar tempo, chegar a tempo",
+   "en": "to be in time"
+  },
+  {
+   "th": "เดี๋ยว",
+   "p": "dǐiao",
+   "fsi": "dǐaw",
+   "pt": "senão, do contrário (ligando frases)",
+   "en": "or else, otherwise"
+  },
+  {
+   "th": "อ้าว",
+   "p": "âao",
+   "fsi": "ʔâaw",
+   "pt": "ué! opa! (surpresa)",
+   "en": "oh! (surprise)"
+  },
+  {
+   "th": "เอาไหม",
+   "p": "ao-mǎi",
+   "fsi": "ʔaw máj",
+   "pt": "topa? aceita?",
+   "en": "will you accept?"
+  },
+  {
+   "th": "การบรรยาย",
+   "p": "gaan-ban-yaai",
+   "fsi": "kaanbanjaaj",
+   "pt": "palestra, exposição",
+   "en": "lecture"
+  },
+  {
+   "th": "การประชุม",
+   "p": "gaan-bprà-chum",
+   "fsi": "kaanprachum",
+   "pt": "reunião, conferência",
+   "en": "meeting, conference"
+  },
+  {
+   "th": "คำตอบ",
+   "p": "kam-dtɔ̀ɔp",
+   "fsi": "khamtɔ̀ɔp",
+   "pt": "resposta",
+   "en": "answer"
+  },
+  {
+   "th": "ป้าย",
+   "p": "bpâai",
+   "fsi": "pâaj",
+   "pt": "placa, letreiro",
+   "en": "sign"
+  },
+  {
+   "th": "ป้ายรถเมล์",
+   "p": "bpâai-rót-mee",
+   "fsi": "pâajrótmee",
+   "pt": "ponto de ônibus",
+   "en": "bus stop"
+  },
+  {
+   "th": "ที่ประชุม",
+   "p": "tîi-bprà-chum",
+   "fsi": "thîiprachum",
+   "pt": "local da reunião; assembleia",
+   "en": "meeting place, assembly"
+  },
+  {
+   "th": "ชิคาโก",
+   "p": "chí-kaa-goo",
+   "fsi": "chíkhaakoo",
+   "pt": "Chicago",
+   "en": "Chicago"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "เอาไหม × ดีไหม: topa?",
+    "en": "เอาไหม / ดีไหม: proposals"
+   },
+   "e": {
+    "pt": "Depois de uma proposta, เอาไหม pergunta 'aceita?', como ดีไหม. Responde-se เอาสิครับ (fechado!) ou ไม่เอาครับ (não, obrigado).",
+    "en": "After a proposal, เอาไหม asks 'will you accept?'; answer เอาสิ or ไม่เอา."
+   },
+   "ex": "ไป|bpai กิน|gin ข้าว|kâao กัน|gan เอาไหม|ao-mǎi"
+  },
+  {
+   "t": {
+    "pt": "ใคร e อะไร como 'alguém' e 'algo'",
+    "en": "ใคร / อะไร as indefinite pronouns"
+   },
+   "e": {
+    "pt": "Em perguntas com ไหม ou หรือเปล่า e em negações, ใคร e อะไร perdem o sentido de pergunta: มีใครมาไหม = veio alguém?; ไม่มีใครอยู่ = não tem ninguém. Com มี, ใคร é alguém conhecido ou esperado e คน é qualquer pessoa: มีคนโทรมาไหม (alguém ligou, sobre o anúncio?) × มีใครโทรมาไหม (algum amigo ligou?).",
+    "en": "In questions and negations, ใคร/อะไร mean 'anyone/anything'; with มี, ใคร is someone expected, คน anyone at all."
+   },
+   "ex": "ไม่|mâi มี|mii ใคร|krai อยู่|yùu"
+  },
+  {
+   "t": {
+    "pt": "เสร็จ e ทัน: verbos que fecham a ação",
+    "en": "Completive verbs เสร็จ and ทัน"
+   },
+   "e": {
+    "pt": "Frase + เสร็จ = terminar a atividade (ทำงานเสร็จแล้ว = acabou o trabalho); frase + ทัน = conseguir a tempo (มาไม่ทัน = não chegou a tempo). Analogia: เสร็จ é a linha de chegada; ทัน é chegar antes do apito.",
+    "en": "Sentence + เสร็จ: to finish; + ทัน: to make it in time."
+   },
+   "ex": "ผม|pǒm ทำ|tam การบ้าน|gaan-bâan เสร็จ|sèt แล้ว|lɛ́ɛo"
+  },
+  {
+   "t": {
+    "pt": "ไหม com verbo de ação: um convite",
+    "en": "ไหม after action verbs: invitations"
+   },
+   "e": {
+    "pt": "Depois de verbo de ação, ไหม deixa a escolha com o outro, por isso é como se convida: ไปด้วยกันไหม = quer ir junto? Aceita-se com ไปสิ e recusa-se com ไม่ละ ขอบคุณ.",
+    "en": "After action verbs, ไหม offers a choice and works as an invitation."
+   },
+   "ex": "กิน|gin กาแฟ|gaa-fɛɛ ไหม|mǎi"
+  },
+  {
+   "t": {
+    "pt": "หรือเปล่า no passado: ไม่ได้ × ไม่",
+    "en": "หรือเปล่า: ไม่ได้ vs ไม่"
+   },
+   "e": {
+    "pt": "หรือเปล่า pergunta se algo aconteceu: ไปหรือเปล่า = você foi? Há duas negativas: ไม่ได้ไป (não fui, algo me impediu) e ไม่ไป (não fui porque não quis). Analogia: ไม่ได้ é 'não deu'; ไม่ é 'não quis'.",
+    "en": "หรือเปล่า asks about the past; ไม่ได้ = couldn't (circumstances), ไม่ = didn't want to."
+   },
+   "ex": "ผม|pǒm ไม่|mâi ได้|dâai ไป|bpai"
+  },
+  {
+   "t": {
+    "pt": "เถอะ e เดี๋ยว",
+    "en": "เถอะ and เดี๋ยว"
+   },
+   "e": {
+    "pt": "เถอะ faz sugestões suaves, e depois de กัน chama para fazer junto: ไปกันเถอะ = vamos! เดี๋ยว no começo da frase seguinte vira 'senão': รีบไปเถอะ เดี๋ยวไม่ทัน = vamos logo, senão não dá tempo.",
+    "en": "เถอะ: mild suggestion; เดี๋ยว as a connective: 'or else'."
+   },
+   "ex": "ไป|bpai กัน|gan เถอะ|tə̀"
+  }
+ ]
+}

@@ -48,6 +48,7 @@ def analyse(w):
     rr = r.replace('ีย', '').replace('ือ', '').replace('ัว', '').lstrip('ะาิีึืุูั็')
     if lead and rr.startswith('อ'): rr = rr[1:]
     if not lead and r.startswith('อ'): rr = r[1:]
+    rr = rr.rstrip('ะ')
     if rr: fin = rr[-1]
     if not r and not lead: short = False
     live = (fin and fin not in STOP) or (not fin and not short)

@@ -1,0 +1,425 @@
+{
+ "n": 30,
+ "paginas": "vol. 2, p. 512–535",
+ "titulo": {
+  "pt": "O dia agitado do John",
+  "en": "A visit to the hospital and the Sunday Market"
+ },
+ "dialogo": [
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn กำลัง|gam-lang จะ|jà ไป|bpai เยี่ยม|yîiam เพื่อน|pʉ̂ʉan ที่|tîi โรงพยาบาล|roong-pá-yaa-baan มิชชั่น|mít-chân",
+   "fsi": "khun cɔɔn kamlaŋ cà paj jîam phʉ̂an thîi rooŋphajaabaan mítchân",
+   "en": "John is about to visit a friend at the Mission Hospital.",
+   "pt": "O John está indo visitar um amigo no Hospital Mission."
+  },
+  {
+   "sp": "N",
+   "s": "เพื่อน|pʉ̂ʉan ของ|kɔ̌ɔng เขา|kǎo ไม่สบาย|mâi-sà-baai มา|maa หลาย|lǎai วัน|wan แล้ว|lɛ́ɛo",
+   "fsi": "phʉ̂an khɔ̌ɔŋ kháw mâjsabaaj maa lǎaj wan lɛ́ɛw",
+   "en": "His friend has been ill for several days.",
+   "pt": "O amigo está doente faz vários dias."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ให้|hâi คนใช้|kon-chái ไป|bpai เรียก|rîiak แท็กซี่|tɛ́k-sîi ให้|hâi เขา|kǎo",
+   "fsi": "kháw hâj khonchái paj rîak thɛ́ksîi hâj kháw",
+   "en": "He had a servant get a taxi for him.",
+   "pt": "Mandou a empregada chamar um táxi para ele."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ไม่|mâi อยาก|yàak ไป|bpai เรียก|rîiak เอง|eeng",
+   "fsi": "kháw mâj jàak paj rîak ʔeeŋ",
+   "en": "He didn't want to go for one himself,",
+   "pt": "Não quis ir chamar ele mesmo,"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ เวลา|wee-laa แท็กซี่|tɛ́k-sîi เห็น|hěn ฝรั่ง|fà-ràng เขา|kǎo มักจะ|mák-jà บอก|bɔ̀ɔk ราคา|raa-kaa แพง|pɛɛng",
+   "fsi": "phrɔ́ weelaa thɛ́ksîi hěn faràŋ kháw mákcà bɔ̀ɔk raakhaa phɛɛŋ",
+   "en": "because when taxis see a Westerner they ask for higher fares.",
+   "pt": "porque, quando o taxista vê um estrangeiro, costuma pedir mais caro."
+  },
+  {
+   "sp": "N",
+   "s": "คนใช้|kon-chái เรียก|rîiak แท็กซี่|tɛ́k-sîi มา|maa ให้|hâi เขา|kǎo คัน|kan หนึ่ง|nʉ̀ng",
+   "fsi": "khonchái rîak thɛ́ksîi maa hâj kháw khan nʉ̀ŋ",
+   "en": "The servant called a taxi for him.",
+   "pt": "A empregada chamou um táxi para ele."
+  },
+  {
+   "sp": "N",
+   "s": "เป็น|bpen รถ|rót ใหม่|mài",
+   "fsi": "pen rót màj",
+   "en": "It was a new car.",
+   "pt": "Era um carro novo."
+  },
+  {
+   "sp": "N",
+   "s": "คนขับ|kon-kàp คิด|kít ค่าโดยสาร|kâa-dooi-sǎan สิบห้า|sìp-hâa บาท|bàat",
+   "fsi": "khonkhàp khít khâadoojsǎan sìp hâa bàat",
+   "en": "The driver figured the fare at 15 baht.",
+   "pt": "O motorista calculou a corrida em quinze baht."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn บอก|bɔ̀ɔk ว่า|wâa แพง|pɛɛng ไป|bpai",
+   "fsi": "khun cɔɔn bɔ̀ɔk wâa phɛɛŋ paj",
+   "en": "John said it was too expensive.",
+   "pt": "O John disse que estava caro demais."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ให้|hâi คนใช้|kon-chái ต่อ|dtɔ̀ɔ สิบ|sìp บาท|bàat",
+   "fsi": "kháw hâj khonchái tɔ̀ɔ sìp bàat",
+   "en": "He had the servant bargain for ten.",
+   "pt": "Mandou a empregada pechinchar por dez."
+  },
+  {
+   "sp": "N",
+   "s": "แท็กซี่|tɛ́k-sîi บอก|bɔ̀ɔk ว่า|wâa ถ้า|tâa ไม่|mâi ได้|dâai สิบสอง|sìp-sɔ̌ɔng บาท|bàat ก็|gɔ̂ɔ ไม่|mâi ไป|bpai",
+   "fsi": "thɛ́ksîi bɔ̀ɔk wâa thâa mâj dâj sìp sɔ̌ɔŋ bàat kɔ̂ɔ mâj paj",
+   "en": "The driver said that without 12 baht he wasn't going,",
+   "pt": "O taxista disse que sem doze baht não ia,"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ แถว|tɛ̌ɛo นั้น|nán รถติด|rót-dtìt",
+   "fsi": "phrɔ́ thɛ̌ɛw nán róttìt",
+   "en": "because the traffic was heavy in that area.",
+   "pt": "porque o trânsito lá estava parado."
+  },
+  {
+   "sp": "N",
+   "s": "แท็กซี่|tɛ́k-sîi คน|kon นั้น|nán ขับ|kàp รถ|rót เร็ว|reo มาก|mâak",
+   "fsi": "thɛ́ksîi khon nán khàp rót rew mâak",
+   "en": "The driver drove very fast.",
+   "pt": "O motorista dirigia muito rápido."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn ขอ|kɔ̌ɔ ให้|hâi เขา|kǎo ขับ|kàp ช้าๆ|cháa-cháa",
+   "fsi": "khun cɔɔn khɔ̌ɔ hâj kháw khàp cháacháa",
+   "en": "John asked him to drive slower,",
+   "pt": "O John pediu que ele fosse mais devagar,"
+  },
+  {
+   "sp": "N",
+   "s": "แต่|dtɛ̀ɛ คนขับ|kon-kàp ไม่|mâi ฟัง|fang เขา|kǎo เลย|ləəi",
+   "fsi": "tɛ̀ɛ khonkhàp mâj faŋ kháw ləəj",
+   "en": "but the driver didn't listen to him at all.",
+   "pt": "mas o motorista não deu ouvidos."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn ไม่|mâi ทราบ|sâap ว่า|wâa จะ|jà ทำ|tam ยังไง|yang-ngai ดี|dii",
+   "fsi": "khun cɔɔn mâj sâap wâa cà tham jaŋŋaj dii",
+   "en": "John didn't know what to do.",
+   "pt": "O John não sabia o que fazer."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ไป|bpai ถึง|tʉ̌ng ที่นั่น|tîi-nân ช้า|cháa เกินไป|gəən-bpai",
+   "fsi": "kháw paj thʉ̌ŋ thîinân cháa kəənpaj",
+   "en": "He got there too late,",
+   "pt": "Chegou lá tarde demais"
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo เลย|ləəi ไป|bpai เยี่ยม|yîiam เพื่อน|pʉ̂ʉan ไม่|mâi ทัน|tan",
+   "fsi": "kháw ləəj paj jîam phʉ̂an mâj than",
+   "en": "so he didn't get to visit his friend in time.",
+   "pt": "e acabou não dando tempo de visitar o amigo."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo เรียก|rîiak รถ|rót แท็กซี่|tɛ́k-sîi อีก|ìik คัน|kan หนึ่ง|nʉ̀ng",
+   "fsi": "kháw rîak rót thɛ́ksîi ʔìik khan nʉ̀ŋ",
+   "en": "He called another taxi",
+   "pt": "Chamou outro táxi"
+  },
+  {
+   "sp": "N",
+   "s": "และ|lɛ́ บอก|bɔ̀ɔk ให้|hâi ไป|bpai ส่ง|sòng เขา|kǎo ที่|tîi ตลาดนัด|dtà-làat-nát สนามหลวง|sà-nǎam-lǔuang",
+   "fsi": "lɛ́ bɔ̀ɔk hâj paj sòŋ kháw thîi talàatnát sanǎamlǔaŋ",
+   "en": "and told the driver to take him to the Sunday Market at Sanam Luang.",
+   "pt": "e pediu para levá-lo à feira de Sanam Luang."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun จอห์น|jɔɔn เดิน|dəən เที่ยว|tîiao ตลาดนัด|dtà-làat-nát อยู่|yùu หลาย|lǎai ชั่วโมง|chûua-moong",
+   "fsi": "khun cɔɔn dəən thîaw talàatnát jùu lǎaj chûamooŋ",
+   "en": "John spent hours walking around the Sunday Market.",
+   "pt": "O John passou horas passeando pela feira."
+  },
+  {
+   "sp": "N",
+   "s": "ที่นี่|tîi-nîi มี|mii ของ|kɔ̌ɔng ขาย|kǎai ทุก|túk อย่าง|yàang",
+   "fsi": "thîinîi mii khɔ̌ɔŋ khǎaj thúk jàaŋ",
+   "en": "There were all kinds of things for sale there:",
+   "pt": "Lá vendia de tudo:"
+  },
+  {
+   "sp": "N",
+   "s": "ทั้ง|táng ของใช้|kɔ̌ɔng-chái ต้นไม้|dtôn-mái และ|lɛ́ สัตว์เลี้ยง|sàt-líiang",
+   "fsi": "tháŋ khɔ̌ɔŋchái tônmáaj lɛ́ sàtlíaŋ",
+   "en": "things to use, plants and pets.",
+   "pt": "utensílios, plantas e bichos de estimação."
+  },
+  {
+   "sp": "N",
+   "s": "ของ|kɔ̌ɔng บาง|baang อย่าง|yàang ก็|gɔ̂ɔ ถูก|tùuk บาง|baang อย่าง|yàang ก็|gɔ̂ɔ แพง|pɛɛng",
+   "fsi": "khɔ̌ɔŋ baaŋ jàaŋ kɔ̂ɔ thùuk baaŋ jàaŋ kɔ̂ɔ phɛɛŋ",
+   "en": "Some things were cheap; some expensive.",
+   "pt": "Umas coisas eram baratas, outras caras."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ซื้อ|sʉ́ʉ ของเล่น|kɔ̌ɔng-lên ให้|hâi ลูก|lûuk และ|lɛ́ ของใช้|kɔ̌ɔng-chái ให้|hâi ภรรยา|pan-rá-yaa",
+   "fsi": "kháw sʉ́ʉ khɔ̌ɔŋlên hâj lûuk lɛ́ khɔ̌ɔŋchái hâj phanrajaa",
+   "en": "He bought toys for the children and useful things for his wife.",
+   "pt": "Comprou brinquedos para os filhos e utensílios para a esposa."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ซื้อ|sʉ́ʉ ของ|kɔ̌ɔng แปลกๆ|bplɛ̀ɛk-bplɛ̀ɛk ให้|hâi คุณพ่อ|kun-pɔ̂ɔ คุณแม่|kun-mɛ̂ɛ",
+   "fsi": "kháw sʉ́ʉ khɔ̌ɔŋ plɛ̀ɛkplɛ̀ɛk hâj khunphɔ̂ɔ khunmɛ̂ɛ",
+   "en": "He bought unusual things for his father and mother.",
+   "pt": "Comprou coisas diferentes para o pai e a mãe."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จะ|jà ส่ง|sòng ของ|kɔ̌ɔng เหล่านี้|lào-níi ไป|bpai อเมริกา|à-mee-rí-gaa ตอน|dtɔɔn คริสต์มาส|krít-sà-mâat",
+   "fsi": "kháw cà sòŋ khɔ̌ɔŋ làwníi paj ʔameerikaa tɔɔn khrítsamâat",
+   "en": "He'll send these things to America at Christmas.",
+   "pt": "Vai mandar essas coisas para os Estados Unidos no Natal."
+  },
+  {
+   "sp": "N",
+   "s": "สำหรับ|sǎm-ràp น้องสาว|nɔ́ɔng-sǎao เขา|kǎo ยัง|yang ไม่|mâi ทราบ|sâap ว่า|wâa จะ|jà ให้|hâi อะไร|à-rai ดี|dii",
+   "fsi": "sǎmràp nɔ́ɔŋsǎaw kháw jaŋ mâj sâap wâa cà hâj ʔaraj dii",
+   "en": "For his younger sister, he still didn't know what to give.",
+   "pt": "Para a irmã mais nova, ainda não sabia o que dar."
+  },
+  {
+   "sp": "N",
+   "s": "ขณะที่|kà-nà-tîi เขา|kǎo กำลัง|gam-lang ยืน|yʉʉn หา|hǎa แท็กซี่|tɛ́k-sîi เขา|kǎo พบ|póp เพื่อน|pʉ̂ʉan คน|kon หนึ่ง|nʉ̀ng",
+   "fsi": "khanàthîi kháw kamlaŋ jʉʉn hǎa thɛ́ksîi kháw phóp phʉ̂an khon nʉ̀ŋ",
+   "en": "While he was standing looking for a taxi, he met a friend",
+   "pt": "Enquanto procurava um táxi, encontrou um amigo"
+  },
+  {
+   "sp": "N",
+   "s": "ชื่อ|chʉ̂ʉ คุณ|kun สมาน|sà-mǎan",
+   "fsi": "chʉ̂ʉ khun samǎan",
+   "en": "named Saman.",
+   "pt": "chamado Saman."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun สมาน|sà-mǎan เคย|kəəi เรียน|riian ที่|tîi อเมริกา|à-mee-rí-gaa",
+   "fsi": "khun samǎan khəəj rian thîi ʔameerikaa",
+   "en": "Saman studied in America.",
+   "pt": "O Saman estudou nos Estados Unidos."
+  },
+  {
+   "sp": "N",
+   "s": "เมื่อ|mʉ̂ʉa เรียน|riian จบ|jòp แล้ว|lɛ́ɛo เขา|kǎo กลับ|glàp มา|maa เมืองไทย|mʉʉang-tai",
+   "fsi": "mʉ̂a rian còp lɛ́ɛw kháw klàp maa mʉaŋthaj",
+   "en": "After he graduated, he returned to Thailand",
+   "pt": "Depois de se formar, voltou para a Tailândia"
+  },
+  {
+   "sp": "N",
+   "s": "และ|lɛ́ ทำงาน|tam-ngaan เป็น|bpen ข้าราชการ|kâa-râat-chá-gaan กระทรวงมหาดไทย|grà-suuang-má-hàat-tai",
+   "fsi": "lɛ́ thamŋaan pen khâarâatchakaan krasuaŋmahàatthaj",
+   "en": "and worked as an official of the Ministry of the Interior.",
+   "pt": "e foi trabalhar como funcionário do Ministério do Interior."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ได้|dâai ทุน|tun ไป|bpai ดูงาน|duu-ngaan ที่|tîi อเมริกา|à-mee-rí-gaa",
+   "fsi": "kháw dâj thun paj duuŋaan thîi ʔameerikaa",
+   "en": "He got a grant to go observe work in America.",
+   "pt": "Ganhou uma bolsa para fazer uma visita técnica nos Estados Unidos."
+  },
+  {
+   "sp": "N",
+   "s": "ตอนนั้น|dtɔɔn-nán เขา|kǎo พบ|póp คนไทย|kon-tai หลาย|lǎai คน|kon",
+   "fsi": "tɔɔnnán kháw phóp khonthaj lǎaj khon",
+   "en": "At that time he met many Thais,",
+   "pt": "Naquela época o John conheceu muitos tailandeses,"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ เจ้าหน้าที่|jâo-nâa-tîi จะ|jà แนะนำ|nɛ́-nam ให้|hâi นักเรียน|nák-riian รู้จัก|rúu-jàk คนไทย|kon-tai",
+   "fsi": "phrɔ́ câwnâathîi cà nɛ́nam hâj nákrian rúucàk khonthaj",
+   "en": "because the officials would introduce the students to Thais",
+   "pt": "porque os funcionários apresentavam os alunos a tailandeses"
+  },
+  {
+   "sp": "N",
+   "s": "เพื่อ|pʉ̂ʉa ให้|hâi หัด|hàt พูด|pûut ภาษาไทย|paa-sǎa-tai กับ|gàp คนไทย|kon-tai",
+   "fsi": "phʉ̂a hâj hàt phûut phaasǎathaj kàp khonthaj",
+   "en": "so they could practice speaking Thai with Thais.",
+   "pt": "para que eles treinassem o tailandês com nativos."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "คนไข้",
+   "p": "kon-kâi",
+   "fsi": "khonkhâj",
+   "pt": "paciente",
+   "en": "patient"
+  },
+  {
+   "th": "ฝรั่ง",
+   "p": "fà-ràng",
+   "fsi": "faràŋ",
+   "pt": "estrangeiro ocidental; goiaba",
+   "en": "Westerner; guava"
+  },
+  {
+   "th": "ตลาดนัด",
+   "p": "dtà-làat-nát",
+   "fsi": "talàatnát",
+   "pt": "feira (mercado em dia marcado)",
+   "en": "weekend market"
+  },
+  {
+   "th": "สัตว์เลี้ยง",
+   "p": "sàt-líiang",
+   "fsi": "sàtlíaŋ",
+   "pt": "bicho de estimação",
+   "en": "pet"
+  },
+  {
+   "th": "ของเล่น",
+   "p": "kɔ̌ɔng-lên",
+   "fsi": "khɔ̌ɔŋlên",
+   "pt": "brinquedo",
+   "en": "toy"
+  },
+  {
+   "th": "แปลก",
+   "p": "bplɛ̀ɛk",
+   "fsi": "plɛ̀ɛk",
+   "pt": "estranho, diferente",
+   "en": "strange, unusual"
+  },
+  {
+   "th": "คุณพ่อ",
+   "p": "kun-pɔ̂ɔ",
+   "fsi": "khunphɔ̂ɔ",
+   "pt": "pai (tratamento respeitoso)",
+   "en": "father (respectful)"
+  },
+  {
+   "th": "คุณแม่",
+   "p": "kun-mɛ̂ɛ",
+   "fsi": "khunmɛ̂ɛ",
+   "pt": "mãe (tratamento respeitoso)",
+   "en": "mother (respectful)"
+  },
+  {
+   "th": "ขณะที่",
+   "p": "kà-nà-tîi",
+   "fsi": "khanàthîi",
+   "pt": "enquanto",
+   "en": "while"
+  },
+  {
+   "th": "จบ",
+   "p": "jòp",
+   "fsi": "còp",
+   "pt": "terminar (curso, livro, filme); formar-se",
+   "en": "to complete; to graduate"
+  },
+  {
+   "th": "ทุน",
+   "p": "tun",
+   "fsi": "thun",
+   "pt": "bolsa de estudos; capital",
+   "en": "grant; capital"
+  },
+  {
+   "th": "ดูงาน",
+   "p": "duu-ngaan",
+   "fsi": "duuŋaan",
+   "pt": "fazer visita técnica",
+   "en": "to observe work"
+  },
+  {
+   "th": "แนะนำ",
+   "p": "nɛ́-nam",
+   "fsi": "nɛ́nam",
+   "pt": "apresentar; recomendar",
+   "en": "to introduce; to recommend"
+  },
+  {
+   "th": "หัด",
+   "p": "hàt",
+   "fsi": "hàt",
+   "pt": "treinar, praticar",
+   "en": "to practice"
+  },
+  {
+   "th": "เหล่านี้",
+   "p": "lào-níi",
+   "fsi": "làwníi",
+   "pt": "estes, estas (plural)",
+   "en": "these"
+  },
+  {
+   "th": "เพื่อ",
+   "p": "pʉ̂ʉa",
+   "fsi": "phʉ̂a",
+   "pt": "para, a fim de",
+   "en": "in order to"
+  },
+  {
+   "th": "มิชชั่น",
+   "p": "mít-chân",
+   "fsi": "mítchân",
+   "pt": "Mission (hospital em Bangkok)",
+   "en": "Mission Hospital"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "เมื่อ + nome ou + frase",
+    "en": "เมื่อ + phrase or clause"
+   },
+   "e": {
+    "pt": "เมื่อ + expressão de tempo fala do passado: เมื่อคืนนี้ (ontem à noite), เมื่อเด็กๆ (na infância). เมื่อ + frase pode ser passado (ผมมาเมื่อเขาไปแล้ว = cheguei quando ele já tinha ido) ou futuro e condição (เมื่อผมมีรถ ผมจะไปได้ = quando eu tiver carro, vou poder ir).",
+    "en": "เมื่อ + time phrase: past; เมื่อ + clause: past, future or conditional."
+   },
+   "ex": "เมื่อ|mʉ̂ʉa ผม|pǒm มี|mii รถ|rót ผม|pǒm จะ|jà ไป|bpai"
+  },
+  {
+   "t": {
+    "pt": "เสร็จ × จบ: terminar",
+    "en": "เสร็จ vs จบ"
+   },
+   "e": {
+    "pt": "เสร็จ encerra uma atividade em geral (ทำงานเสร็จ = acabou de trabalhar); จบ completa algo com duração prevista ou com fim marcado (เรียนจบ = formou-se; ดูหนังไม่จบ = não viu o filme até o fim). Analogia: เสร็จ é desligar o computador; จบ é chegar à última página do livro.",
+    "en": "เสร็จ: finish an activity; จบ: complete something with a set end."
+   },
+   "ex": "เขา|kǎo เรียน|riian จบ|jòp แล้ว|lɛ́ɛo"
+  },
+  {
+   "t": {
+    "pt": "Narrar com เลย e ก็",
+    "en": "Narrating with เลย and ก็"
+   },
+   "e": {
+    "pt": "เลย liga causa e consequência ('aí, por isso'): ไปถึงช้า เลยไปเยี่ยมไม่ทัน. ก็ marca o passo seguinte ou opõe frases paralelas: บางอย่างก็ถูก บางอย่างก็แพง.",
+    "en": "เลย: so, consequently; ก็: next step or parallel contrast."
+   },
+   "ex": "เขา|kǎo ป่วย|bpùuai เลย|ləəi ไม่|mâi มา|maa"
+  }
+ ]
+}
