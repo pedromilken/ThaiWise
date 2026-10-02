@@ -27,7 +27,7 @@ for (const f of fs.readdirSync(F).filter(f => /^vocab_[a-c][12]\.tsv$/.test(f)).
   });
 }
 const vp = path.join(F, `vocab_${alvo}.tsv`);
-if (!fs.existsSync(vp)) E.push(`falta ${path.basename(vp)}`);
+if (!fs.existsSync(vp)) W.push(`sem ${path.basename(vp)} (o vocabulário do nível vem das lições FSI)`);
 else {
   const linhas = fs.readFileSync(vp, "utf8").split(/\r?\n/);
   const unid = linhas.filter(l => l.startsWith("##")).length, pal = linhas.filter(l => l.trim() && !l.startsWith("#")).length;

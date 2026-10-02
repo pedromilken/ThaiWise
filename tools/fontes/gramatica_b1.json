@@ -1,0 +1,476 @@
+{
+ "lv": 3,
+ "pontos": [
+  {
+   "id": "g3-01",
+   "t": "Verbos de resultado: como a ação termina",
+   "e": "Um segundo verbo depois do principal mostra o resultado ou a direção: ไว้ (deixar guardado: เก็บไว้), ออก (sair, conseguir: คิดออก), เจอ e พบ (achar: หาเจอ), เสร็จ (terminar: ทำเสร็จ), ทัน (a tempo: มาทัน), ขึ้น e ลง (para cima e para baixo; mais e menos: ดีขึ้น). A negação entra no meio: หาไม่เจอ, คิดไม่ออก. Analogia: o primeiro verbo é a tentativa; o segundo é o placar.",
+   "ex": "ผม|pǒm คิด|kít ไม่|mâi ออก|ɔ̀ɔk",
+   "pt": "Não consigo descobrir.",
+   "en": "I can't figure it out.",
+   "gaps": [
+    {
+     "s": "เขา|kǎo เก็บ|gèp เงิน|ngən ___ ซื้อ|sʉ́ʉ บ้าน|bâan",
+     "o": [
+      "ไว้|wái",
+      "ออก|ɔ̀ɔk",
+      "ลง|long",
+      "ไหม|mǎi"
+     ],
+     "a": "ไว้",
+     "x": "Guardar para depois: เก็บไว้."
+    },
+    {
+     "s": "หา|hǎa กุญแจ|gun-jɛɛ ไม่|mâi ___",
+     "o": [
+      "เจอ|jəə",
+      "ไว้|wái",
+      "ขึ้น|kʉ̂n",
+      "มา|maa"
+     ],
+     "a": "เจอ",
+     "x": "Resultado negativo da busca: หาไม่เจอ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo ทำ|tam งาน|ngaan เสร็จ|sèt แล้ว|lɛ́ɛo",
+     "pt": "Ele terminou o trabalho.",
+     "en": "He has finished the work."
+    }
+   ]
+  },
+  {
+   "id": "g3-02",
+   "t": "Semelhança e diferença: เหมือน, คล้าย, ต่าง",
+   "e": "เหมือน (igual, como), คล้าย (parecido), เท่ากับ (igual em medida), ต่างจาก (diferente de), ไม่เหมือน (não é igual). Com กัน, a comparação fica mútua: เหมือนกัน (iguais), ต่างกัน (diferentes entre si). Analogia: เหมือน é gêmeo idêntico, คล้าย é primo, ต่าง é vizinho.",
+   "ex": "เขา|kǎo หน้า|nâa เหมือน|mʉ̌ʉan แม่|mɛ̂ɛ",
+   "pt": "O rosto dele é igual ao da mãe.",
+   "en": "He looks just like his mother.",
+   "gaps": [
+    {
+     "s": "ภาษาลาว|paa-sǎa-laao ___ ภาษาไทย|paa-sǎa-tai มาก|mâak",
+     "o": [
+      "คล้าย|kláai",
+      "ต่าง|dtàang",
+      "ที่สุด|tîi-sùt",
+      "ไหม|mǎi"
+     ],
+     "a": "คล้าย",
+     "x": "Parecido, mas não igual: คล้าย."
+    },
+    {
+     "s": "อาหาร|aa-hǎan ไทย|tai ___ จาก|jàak อาหาร|aa-hǎan จีน|jiin",
+     "o": [
+      "ต่าง|dtàang",
+      "เหมือน|mʉ̌ʉan",
+      "คล้าย|kláai",
+      "ที่|tîi"
+     ],
+     "a": "ต่าง",
+     "x": "Diferente de: ต่างจาก."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ราคา|raa-kaa เท่ากับ|tâo-gàp เมื่อวาน|mʉ̂ʉa-waan",
+     "pt": "O preço é o mesmo de ontem.",
+     "en": "The price is the same as yesterday."
+    }
+   ]
+  },
+  {
+   "id": "g3-03",
+   "t": "Causar e deixar: ทำให้, ให้, ปล่อยให้",
+   "e": "ทำให้ = causar, quase sempre um estado ou emoção (ข่าวนี้ทำให้ผมเศร้า = a notícia me deixou triste); ให้ = fazer alguém agir (ครูให้นักเรียนอ่าน); ปล่อยให้ = deixar acontecer, não impedir. Analogia: ทำให้ é o vento que derruba; ให้ é o chefe que manda; ปล่อยให้ é quem abre a porta e sai da frente.",
+   "ex": "ข่าว|kàao นี้|níi ทำให้|tam-hâi ผม|pǒm เศร้า|sâo",
+   "pt": "Esta notícia me deixou triste.",
+   "en": "This news made me sad.",
+   "gaps": [
+    {
+     "s": "ฝน|fǒn ___ รถ|rót ติด|dtìt",
+     "o": [
+      "ทำให้|tam-hâi",
+      "ปล่อยให้|bplɔ̀i-hâi",
+      "อยาก|yàak",
+      "ต้อง|dtɔ̂ng"
+     ],
+     "a": "ทำให้",
+     "x": "A chuva causou o engarrafamento: ทำให้."
+    },
+    {
+     "s": "แม่|mɛ̂ɛ ___ ลูก|lûuk เล่น|lên ข้างนอก|kâang-nɔ̂ɔk",
+     "o": [
+      "ปล่อยให้|bplɔ̀i-hâi",
+      "ทำให้|tam-hâi",
+      "จึง|jʉng",
+      "ซึ่ง|sʉ̂ng"
+     ],
+     "a": "ปล่อยให้",
+     "x": "Deixar acontecer: ปล่อยให้."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ครู|kruu ให้|hâi นักเรียน|nák-riian อ่าน|àan หนังสือ|nǎng-sʉ̌ʉ",
+     "pt": "O professor mandou os alunos lerem.",
+     "en": "The teacher had the students read."
+    }
+   ]
+  },
+  {
+   "id": "g3-04",
+   "t": "Discurso indireto: บอกว่า, ถามว่า, ได้ยินว่า",
+   "e": "ว่า introduz o que alguém disse, pensou ou ouviu: บอกว่า, คิดว่า, ได้ยินว่า (ouvi dizer que), เขาว่า (dizem que). Para pergunta indireta: ถามว่า + pergunta com ไหม, หรือเปล่า ou palavra interrogativa. O tempo do verbo não muda — só o pronome, se precisar. Analogia: ว่า é o par de aspas, só que invisível.",
+   "ex": "เขา|kǎo บอก|bɔ̀ɔk ว่า|wâa จะ|jà มา|maa สาย|sǎai",
+   "pt": "Ele disse que vai chegar atrasado.",
+   "en": "He said he would be late.",
+   "gaps": [
+    {
+     "s": "เขา|kǎo ถาม|tǎam ___ ผม|pǒm ว่าง|wâang ไหม|mǎi",
+     "o": [
+      "ว่า|wâa",
+      "ให้|hâi",
+      "ที่|tîi",
+      "ก็|gɔ̂ɔ"
+     ],
+     "a": "ว่า",
+     "x": "Pergunta indireta: ถามว่า."
+    },
+    {
+     "s": "___ ว่า|wâa พรุ่งนี้|prûng-níi ฝน|fǒn จะ|jà ตก|dtòk",
+     "o": [
+      "ได้ยิน|dâai-yin",
+      "ได้รับ|dâai-ráp",
+      "ถูก|tùuk",
+      "ให้|hâi"
+     ],
+     "a": "ได้ยิน",
+     "x": "'Ouvi dizer que': ได้ยินว่า."
+    }
+   ],
+   "ord": [
+    {
+     "s": "แม่|mɛ̂ɛ ถาม|tǎam ว่า|wâa กิน|gin ข้าว|kâao หรือยัง|rʉ̌ʉ-yang",
+     "pt": "A mãe perguntou se já comemos.",
+     "en": "Mom asked if we had eaten."
+    }
+   ]
+  },
+  {
+   "id": "g3-05",
+   "t": "Orações de tempo: พอ…ก็, ระหว่างที่, จนกระทั่ง",
+   "e": "พอ + fato, … ก็ + reação = assim que (พอถึงบ้านเขาก็นอน); ทันทีที่ = no instante em que; ระหว่างที่ = enquanto; จนกระทั่ง (ou จน) = até que; ตั้งแต่ = desde. Analogia: são as marcações de um roteiro de cinema — corta, enquanto isso, até que.",
+   "ex": "พอ|pɔɔ ถึง|tʉ̌ng บ้าน|bâan เขา|kǎo ก็|gɔ̂ɔ นอน|nɔɔn",
+   "pt": "Assim que chegou em casa, ele dormiu.",
+   "en": "As soon as he got home, he slept.",
+   "gaps": [
+    {
+     "s": "___ ฝน|fǒn หยุด|yùt เรา|rao ก็|gɔ̂ɔ ออก|ɔ̀ɔk ไป|bpai",
+     "o": [
+      "พอ|pɔɔ",
+      "ระหว่าง|rá-wàang",
+      "ตั้งแต่|dtâng-dtɛ̀ɛ",
+      "จนกระทั่ง|jon-grà-tâng"
+     ],
+     "a": "พอ",
+     "x": "'Assim que' com ก็: พอ…ก็.",
+     "h": "Assim que a chuva parou."
+    },
+    {
+     "s": "___ ที่|tîi รอ|rɔɔ เขา|kǎo อ่าน|àan ข่าว|kàao",
+     "o": [
+      "ระหว่าง|rá-wàang",
+      "พอ|pɔɔ",
+      "ทันที|tan-tii",
+      "ตั้งแต่|dtâng-dtɛ̀ɛ"
+     ],
+     "a": "ระหว่าง",
+     "x": "'Enquanto' esperava: ระหว่างที่."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo รอ|rɔɔ จนกระทั่ง|jon-grà-tâng เที่ยงคืน|tîiang-kʉʉn",
+     "pt": "Ele esperou até a meia-noite.",
+     "en": "He waited until midnight."
+    }
+   ]
+  },
+  {
+   "id": "g3-06",
+   "t": "Probabilidade e conselho: คง, อาจจะ, น่าจะ, ควร",
+   "e": "Antes do verbo, mostram o grau de certeza: คง (provavelmente, palpite seguro), น่าจะ (deve ser, é lógico que), อาจจะ (talvez, pode ser). ควร(จะ) é conselho: deveria. Analogia: é a previsão do tempo — คง é 80%, น่าจะ é 70%, อาจจะ é 40%; ควร é o guarda-chuva que a mãe manda levar.",
+   "ex": "พรุ่งนี้|prûng-níi ฝน|fǒn อาจจะ|àat-jà ตก|dtòk",
+   "pt": "Amanhã talvez chova.",
+   "en": "It might rain tomorrow.",
+   "gaps": [
+    {
+     "s": "เขา|kǎo ___ ลืม|lʉʉm แล้ว|lɛ́ɛo",
+     "o": [
+      "คง|kong",
+      "ห้าม|hâam",
+      "อย่า|yàa",
+      "ช่วย|chûuai"
+     ],
+     "a": "คง",
+     "x": "Palpite seguro: คง."
+    },
+    {
+     "s": "คุณ|kun ___ ไป|bpai หา|hǎa หมอ|mɔ̌ɔ",
+     "o": [
+      "ควร|kuuan",
+      "ห้าม|hâam",
+      "เคย|kəəi",
+      "กำลัง|gam-lang"
+     ],
+     "a": "ควร",
+     "x": "Conselho: ควร.",
+     "h": "Um conselho."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo น่าจะ|nâa-jà ถึง|tʉ̌ng แล้ว|lɛ́ɛo",
+     "pt": "Ele já deve ter chegado.",
+     "en": "He should have arrived by now."
+    }
+   ]
+  },
+  {
+   "id": "g3-07",
+   "t": "Si mesmo e um ao outro: ตัวเอง, เอง, กัน",
+   "e": "ตัวเอง = a si mesmo (ดูแลตัวเอง = cuidar de si); เอง = por conta própria (ทำเอง); กัน = um ao outro ou juntos (ช่วยกัน, รักกัน); ซึ่งกันและกัน = mutuamente, formal. Analogia: ตัวเอง é o espelho; กัน é o aperto de mão.",
+   "ex": "เขา|kǎo ดูแล|duu-lɛɛ ตัวเอง|dtuua-eeng",
+   "pt": "Ele cuida de si mesmo.",
+   "en": "He takes care of himself.",
+   "gaps": [
+    {
+     "s": "เด็กๆ|dèk-dèk ช่วย|chûuai ___",
+     "o": [
+      "กัน|gan",
+      "ตัวเอง|dtuua-eeng",
+      "ไหม|mǎi",
+      "ที่|tîi"
+     ],
+     "a": "กัน",
+     "x": "Um ajuda o outro: ช่วยกัน."
+    },
+    {
+     "s": "อย่า|yàa โทษ|tôot ___",
+     "o": [
+      "ตัวเอง|dtuua-eeng",
+      "กัน|gan",
+      "ไหม|mǎi",
+      "แล้ว|lɛ́ɛo"
+     ],
+     "a": "ตัวเอง",
+     "x": "'Não se culpe': โทษตัวเอง."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เรา|rao ต้อง|dtɔ̂ng ช่วย|chûuai กัน|gan",
+     "pt": "Temos que nos ajudar.",
+     "en": "We have to help each other."
+    }
+   ]
+  },
+  {
+   "id": "g3-08",
+   "t": "Classificadores: o mapa completo",
+   "e": "Pessoas: คน (comum), ท่าน (respeito), รูป (monges), องค์ (realeza e imagens de Buda). Animais, roupas, móveis: ตัว. Veículos: คัน. Casas: หลัง. Livros: เล่ม. Frutas e bolas: ลูก. Papéis: แผ่น e ใบ. Garrafas: ขวด. Copos: แก้ว. Pares: คู่. Lugares: แห่ง. Coisas pequenas: อัน. Vezes: ครั้ง. Ordem: nome + número + classificador. Analogia: é o 'cabeças de gado' ou 'dentes de alho' do português — só que para tudo.",
+   "ex": "ผม|pǒm มี|mii แมว|mɛɛo สอง|sɔ̌ɔng ตัว|dtuua",
+   "pt": "Tenho dois gatos.",
+   "en": "I have two cats.",
+   "gaps": [
+    {
+     "s": "เขา|kǎo ซื้อ|sʉ́ʉ รถ|rót ใหม่|mài หนึ่ง|nʉ̀ng ___",
+     "o": [
+      "คัน|kan",
+      "ตัว|dtuua",
+      "เล่ม|lêm",
+      "หลัง|lǎng"
+     ],
+     "a": "คัน",
+     "x": "Veículos: คัน."
+    },
+    {
+     "s": "พระ|prá สาม|sǎam ___ มา|maa ที่|tîi บ้าน|bâan",
+     "o": [
+      "รูป|rûup",
+      "คน|kon",
+      "ตัว|dtuua",
+      "อัน|an"
+     ],
+     "a": "รูป",
+     "x": "Monges são contados com รูป, nunca com คน."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo อ่าน|àan หนังสือ|nǎng-sʉ̌ʉ สอง|sɔ̌ɔng เล่ม|lêm",
+     "pt": "Ele leu dois livros.",
+     "en": "He read two books."
+    }
+   ]
+  },
+  {
+   "id": "g3-09",
+   "t": "Cultura: a escada da polidez nos pedidos",
+   "e": "Do mais seco ao mais delicado: verbo puro (ปิดประตู) → ช่วย…หน่อย → ช่วย…ได้ไหม → รบกวน…หน่อยได้ไหมคะ (desculpe incomodar) → กรุณา ou โปรด (escrito e avisos). Com quem é mais velho ou superior, sobe-se pelo menos um degrau. Analogia: é a diferença entre 'passa o sal', 'pode me passar o sal?' e 'desculpe, seria possível me passar o sal?'.",
+   "ex": "รบกวน|róp-guuan ช่วย|chûuai ถ่าย|tàai รูป|rûup ให้|hâi หน่อย|nɔ̀i ได้|dâai ไหม|mǎi คะ|ká",
+   "pt": "Desculpe incomodar, poderia tirar uma foto para mim?",
+   "en": "Sorry to bother you, could you take a photo for me?",
+   "gaps": [
+    {
+     "s": "___ ช่วย|chûuai เปิด|bpə̀ət ประตู|bprà-dtuu หน่อย|nɔ̀i ได้|dâai ไหม|mǎi ครับ|kráp",
+     "o": [
+      "รบกวน|róp-guuan",
+      "ห้าม|hâam",
+      "อย่า|yàa",
+      "ต้อง|dtɔ̂ng"
+     ],
+     "a": "รบกวน",
+     "x": "'Desculpe incomodar': รบกวน."
+    },
+    {
+     "s": "___ ถอด|tɔ̀ɔt รองเท้า|rɔɔng-táao",
+     "o": [
+      "กรุณา|gà-rú-naa",
+      "รบกวน|róp-guuan",
+      "เถอะ|tə̀",
+      "หรอก|rɔ̀ɔk"
+     ],
+     "a": "กรุณา",
+     "x": "Aviso escrito: กรุณา.",
+     "h": "Placa na entrada do templo."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ขอ|kɔ̌ɔ โทษ|tôot ที่|tîi มา|maa สาย|sǎai ครับ|kráp",
+     "pt": "Desculpe pelo atraso.",
+     "en": "Sorry I'm late."
+    }
+   ]
+  },
+  {
+   "id": "g3-10",
+   "t": "Cultura: เกรงใจ, ไม่เป็นไร e o 'não' indireto",
+   "e": "เกรงใจ é não querer incomodar ou impor-se — por isso o tailandês hesita em pedir, recusa ofertas na primeira vez e evita o 'não' seco. Recusa-se de lado: ไม่ค่อยสะดวก (não é muito conveniente), ขอคิดดูก่อน (vou pensar), ไว้วันหลัง (fica para outro dia). ไม่เป็นไร (tudo bem, não foi nada) desarma tensões. Analogia: é o 'vou ver e te aviso' brasileiro — todo mundo entende que pode ser não, mas ninguém perde a cara.",
+   "ex": "วันนี้|wan-níi ไม่|mâi ค่อย|kɔ̂i สะดวก|sà-dùuak ค่ะ|kâ",
+   "pt": "Hoje não fica muito bom para mim.",
+   "en": "Today isn't very convenient.",
+   "gaps": [
+    {
+     "s": "เขา|kǎo ___ ไม่|mâi กล้า|glâa ขอ|kɔ̌ɔ",
+     "o": [
+      "เกรงใจ|greeng-jai",
+      "น้อยใจ|nɔ́ɔi-jai",
+      "ดีใจ|dii-jai",
+      "เสียใจ|sǐia-jai"
+     ],
+     "a": "เกรงใจ",
+     "x": "Por consideração, não teve coragem de pedir: เกรงใจ."
+    },
+    {
+     "s": "ขอ|kɔ̌ɔ ___ ดู|duu ก่อน|gɔ̀ɔn นะ|ná คะ|ká",
+     "o": [
+      "คิด|kít",
+      "ห้าม|hâam",
+      "อย่า|yàa",
+      "ต้อง|dtɔ̂ng"
+     ],
+     "a": "คิด",
+     "x": "Recusa elegante: ขอคิดดูก่อน."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ไม่เป็นไร|mâi-bpen-rai ครับ|kráp ไม่|mâi ต้อง|dtɔ̂ng เกรงใจ|greeng-jai",
+     "pt": "Tudo bem, não precisa fazer cerimônia.",
+     "en": "It's fine, no need to be shy."
+    }
+   ]
+  },
+  {
+   "id": "g3-11",
+   "t": "Quantidades aproximadas",
+   "e": "ประมาณ e ราว(ๆ) = cerca de (antes do número); เกือบ = quase; número + กว่า = e pouco (สิบกว่า = dez e pouco); dois números juntos = alguns (สองสามวัน = dois ou três dias); เศษ = e tantos (formal). Analogia: é o 'uns', 'por volta de' e 'e pouco' do português.",
+   "ex": "เขา|kǎo อายุ|aa-yú ประมาณ|bprà-maan สามสิบ|sǎam-sìp",
+   "pt": "Ele tem uns trinta anos.",
+   "en": "He is about thirty.",
+   "gaps": [
+    {
+     "s": "ผม|pǒm รอ|rɔɔ ___ ชั่วโมง|chûua-moong แล้ว|lɛ́ɛo",
+     "o": [
+      "เกือบ|gʉ̀ʉap",
+      "ที่|tîi",
+      "ทุก|túk",
+      "ละ|lá"
+     ],
+     "a": "เกือบ",
+     "x": "'Quase uma hora': เกือบชั่วโมง."
+    },
+    {
+     "s": "ไป|bpai เที่ยว|tîiao ___ วัน|wan",
+     "o": [
+      "สองสาม|sɔ̌ɔng-sǎam",
+      "ทุก|túk",
+      "แต่ละ|dtɛ̀ɛ-lá",
+      "ที่|tîi"
+     ],
+     "a": "สองสาม",
+     "x": "'Uns dois ou três dias': สองสามวัน."
+    }
+   ],
+   "ord": [
+    {
+     "s": "มี|mii คน|kon มา|maa ร้อย|rɔ́ɔi กว่า|gwàa คน|kon",
+     "pt": "Vieram mais de cem pessoas.",
+     "en": "Over a hundred people came."
+    }
+   ]
+  },
+  {
+   "id": "g3-12",
+   "t": "ก็: a palavra-coringa",
+   "e": "ก็ liga a segunda parte à primeira e muda de sentido conforme o lugar: 'então' (ถ้าฝนตกก็ไม่ไป), 'também' (ผมก็ชอบ), 'tanto faz' (อะไรก็ได้), 'pois é, enfim' (ก็…แหละ) e 'uns…, outros…' (บางคนก็…). Vem sempre antes do verbo. Analogia: é o 'aí' do português falado — 'aí choveu, aí a gente ficou'.",
+   "ex": "ไป|bpai ก็|gɔ̂ɔ ได้|dâai",
+   "pt": "Pode ser, posso ir.",
+   "en": "I could go, sure.",
+   "gaps": [
+    {
+     "s": "ถ้า|tâa ฝน|fǒn ตก|dtòk เรา|rao ___ ไม่|mâi ไป|bpai",
+     "o": [
+      "ก็|gɔ̂ɔ",
+      "ถึง|tʉ̌ng",
+      "ที่|tîi",
+      "ให้|hâi"
+     ],
+     "a": "ก็",
+     "x": "Consequência do ถ้า: ก็."
+    },
+    {
+     "s": "ผม|pǒm ___ ชอบ|chɔ̂ɔp เหมือนกัน|mʉ̌ʉan-gan",
+     "o": [
+      "ก็|gɔ̂ɔ",
+      "จะ|jà",
+      "ที่|tîi",
+      "ไม่|mâi"
+     ],
+     "a": "ก็",
+     "x": "'Eu também gosto': ผมก็ชอบ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "อะไร|à-rai ก็|gɔ̂ɔ ได้|dâai ครับ|kráp",
+     "pt": "Qualquer coisa serve.",
+     "en": "Anything is fine."
+    }
+   ]
+  }
+ ]
+}

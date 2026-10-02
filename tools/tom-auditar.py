@@ -59,7 +59,18 @@ def analyse(w):
 # e empréstimos do inglês que seguem a pronúncia e não a escrita (เทป, ลิฟต์…)
 EXCECOES = {'ก็', 'เทป', 'แฟลต', 'เมตร', 'เพชร', 'แบงก์'}
 diffs = []
-for w in D['words']:
+# tokens das notas de gramática, lacunas, opções e frases também entram (palavra de uma sílaba, sem hífen)
+TOK = {}
+for pts in D['grammar'].values():
+    for P in pts:
+        for t in P['ex']: TOK.setdefault(t[0], (t[1], P['id']))
+for g in D['gItems']:
+    for t in g['s'] + g['o']: TOK.setdefault(t[0], (t[1], g['pt_id']))
+for g in D['gSent']:
+    for t in g['t']: TOK.setdefault(t[0], (t[1], g['pt_id']))
+VISTO = {w['t'] for w in D['words']}
+ALL = list(D['words']) + [{'t': t, 'p': p, 'u': u} for t, (p, u) in TOK.items() if t not in VISTO and t != '___' and p]
+for w in ALL:
     p = w['p']
     if '-' in p or ' ' in p or len(w['t']) > 7: continue
     if w['t'] in EXCECOES: continue
