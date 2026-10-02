@@ -75,4 +75,5 @@ Na dúvida sobre um tom, siga o tom de dicionário e deixe o conferidor mostrar 
 - Português do Brasil natural, com o registro do diálogo (uma conversa educada, não um contrato).
 - Nada inventado: se o OCR estiver ilegível num trecho, deixe a fala de fora e diga ao usuário qual foi.
 - Palavras que o ThaiWise já tem (`tools/fontes/vocab_a1.tsv`, `vocab_a2.tsv`) devem usar **a mesma pronúncia** de lá; o conferidor avisa se divergir.
+- **Consoante silenciada relida.** Quando uma palavra tem consoante silenciada que volta a ser lida como sílaba extra, não derive a inicial dessa sílaba da letra que sobrou na escrita: รัฐมนตรี é `rát-tà-mon-dtrii` (o ฐ vale *t* aspirado), e não `rát-dtà-mon-dtrii` como daria a regra aplicada ao ต. Mesma coisa em พุทธศาสนา = `pút-tá-sàat-sà-nǎa`. A **grafia RTGS oficial é a pista**: `ratthamontri`, com `th`, mostra que o aspirado vale — e o `rtgs()` do build só produz `th` a partir de `tà`, nunca de `dtà`.
 - Não copie as notas do FSI ao pé da letra: reescreva para quem fala português, com exemplos tirados do próprio diálogo.
