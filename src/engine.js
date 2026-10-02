@@ -175,6 +175,7 @@ const ENGINE = (() => {
   /* ---------- desbloqueio e priors ---------- */
   const levelUnits = lv => (DATA.levels[lv] || { units: [] }).units;
   function levelOpen(S, lv, M) {
+    if (lv > 1 && !levelUnits(lv).length) return false;             /* nível ainda sem conteúdo nunca abre */
     if (lv <= 1 || S.free || S.keyed["L" + lv]) return true;
     const prev = levelUnits(lv - 1); if (!prev.length) return false;
     return prev.filter(u => M(u.id) >= UNLOCK).length / prev.length >= UNLOCK;

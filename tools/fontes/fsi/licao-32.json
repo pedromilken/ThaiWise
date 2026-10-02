@@ -1,0 +1,367 @@
+{
+ "n": 32,
+ "paginas": "vol. 2, p. 556–582",
+ "titulo": {
+  "pt": "Alugando uma casa",
+  "en": "Renting a house (2)"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "คุณ|kun ได้|dâai บ้านเช่า|bâan-châo แล้ว|lɛ́ɛo หรือยัง|rʉ̌ʉ-yang",
+   "fsi": "khun dâj bâanchâw lɛ́ɛw rʉ̌ʉjaŋ",
+   "en": "Have you got a house to rent yet?",
+   "pt": "Já arrumou casa para alugar?"
+  },
+  {
+   "sp": "B",
+   "s": "ยัง|yang ครับ|kráp",
+   "fsi": "jaŋ khráp",
+   "en": "Not yet.",
+   "pt": "Ainda não."
+  },
+  {
+   "sp": "A",
+   "s": "ใน|nai ซอย|sɔɔi บ้าน|bâan ผม|pǒm",
+   "fsi": "naj sɔɔj bâan phǒm",
+   "en": "On my lane",
+   "pt": "Na rua da minha casa"
+  },
+  {
+   "sp": "A",
+   "s": "มี|mii บ้าน|bâan ว่าง|wâang ให้|hâi เช่า|châo อยู่|yùu หลัง|lǎng หนึ่ง|nʉ̀ng",
+   "fsi": "mii bâan wâaŋ hâj châw jùu lǎŋ nʉ̀ŋ",
+   "en": "there's a house for rent.",
+   "pt": "tem uma casa vaga para alugar."
+  },
+  {
+   "sp": "B",
+   "s": "เขา|kǎo คิด|kít ค่าเช่า|kâa-châo ยังไง|yang-ngai ครับ|kráp",
+   "fsi": "kháw khít khâachâw jaŋŋaj khráp",
+   "en": "How is the rent figured?",
+   "pt": "Como eles cobram o aluguel?"
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm ไม่|mâi ได้|dâai ถาม|tǎam รายละเอียด|raai-lá-ìiat",
+   "fsi": "phǒm mâj dâj thǎam raajlaʔìat",
+   "en": "I didn't ask the details.",
+   "pt": "Não perguntei os detalhes."
+  },
+  {
+   "sp": "A",
+   "s": "เป็น|bpen บ้าน|bâan ใหม่|mài",
+   "fsi": "pen bâan màj",
+   "en": "It's a new house.",
+   "pt": "É uma casa nova."
+  },
+  {
+   "sp": "A",
+   "s": "น่าอยู่|nâa-yùu ดี|dii",
+   "fsi": "nâajùu dii",
+   "en": "It's cozy.",
+   "pt": "Bem gostosa de morar."
+  },
+  {
+   "sp": "A",
+   "s": "สำหรับ|sǎm-ràp ครอบครัว|krɔ̂ɔp-kruua เล็กๆ|lék-lék อย่าง|yàang คุณ|kun",
+   "fsi": "sǎmràp khrɔ̂ɔpkhrua léklék jàaŋ khun",
+   "en": "For a small family like yours",
+   "pt": "Para uma família pequena como a sua,"
+  },
+  {
+   "sp": "A",
+   "s": "ขนาด|kà-nàat กำลังพอดี|gam-lang-pɔɔ-dii",
+   "fsi": "khanàat kamlaŋphɔɔdii",
+   "en": "the size is just right,",
+   "pt": "o tamanho é na medida,"
+  },
+  {
+   "sp": "A",
+   "s": "ไม่|mâi เล็ก|lék ไม่|mâi ใหญ่|yài เกินไป|gəən-bpai",
+   "fsi": "mâj lék mâj jàj kəənpaj",
+   "en": "not too small, not too big.",
+   "pt": "nem pequena nem grande demais."
+  },
+  {
+   "sp": "B",
+   "s": "อยู่|yùu ไกล|glai จาก|jàak ถนน|tà-nǒn ใหญ่|yài ไหม|mǎi ครับ|kráp",
+   "fsi": "jùu klaj càak thanǒn jàj máj khráp",
+   "en": "Is it far from the main street?",
+   "pt": "Fica longe da avenida?"
+  },
+  {
+   "sp": "A",
+   "s": "อยู่|yùu ห่าง|hàang จาก|jàak ปากซอย|bpàak-sɔɔi ราว|raao สอง|sɔ̌ɔng กิโล|gì-loo กว่า|gwàa ครับ|kráp",
+   "fsi": "jùu hàaŋ càak pàaksɔɔj raaw sɔ̌ɔŋ kiloo kwàa khráp",
+   "en": "It's around two kilometers or so from the end of the lane.",
+   "pt": "Fica a uns dois quilômetros e pouco da entrada da rua."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm จะ|jà ติดต่อ|dtìt-dtɔ̀ɔ กับ|gàp เจ้าของ|jâo-kɔ̌ɔng บ้าน|bâan ได้|dâai ยังไง|yang-ngai",
+   "fsi": "phǒm cà tìttɔ̀ɔ kàp câwkhɔ̌ɔŋ bâan dâj jaŋŋaj",
+   "en": "How do I get in touch with the owner?",
+   "pt": "Como falo com o dono da casa?"
+  },
+  {
+   "sp": "A",
+   "s": "โทร|too ไป|bpai ถาม|tǎam เขา|kǎo โดยตรง|dooi-dtrong ครับ|kráp",
+   "fsi": "thoo paj thǎam kháw doojtroŋ khráp",
+   "en": "Call him directly.",
+   "pt": "Ligue direto para ele."
+  },
+  {
+   "sp": "A",
+   "s": "ไม่|mâi ต้อง|dtɔ̂ng ผ่าน|pàan นายหน้า|naai-nâa",
+   "fsi": "mâj tɔ̂ŋ phàan naajnâa",
+   "en": "You don't have to go through the agent.",
+   "pt": "Não precisa passar por corretor."
+  },
+  {
+   "sp": "B",
+   "s": "บ้าน|bâan เขา|kǎo โทรศัพท์|too-rá-sàp เบอร์|bəə อะไร|à-rai",
+   "fsi": "bâan kháw thoorasàp bəə ʔaraj",
+   "en": "What's his home phone number?",
+   "pt": "Qual é o telefone da casa dele?"
+  },
+  {
+   "sp": "A",
+   "s": "เก้า|gâo หก|hòk โท|too สาม|sǎam สี่|sìi หก|hòk",
+   "fsi": "kâaw hòk thoo sǎam sìi hòk",
+   "en": "962-346.",
+   "pt": "962-346."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "หรือยัง",
+   "p": "rʉ̌ʉ-yang",
+   "fsi": "rʉ̌ʉjaŋ",
+   "pt": "já… ou ainda não?",
+   "en": "yet? (or not yet)"
+  },
+  {
+   "th": "ค่าเช่า",
+   "p": "kâa-châo",
+   "fsi": "khâachâw",
+   "pt": "aluguel (valor)",
+   "en": "rent"
+  },
+  {
+   "th": "รายละเอียด",
+   "p": "raai-lá-ìiat",
+   "fsi": "raajlaʔìat",
+   "pt": "detalhes",
+   "en": "details"
+  },
+  {
+   "th": "กำลังพอดี",
+   "p": "gam-lang-pɔɔ-dii",
+   "fsi": "kamlaŋphɔɔdii",
+   "pt": "na medida certa",
+   "en": "just right"
+  },
+  {
+   "th": "พอดี",
+   "p": "pɔɔ-dii",
+   "fsi": "phɔɔdii",
+   "pt": "exato, na medida; bem na hora",
+   "en": "just right; just then"
+  },
+  {
+   "th": "ห่าง",
+   "p": "hàang",
+   "fsi": "hàaŋ",
+   "pt": "distante, afastado (a tal distância)",
+   "en": "to be apart, distant"
+  },
+  {
+   "th": "ปากซอย",
+   "p": "bpàak-sɔɔi",
+   "fsi": "pàaksɔɔj",
+   "pt": "entrada da travessa",
+   "en": "mouth of a lane"
+  },
+  {
+   "th": "กิโล",
+   "p": "gì-loo",
+   "fsi": "kiloo",
+   "pt": "quilômetro; quilo",
+   "en": "kilometer; kilo"
+  },
+  {
+   "th": "ติดต่อ",
+   "p": "dtìt-dtɔ̀ɔ",
+   "fsi": "tìttɔ̀ɔ",
+   "pt": "entrar em contato",
+   "en": "to contact"
+  },
+  {
+   "th": "เจ้าของ",
+   "p": "jâo-kɔ̌ɔng",
+   "fsi": "câwkhɔ̌ɔŋ",
+   "pt": "dono, proprietário",
+   "en": "owner"
+  },
+  {
+   "th": "โดยตรง",
+   "p": "dooi-dtrong",
+   "fsi": "doojtroŋ",
+   "pt": "diretamente",
+   "en": "directly"
+  },
+  {
+   "th": "นายหน้า",
+   "p": "naai-nâa",
+   "fsi": "naajnâa",
+   "pt": "corretor, intermediário",
+   "en": "agent, broker"
+  },
+  {
+   "th": "แอปเปิ้ล",
+   "p": "ɛ́p-bpə̂n",
+   "fsi": "ʔɛ́ppə̂n",
+   "pt": "maçã",
+   "en": "apple"
+  },
+  {
+   "th": "คำบรรยาย",
+   "p": "kam-ban-yaai",
+   "fsi": "khambanjaaj",
+   "pt": "palestra, conferência",
+   "en": "lecture"
+  },
+  {
+   "th": "น่า",
+   "p": "nâa",
+   "fsi": "nâa",
+   "pt": "digno de, que dá vontade de (forma adjetivos)",
+   "en": "worthy of, -able"
+  },
+  {
+   "th": "น่าอยู่",
+   "p": "nâa-yùu",
+   "fsi": "nâajùu",
+   "pt": "agradável de morar",
+   "en": "cozy, livable"
+  },
+  {
+   "th": "น่าอ่าน",
+   "p": "nâa-àan",
+   "fsi": "nâaʔàan",
+   "pt": "interessante de ler",
+   "en": "worth reading"
+  },
+  {
+   "th": "น่าดู",
+   "p": "nâa-duu",
+   "fsi": "nâaduu",
+   "pt": "interessante de ver",
+   "en": "worth seeing"
+  },
+  {
+   "th": "น่าฟัง",
+   "p": "nâa-fang",
+   "fsi": "nâafaŋ",
+   "pt": "interessante de ouvir",
+   "en": "worth hearing"
+  },
+  {
+   "th": "น่ารัก",
+   "p": "nâa-rák",
+   "fsi": "nâarák",
+   "pt": "fofo, encantador",
+   "en": "cute, lovable"
+  },
+  {
+   "th": "สนใจ",
+   "p": "sǒn-jai",
+   "fsi": "sǒncaj",
+   "pt": "interessar-se",
+   "en": "to be interested"
+  },
+  {
+   "th": "น่าสนใจ",
+   "p": "nâa-sǒn-jai",
+   "fsi": "nâasǒncaj",
+   "pt": "interessante",
+   "en": "interesting"
+  },
+  {
+   "th": "น่าใช้",
+   "p": "nâa-chái",
+   "fsi": "nâachái",
+   "pt": "bom de usar",
+   "en": "nice to use"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "ดี tem muitos sentidos",
+    "en": "The many senses of ดี"
+   },
+   "e": {
+    "pt": "Com pessoas, คนดี é gente de bom caráter, mas ครูที่ดี é um professor que cumpre bem o papel. Com objetos, é boa qualidade; com lugares, é bom para algum fim. Depois de verbo, é 'bem' (เรียนดี); depois de verbo de estado, intensifica (ใหญ่ดี = bem grande); no fim de pergunta, pede conselho (ทำอะไรดี).",
+    "en": "ดี: good character, good at a role, good quality, well, nicely; question + ดี asks advice."
+   },
+   "ex": "เขา|kǎo เป็น|bpen คน|kon ดี|dii"
+  },
+  {
+   "t": {
+    "pt": "มี…อยู่: estar ali, existir naquele momento",
+    "en": "มี … อยู่: existence at a time or place"
+   },
+   "e": {
+    "pt": "มี…อยู่ ressalta que algo existe naquele lugar ou momento: ปากซอยมีร้านกาแฟอยู่ร้านหนึ่ง = na entrada da rua tem uma cafeteria; ตอนนั้นผมมีเงินอยู่ห้าสิบบาท = naquela hora eu tinha cinquenta baht comigo.",
+    "en": "มี … อยู่ calls attention to something existing at a given time or place."
+   },
+   "ex": "ผม|pǒm มี|mii เงิน|ngən อยู่|yùu นิดหน่อย|nít-nɔ̀i"
+  },
+  {
+   "t": {
+    "pt": "คิดยังไง × คิดเท่าไร",
+    "en": "How is it figured vs how much"
+   },
+   "e": {
+    "pt": "คิดค่าเช่ายังไง pergunta como o valor é calculado (o que está incluído); คิดค่าเช่าเท่าไร pergunta quanto dá.",
+    "en": "คิด…ยังไง: how it is calculated; คิด…เท่าไร: how much it comes to."
+   },
+   "ex": "เขา|kǎo คิด|kít เท่าไร|tâo-rài"
+  },
+  {
+   "t": {
+    "pt": "น่า + verbo: que dá vontade de",
+    "en": "น่า + verb: worth …-ing"
+   },
+   "e": {
+    "pt": "น่า + verbo forma adjetivos: น่ารัก (fofo, 'digno de amor'), น่าอยู่ (gostoso de morar), น่าสนใจ (interessante), น่าเบื่อ (chato). Analogia: é o '-ável' do português — amável, habitável, agradável.",
+    "en": "น่า + verb forms adjectives, like English '-able'."
+   },
+   "ex": "หนังสือ|nǎng-sʉ̌ʉ เล่ม|lêm นี้|níi น่าอ่าน|nâa-àan"
+  },
+  {
+   "t": {
+    "pt": "ห่าง × ไกล",
+    "en": "ห่าง vs ไกล"
+   },
+   "e": {
+    "pt": "ห่าง só se usa quando se dá a distância entre dois pontos: อยู่ห่างจากถนนสองกิโล. ไกล serve para isso e para perguntas e ações: อยู่ไกลไหม; ตีลูกไปไกลมาก.",
+    "en": "ห่าง only with stated distances between two points; ไกล is general."
+   },
+   "ex": "อยู่|yùu ห่าง|hàang จาก|jàak ที่นี่|tîi-nîi สอง|sɔ̌ɔng กิโล|gì-loo"
+  },
+  {
+   "t": {
+    "pt": "Telefonar: โทรไป, โทรมา, โทรหา",
+    "en": "Phoning"
+   },
+   "e": {
+    "pt": "โทร(ศัพท์) + ไป/มา + ที่ + lugar (ligar para um lugar) ou + หา/ถึง + pessoa (ligar para alguém). Pode-se emendar o motivo: โทรไปถามเขาว่า… = liguei para perguntar a ele…",
+    "en": "โทร + ไป/มา + ที่ place / หา person; add a purpose verb: โทรไปถาม…"
+   },
+   "ex": "ผม|pǒm โทร|too ไป|bpai หา|hǎa เขา|kǎo"
+  }
+ ]
+}

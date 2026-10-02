@@ -1,0 +1,282 @@
+{
+ "n": 31,
+ "paginas": "vol. 2, p. 536–555",
+ "titulo": {
+  "pt": "Procurando onde morar",
+  "en": "Looking for a place to live"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "เมื่อวานนี้|mʉ̂ʉa-waan-níi ผม|pǒm ไป|bpai หา|hǎa คุณ|kun แต่|dtɛ̀ɛ ไม่|mâi พบ|póp",
+   "fsi": "mʉ̂awaanníi phǒm paj hǎa khun tɛ̀ɛ mâj phóp",
+   "en": "Yesterday I went to see you but didn't find you in.",
+   "pt": "Ontem fui te procurar, mas não te encontrei."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ไป|bpai หา|hǎa บ้านเช่า|bâan-châo",
+   "fsi": "phǒm paj hǎa bâanchâw",
+   "en": "I went to look for a house to rent.",
+   "pt": "Fui procurar uma casa para alugar."
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun จะ|jà อยู่|yùu เอง|eeng หรือ|rʉ̌ʉ",
+   "fsi": "khun cà jùu ʔeeŋ rʉ̌ʉ",
+   "en": "Will you live there yourself?",
+   "pt": "Você mesmo vai morar lá?"
+  },
+  {
+   "sp": "B",
+   "s": "เปล่า|bplàao หา|hǎa ให้|hâi เพื่อน|pʉ̂ʉan",
+   "fsi": "plàaw hǎa hâj phʉ̂an",
+   "en": "No. I'm looking for a friend.",
+   "pt": "Não, estou procurando para um amigo."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun ว่า|wâa อยู่|yùu บ้าน|bâan กับ|gàp อยู่|yùu อพาร์ตเมนต์|à-páat-mén ไหน|nǎi จะ|jà ดี|dii กว่า|gwàa กัน|gan",
+   "fsi": "khun wâa jùu bâan kàp jùu ʔaphâatmén nǎj cà dii kwàa kan",
+   "en": "Do you think it's better to live in a house or an apartment?",
+   "pt": "Na sua opinião, é melhor morar em casa ou em apartamento?"
+  },
+  {
+   "sp": "A",
+   "s": "เพื่อน|pʉ̂ʉan คุณ|kun เป็น|bpen โสด|sòot หรือ|rʉ̌ʉ แต่งงาน|dtɛ̀ng-ngaan แล้ว|lɛ́ɛo",
+   "fsi": "phʉ̂an khun pen sòot rʉ̌ʉ tɛ̀ŋŋaan lɛ́ɛw",
+   "en": "Is your friend single or married?",
+   "pt": "Seu amigo é solteiro ou casado?"
+  },
+  {
+   "sp": "B",
+   "s": "เป็น|bpen โสด|sòot ครับ|kráp",
+   "fsi": "pen sòot khráp",
+   "en": "He's single.",
+   "pt": "Solteiro."
+  },
+  {
+   "sp": "A",
+   "s": "ความจริง|kwaam-jing ตัว|dtuua ผม|pǒm เอง|eeng ชอบ|chɔ̂ɔp อยู่|yùu บ้าน|bâan มาก|mâak กว่า|gwàa",
+   "fsi": "khwaamciŋ tua phǒm ʔeeŋ chɔ̂ɔp jùu bâan mâak kwàa",
+   "en": "Actually, I myself prefer living in a house.",
+   "pt": "Para falar a verdade, eu mesmo prefiro morar em casa."
+  },
+  {
+   "sp": "A",
+   "s": "แต่|dtɛ̀ɛ สำหรับ|sǎm-ràp คน|kon โสด|sòot ผม|pǒm ว่า|wâa อยู่|yùu แฟลต|flɛ̀t ดี|dii กว่า|gwàa",
+   "fsi": "tɛ̀ɛ sǎmràp khon sòot phǒm wâa jùu flɛ̀t dii kwàa",
+   "en": "But for single people, I think a flat is better.",
+   "pt": "Mas, para quem é solteiro, acho melhor um apartamento."
+  },
+  {
+   "sp": "B",
+   "s": "ทำไม|tam-mai ล่ะ|lâ ครับ|kráp",
+   "fsi": "thammaj lâ khráp",
+   "en": "Why?",
+   "pt": "Por quê?"
+  },
+  {
+   "sp": "A",
+   "s": "สะดวก|sà-dùuak กว่า|gwàa อยู่|yùu บ้าน|bâan",
+   "fsi": "sadùak kwàa jùu bâan",
+   "en": "It's more convenient than living in a house,",
+   "pt": "É mais prático que morar em casa"
+  },
+  {
+   "sp": "A",
+   "s": "และ|lɛ́ เปลือง|bplʉʉang น้อย|nɔ́ɔi กว่า|gwàa",
+   "fsi": "lɛ́ plʉaŋ nɔ́ɔj kwàa",
+   "en": "and less expensive,",
+   "pt": "e gasta menos,"
+  },
+  {
+   "sp": "A",
+   "s": "เพราะ|prɔ́ ไม่|mâi ต้อง|dtɔ̂ng จ้าง|jâang คนใช้|kon-chái หลาย|lǎai คน|kon",
+   "fsi": "phrɔ́ mâj tɔ̂ŋ câaŋ khonchái lǎaj khon",
+   "en": "because you don't have to hire a lot of servants.",
+   "pt": "porque não precisa contratar vários empregados."
+  },
+  {
+   "sp": "B",
+   "s": "จริง|jing นะ|ná",
+   "fsi": "ciŋ ná",
+   "en": "Right.",
+   "pt": "É verdade."
+  },
+  {
+   "sp": "B",
+   "s": "ปลอดภัย|bplɔ̀ɔt-pai กว่า|gwàa ด้วย|dûuai",
+   "fsi": "plɔ̀ɔtphaj kwàa dûaj",
+   "en": "It's safer too.",
+   "pt": "E é mais seguro também."
+  },
+  {
+   "sp": "B",
+   "s": "ไม่|mâi ต้อง|dtɔ̂ng กลัว|gluua ขโมย|kà-mooi",
+   "fsi": "mâj tɔ̂ŋ klua khamooj",
+   "en": "You don't have to be afraid of thieves.",
+   "pt": "Não precisa ter medo de ladrão."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "บ้านเช่า",
+   "p": "bâan-châo",
+   "fsi": "bâanchâw",
+   "pt": "casa para alugar",
+   "en": "house for rent"
+  },
+  {
+   "th": "เช่า",
+   "p": "châo",
+   "fsi": "châw",
+   "pt": "alugar (pagando)",
+   "en": "to rent"
+  },
+  {
+   "th": "อพาร์ตเมนต์",
+   "p": "à-páat-mén",
+   "fsi": "ʔaphâatmén",
+   "pt": "apartamento (prédio)",
+   "en": "apartment"
+  },
+  {
+   "th": "แฟลต",
+   "p": "flɛ̀t",
+   "fsi": "flɛ̀t",
+   "pt": "apartamento, flat",
+   "en": "flat"
+  },
+  {
+   "th": "โสด",
+   "p": "sòot",
+   "fsi": "sòot",
+   "pt": "solteiro",
+   "en": "single"
+  },
+  {
+   "th": "ความจริง",
+   "p": "kwaam-jing",
+   "fsi": "khwaamciŋ",
+   "pt": "na verdade, a verdade",
+   "en": "the truth; actually"
+  },
+  {
+   "th": "ตัวเอง",
+   "p": "dtuua-eeng",
+   "fsi": "tuaʔeeŋ",
+   "pt": "si mesmo, eu mesmo",
+   "en": "oneself"
+  },
+  {
+   "th": "สะดวก",
+   "p": "sà-dùuak",
+   "fsi": "sadùak",
+   "pt": "prático, conveniente",
+   "en": "convenient"
+  },
+  {
+   "th": "เปลือง",
+   "p": "bplʉʉang",
+   "fsi": "plʉaŋ",
+   "pt": "gastar muito, consumir",
+   "en": "to use up; wasteful"
+  },
+  {
+   "th": "จ้าง",
+   "p": "jâang",
+   "fsi": "câaŋ",
+   "pt": "contratar",
+   "en": "to hire"
+  },
+  {
+   "th": "ค่าจ้าง",
+   "p": "kâa-jâang",
+   "fsi": "khâacâaŋ",
+   "pt": "salário, pagamento",
+   "en": "wages"
+  },
+  {
+   "th": "ปลอดภัย",
+   "p": "bplɔ̀ɔt-pai",
+   "fsi": "plɔ̀ɔtphaj",
+   "pt": "seguro, fora de perigo",
+   "en": "safe"
+  },
+  {
+   "th": "ขโมย",
+   "p": "kà-mooi",
+   "fsi": "khamooj",
+   "pt": "ladrão; roubar",
+   "en": "thief; to steal"
+  },
+  {
+   "th": "ความคิดเห็น",
+   "p": "kwaam-kít-hěn",
+   "fsi": "khwaamkhít hěn",
+   "pt": "opinião",
+   "en": "opinion"
+  },
+  {
+   "th": "เกี่ยวกับ",
+   "p": "gìiao-gàp",
+   "fsi": "kìawkàp",
+   "pt": "sobre, a respeito de",
+   "en": "about"
+  },
+  {
+   "th": "สถานที่",
+   "p": "sà-tǎan-tîi",
+   "fsi": "sathǎanthîi",
+   "pt": "lugar, local",
+   "en": "place, site"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "หาพบ, หาได้, หาเจอ: o resultado da busca",
+    "en": "Results of looking: หาพบ / หาได้ / หาเจอ"
+   },
+   "e": {
+    "pt": "หา é procurar; o resultado vem depois: หาพบ (achou a pessoa), หาได้ (conseguiu o que buscava), หาเจอ (achou, inclusive objetos perdidos). Negativa: หาไม่พบ, หาไม่ได้, หาไม่เจอ. Sozinho, เจอ é topar por acaso: เมื่อวานผมเจอเพื่อนเก่า. Analogia: หา é a pescaria; พบ/ได้/เจอ é o peixe no anzol.",
+    "en": "หา + พบ/ได้/เจอ gives the result of looking; เจอ alone means to run into."
+   },
+   "ex": "หา|hǎa ไม่|mâi เจอ|jəə"
+  },
+  {
+   "t": {
+    "pt": "กว่า: três montagens",
+    "en": "Comparatives with กว่า"
+   },
+   "e": {
+    "pt": "Depois de verbo de estado, só กว่า: ภาษาอังกฤษยากกว่า. Depois de outros verbos, มากกว่า ou น้อยกว่า: ผมชอบคุณมากกว่าเขา. A diferença vem no fim: คุณสวยกว่าเขามาก (muito mais bonita); ที่นี่มีนักเรียนมากกว่าครูสี่ร้อยคน (400 alunos a mais que professores).",
+    "en": "Stative verb + กว่า; other verbs + มากกว่า/น้อยกว่า; the degree of difference goes last."
+   },
+   "ex": "ผม|pǒm ชอบ|chɔ̂ɔp ชา|chaa มาก|mâak กว่า|gwàa กาแฟ|gaa-fɛɛ"
+  },
+  {
+   "t": {
+    "pt": "คิดว่ายังไง × คิดอะไร",
+    "en": "คิดว่ายังไง vs คิดอะไร"
+   },
+   "e": {
+    "pt": "คุณคิด(ว่า)ยังไง ou คุณว่ายังไง pede opinião (o que você acha?). คุณกำลังคิดอะไร pergunta o que está na cabeça da pessoa (no que você está pensando?).",
+    "en": "คิด(ว่า)ยังไง asks for an opinion; คิดอะไร asks what someone is thinking about."
+   },
+   "ex": "คุณ|kun ว่า|wâa ยังไง|yang-ngai"
+  },
+  {
+   "t": {
+    "pt": "ตัว…เอง: ênfase no 'eu mesmo'",
+    "en": "ตัว … เอง: emphatic self"
+   },
+   "e": {
+    "pt": "ตัวผมเอง, ตัวเขาเอง = eu mesmo, ele mesmo. Dá peso ao contraste com os outros: ตัวผมเองชอบอยู่บ้าน (eu, de minha parte, prefiro casa).",
+    "en": "ตัว + pronoun + เอง: emphatic 'myself, himself'."
+   },
+   "ex": "ตัว|dtuua เขา|kǎo เอง|eeng"
+  }
+ ]
+}
