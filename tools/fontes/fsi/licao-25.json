@@ -1,0 +1,282 @@
+{
+ "n": 25,
+ "paginas": "vol. 2, p. 397–415",
+ "titulo": {
+  "pt": "Novas amizades depois da festa",
+  "en": "Making an acquaintance"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "เป็น|bpen อะไร|à-rai ไป|bpai ครับ|kráp",
+   "fsi": "pen ʔaraj paj khráp",
+   "en": "What's the matter with you?",
+   "pt": "O que você tem?"
+  },
+  {
+   "sp": "A",
+   "s": "ไม่สบาย|mâi-sà-baai หรือ|rʉ̌ʉ",
+   "fsi": "mâjsabaaj rʉ̌ʉ",
+   "en": "Aren't you well?",
+   "pt": "Está doente?"
+  },
+  {
+   "sp": "B",
+   "s": "เปล่า|bplàao ครับ|kráp ไม่|mâi ได้|dâai เป็น|bpen อะไร|à-rai",
+   "fsi": "plàaw khráp mâj dâj pen ʔaraj",
+   "en": "No, nothing's the matter.",
+   "pt": "Não, não tenho nada."
+  },
+  {
+   "sp": "B",
+   "s": "ง่วงนอน|ngûuang-nɔɔn",
+   "fsi": "ŋûaŋnɔɔn",
+   "en": "I'm sleepy.",
+   "pt": "Estou com sono."
+  },
+  {
+   "sp": "B",
+   "s": "เมื่อคืนนี้|mʉ̂ʉa-kʉʉn-níi ไป|bpai งานเลี้ยง|ngaan-líiang",
+   "fsi": "mʉ̂akhʉʉnníi paj ŋaanlíaŋ",
+   "en": "Last night I went to a party,",
+   "pt": "Ontem à noite fui a uma festa"
+  },
+  {
+   "sp": "B",
+   "s": "เลย|ləəi นอน|nɔɔn ดึก|dʉ̀k ไป|bpai หน่อย|nɔ̀i",
+   "fsi": "ləəj nɔɔn dʉ̀k paj nɔ̀j",
+   "en": "so I got to bed a little late.",
+   "pt": "e acabei dormindo um pouco tarde."
+  },
+  {
+   "sp": "A",
+   "s": "สนุก|sà-nùk ไหม|mǎi ครับ|kráp",
+   "fsi": "sanùk máj khráp",
+   "en": "Was it fun?",
+   "pt": "Foi divertido?"
+  },
+  {
+   "sp": "B",
+   "s": "สนุก|sà-nùk มาก|mâak",
+   "fsi": "sanùk mâak",
+   "en": "Yes, very.",
+   "pt": "Muito!"
+  },
+  {
+   "sp": "A",
+   "s": "พบ|póp ใคร|krai บ้าง|bâang",
+   "fsi": "phóp khraj bâaŋ",
+   "en": "Who did you meet there?",
+   "pt": "Quem você encontrou lá?"
+  },
+  {
+   "sp": "B",
+   "s": "หลาย|lǎai คน|kon ครับ|kráp",
+   "fsi": "lǎaj khon khráp",
+   "en": "A lot of people.",
+   "pt": "Muita gente."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ได้|dâai เพื่อน|pʉ̂ʉan ใหม่|mài หลาย|lǎai คน|kon",
+   "fsi": "phǒm dâj phʉ̂an màj lǎaj khon",
+   "en": "I made a lot of new friends.",
+   "pt": "Fiz vários amigos novos."
+  },
+  {
+   "sp": "B",
+   "s": "อ้อ|ɔ̂ɔ ผม|pǒm พบ|póp คน|kon ไทย|tai คน|kon หนึ่ง|nʉ̀ng",
+   "fsi": "ʔɔ̂ɔ phǒm phóp khon thaj khon nʉ̀ŋ",
+   "en": "Oh, I ran into a Thai.",
+   "pt": "Ah, encontrei um tailandês."
+  },
+  {
+   "sp": "B",
+   "s": "เขา|kǎo บอก|bɔ̀ɔk ว่า|wâa เป็น|bpen เพื่อน|pʉ̂ʉan เก่า|gào คุณ|kun",
+   "fsi": "kháw bɔ̀ɔk wâa pen phʉ̂an kàw khun",
+   "en": "He said he was an old friend of yours.",
+   "pt": "Ele disse que é um velho amigo seu."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo ชื่อ|chʉ̂ʉ อะไร|à-rai",
+   "fsi": "kháw chʉ̂ʉ ʔaraj",
+   "en": "What was his name?",
+   "pt": "Como ele se chama?"
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm จำ|jam ไม่|mâi ได้|dâai",
+   "fsi": "phǒm cam mâj dâj",
+   "en": "I can't remember.",
+   "pt": "Não lembro."
+  },
+  {
+   "sp": "B",
+   "s": "เขา|kǎo ให้|hâi นามบัตร|naam-bàt ผม|pǒm",
+   "fsi": "kháw hâj naambàt phǒm",
+   "en": "He gave me his card,",
+   "pt": "Ele me deu o cartão dele,"
+  },
+  {
+   "sp": "B",
+   "s": "แต่|dtɛ̀ɛ ผม|pǒm ลืม|lʉʉm เอา|ao มา|maa",
+   "fsi": "tɛ̀ɛ phǒm lʉʉm ʔaw maa",
+   "en": "but I forgot to bring it.",
+   "pt": "mas esqueci de trazer."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ไข้หวัด",
+   "p": "kâi-wàt",
+   "fsi": "khâjwàt",
+   "pt": "gripe",
+   "en": "flu"
+  },
+  {
+   "th": "ลูกน้อง",
+   "p": "lûuk-nɔ́ɔng",
+   "fsi": "lûuknɔ́ɔŋ",
+   "pt": "subordinado",
+   "en": "subordinate"
+  },
+  {
+   "th": "น่าเบื่อ",
+   "p": "nâa-bʉ̀ʉa",
+   "fsi": "nâabʉ̀a",
+   "pt": "chato, monótono",
+   "en": "dull, boring"
+  },
+  {
+   "th": "หนัง",
+   "p": "nǎng",
+   "fsi": "nǎŋ",
+   "pt": "filme; couro",
+   "en": "movie; leather"
+  },
+  {
+   "th": "ง่วงนอน",
+   "p": "ngûuang-nɔɔn",
+   "fsi": "ŋûaŋnɔɔn",
+   "pt": "estar com sono",
+   "en": "to be sleepy"
+  },
+  {
+   "th": "รางวัล",
+   "p": "raang-wan",
+   "fsi": "raaŋwan",
+   "pt": "prêmio",
+   "en": "prize"
+  },
+  {
+   "th": "โรค",
+   "p": "rôok",
+   "fsi": "rôok",
+   "pt": "doença",
+   "en": "disease"
+  },
+  {
+   "th": "โรคบิด",
+   "p": "rôok-bìt",
+   "fsi": "rôokbìt",
+   "pt": "disenteria",
+   "en": "dysentery"
+  },
+  {
+   "th": "โรคไส้ติ่ง",
+   "p": "rôok-sâi-dtìng",
+   "fsi": "rôoksâjtìŋ",
+   "pt": "apendicite",
+   "en": "appendicitis"
+  },
+  {
+   "th": "ศีรษะ",
+   "p": "sǐi-sà",
+   "fsi": "sǐisà",
+   "pt": "cabeça (termo elegante)",
+   "en": "head (elegant)"
+  },
+  {
+   "th": "งานเลี้ยง",
+   "p": "ngaan-líiang",
+   "fsi": "ŋaanlíaŋ",
+   "pt": "festa, recepção",
+   "en": "party"
+  },
+  {
+   "th": "นามบัตร",
+   "p": "naam-bàt",
+   "fsi": "naambàt",
+   "pt": "cartão de visita",
+   "en": "name card"
+  },
+  {
+   "th": "ดึก",
+   "p": "dʉ̀k",
+   "fsi": "dʉ̀k",
+   "pt": "tarde da noite",
+   "en": "late at night"
+  },
+  {
+   "th": "เมื่อคืนนี้",
+   "p": "mʉ̂ʉa-kʉʉn-níi",
+   "fsi": "mʉ̂akhʉʉnníi",
+   "pt": "ontem à noite",
+   "en": "last night"
+  },
+  {
+   "th": "แต่เช้า",
+   "p": "dtɛ̀ɛ-cháao",
+   "fsi": "tɛ̀ɛcháaw",
+   "pt": "bem cedo",
+   "en": "very early"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "เป็นอะไร: o que você tem?",
+    "en": "เป็นอะไร: what's the matter?"
+   },
+   "e": {
+    "pt": "เป็นอะไร(ไป) é como se pergunta por um mal-estar. Para doença, responde-se เป็น + doença: เป็นหวัด (estou resfriado), เป็นไข้ (com febre), เป็นโรคบิด. Para dor, ปวด + lugar: ปวดหัว (dor de cabeça), ปวดท้อง (dor de barriga). Analogia: เป็น é 'estar com' uma doença; ปวด é 'doer' num lugar.",
+    "en": "Ask เป็นอะไร(ไป); answer เป็น + illness or ปวด + body part."
+   },
+   "ex": "ผม|pǒm ปวด|bpùuat หัว|hǔua"
+  },
+  {
+   "t": {
+    "pt": "สนุก: divertido",
+    "en": "สนุก: fun"
+   },
+   "e": {
+    "pt": "สนุก serve para lugar, coisa, pessoa ou atividade: งานเลี้ยงสนุก (a festa foi boa), เขาเป็นคนสนุก (ele é divertido). O contrário é น่าเบื่อ (chato).",
+    "en": "สนุก applies to places, things, people or activities; the opposite is น่าเบื่อ."
+   },
+   "ex": "หนัง|nǎng เรื่อง|rʉ̂ʉang นี้|níi สนุก|sà-nùk"
+  },
+  {
+   "t": {
+    "pt": "ได้ como verbo principal: conseguir, ganhar",
+    "en": "ได้ as a main verb: to get"
+   },
+   "e": {
+    "pt": "Como verbo principal, ได้ é 'obter, ganhar': ได้เพื่อนใหม่ (fiz amigos novos), ได้รางวัล (ganhou um prêmio). Analogia: é o 'ganhar' de 'ganhei um presente'.",
+    "en": "As a main verb, ได้ means to get or obtain."
+   },
+   "ex": "เขา|kǎo ได้|dâai รางวัล|raang-wan"
+  },
+  {
+   "t": {
+    "pt": "Tarde: ดึก, สาย ou ช้า",
+    "en": "Late: ดึก, สาย or ช้า"
+   },
+   "e": {
+    "pt": "O 'tarde' muda com a hora: ดึก é tarde da noite (นอนดึก = dormir tarde); สาย é tarde da manhã (ตื่นสาย = acordar tarde); ช้า é atrasado em geral. Analogia: três relógios diferentes para o mesmo atraso.",
+    "en": "ดึก: late at night; สาย: late in the morning; ช้า: late, slow in general."
+   },
+   "ex": "ผม|pǒm ตื่น|dtʉ̀ʉn สาย|sǎai"
+  }
+ ]
+}

@@ -1,0 +1,411 @@
+{
+ "n": 24,
+ "paginas": "vol. 2, p. 385–396",
+ "titulo": {
+  "pt": "A viagem do senhor Thomas",
+  "en": "Mr. Thomas's trip (basic episode)"
+ },
+ "dialogo": [
+  {
+   "sp": "N",
+   "s": "คุณ|kun โทมัส|too-mát กำลัง|gam-lang เรียน|riian ภาษาไทย|paa-sǎa-tai อยู่|yùu",
+   "fsi": "khun thoomát kamlaŋ rian phaasǎathaj jùu",
+   "en": "Mr. Thomas is studying Thai",
+   "pt": "O senhor Thomas está estudando tailandês"
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi โรงเรียน|roong-riian สอน|sɔ̌ɔn ภาษา|paa-sǎa ของ|kɔ̌ɔng กระทรวง|grà-suuang ต่างประเทศ|dtàang-bprà-têet",
+   "fsi": "thîi rooŋrian sɔ̌ɔn phaasǎa khɔ̌ɔŋ krasuaŋ tàaŋprathêet",
+   "en": "at the language school of the Department of State.",
+   "pt": "na escola de línguas do Departamento de Estado."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo เรียน|riian มา|maa ได้|dâai สอง|sɔ̌ɔng เดือน|dʉʉan แล้ว|lɛ́ɛo",
+   "fsi": "kháw rian maa dâj sɔ̌ɔŋ dʉan lɛ́ɛw",
+   "en": "He has been studying for two months.",
+   "pt": "Já estuda há dois meses."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จะ|jà เรียน|riian อีก|ìik สี่|sìi เดือน|dʉʉan แล้ว|lɛ́ɛo จะ|jà ไป|bpai เมืองไทย|mʉʉang-tai",
+   "fsi": "kháw cà rian ʔìik sìi dʉan lɛ́ɛw cà paj mʉaŋthaj",
+   "en": "He will study four more months and then go to Thailand.",
+   "pt": "Vai estudar mais quatro meses e depois ir para a Tailândia."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จะ|jà พา|paa ภรรยา|pan-rá-yaa และ|lɛ́ ลูกๆ|lûuk-lûuk ของ|kɔ̌ɔng เขา|kǎo ไป|bpai ด้วย|dûuai",
+   "fsi": "kháw cà phaa phanrajaa lɛ́ lûuklûuk khɔ̌ɔŋ kháw paj dûaj",
+   "en": "He will take his wife and children with him.",
+   "pt": "Vai levar a esposa e os filhos junto."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo กะ|gà ว่า|wâa จะ|jà ออก|ɔ̀ɔk จาก|jàak วอชิงตัน|wɔɔ-ching-dtan วันที่|wan-tîi สิบ|sìp กรกฎาคม|gà-rá-gà-daa-kom",
+   "fsi": "kháw kà wâa cà ʔɔ̀ɔk càak wɔɔchiŋtan wanthîi sìp karakadaakhom",
+   "en": "He plans to leave Washington on July 10th",
+   "pt": "Ele calcula sair de Washington no dia dez de julho"
+  },
+  {
+   "sp": "N",
+   "s": "จะ|jà ขับ|kàp รถ|rót ไป|bpai บ้าน|bâan พ่อแม่|pɔ̂ɔ-mɛ̂ɛ เขา|kǎo ที่|tîi รัฐ|rát เพนซิลเวเนีย|pen-sin-wee-niia",
+   "fsi": "cà khàp rót paj bâan phɔ̂ɔmɛ̂ɛ kháw thîi rát phensinweenia",
+   "en": "and drive to his parents' house in Pennsylvania.",
+   "pt": "e ir de carro até a casa dos pais, na Pensilvânia."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จะ|jà พัก|pák อยู่|yùu ที่นั่น|tîi-nân ห้า|hâa วัน|wan",
+   "fsi": "kháw cà phák jùu thîinân hâa wan",
+   "en": "He will stay there five days,",
+   "pt": "Vai ficar lá cinco dias"
+  },
+  {
+   "sp": "N",
+   "s": "แล้ว|lɛ́ɛo จะ|jà ขับ|kàp รถ|rót ไป|bpai นิวยอร์ค|niu-yɔ̂k",
+   "fsi": "lɛ́ɛw cà khàp rót paj niwjɔ̂k",
+   "en": "then drive to New York.",
+   "pt": "e depois seguir de carro para Nova York."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จะ|jà ลง|long เรือ|rʉʉa ที่|tîi นิวยอร์ค|niu-yɔ̂k และ|lɛ́ ไป|bpai ขึ้น|kʉ̂n ที่|tîi ฝรั่งเศส|fà-ràng-sèet",
+   "fsi": "kháw cà loŋ rʉa thîi niwjɔ̂k lɛ́ paj khʉ̂n thîi faràŋsèet",
+   "en": "He will board a ship in New York and land in France.",
+   "pt": "Em Nova York vai pegar um navio e desembarcar na França."
+  },
+  {
+   "sp": "N",
+   "s": "จาก|jàak ฝรั่งเศส|fà-ràng-sèet เขา|kǎo จะ|jà บิน|bin ไป|bpai โรม|room เอเธนส์|ee-ten เตหะราน|dtee-hà-raan นิวเดลี|niu-dee-lii และ|lɛ́ กรุงเทพฯ|grung-têep",
+   "fsi": "càak faràŋsèet kháw cà bin paj room ʔeethen teeharaan niwdeelii lɛ́ kruŋthêep",
+   "en": "From France he will fly to Rome, Athens, Tehran, New Delhi and Bangkok.",
+   "pt": "Da França vai voar para Roma, Atenas, Teerã, Nova Délhi e Bangkok."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จะ|jà ไม่|mâi แวะ|wɛ́ เที่ยว|tîiao เตหะราน|dtee-hà-raan และ|lɛ́ นิวเดลี|niu-dee-lii",
+   "fsi": "kháw cà mâj wɛ́ thîaw teeharaan lɛ́ niwdeelii",
+   "en": "He won't stop over in Tehran and New Delhi,",
+   "pt": "Não vai parar para passear em Teerã nem em Nova Délhi,"
+  },
+  {
+   "sp": "N",
+   "s": "แต่|dtɛ̀ɛ จะ|jà แวะ|wɛ́ เที่ยว|tîiao โรม|room สี่|sìi วัน|wan และ|lɛ́ เอเธนส์|ee-ten ห้า|hâa วัน|wan",
+   "fsi": "tɛ̀ɛ cà wɛ́ thîaw room sìi wan lɛ́ ʔeethen hâa wan",
+   "en": "but he will stop four days in Rome and five in Athens.",
+   "pt": "mas vai parar quatro dias em Roma e cinco em Atenas."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo กะ|gà ว่า|wâa จะ|jà ถึง|tʉ̌ng กรุงเทพฯ|grung-têep ราวๆ|raao-raao วันที่|wan-tîi หนึ่ง|nʉ̀ng สิงหา|sǐng-hǎa",
+   "fsi": "kháw kà wâa cà thʉ̌ŋ kruŋthêep raawraaw wanthîi nʉ̀ŋ sǐŋhǎa",
+   "en": "He figures he will reach Bangkok around August 1st.",
+   "pt": "Calcula chegar a Bangkok lá pelo dia primeiro de agosto."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun โทมัส|too-mát มา|maa ถึง|tʉ̌ng กรุงเทพฯ|grung-têep เมื่อ|mʉ̂ʉa วันที่|wan-tîi สอง|sɔ̌ɔng สิงหาคม|sǐng-hǎa-kom",
+   "fsi": "khun thoomát maa thʉ̌ŋ kruŋthêep mʉ̂a wanthîi sɔ̌ɔŋ sǐŋhǎakhom",
+   "en": "Mr. Thomas arrived in Bangkok on August 2nd.",
+   "pt": "O senhor Thomas chegou a Bangkok no dia dois de agosto."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo พัก|pák อยู่|yùu ที่|tîi โรงแรม|roong-rɛɛm อิมพีเรียล|im-pii-riian ตรง|dtrong ซอย|sɔɔi ร่วมฤดี|rûuam-rʉ́-dii",
+   "fsi": "kháw phák jùu thîi rooŋrɛɛm ʔimphiirian troŋ sɔɔj rûamrʉ́dii",
+   "en": "He is staying at the Imperial Hotel on Ruam Rudee Lane.",
+   "pt": "Está hospedado no Hotel Imperial, na travessa Ruam Rudee."
+  },
+  {
+   "sp": "N",
+   "s": "ภรรยา|pan-rá-yaa และ|lɛ́ ลูกๆ|lûuk-lûuk ชอบ|chɔ̂ɔp โรงแรม|roong-rɛɛm นี้|níi มาก|mâak",
+   "fsi": "phanrajaa lɛ́ lûuklûuk chɔ̂ɔp rooŋrɛɛm níi mâak",
+   "en": "His wife and children like this hotel very much",
+   "pt": "A esposa e os filhos gostam muito desse hotel"
+  },
+  {
+   "sp": "N",
+   "s": "เพราะ|prɔ́ อยู่|yùu ใกล้|glâi สถานทูต|sà-tǎan-tûut ร้านอาหาร|ráan-aa-hǎan และ|lɛ́ ร้านขายของ|ráan-kǎai-kɔ̌ɔng",
+   "fsi": "phrɔ́ jùu klâj sathǎanthûut ráanʔaahǎan lɛ́ ráankhǎajkhɔ̌ɔŋ",
+   "en": "because it is close to the embassy, restaurants and shops.",
+   "pt": "porque fica perto da embaixada, de restaurantes e de lojas."
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi โรงแรม|roong-rɛɛm มี|mii สระว่ายน้ำ|sà-wâai-náam",
+   "fsi": "thîi rooŋrɛɛm mii sàwâajnáam",
+   "en": "The hotel has a swimming pool.",
+   "pt": "O hotel tem piscina."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ว่ายน้ำ|wâai-náam กัน|gan ทุกวัน|túk-wan",
+   "fsi": "kháw wâajnáam kan thúkwan",
+   "en": "They swim every day.",
+   "pt": "Eles nadam todos os dias."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จำ|jam ได้|dâai ว่า|wâa เขา|kǎo มี|mii เพื่อน|pʉ̂ʉan คน|kon ไทย|tai คน|kon หนึ่ง|nʉ̀ng",
+   "fsi": "kháw cam dâj wâa kháw mii phʉ̂an khon thaj khon nʉ̀ŋ",
+   "en": "He remembered that he had a Thai friend.",
+   "pt": "Ele se lembrou de que tinha um amigo tailandês."
+  },
+  {
+   "sp": "N",
+   "s": "เพื่อน|pʉ̂ʉan คน|kon นี้|níi เคย|kəəi เรียน|riian อยู่|yùu กับ|gàp เขา|kǎo ที่|tîi มหาวิทยาลัย|má-hǎa-wít-tá-yaa-lai เยล|yeen",
+   "fsi": "phʉ̂an khon níi khəəj rian jùu kàp kháw thîi mahǎawítthajaalaj jeel",
+   "en": "This friend had studied with him at Yale University",
+   "pt": "Esse amigo tinha estudado com ele na Universidade Yale"
+  },
+  {
+   "sp": "N",
+   "s": "เมื่อ|mʉ̂ʉa สิบ|sìp ปี|bpii ที่แล้ว|tîi-lɛ́ɛo",
+   "fsi": "mʉ̂a sìp pii thîi lɛ́ɛw",
+   "en": "ten years ago.",
+   "pt": "dez anos atrás."
+  },
+  {
+   "sp": "N",
+   "s": "แต่|dtɛ̀ɛ คุณ|kun โทมัส|too-mát ไม่|mâi ทราบ|sâap ว่า|wâa เพื่อน|pʉ̂ʉan อยู่|yùu ที่ไหน|tîi-nǎi",
+   "fsi": "tɛ̀ɛ khun thoomát mâj sâap wâa phʉ̂an jùu thîinǎj",
+   "en": "But Mr. Thomas didn't know where his friend was.",
+   "pt": "Mas o senhor Thomas não sabia onde o amigo estava."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo จำ|jam ได้|dâai ว่า|wâa เพื่อน|pʉ̂ʉan ชื่อ|chʉ̂ʉ คุณ|kun สุนทร|sǔn-tɔɔn นามสกุล|naam-sà-gun มหาศักดิ์|má-hǎa-sàk",
+   "fsi": "kháw cam dâj wâa phʉ̂an chʉ̂ʉ khun sǔnthɔɔn naamsakun mahǎasàk",
+   "en": "He remembered his friend was called Sunthorn Mahasak.",
+   "pt": "Lembrava que o amigo se chamava Sunthorn Mahasak."
+  },
+  {
+   "sp": "N",
+   "s": "วัน|wan หนึ่ง|nʉ̀ng เขา|kǎo เปิด|bpə̀ət สมุด|sà-mùt โทรศัพท์|too-rá-sàp",
+   "fsi": "wan nʉ̀ŋ kháw pə̀ət samùt thoorasàp",
+   "en": "One day he opened the telephone book",
+   "pt": "Um dia ele abriu a lista telefônica"
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo พบ|póp ชื่อ|chʉ̂ʉ คุณ|kun สุนทร|sǔn-tɔɔn",
+   "fsi": "kháw phóp chʉ̂ʉ khun sǔnthɔɔn",
+   "en": "and found Sunthorn's name.",
+   "pt": "e achou o nome do Sunthorn."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo โทร|too ไป|bpai หา|hǎa คุณ|kun สุนทร|sǔn-tɔɔn ที่|tîi บ้าน|bâan",
+   "fsi": "kháw thoo paj hǎa khun sǔnthɔɔn thîi bâan",
+   "en": "He phoned Sunthorn at home.",
+   "pt": "Telefonou para o Sunthorn em casa."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun สุนทร|sǔn-tɔɔn ดีใจ|dii-jai มาก|mâak",
+   "fsi": "khun sǔnthɔɔn diicaj mâak",
+   "en": "Sunthorn was very glad.",
+   "pt": "O Sunthorn ficou muito contente."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo เชิญ|chəən คุณ|kun โทมัส|too-mát และ|lɛ́ ครอบครัว|krɔ̂ɔp-kruua ไป|bpai ทาน|taan ข้าว|kâao ที่|tîi บ้าน|bâan",
+   "fsi": "kháw chəən khun thoomát lɛ́ khrɔ̂ɔpkhrua paj thaan khâaw thîi bâan",
+   "en": "He invited Thomas and his family to dinner at his house.",
+   "pt": "Convidou o Thomas e a família para jantar na casa dele."
+  },
+  {
+   "sp": "N",
+   "s": "บ้าน|bâan คุณ|kun สุนทร|sǔn-tɔɔn สวย|sǔuai มาก|mâak",
+   "fsi": "bâan khun sǔnthɔɔn sǔaj mâak",
+   "en": "Sunthorn's house is very beautiful.",
+   "pt": "A casa do Sunthorn é muito bonita."
+  },
+  {
+   "sp": "N",
+   "s": "คุณ|kun สุนทร|sǔn-tɔɔn อยาก|yàak ให้|hâi ครอบครัว|krɔ̂ɔp-kruua โทมัส|too-mát พัก|pák อยู่|yùu กับ|gàp เขา|kǎo",
+   "fsi": "khun sǔnthɔɔn jàak hâj khrɔ̂ɔpkhrua thoomát phák jùu kàp kháw",
+   "en": "Sunthorn wanted Thomas's family to stay with him,",
+   "pt": "O Sunthorn queria que a família do Thomas ficasse com ele,"
+  },
+  {
+   "sp": "N",
+   "s": "แต่|dtɛ̀ɛ คุณ|kun โทมัส|too-mát ไม่|mâi อยาก|yàak รบกวน|róp-guuan",
+   "fsi": "tɛ̀ɛ khun thoomát mâj jàak rópkuan",
+   "en": "but Thomas didn't want to trouble him.",
+   "pt": "mas o Thomas não queria incomodar."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "กะ",
+   "p": "gà",
+   "fsi": "kà",
+   "pt": "calcular, estimar, planejar",
+   "en": "to estimate, plan"
+  },
+  {
+   "th": "ประจำ",
+   "p": "bprà-jam",
+   "fsi": "pracam",
+   "pt": "fixo, estar lotado (num posto)",
+   "en": "to be stationed; regular"
+  },
+  {
+   "th": "ชาย",
+   "p": "chaai",
+   "fsi": "chaaj",
+   "pt": "beira, borda",
+   "en": "edge, border"
+  },
+  {
+   "th": "ชายทะเล",
+   "p": "chaai-tá-lee",
+   "fsi": "chaajthalee",
+   "pt": "praia, beira-mar",
+   "en": "the beach"
+  },
+  {
+   "th": "เรือใบ",
+   "p": "rʉʉa-bai",
+   "fsi": "rʉabaj",
+   "pt": "barco a vela",
+   "en": "sailboat"
+  },
+  {
+   "th": "เรือจ้าง",
+   "p": "rʉʉa-jâang",
+   "fsi": "rʉacâaŋ",
+   "pt": "barco de aluguel",
+   "en": "rented boat"
+  },
+  {
+   "th": "สระว่ายน้ำ",
+   "p": "sà-wâai-náam",
+   "fsi": "sàwâajnáam",
+   "pt": "piscina",
+   "en": "swimming pool"
+  },
+  {
+   "th": "แวะ",
+   "p": "wɛ́",
+   "fsi": "wɛ́",
+   "pt": "dar uma parada, passar por",
+   "en": "to stop over"
+  },
+  {
+   "th": "สมุดโทรศัพท์",
+   "p": "sà-mùt-too-rá-sàp",
+   "fsi": "samùtthoorasàp",
+   "pt": "lista telefônica",
+   "en": "telephone book"
+  },
+  {
+   "th": "ลูกๆ",
+   "p": "lûuk-lûuk",
+   "fsi": "lûuklûuk",
+   "pt": "os filhos",
+   "en": "the children"
+  },
+  {
+   "th": "พ่อแม่",
+   "p": "pɔ̂ɔ-mɛ̂ɛ",
+   "fsi": "phɔ̂ɔmɛ̂ɛ",
+   "pt": "pais (pai e mãe)",
+   "en": "parents"
+  },
+  {
+   "th": "สวิส",
+   "p": "sà-wít",
+   "fsi": "sawít",
+   "pt": "Suíça",
+   "en": "Switzerland"
+  },
+  {
+   "th": "ฮาวาย",
+   "p": "haa-waai",
+   "fsi": "haawaaj",
+   "pt": "Havaí",
+   "en": "Hawaii"
+  },
+  {
+   "th": "เอเธนส์",
+   "p": "ee-ten",
+   "fsi": "ʔeethen",
+   "pt": "Atenas",
+   "en": "Athens"
+  },
+  {
+   "th": "นิวเดลี",
+   "p": "niu-dee-lii",
+   "fsi": "niwdeelii",
+   "pt": "Nova Délhi",
+   "en": "New Delhi"
+  },
+  {
+   "th": "เตหะราน",
+   "p": "dtee-hà-raan",
+   "fsi": "teeharaan",
+   "pt": "Teerã",
+   "en": "Tehran"
+  },
+  {
+   "th": "ปากน้ำ",
+   "p": "bpàak-náam",
+   "fsi": "pàaknáam",
+   "pt": "Paknam (distrito)",
+   "en": "Paknam (district)"
+  },
+  {
+   "th": "ศิริราช",
+   "p": "sì-rí-râat",
+   "fsi": "sìrírâat",
+   "pt": "Siriraj (hospital em Thonburi)",
+   "en": "Siriraj (hospital)"
+  },
+  {
+   "th": "วอชิงตัน",
+   "p": "wɔɔ-ching-dtan",
+   "fsi": "wɔɔchiŋtan",
+   "pt": "Washington",
+   "en": "Washington"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Uma narrativa no tempo verbal tailandês",
+    "en": "Telling a story without tenses"
+   },
+   "e": {
+    "pt": "O texto conta planos (จะ), coisas já feitas (มา…ได้…แล้ว) e o que aconteceu depois (เมื่อวันที่สอง…) sem mudar nenhum verbo — só as palavras de tempo e de aspecto mudam. Analogia: o verbo é um ator que veste figurinos diferentes (จะ, แล้ว, เคย) a cada cena.",
+    "en": "Plans, completed actions and past events are told without inflection, only with time and aspect words."
+   },
+   "ex": "เขา|kǎo จะ|jà ไป|bpai เมืองไทย|mʉʉang-tai"
+  },
+  {
+   "t": {
+    "pt": "กะว่า: calcular, planejar",
+    "en": "กะว่า: to figure that"
+   },
+   "e": {
+    "pt": "กะว่า + frase = 'calcular, ter a ideia de que': เขากะว่าจะถึงราววันที่หนึ่ง = ele calcula chegar lá pelo dia primeiro. É mais vago que ตั้งใจ (pretender firmemente).",
+    "en": "กะว่า + clause: to estimate or plan roughly."
+   },
+   "ex": "ผม|pǒm กะ|gà ว่า|wâa จะ|jà ไป|bpai พรุ่งนี้|prûng-níi"
+  },
+  {
+   "t": {
+    "pt": "แวะ: dar uma passada",
+    "en": "แวะ: to stop over"
+   },
+   "e": {
+    "pt": "แวะ é parar no caminho para outro destino: แวะเที่ยวโรม = parar para passear em Roma; แวะบ้านเพื่อน = passar na casa de um amigo.",
+    "en": "แวะ: to stop somewhere on the way."
+   },
+   "ex": "แวะ|wɛ́ บ้าน|bâan เพื่อน|pʉ̂ʉan"
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "n": 23,
+ "paginas": "vol. 2, p. 369–384",
+ "titulo": {
+  "pt": "Há quanto tempo você está aqui?",
+  "en": "Conversation about length of residence"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "คุณ|kun อยู่|yùu เมือง|mʉʉang ไทย|tai มา|maa ได้|dâai กี่|gìi ปี|bpii แล้ว|lɛ́ɛo",
+   "fsi": "khun jùu mʉaŋ thaj maa dâj kìi pii lɛ́ɛw",
+   "en": "How long have you been living in Thailand?",
+   "pt": "Faz quantos anos que você mora na Tailândia?"
+  },
+  {
+   "sp": "B",
+   "s": "สอง|sɔ̌ɔng ปี|bpii กว่า|gwàa แล้ว|lɛ́ɛo ครับ|kráp",
+   "fsi": "sɔ̌ɔŋ pii kwàa lɛ́ɛw khráp",
+   "en": "More than two years.",
+   "pt": "Já faz mais de dois anos."
+  },
+  {
+   "sp": "A",
+   "s": "แล้ว|lɛ́ɛo เพื่อน|pʉ̂ʉan คุณ|kun ล่ะ|lâ ครับ|kráp",
+   "fsi": "lɛ́ɛw phʉ̂an khun lâ khráp",
+   "en": "And your friend?",
+   "pt": "E o seu amigo?"
+  },
+  {
+   "sp": "A",
+   "s": "มา|maa อยู่|yùu นาน|naan แล้ว|lɛ́ɛo หรือ|rʉ̌ʉ",
+   "fsi": "maa jùu naan lɛ́ɛw rʉ̌ʉ",
+   "en": "Has he been here long?",
+   "pt": "Está aqui faz tempo?"
+  },
+  {
+   "sp": "B",
+   "s": "เขา|kǎo เพิ่ง|pə̂ng มา|maa ครับ|kráp",
+   "fsi": "kháw phə̂ŋ maa khráp",
+   "en": "He just came.",
+   "pt": "Acabou de chegar."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo จะ|jà อยู่|yùu กี่|gìi ปี|bpii ครับ|kráp",
+   "fsi": "kháw cà jùu kìi pii khráp",
+   "en": "How many years will he be here?",
+   "pt": "Ele vai ficar quantos anos?"
+  },
+  {
+   "sp": "B",
+   "s": "อย่างน้อย|yàang-nɔ́ɔi สอง|sɔ̌ɔng ปี|bpii อย่างมาก|yàang-mâak สี่|sìi ปี|bpii",
+   "fsi": "jàaŋnɔ́ɔj sɔ̌ɔŋ pii jàaŋmâak sìi pii",
+   "en": "At least two years, at most four.",
+   "pt": "No mínimo dois anos, no máximo quatro."
+  },
+  {
+   "sp": "A",
+   "s": "ทำไม|tam-mai เขา|kǎo ถึง|tʉ̌ng พูด|pûut ภาษาไทย|paa-sǎa-tai ได้|dâai ชัด|chát อย่างนั้น|yàang-nán ล่ะ|lâ ครับ|kráp",
+   "fsi": "thammaj kháw thʉ̌ŋ phûut phaasǎathaj dâj chát jàaŋnán lâ khráp",
+   "en": "How is it that he speaks Thai so clearly?",
+   "pt": "Como é que ele fala tailandês tão bem assim?"
+  },
+  {
+   "sp": "B",
+   "s": "เพราะ|prɔ́ เขา|kǎo เคย|kəəi เรียน|riian มาก่อน|maa-gɔ̀ɔn ครับ|kráp",
+   "fsi": "phrɔ́ kháw khəəj rian maakɔ̀ɔn khráp",
+   "en": "He studied it previously.",
+   "pt": "Porque ele já tinha estudado antes."
+  },
+  {
+   "sp": "A",
+   "s": "ที่ไหน|tîi-nǎi ครับ|kráp",
+   "fsi": "thîinǎj khráp",
+   "en": "Where?",
+   "pt": "Onde?"
+  },
+  {
+   "sp": "B",
+   "s": "ที่|tîi อเมริกา|à-mee-rí-gaa",
+   "fsi": "thîi ʔameerikaa",
+   "en": "In America.",
+   "pt": "Nos Estados Unidos."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo เรียน|riian อยู่|yùu นาน|naan เท่าไร|tâo-rài ครับ|kráp",
+   "fsi": "kháw rian jùu naan thâwrài khráp",
+   "en": "How long did he study?",
+   "pt": "Ele estudou por quanto tempo?"
+  },
+  {
+   "sp": "B",
+   "s": "สิบ|sìp เดือน|dʉʉan ครับ|kráp",
+   "fsi": "sìp dʉan khráp",
+   "en": "Ten months.",
+   "pt": "Dez meses."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ชัด",
+   "p": "chát",
+   "fsi": "chát",
+   "pt": "claro, nítido",
+   "en": "clear, distinct"
+  },
+  {
+   "th": "อย่างมาก",
+   "p": "yàang-mâak",
+   "fsi": "jàaŋmâak",
+   "pt": "no máximo",
+   "en": "at most"
+  },
+  {
+   "th": "อย่างน้อย",
+   "p": "yàang-nɔ́ɔi",
+   "fsi": "jàaŋnɔ́ɔj",
+   "pt": "no mínimo, pelo menos",
+   "en": "at least"
+  },
+  {
+   "th": "ลิตร",
+   "p": "lít",
+   "fsi": "lít",
+   "pt": "litro",
+   "en": "liter"
+  },
+  {
+   "th": "มาก่อน",
+   "p": "maa-gɔ̀ɔn",
+   "fsi": "maakɔ̀ɔn",
+   "pt": "antes, anteriormente",
+   "en": "previously"
+  },
+  {
+   "th": "นอร์เวย์",
+   "p": "nɔɔ-wee",
+   "fsi": "nɔɔwee",
+   "pt": "Noruega",
+   "en": "Norway"
+  },
+  {
+   "th": "โอกินาวา",
+   "p": "oo-gì-naa-waa",
+   "fsi": "ʔookinaawaa",
+   "pt": "Okinawa",
+   "en": "Okinawa"
+  },
+  {
+   "th": "อย่างนั้น",
+   "p": "yàang-nán",
+   "fsi": "jàaŋnán",
+   "pt": "assim, desse jeito",
+   "en": "like that, so"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "กว่า depois de número: 'e pouco'",
+    "en": "กว่า after a number: 'more than'"
+   },
+   "e": {
+    "pt": "Depois de uma quantidade, กว่า quer dizer 'mais de': สองปีกว่า = mais de dois anos. Com dinheiro, a posição muda tudo: สิบบาทกว่า = entre 10 e 11 baht; สิบกว่าบาท = entre 10 e 20 baht. Analogia: é como 'dez e pouco reais' × 'dez e tantos reais'.",
+    "en": "After an amount, กว่า means 'more than'; with baht, position matters: สิบบาทกว่า (10–11) vs สิบกว่าบาท (10–20)."
+   },
+   "ex": "สอง|sɔ̌ɔng ปี|bpii กว่า|gwàa"
+  },
+  {
+   "t": {
+    "pt": "อยู่, มา…แล้ว e ได้: duração e continuidade",
+    "en": "Aspect with อยู่, มา…แล้ว and ได้"
+   },
+   "e": {
+    "pt": "อยู่ + período diz quanto tempo algo dura (เรียนอยู่สองปี = vai estudar por dois anos); มา…แล้ว diz que começou no passado e continua (ทำงานมาสองปีแล้ว = trabalha há dois anos); ได้ + período sozinho é tempo passado e encerrado (ทำงานได้สองปี = trabalhou dois anos), e com แล้ว volta a ser algo que continua. Analogia: อยู่ é o cronômetro, มา…แล้ว é o odômetro que ainda gira, ได้ é o recibo do que já passou.",
+    "en": "อยู่ + period: duration; มา…แล้ว: started in the past and continuing; ได้ + period: completed (with แล้ว: still continuing)."
+   },
+   "ex": "เขา|kǎo ทำงาน|tam-ngaan มา|maa สอง|sɔ̌ɔng ปี|bpii แล้ว|lɛ́ɛo"
+  },
+  {
+   "t": {
+    "pt": "เพิ่ง: acabou de",
+    "en": "เพิ่ง: just"
+   },
+   "e": {
+    "pt": "เพิ่ง vem logo antes do verbo e fala do passado bem recente: เขาเพิ่งมา = ele acabou de chegar.",
+    "en": "เพิ่ง before the verb: the very recent past."
+   },
+   "ex": "ผม|pǒm เพิ่ง|pə̂ng กิน|gin ข้าว|kâao"
+  }
+ ]
+}

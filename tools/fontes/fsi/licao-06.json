@@ -1,75 +1,507 @@
-{"n": 6, "paginas": "vol. 1, p. 64–85",
- "titulo": {"pt": "Nacionalidade e país de origem", "en": "Nationality and where you come from"},
+{
+ "n": 6,
+ "paginas": "vol. 1, p. 64–85",
+ "titulo": {
+  "pt": "Nacionalidade e país de origem",
+  "en": "Nationality and where you come from"
+ },
  "dialogo": [
-  {"sp": "A", "s": "สวัสดี|sà-wàt-dii ครับ|kráp", "fsi": "sawàtdii khráp", "en": "Hello.", "pt": "Olá."},
-  {"sp": "B", "s": "คุณ|kun พูด|pûut ภาษา|paa-sǎa ไทย|tai เก่ง|gèng จัง|jang", "fsi": "khun phûut phaasǎa thaj keŋ caŋ", "en": "You speak Thai very well.", "pt": "Você fala tailandês muito bem."},
-  {"sp": "B", "s": "เป็น|bpen คน|kon ชาติ|châat อะไร|à-rai ครับ|kráp", "fsi": "pen khon châat ʔaraj khráp", "en": "What nationality are you?", "pt": "Você é de que nacionalidade?"},
-  {"sp": "A", "s": "ผม|pǒm เป็น|bpen คน|kon อเมริกัน|à-mee-rí-gan ครับ|kráp", "fsi": "phǒm pen khon ʔameerikan khráp", "en": "I'm an American.", "pt": "Sou americano."},
-  {"sp": "B", "s": "คุณ|kun พูด|pûut ภาษา|paa-sǎa ไทย|tai ได้|dâai ดี|dii มาก|mâak ครับ|kráp", "fsi": "khun phûut phaasǎa thaj dâj dii mâak khráp", "en": "You (can) speak Thai very well.", "pt": "O senhor fala tailandês muito bem."},
-  {"sp": "A", "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp", "fsi": "khɔ̀ɔpkhun khráp", "en": "Thank you.", "pt": "Obrigado."},
-  {"sp": "A", "s": "ผม|pǒm พูด|pûut ได้|dâai นิดหน่อย|nít-nɔ̀i เท่านั้น|tâo-nán ครับ|kráp", "fsi": "phǒm phûut dâj nít nɔ̀j thâwnán khráp", "en": "I can only speak a little.", "pt": "Eu só falo um pouquinho."},
-  {"sp": "B", "s": "ใคร|krai สอน|sɔ̌ɔn ภาษา|paa-sǎa ไทย|tai คุณ|kun ครับ|kráp", "fsi": "khraj sɔ̌ɔn phaasǎa thaj khun khráp", "en": "Who taught you Thai?", "pt": "Quem lhe ensinou tailandês?"},
-  {"sp": "A", "s": "คุณ|kun นงนุช|nong-nút ครับ|kráp", "fsi": "khun noŋnút khráp", "en": "Miss Nongnut.", "pt": "A senhorita Nongnut."},
-  {"sp": "A", "s": "เขา|kǎo เป็น|bpen ครู|kruu ภาษา|paa-sǎa ไทย|tai ที่|tîi โรงเรียน|roong-riian สอน|sɔ̌ɔn ภาษา|paa-sǎa", "fsi": "kháw pen khruu phaasǎa thaj thîi rooŋrian sɔ̌ɔn phaasǎa", "en": "She is a Thai language teacher at the language school.", "pt": "Ela é professora de tailandês na escola de línguas."}
+  {
+   "sp": "A",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp",
+   "fsi": "sawàtdii khráp",
+   "en": "Hello.",
+   "pt": "Olá."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun พูด|pûut ภาษา|paa-sǎa ไทย|tai เก่ง|gèng จัง|jang",
+   "fsi": "khun phûut phaasǎa thaj keŋ caŋ",
+   "en": "You speak Thai very well.",
+   "pt": "Você fala tailandês muito bem."
+  },
+  {
+   "sp": "B",
+   "s": "เป็น|bpen คน|kon ชาติ|châat อะไร|à-rai ครับ|kráp",
+   "fsi": "pen khon châat ʔaraj khráp",
+   "en": "What nationality are you?",
+   "pt": "Você é de que nacionalidade?"
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm เป็น|bpen คน|kon อเมริกัน|à-mee-rí-gan ครับ|kráp",
+   "fsi": "phǒm pen khon ʔameerikan khráp",
+   "en": "I'm an American.",
+   "pt": "Sou americano."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun พูด|pûut ภาษา|paa-sǎa ไทย|tai ได้|dâai ดี|dii มาก|mâak ครับ|kráp",
+   "fsi": "khun phûut phaasǎa thaj dâj dii mâak khráp",
+   "en": "You (can) speak Thai very well.",
+   "pt": "O senhor fala tailandês muito bem."
+  },
+  {
+   "sp": "A",
+   "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp",
+   "fsi": "khɔ̀ɔpkhun khráp",
+   "en": "Thank you.",
+   "pt": "Obrigado."
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm พูด|pûut ได้|dâai นิดหน่อย|nít-nɔ̀i เท่านั้น|tâo-nán ครับ|kráp",
+   "fsi": "phǒm phûut dâj nít nɔ̀j thâwnán khráp",
+   "en": "I can only speak a little.",
+   "pt": "Eu só falo um pouquinho."
+  },
+  {
+   "sp": "B",
+   "s": "ใคร|krai สอน|sɔ̌ɔn ภาษา|paa-sǎa ไทย|tai คุณ|kun ครับ|kráp",
+   "fsi": "khraj sɔ̌ɔn phaasǎa thaj khun khráp",
+   "en": "Who taught you Thai?",
+   "pt": "Quem lhe ensinou tailandês?"
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun นงนุช|nong-nút ครับ|kráp",
+   "fsi": "khun noŋnút khráp",
+   "en": "Miss Nongnut.",
+   "pt": "A senhorita Nongnut."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo เป็น|bpen ครู|kruu ภาษา|paa-sǎa ไทย|tai ที่|tîi โรงเรียน|roong-riian สอน|sɔ̌ɔn ภาษา|paa-sǎa",
+   "fsi": "kháw pen khruu phaasǎa thaj thîi rooŋrian sɔ̌ɔn phaasǎa",
+   "en": "She is a Thai language teacher at the language school.",
+   "pt": "Ela é professora de tailandês na escola de línguas."
+  }
  ],
  "vocab": [
-  {"th": "อเมริกา", "p": "à-mee-rí-gaa", "fsi": "ʔameerikaa", "pt": "Estados Unidos, América", "en": "America"},
-  {"th": "อเมริกัน", "p": "à-mee-rí-gan", "fsi": "ʔameerikan", "pt": "americano(a)", "en": "American"},
-  {"th": "อังกฤษ", "p": "ang-grìt", "fsi": "ʔaŋkrìt", "pt": "Inglaterra; inglês", "en": "England, English"},
-  {"th": "อินเดีย", "p": "in-diia", "fsi": "ʔindia", "pt": "Índia; indiano(a)", "en": "India, Indian"},
-  {"th": "อินโดนีเซีย", "p": "in-doo-nii-siia", "fsi": "ʔindooniisia", "pt": "Indonésia; indonésio(a)", "en": "Indonesia, Indonesian"},
-  {"th": "อินเดียนา", "p": "in-diia-naa", "fsi": "ʔindiaanaa", "pt": "Indiana (estado dos EUA)", "en": "Indiana"},
-  {"th": "อิตาเลียน", "p": "ì-dtaa-liian", "fsi": "ʔìtaalian", "pt": "italiano(a)", "en": "Italian"},
-  {"th": "อิตาลี", "p": "ì-dtaa-lǐi", "fsi": "ʔìtaalǐi", "pt": "Itália", "en": "Italy"},
-  {"th": "ออสเตรเลีย", "p": "ɔ̀-sà-dtree-liia", "fsi": "ʔɔ̀sàtreelia", "pt": "Austrália; australiano(a)", "en": "Australia, Australian"},
-  {"th": "บอสตัน", "p": "bɔ̀-sà-dtan", "fsi": "bɔ̀sàtan", "pt": "Boston", "en": "Boston"},
-  {"th": "จาก", "p": "jàak", "fsi": "càak", "pt": "de, desde, vindo de", "en": "from"},
-  {"th": "จัง", "p": "jang", "fsi": "caŋ", "pt": "muito, demais (intensificador de comentário)", "en": "extremely, a great deal"},
-  {"th": "ชาติ", "p": "châat", "fsi": "châat", "pt": "nação, nacionalidade, raça", "en": "nationality, nation, race"},
-  {"th": "จีน", "p": "jiin", "fsi": "ciin", "pt": "China; chinês(a)", "en": "China, Chinese"},
-  {"th": "เดนเวอร์", "p": "deen-wəə", "fsi": "deenwəə", "pt": "Denver", "en": "Denver"},
-  {"th": "ฝรั่ง", "p": "fà-ràng", "fsi": "faràŋ", "pt": "estrangeiro de pele clara (europeus, australianos, americanos brancos)", "en": "white-skinned people, including Europeans, Australians, white Americans"},
-  {"th": "ฝรั่งเศส", "p": "fà-ràng-sèet", "fsi": "faràŋsèet", "pt": "França; francês(a)", "en": "France, French"},
-  {"th": "ฟิลิปปินส์", "p": "fì-líp-bpin", "fsi": "filippin", "pt": "Filipinas; filipino(a)", "en": "Philippines, Philippine"},
-  {"th": "ฮ่องกง", "p": "hɔ̌ɔng-gɔɔng", "fsi": "hɔ̌ɔŋkɔɔŋ", "pt": "Hong Kong", "en": "Hong Kong"},
-  {"th": "เยอรมัน", "p": "yəə-rá-man", "fsi": "jəəraman", "pt": "Alemanha; alemão(ã)", "en": "Germany, German"},
-  {"th": "ญี่ปุ่น", "p": "yîi-bpùn", "fsi": "jîipun", "pt": "Japão; japonês(a)", "en": "Japan, Japanese"},
-  {"th": "ญวน", "p": "yuuan", "fsi": "juan", "pt": "Vietnã; vietnamita (termo antigo)", "en": "Vietnam, Vietnamese"},
-  {"th": "เกาหลี", "p": "gao-lǐi", "fsi": "kawlǐi", "pt": "Coreia; coreano(a)", "en": "Korea, Korean"},
-  {"th": "เก่ง", "p": "gèng", "fsi": "keŋ", "pt": "ser bom em, ser hábil (em fazer algo)", "en": "to be expert, skillful (at doing something)"},
-  {"th": "เขมร", "p": "kà-meen", "fsi": "khaméen", "pt": "Camboja; cambojano(a), khmer", "en": "Cambodia, Cambodian"},
-  {"th": "แขก", "p": "kɛ̀ɛk", "fsi": "khɛ̀ɛk", "pt": "pessoa de pele morena (malaios, indianos, muçulmanos); hóspede", "en": "dark-skinned people, Moslems and Hindus in particular"},
-  {"th": "เขียน", "p": "kǐian", "fsi": "khǐan", "pt": "escrever", "en": "to write"},
-  {"th": "กรุง", "p": "grung", "fsi": "kruŋ", "pt": "cidade (usada com algumas capitais)", "en": "city (used to refer to some capital cities)"},
-  {"th": "กรุงเทพฯ", "p": "grung-têep", "fsi": "kruŋthêep", "pt": "Bangkok", "en": "Bangkok"},
-  {"th": "ลาว", "p": "laao", "fsi": "laaw", "pt": "Laos; laosiano(a)", "en": "Laos, Lao, Laotian"},
-  {"th": "ลอนดอน", "p": "lɔɔn-dɔɔn", "fsi": "lɔɔndɔɔn", "pt": "Londres", "en": "London"},
-  {"th": "มาก", "p": "mâak", "fsi": "mâak", "pt": "muito, uma grande quantidade", "en": "very much, a lot of"},
-  {"th": "มลายู", "p": "má-laa-yuu", "fsi": "málaajuu", "pt": "Malásia; malaio(a)", "en": "Malaya"},
-  {"th": "มิชิแกน", "p": "mí-chí-kɛɛn", "fsi": "michikhɛɛn", "pt": "Michigan", "en": "Michigan"},
-  {"th": "เมือง", "p": "mʉʉang", "fsi": "mʉaŋ", "pt": "cidade; país, nação", "en": "city, country (nation)"},
-  {"th": "นิดหน่อย", "p": "nít-nɔ̀i", "fsi": "nít nɔ̀j", "pt": "um pouco, um pouquinho", "en": "a little"},
-  {"th": "นิวยอร์ค", "p": "niu-yɔ̂k", "fsi": "niw jɔ̂k", "pt": "Nova York", "en": "New York"},
-  {"th": "ปารีส", "p": "bpaa-rít", "fsi": "paarít", "pt": "Paris", "en": "Paris"},
-  {"th": "ปัตตานี", "p": "bpàt-dtaa-nii", "fsi": "pàttaanii", "pt": "Pattani (cidade no sul da Tailândia)", "en": "Pattani (city in South Thailand)"},
-  {"th": "ภาษา", "p": "paa-sǎa", "fsi": "phaasǎa", "pt": "língua, idioma; fala", "en": "language, speech"},
-  {"th": "พม่า", "p": "pà-mâa", "fsi": "phamâa", "pt": "Mianmar (Birmânia); birmanês(a)", "en": "Burma, Burmese"},
-  {"th": "รัฐ", "p": "rát", "fsi": "rát", "pt": "estado (da federação), nação", "en": "state, nation"},
-  {"th": "เรียน", "p": "riian", "fsi": "rian", "pt": "estudar, aprender", "en": "to study, learn"},
-  {"th": "โรม", "p": "room", "fsi": "room", "pt": "Roma", "en": "Rome"},
-  {"th": "สเปน", "p": "sà-bpeen", "fsi": "sapeen", "pt": "Espanha; espanhol(a)", "en": "Spain"},
-  {"th": "ซานฟรานซิสโก", "p": "saan-fráan-sís-goo", "fsi": "saan fraansiskoo", "pt": "São Francisco", "en": "San Francisco"},
-  {"th": "สอน", "p": "sɔ̌ɔn", "fsi": "sɔ̌ɔn", "pt": "ensinar", "en": "to teach"},
-  {"th": "ไทย", "p": "tai", "fsi": "thaj", "pt": "Tailândia; tailandês(a)", "en": "Thai"},
-  {"th": "เท่านั้น", "p": "tâo-nán", "fsi": "thâwnán", "pt": "só, somente, apenas isso", "en": "only, only that (much)"},
-  {"th": "โตเกียว", "p": "dtoo-giiao", "fsi": "tookiaw", "pt": "Tóquio", "en": "Tokyo"},
-  {"th": "เวียดนาม", "p": "wîiat-naam", "fsi": "wîatnaam", "pt": "Vietnã; vietnamita", "en": "Vietnam, Vietnamese"}
+  {
+   "th": "อเมริกา",
+   "p": "à-mee-rí-gaa",
+   "fsi": "ʔameerikaa",
+   "pt": "Estados Unidos, América",
+   "en": "America"
+  },
+  {
+   "th": "อเมริกัน",
+   "p": "à-mee-rí-gan",
+   "fsi": "ʔameerikan",
+   "pt": "americano(a)",
+   "en": "American"
+  },
+  {
+   "th": "อังกฤษ",
+   "p": "ang-grìt",
+   "fsi": "ʔaŋkrìt",
+   "pt": "Inglaterra; inglês",
+   "en": "England, English"
+  },
+  {
+   "th": "อินเดีย",
+   "p": "in-diia",
+   "fsi": "ʔindia",
+   "pt": "Índia; indiano(a)",
+   "en": "India, Indian"
+  },
+  {
+   "th": "อินโดนีเซีย",
+   "p": "in-doo-nii-siia",
+   "fsi": "ʔindooniisia",
+   "pt": "Indonésia; indonésio(a)",
+   "en": "Indonesia, Indonesian"
+  },
+  {
+   "th": "อินเดียนา",
+   "p": "in-diia-naa",
+   "fsi": "ʔindiaanaa",
+   "pt": "Indiana (estado dos EUA)",
+   "en": "Indiana"
+  },
+  {
+   "th": "อิตาเลียน",
+   "p": "ì-dtaa-liian",
+   "fsi": "ʔìtaalian",
+   "pt": "italiano(a)",
+   "en": "Italian"
+  },
+  {
+   "th": "อิตาลี",
+   "p": "ì-dtaa-lǐi",
+   "fsi": "ʔìtaalǐi",
+   "pt": "Itália",
+   "en": "Italy"
+  },
+  {
+   "th": "ออสเตรเลีย",
+   "p": "ɔ̀-sà-dtree-liia",
+   "fsi": "ʔɔ̀sàtreelia",
+   "pt": "Austrália; australiano(a)",
+   "en": "Australia, Australian"
+  },
+  {
+   "th": "บอสตัน",
+   "p": "bɔ̀-sà-dtan",
+   "fsi": "bɔ̀sàtan",
+   "pt": "Boston",
+   "en": "Boston"
+  },
+  {
+   "th": "จาก",
+   "p": "jàak",
+   "fsi": "càak",
+   "pt": "de, desde, vindo de",
+   "en": "from"
+  },
+  {
+   "th": "จัง",
+   "p": "jang",
+   "fsi": "caŋ",
+   "pt": "muito, demais (intensificador de comentário)",
+   "en": "extremely, a great deal"
+  },
+  {
+   "th": "ชาติ",
+   "p": "châat",
+   "fsi": "châat",
+   "pt": "nação, nacionalidade, raça",
+   "en": "nationality, nation, race"
+  },
+  {
+   "th": "จีน",
+   "p": "jiin",
+   "fsi": "ciin",
+   "pt": "China; chinês(a)",
+   "en": "China, Chinese"
+  },
+  {
+   "th": "เดนเวอร์",
+   "p": "deen-wəə",
+   "fsi": "deenwəə",
+   "pt": "Denver",
+   "en": "Denver"
+  },
+  {
+   "th": "ฝรั่ง",
+   "p": "fà-ràng",
+   "fsi": "faràŋ",
+   "pt": "estrangeiro de pele clara (europeus, australianos, americanos brancos)",
+   "en": "white-skinned people, including Europeans, Australians, white Americans"
+  },
+  {
+   "th": "ฝรั่งเศส",
+   "p": "fà-ràng-sèet",
+   "fsi": "faràŋsèet",
+   "pt": "França; francês(a)",
+   "en": "France, French"
+  },
+  {
+   "th": "ฟิลิปปินส์",
+   "p": "fì-líp-bpin",
+   "fsi": "filippin",
+   "pt": "Filipinas; filipino(a)",
+   "en": "Philippines, Philippine"
+  },
+  {
+   "th": "ฮ่องกง",
+   "p": "hɔ̂ng-gong",
+   "fsi": "hɔ̂ŋkoŋ",
+   "pt": "Hong Kong",
+   "en": "Hong Kong"
+  },
+  {
+   "th": "เยอรมัน",
+   "p": "yəə-rá-man",
+   "fsi": "jəəraman",
+   "pt": "Alemanha; alemão(ã)",
+   "en": "Germany, German"
+  },
+  {
+   "th": "ญี่ปุ่น",
+   "p": "yîi-bpùn",
+   "fsi": "jîipun",
+   "pt": "Japão; japonês(a)",
+   "en": "Japan, Japanese"
+  },
+  {
+   "th": "ญวน",
+   "p": "yuuan",
+   "fsi": "juan",
+   "pt": "Vietnã; vietnamita (termo antigo)",
+   "en": "Vietnam, Vietnamese"
+  },
+  {
+   "th": "เกาหลี",
+   "p": "gao-lǐi",
+   "fsi": "kawlǐi",
+   "pt": "Coreia; coreano(a)",
+   "en": "Korea, Korean"
+  },
+  {
+   "th": "เก่ง",
+   "p": "gèng",
+   "fsi": "keŋ",
+   "pt": "ser bom em, ser hábil (em fazer algo)",
+   "en": "to be expert, skillful (at doing something)"
+  },
+  {
+   "th": "เขมร",
+   "p": "kà-meen",
+   "fsi": "khaméen",
+   "pt": "Camboja; cambojano(a), khmer",
+   "en": "Cambodia, Cambodian"
+  },
+  {
+   "th": "แขก",
+   "p": "kɛ̀ɛk",
+   "fsi": "khɛ̀ɛk",
+   "pt": "pessoa de pele morena (malaios, indianos, muçulmanos); hóspede",
+   "en": "dark-skinned people, Moslems and Hindus in particular"
+  },
+  {
+   "th": "เขียน",
+   "p": "kǐian",
+   "fsi": "khǐan",
+   "pt": "escrever",
+   "en": "to write"
+  },
+  {
+   "th": "กรุง",
+   "p": "grung",
+   "fsi": "kruŋ",
+   "pt": "cidade (usada com algumas capitais)",
+   "en": "city (used to refer to some capital cities)"
+  },
+  {
+   "th": "กรุงเทพฯ",
+   "p": "grung-têep",
+   "fsi": "kruŋthêep",
+   "pt": "Bangkok",
+   "en": "Bangkok"
+  },
+  {
+   "th": "ลาว",
+   "p": "laao",
+   "fsi": "laaw",
+   "pt": "Laos; laosiano(a)",
+   "en": "Laos, Lao, Laotian"
+  },
+  {
+   "th": "ลอนดอน",
+   "p": "lɔɔn-dɔɔn",
+   "fsi": "lɔɔndɔɔn",
+   "pt": "Londres",
+   "en": "London"
+  },
+  {
+   "th": "มาก",
+   "p": "mâak",
+   "fsi": "mâak",
+   "pt": "muito, uma grande quantidade",
+   "en": "very much, a lot of"
+  },
+  {
+   "th": "มลายู",
+   "p": "má-laa-yuu",
+   "fsi": "málaajuu",
+   "pt": "Malásia; malaio(a)",
+   "en": "Malaya"
+  },
+  {
+   "th": "มิชิแกน",
+   "p": "mí-chí-kɛɛn",
+   "fsi": "michikhɛɛn",
+   "pt": "Michigan",
+   "en": "Michigan"
+  },
+  {
+   "th": "เมือง",
+   "p": "mʉʉang",
+   "fsi": "mʉaŋ",
+   "pt": "cidade; país, nação",
+   "en": "city, country (nation)"
+  },
+  {
+   "th": "นิดหน่อย",
+   "p": "nít-nɔ̀i",
+   "fsi": "nít nɔ̀j",
+   "pt": "um pouco, um pouquinho",
+   "en": "a little"
+  },
+  {
+   "th": "นิวยอร์ค",
+   "p": "niu-yɔ̂k",
+   "fsi": "niw jɔ̂k",
+   "pt": "Nova York",
+   "en": "New York"
+  },
+  {
+   "th": "ปารีส",
+   "p": "bpaa-rít",
+   "fsi": "paarít",
+   "pt": "Paris",
+   "en": "Paris"
+  },
+  {
+   "th": "ปัตตานี",
+   "p": "bpàt-dtaa-nii",
+   "fsi": "pàttaanii",
+   "pt": "Pattani (cidade no sul da Tailândia)",
+   "en": "Pattani (city in South Thailand)"
+  },
+  {
+   "th": "ภาษา",
+   "p": "paa-sǎa",
+   "fsi": "phaasǎa",
+   "pt": "língua, idioma; fala",
+   "en": "language, speech"
+  },
+  {
+   "th": "พม่า",
+   "p": "pà-mâa",
+   "fsi": "phamâa",
+   "pt": "Mianmar (Birmânia); birmanês(a)",
+   "en": "Burma, Burmese"
+  },
+  {
+   "th": "รัฐ",
+   "p": "rát",
+   "fsi": "rát",
+   "pt": "estado (da federação), nação",
+   "en": "state, nation"
+  },
+  {
+   "th": "เรียน",
+   "p": "riian",
+   "fsi": "rian",
+   "pt": "estudar, aprender",
+   "en": "to study, learn"
+  },
+  {
+   "th": "โรม",
+   "p": "room",
+   "fsi": "room",
+   "pt": "Roma",
+   "en": "Rome"
+  },
+  {
+   "th": "สเปน",
+   "p": "sà-bpeen",
+   "fsi": "sapeen",
+   "pt": "Espanha; espanhol(a)",
+   "en": "Spain"
+  },
+  {
+   "th": "ซานฟรานซิสโก",
+   "p": "saan-fráan-sís-goo",
+   "fsi": "saan fraansiskoo",
+   "pt": "São Francisco",
+   "en": "San Francisco"
+  },
+  {
+   "th": "สอน",
+   "p": "sɔ̌ɔn",
+   "fsi": "sɔ̌ɔn",
+   "pt": "ensinar",
+   "en": "to teach"
+  },
+  {
+   "th": "ไทย",
+   "p": "tai",
+   "fsi": "thaj",
+   "pt": "Tailândia; tailandês(a)",
+   "en": "Thai"
+  },
+  {
+   "th": "เท่านั้น",
+   "p": "tâo-nán",
+   "fsi": "thâwnán",
+   "pt": "só, somente, apenas isso",
+   "en": "only, only that (much)"
+  },
+  {
+   "th": "โตเกียว",
+   "p": "dtoo-giiao",
+   "fsi": "tookiaw",
+   "pt": "Tóquio",
+   "en": "Tokyo"
+  },
+  {
+   "th": "เวียดนาม",
+   "p": "wîiat-naam",
+   "fsi": "wîatnaam",
+   "pt": "Vietnã; vietnamita",
+   "en": "Vietnam, Vietnamese"
+  }
  ],
  "notas": [
-  {"t": {"pt": "มาก: o 'muito' do comentário", "en": "มาก: the 'very' of a comment"}, "e": {"pt": "มาก intensifica verbos de estado — เก่ง, ดี, สวย — e aparece em comentários, nunca em perguntas: คุณพูดภาษาไทยได้ดีมากครับ ('o senhor fala tailandês muito bem'). É o 'muito' de 'ela é muito boa nisso', e não o 'muito' de uma pergunta como 'você come muito?'. Para perguntar, o tailandês usa outra construção.", "en": "มาก 'extremely, very much' intensifies stative verbs such as เก่ง, ดี and สวย in comments; it never occurs in questions."}, "ex": "พูด|pûut ภาษา|paa-sǎa ไทย|tai ได้|dâai ดี|dii มาก|mâak"},
-  {"t": {"pt": "เก่ง: ser bom em algo", "en": "เก่ง: to be good at something"}, "e": {"pt": "เก่ง é 'ser hábil, ser bom em'. Ele vem depois de uma frase verbal — เขาเรียนหนังสือเก่ง ('ele aprende com facilidade'), เขาเล่นดนตรีไม่เก่ง ('ele toca mal') — ou antes de um substantivo: ครูเขาเก่งภาษาญวน ('o professor dele é bom em vietnamita'). Repare que a coisa em que se é bom vem colada, sem preposição.", "en": "เก่ง means 'to be skillful at'. It follows a verb phrase (เรียนหนังสือเก่ง, เล่นดนตรีไม่เก่ง) or precedes a noun phrase (เก่งภาษาไทย) — with no preposition in between."}, "ex": "เขา|kǎo เรียน|riian หนังสือ|nǎng-sʉ̌ʉ เก่ง|gèng"},
-  {"t": {"pt": "เรียน, เขียน, อ่าน e สอน pedem objeto", "en": "เรียน, เขียน, อ่าน and สอน need an object"}, "e": {"pt": "Esses quatro verbos não aparecem sozinhos: exigem um complemento. Quando não há nada específico para dizer, entra หนังสือ — เรียนหนังสือ ('estudar'), เขียนหนังสือ ('escrever'), อ่านหนังสือ ('ler'), สอนหนังสือ ('dar aula'). É como o nosso 'dar aula', que ninguém diz só 'dar'.", "en": "เรียน, เขียน, อ่าน and สอน never occur without an object complement; when there is nothing specific to say, หนังสือ fills the slot: เรียนหนังสือ 'to study', เขียนหนังสือ 'to write', อ่านหนังสือ 'to read', สอนหนังสือ 'to teach'."}, "ex": "ครู|kruu ผม|pǒm สอน|sɔ̌ɔn หนังสือ|nǎng-sʉ̌ʉ เก่ง|gèng"},
-  {"t": {"pt": "Como dizer a nacionalidade", "en": "How to say a nationality"}, "e": {"pt": "A regra geral é คน + país: คนไทย, คนญี่ปุ่น, คนพม่า, คนเยอรมัน. Para gente da Malásia, Indonésia, Índia e Oriente Médio entra o แขก: แขกมลายู, แขกอินเดีย. Usados sozinhos, ฝรั่ง cobre os de pele clara (europeus, australianos, americanos brancos) e แขก os de pele mais escura daquelas regiões. Os muçulmanos do sul da Tailândia são chamados de ไทยอิสลาม.", "en": "General rule: คน + country (คนไทย, คนญี่ปุ่น, คนเยอรมัน). For Malaya, Indonesia, India and the Middle East: แขก + country. Alone, ฝรั่ง covers white-skinned foreigners and แขก people from Malaya, Indonesia, India, Ceylon and the Middle East. Moslems in South Thailand are ไทยอิสลาม."}, "ex": "เขา|kǎo เป็น|bpen คน|kon อังกฤษ|ang-grìt"},
-  {"t": {"pt": "เมือง, กรุง e ประเทศ: cidade e país", "en": "เมือง, กรุง and ประเทศ: city and country"}, "e": {"pt": "เมือง serve para cidade e para país na fala do dia a dia: เมืองวอชิงตัน ou só วอชิงตัน, เมืองญี่ปุ่น ou só ญี่ปุ่น. Na imprensa, กรุง aparece com algumas capitais — กรุงโรม, กรุงปารีส — e ประเทศ é a forma formal para país, a de jornal e de discurso. São três registros: เมือง (conversa), กรุง (mídia), ประเทศ (formal).", "en": "เมือง covers both city and country in speech (เมืองวอชิงตัน or วอชิงตัน; เมืองญี่ปุ่น or ญี่ปุ่น). The mass media use กรุง with some capitals (กรุงโรม, กรุงปารีส), and ประเทศ + country is the formal, newspaper-and-speech form."}, "ex": "เขา|kǎo มา|maa จาก|jàak ประเทศ|bprà-têet ญี่ปุ่น|yîi-pùn"},
-  {"t": {"pt": "A posição de ใคร muda o sentido", "en": "Where ใคร sits changes the meaning"}, "e": {"pt": "Como regra, ใคร ocupa o lugar da resposta, depois do เป็น: เขาเป็นใคร ('quem é ele?'). Mas a ordem pode inverter o sentido: จูเลียตเป็นใคร pergunta quem é essa pessoa de quem você nunca ouviu falar, enquanto ใครเป็นจูเลียต pergunta quem faz o papel de Julieta na peça. Quando o sujeito é um pronome, o ใคร fica no complemento; com outros verbos ele pode ser sujeito ou complemento: ใครสอนภาษาไทย ('quem ensina tailandês?'), คุณประภาสสอนภาษาไทยให้ใคร ('o Prapas ensina tailandês para quem?').", "en": "ใคร normally sits in the complement after เป็น (เขาเป็นใคร 'who is he?'). It may also precede เป็น, with a different reading: จูเลียตเป็นใคร 'who is Juliet?' vs. ใครเป็นจูเลียต 'who plays Juliet?'. With a pronoun subject it stays in the complement; with other verbs it may be subject or complement (ใครสอนภาษาไทย, ...สอนภาษาไทยให้ใคร)."}, "ex": "ใคร|krai สอน|sɔ̌ɔn ภาษา|paa-sǎa ไทย|tai"}
- ]}
+  {
+   "t": {
+    "pt": "มาก: o 'muito' do comentário",
+    "en": "มาก: the 'very' of a comment"
+   },
+   "e": {
+    "pt": "มาก intensifica verbos de estado — เก่ง, ดี, สวย — e aparece em comentários, nunca em perguntas: คุณพูดภาษาไทยได้ดีมากครับ ('o senhor fala tailandês muito bem'). É o 'muito' de 'ela é muito boa nisso', e não o 'muito' de uma pergunta como 'você come muito?'. Para perguntar, o tailandês usa outra construção.",
+    "en": "มาก 'extremely, very much' intensifies stative verbs such as เก่ง, ดี and สวย in comments; it never occurs in questions."
+   },
+   "ex": "พูด|pûut ภาษา|paa-sǎa ไทย|tai ได้|dâai ดี|dii มาก|mâak"
+  },
+  {
+   "t": {
+    "pt": "เก่ง: ser bom em algo",
+    "en": "เก่ง: to be good at something"
+   },
+   "e": {
+    "pt": "เก่ง é 'ser hábil, ser bom em'. Ele vem depois de uma frase verbal — เขาเรียนหนังสือเก่ง ('ele aprende com facilidade'), เขาเล่นดนตรีไม่เก่ง ('ele toca mal') — ou antes de um substantivo: ครูเขาเก่งภาษาญวน ('o professor dele é bom em vietnamita'). Repare que a coisa em que se é bom vem colada, sem preposição.",
+    "en": "เก่ง means 'to be skillful at'. It follows a verb phrase (เรียนหนังสือเก่ง, เล่นดนตรีไม่เก่ง) or precedes a noun phrase (เก่งภาษาไทย) — with no preposition in between."
+   },
+   "ex": "เขา|kǎo เรียน|riian หนังสือ|nǎng-sʉ̌ʉ เก่ง|gèng"
+  },
+  {
+   "t": {
+    "pt": "เรียน, เขียน, อ่าน e สอน pedem objeto",
+    "en": "เรียน, เขียน, อ่าน and สอน need an object"
+   },
+   "e": {
+    "pt": "Esses quatro verbos não aparecem sozinhos: exigem um complemento. Quando não há nada específico para dizer, entra หนังสือ — เรียนหนังสือ ('estudar'), เขียนหนังสือ ('escrever'), อ่านหนังสือ ('ler'), สอนหนังสือ ('dar aula'). É como o nosso 'dar aula', que ninguém diz só 'dar'.",
+    "en": "เรียน, เขียน, อ่าน and สอน never occur without an object complement; when there is nothing specific to say, หนังสือ fills the slot: เรียนหนังสือ 'to study', เขียนหนังสือ 'to write', อ่านหนังสือ 'to read', สอนหนังสือ 'to teach'."
+   },
+   "ex": "ครู|kruu ผม|pǒm สอน|sɔ̌ɔn หนังสือ|nǎng-sʉ̌ʉ เก่ง|gèng"
+  },
+  {
+   "t": {
+    "pt": "Como dizer a nacionalidade",
+    "en": "How to say a nationality"
+   },
+   "e": {
+    "pt": "A regra geral é คน + país: คนไทย, คนญี่ปุ่น, คนพม่า, คนเยอรมัน. Para gente da Malásia, Indonésia, Índia e Oriente Médio entra o แขก: แขกมลายู, แขกอินเดีย. Usados sozinhos, ฝรั่ง cobre os de pele clara (europeus, australianos, americanos brancos) e แขก os de pele mais escura daquelas regiões. Os muçulmanos do sul da Tailândia são chamados de ไทยอิสลาม.",
+    "en": "General rule: คน + country (คนไทย, คนญี่ปุ่น, คนเยอรมัน). For Malaya, Indonesia, India and the Middle East: แขก + country. Alone, ฝรั่ง covers white-skinned foreigners and แขก people from Malaya, Indonesia, India, Ceylon and the Middle East. Moslems in South Thailand are ไทยอิสลาม."
+   },
+   "ex": "เขา|kǎo เป็น|bpen คน|kon อังกฤษ|ang-grìt"
+  },
+  {
+   "t": {
+    "pt": "เมือง, กรุง e ประเทศ: cidade e país",
+    "en": "เมือง, กรุง and ประเทศ: city and country"
+   },
+   "e": {
+    "pt": "เมือง serve para cidade e para país na fala do dia a dia: เมืองวอชิงตัน ou só วอชิงตัน, เมืองญี่ปุ่น ou só ญี่ปุ่น. Na imprensa, กรุง aparece com algumas capitais — กรุงโรม, กรุงปารีส — e ประเทศ é a forma formal para país, a de jornal e de discurso. São três registros: เมือง (conversa), กรุง (mídia), ประเทศ (formal).",
+    "en": "เมือง covers both city and country in speech (เมืองวอชิงตัน or วอชิงตัน; เมืองญี่ปุ่น or ญี่ปุ่น). The mass media use กรุง with some capitals (กรุงโรม, กรุงปารีส), and ประเทศ + country is the formal, newspaper-and-speech form."
+   },
+   "ex": "เขา|kǎo มา|maa จาก|jàak ประเทศ|bprà-têet ญี่ปุ่น|yîi-pùn"
+  },
+  {
+   "t": {
+    "pt": "A posição de ใคร muda o sentido",
+    "en": "Where ใคร sits changes the meaning"
+   },
+   "e": {
+    "pt": "Como regra, ใคร ocupa o lugar da resposta, depois do เป็น: เขาเป็นใคร ('quem é ele?'). Mas a ordem pode inverter o sentido: จูเลียตเป็นใคร pergunta quem é essa pessoa de quem você nunca ouviu falar, enquanto ใครเป็นจูเลียต pergunta quem faz o papel de Julieta na peça. Quando o sujeito é um pronome, o ใคร fica no complemento; com outros verbos ele pode ser sujeito ou complemento: ใครสอนภาษาไทย ('quem ensina tailandês?'), คุณประภาสสอนภาษาไทยให้ใคร ('o Prapas ensina tailandês para quem?').",
+    "en": "ใคร normally sits in the complement after เป็น (เขาเป็นใคร 'who is he?'). It may also precede เป็น, with a different reading: จูเลียตเป็นใคร 'who is Juliet?' vs. ใครเป็นจูเลียต 'who plays Juliet?'. With a pronoun subject it stays in the complement; with other verbs it may be subject or complement (ใครสอนภาษาไทย, ...สอนภาษาไทยให้ใคร)."
+   },
+   "ex": "ใคร|krai สอน|sɔ̌ɔn ภาษา|paa-sǎa ไทย|tai"
+  }
+ ]
+}
