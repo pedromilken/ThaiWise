@@ -9,9 +9,18 @@ Treino adaptativo de **tailandês**: escrita e regra dos tons, vocabulário e gr
 | Conteúdo | Origem | Quantidade |
 |---|---|---|
 | Módulo 0: escrita e tons | autoral | 44 consoantes (3 classes, nome acrofônico, som inicial e final), 28 vogais curtas e longas, 46 sílabas de treino de tom |
-| Vocabulário A1 e A2 | autoral, por tema | 501 palavras em 20 unidades (12 no A1, 8 no A2) |
-| Gramática A1 e A2 | autoral, com analogia, exemplo, Paiboon+ e tradução | 30 pontos, 53 lacunas, 30 frases para montar |
-| Lições do FSI | FSI Thai Basic Course (Foreign Service Institute, domínio público), convertidas para escrita tailandesa | 3 de 40 convertidas; as demais pelo fluxo com o Qwen (abaixo) |
+| Vocabulário temático | autoral, por tema | A1 e A2: 501 palavras em 20 unidades · C1: 153 palavras em 8 unidades (registro formal) · C2: 108 palavras em 6 unidades (linguagem real, monástica, provérbios, คำซ้อน, diplomacia, literatura) |
+| Gramática | autoral, com analogia, exemplo, Paiboon+, 2 lacunas e 1 frase por ponto | 55 pontos (A1 16 · A2 14 · C1 13 · C2 12), 103 lacunas, 55 frases para montar |
+| Lições do FSI | FSI Thai Basic Course (Foreign Service Institute, domínio público), convertidas para escrita tailandesa | **40 de 40**: diálogos, vocabulário e notas de gramática (A1–B2) |
+| Total | | **1.585 palavras**, 82 unidades, 6.969 testes automáticos |
+
+## Qualidade da pronúncia
+
+O OCR do FSI perdeu quase todas as marcas de tom, então três camadas conferem cada palavra:
+
+- `tools/fsi-conferir.js` converte a transcrição Haas do livro para Paiboon+ por regra e compara consoantes, vogais e tons;
+- `tools/tom-auditar.py` recalcula o tom de toda palavra de uma sílaba a partir da escrita tailandesa (classe + sílaba viva/morta + marca) e aponta divergências; empréstimos irregulares (เทป, แฟลต, เมตร, แบงก์…) ficam numa lista de exceções;
+- `tools/nivel-conferir.js` valida os níveis autorais (formato, Paiboon+, duplicatas entre níveis).
 
 ## Níveis: CEFR alinhado ao CU-TFL
 
@@ -24,8 +33,8 @@ O exame de referência para estrangeiros é o **CU-TFL** (Sirindhorn Thai Langua
 | A2 | Chula Novice (alto) | 11–20 |
 | B1 | Chula Intermediate | 21–30 |
 | B2 | Chula Advanced | 31–40 |
-| C1 | Chula Superior | — |
-| C2 | Chula Distinguished | — |
+| C1 | Chula Superior | — (autoral) |
+| C2 | Chula Distinguished | — (autoral) |
 
 Cada nível tem duas trilhas no mapa: **unidades temáticas** (autorais) e **lições do FSI**. Os módulos do Arsenal têm todos as mesmas abas: Teoria, Praticar, Vocabulário, Lições FSI e Material de apoio. O módulo 0 tem Escrita, Teoria, Praticar e Material de apoio.
 

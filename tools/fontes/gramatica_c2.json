@@ -1,0 +1,474 @@
+{
+ "lv": 6,
+ "pontos": [
+  {
+   "id": "g6-01",
+   "t": "ราชาศัพท์: o vocabulário da realeza",
+   "e": "Para o rei e a família real, as palavras comuns são trocadas por outras: comer é เสวย (não กิน), dormir é บรรทม, falar é ตรัส, ir é เสด็จ. Analogia: é como o 'Vossa Majestade' do português, só que o verbo inteiro também muda de roupa.",
+   "ex": "ในหลวง|nai-lǔuang เสด็จ|sà-dèt ไป|bpai เชียงใหม่|chiiang-mài",
+   "pt": "O Rei foi a Chiang Mai.",
+   "en": "The King went to Chiang Mai.",
+   "gaps": [
+    {
+     "s": "พระราชินี|prá-raa-chí-nii ___ พระกระยาหาร|prá-grà-yaa-hǎan",
+     "o": [
+      "เสวย|sà-wə̌əi",
+      "กิน|gin",
+      "ทาน|taan",
+      "ฉัน|chǎn"
+     ],
+     "a": "เสวย",
+     "x": "Comer, para a realeza: เสวย."
+    },
+    {
+     "s": "พระองค์|prá-ong ___ ที่|tîi พระราชวัง|prá-râat-chá-wang",
+     "o": [
+      "ประทับ|bprà-táp",
+      "อยู่|yùu",
+      "พัก|pák",
+      "จำวัด|jam-wát"
+     ],
+     "a": "ประทับ",
+     "x": "Residir, para a realeza: ประทับ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ในหลวง|nai-lǔuang ตรัส|dtràt กับ|gàp ประชาชน|bprà-chaa-chon",
+     "pt": "O Rei falou ao povo.",
+     "en": "The King spoke to the people."
+    }
+   ]
+  },
+  {
+   "id": "g6-02",
+   "t": "ทรง: o prefixo que torna o verbo real",
+   "e": "ทรง antes de um verbo ou substantivo comum o transforma em ação real: ทรงงาน (o rei trabalha), ทรงดนตรี (toca música), ทรงพระสำราญ (está bem-disposto). Com verbos que já são reais (เสด็จ, ตรัส), não se usa ทรง. Analogia: ทรง é a coroa que se coloca sobre o verbo.",
+   "ex": "พระองค์|prá-ong ทรง|song งาน|ngaan หนัก|nàk มาก|mâak",
+   "pt": "Sua Majestade trabalha muito.",
+   "en": "His Majesty works very hard.",
+   "gaps": [
+    {
+     "s": "ในหลวง|nai-lǔuang ___ ดนตรี|don-dtrii เก่ง|gèng",
+     "o": [
+      "ทรง|song",
+      "เสด็จ|sà-dèt",
+      "ตรัส|dtràt",
+      "ถวาย|tà-wǎai"
+     ],
+     "a": "ทรง",
+     "x": "Verbo comum vira real com ทรง."
+    },
+    {
+     "s": "พระราชินี|prá-raa-chí-nii ___ ไป|bpai ต่างประเทศ|dtàang-bprà-têet",
+     "o": [
+      "เสด็จ|sà-dèt",
+      "ทรง|song",
+      "ไป|bpai",
+      "จำวัด|jam-wát"
+     ],
+     "a": "เสด็จ",
+     "x": "'Ir' já tem forma real própria: เสด็จ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "พระองค์|prá-ong ทรง|song ช่วย|chûuai ประชาชน|bprà-chaa-chon",
+     "pt": "Sua Majestade ajuda o povo.",
+     "en": "His Majesty helps the people."
+    }
+   ]
+  },
+  {
+   "id": "g6-03",
+   "t": "Falando com monges e sobre monges",
+   "e": "Os monges têm vocabulário próprio: comem com ฉัน, dormem com จำวัด, morrem com มรณภาพ; o monge diz อาตมา (eu) e chama o leigo de โยม; o leigo convida com นิมนต์ e oferece com ถวาย. Analogia: é um dialeto de respeito, como o tratamento dado a um juiz no tribunal.",
+   "ex": "โยม|yoom ถวาย|tà-wǎai อาหาร|aa-hǎan แด่|dɛ̀ɛ พระสงฆ์|prá-sǒng",
+   "pt": "Os fiéis oferecem comida aos monges.",
+   "en": "Lay people offer food to the monks.",
+   "gaps": [
+    {
+     "s": "พระ|prá ___ เวลา|wee-laa หก|hòk โมง|moong เช้า|cháao",
+     "o": [
+      "บิณฑบาต|bin-tá-bàat",
+      "เสวย|sà-wə̌əi",
+      "กิน|gin",
+      "บรรทม|ban-tom"
+     ],
+     "a": "บิณฑบาต",
+     "x": "Esmola matinal dos monges: บิณฑบาต."
+    },
+    {
+     "s": "ญาติ|yâat ___ พระ|prá มา|maa ที่|tîi บ้าน|bâan",
+     "o": [
+      "นิมนต์|ní-mon",
+      "เชิญ|chəən",
+      "ชวน|chuuan",
+      "เรียก|rîiak"
+     ],
+     "a": "นิมนต์",
+     "x": "Convidar um monge: นิมนต์."
+    }
+   ],
+   "ord": [
+    {
+     "s": "อาตมา|àat-dtà-maa จะ|jà ไป|bpai บิณฑบาต|bin-tá-bàat",
+     "pt": "Eu (monge) vou fazer a ronda de esmolas.",
+     "en": "I (a monk) will go on alms round."
+    }
+   ]
+  },
+  {
+   "id": "g6-04",
+   "t": "Morrer: o verbo muda com a pessoa",
+   "e": "A morte é dita com palavras diferentes para cada posição: ตาย (comum, cru), เสียชีวิต (neutro, notícias), ถึงแก่กรรม (respeitoso), มรณภาพ (monges), สิ้นพระชนม์ (príncipes) e สวรรคต (o rei). Escolher a palavra errada é uma gafe grave. Analogia: é um elevador — cada andar social tem sua porta.",
+   "ex": "ผู้|pûu ป่วย|bpùuai เสียชีวิต|sǐia-chii-wít เมื่อ|mʉ̂ʉa คืนนี้|kʉʉn-níi",
+   "pt": "O paciente faleceu esta noite.",
+   "en": "The patient passed away last night.",
+   "gaps": [
+    {
+     "s": "เจ้าอาวาส|jâo-aa-wâat วัด|wát นี้|níi ___ แล้ว|lɛ́ɛo",
+     "o": [
+      "มรณภาพ|mɔɔ-rá-ná-pâap",
+      "ตาย|dtaai",
+      "สิ้นพระชนม์|sîn-prá-chon",
+      "เสวย|sà-wə̌əi"
+     ],
+     "a": "มรณภาพ",
+     "x": "Morte de monge: มรณภาพ."
+    },
+    {
+     "s": "ข่าว|kàao รายงาน|raai-ngaan ว่า|wâa นักแสดง|nák-sà-dɛɛng ___",
+     "o": [
+      "เสียชีวิต|sǐia-chii-wít",
+      "มรณภาพ|mɔɔ-rá-ná-pâap",
+      "บรรทม|ban-tom",
+      "จำวัด|jam-wát"
+     ],
+     "a": "เสียชีวิต",
+     "x": "Notícia sobre pessoa comum: เสียชีวิต."
+    }
+   ],
+   "ord": [
+    {
+     "s": "คุณ|kun ตา|dtaa ถึงแก่กรรม|tʉ̌ng-gɛ̀ɛ-gam เมื่อ|mʉ̂ʉa ปี|bpii ที่แล้ว|tîi-lɛ́ɛo",
+     "pt": "O avô faleceu no ano passado.",
+     "en": "Grandfather passed away last year."
+    }
+   ]
+  },
+  {
+   "id": "g6-05",
+   "t": "สำนวน: os provérbios na fala",
+   "e": "Introduz-se um provérbio com เหมือน (como), ดังสำนวนที่ว่า (como diz o ditado) ou só soltando-o no meio da frase. Muitos têm imagens rurais: ช้าง, ควาย, เสือ, น้ำ, ข้าว. Analogia: é o nosso 'quem não tem cão caça com gato' — a imagem resume a lição.",
+   "ex": "ทำ|tam ความดี|kwaam-dii แบบ|bɛ̀ɛp ปิดทองหลังพระ|bpìt-tɔɔng-lǎng-prá",
+   "pt": "Fazer o bem sem buscar reconhecimento.",
+   "en": "Doing good without seeking credit.",
+   "gaps": [
+    {
+     "s": "ราคา|raa-kaa ดี|dii ต้อง|dtɔ̂ng ขาย|kǎai ตอนนี้|dtɔɔn-níi ___",
+     "o": [
+      "น้ำขึ้นให้รีบตัก|náam-kʉ̂n-hâi-rîip-dtàk",
+      "กบในกะลา|gòp-nai-gà-laa",
+      "สีซอให้ควายฟัง|sǐi-sɔɔ-hâi-kwaai-fang",
+      "เส้นผมบังภูเขา|sên-pǒm-bang-puu-kǎo"
+     ],
+     "a": "น้ำขึ้นให้รีบตัก",
+     "x": "Aproveitar o momento: น้ำขึ้นให้รีบตัก."
+    },
+    {
+     "s": "เขา|kǎo ไม่|mâi เคย|kəəi ออก|ɔ̀ɔk ไป|bpai ไหน|nǎi เหมือน|mʉ̌ʉan ___",
+     "o": [
+      "กบในกะลา|gòp-nai-gà-laa",
+      "ใจดีสู้เสือ|jai-dii-sûu-sʉ̌ʉa",
+      "น้ำซึมบ่อทราย|náam-sʉm-bɔ̀ɔ-saai",
+      "ปิดทองหลังพระ|bpìt-tɔɔng-lǎng-prá"
+     ],
+     "a": "กบในกะลา",
+     "x": "Visão estreita: sapo na casca de coco."
+    }
+   ],
+   "ord": [
+    {
+     "s": "พูด|pûut กับ|gàp เขา|kǎo ก็|gɔ̂ɔ เหมือน|mʉ̌ʉan สีซอให้ควายฟัง|sǐi-sɔɔ-hâi-kwaai-fang",
+     "pt": "Falar com ele é tocar violino para búfalo.",
+     "en": "Talking to him is like playing the fiddle to a buffalo."
+    }
+   ]
+  },
+  {
+   "id": "g6-06",
+   "t": "คำซ้อน: pares de palavras",
+   "e": "O tailandês adora juntar duas palavras de sentido parecido para soar completo e elegante: บ้านเรือน (casas), เงินทอง (riquezas), สวยงาม (belo), ซื่อสัตย์ (honesto), อ่อนแอ (fraco). Às vezes o par generaliza: ข้าวปลาอาหาร é 'comida em geral', não 'arroz e peixe'. Analogia: são como 'são e salvo' ou 'eira nem beira' — dois que valem por um.",
+   "ex": "เขา|kǎo เป็น|bpen คน|kon ซื่อสัตย์|sʉ̂ʉ-sàt",
+   "pt": "Ele é uma pessoa honesta.",
+   "en": "He is an honest person.",
+   "gaps": [
+    {
+     "s": "น้ำท่วม|náam-tûuam ___ เสียหาย|sǐia-hǎai มาก|mâak",
+     "o": [
+      "บ้านเรือน|bâan-rʉʉan",
+      "บ้าน|bâan",
+      "เรือ|rʉʉa",
+      "ห้อง|hɔ̂ng"
+     ],
+     "a": "บ้านเรือน",
+     "x": "Registro de notícia: o par บ้านเรือน."
+    },
+    {
+     "s": "วิว|wiu ที่นี่|tîi-nîi ___ มาก|mâak",
+     "o": [
+      "สวยงาม|sǔuai-ngaam",
+      "อ่อนแอ|ɔ̀ɔn-ɛɛ",
+      "เงียบเหงา|ngîiap-ngǎo",
+      "ใหญ่|yài"
+     ],
+     "a": "สวยงาม",
+     "x": "Beleza em registro cuidado: สวยงาม."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo ขน|kǒn ข้าวของ|kâao-kɔ̌ɔng ไป|bpai บ้าน|bâan ใหม่|mài",
+     "pt": "Ele levou as coisas para a casa nova.",
+     "en": "He moved his belongings to the new house."
+    }
+   ]
+  },
+  {
+   "id": "g6-07",
+   "t": "Pronomes de hierarquia",
+   "e": "O 'eu' e o 'você' mudam com o status: กระผม (eu, homem, muito respeitoso), ข้าพเจ้า (eu, em discursos e textos formais), ท่าน (o senhor, a senhora, a quem se deve respeito), เขา (ele) × ท่าน (ele, alguém superior). Analogia: é o 'Vossa Senhoria' dos ofícios brasileiros.",
+   "ex": "ข้าพเจ้า|kâa-pá-jâo ขอ|kɔ̌ɔ ขอบคุณ|kɔ̀ɔp-kun ทุก|túk ท่าน|tâan",
+   "pt": "Eu agradeço a todos os senhores.",
+   "en": "I thank all of you.",
+   "gaps": [
+    {
+     "s": "___ ขอ|kɔ̌ɔ แสดง|sà-dɛɛng ความ|kwaam ยินดี|yin-dii",
+     "o": [
+      "ข้าพเจ้า|kâa-pá-jâo",
+      "กู|guu",
+      "เรา|rao",
+      "หนู|nǔu"
+     ],
+     "a": "ข้าพเจ้า",
+     "x": "Eu formal de discurso: ข้าพเจ้า.",
+     "h": "Num discurso formal."
+    },
+    {
+     "s": "เชิญ|chəən ___ นั่ง|nâng ก่อน|gɔ̀ɔn ครับ|kráp",
+     "o": [
+      "ท่าน|tâan",
+      "มึง|mʉng",
+      "แก|gɛɛ",
+      "เธอ|təə"
+     ],
+     "a": "ท่าน",
+     "x": "Tratamento respeitoso: ท่าน."
+    }
+   ],
+   "ord": [
+    {
+     "s": "กระผม|grà-pǒm ขอ|kɔ̌ɔ อนุญาต|à-nú-yâat ครับ|kráp",
+     "pt": "Peço permissão, senhor.",
+     "en": "May I have your permission, sir."
+    }
+   ]
+  },
+  {
+   "id": "g6-08",
+   "t": "ถึงกับ: a ponto de",
+   "e": "ถึงกับ + verbo mostra que algo chegou a um extremo surpreendente: เขาดีใจถึงกับร้องไห้ = ficou tão feliz que chegou a chorar. Analogia: é o 'chegou ao ponto de' do português.",
+   "ex": "เขา|kǎo ดีใจ|dii-jai ถึงกับ|tʉ̌ng-gàp ร้องไห้|rɔ́ɔng-hâi",
+   "pt": "Ele ficou tão feliz que chegou a chorar.",
+   "en": "He was so happy he cried.",
+   "gaps": [
+    {
+     "s": "ข่าว|kàao นี้|níi ทำให้|tam-hâi เขา|kǎo ตกใจ|dtòk-jai ___ เป็นลม|bpen-lom",
+     "o": [
+      "ถึงกับ|tʉ̌ng-gàp",
+      "จึง|jʉng",
+      "ซึ่ง|sʉ̂ng",
+      "แต่|dtɛ̀ɛ"
+     ],
+     "a": "ถึงกับ",
+     "x": "Extremo surpreendente: ถึงกับ."
+    },
+    {
+     "s": "หนัง|nǎng ตลก|dtà-lòk จน|jon คน|kon ดู|duu ___ น้ำตาไหล|nám-dtaa-lǎi",
+     "o": [
+      "ถึงกับ|tʉ̌ng-gàp",
+      "เลย|ləəi",
+      "ก็|gɔ̂ɔ",
+      "ด้วย|dûuai"
+     ],
+     "a": "ถึงกับ",
+     "x": "'A ponto de' chorar de rir: ถึงกับ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo เหนื่อย|nʉ̀ʉai ถึงกับ|tʉ̌ng-gàp หลับ|làp ใน|nai รถ|rót",
+     "pt": "Ele estava tão cansado que dormiu no carro.",
+     "en": "He was so tired he fell asleep in the car."
+    }
+   ]
+  },
+  {
+   "id": "g6-09",
+   "t": "Partículas finais: o tom da conversa",
+   "e": "As partículas dão a atitude: นะ (suaviza, pede atenção), สิ (incentiva, 'vai!'), ละ/ล่ะ (e então?, devolve a pergunta), หรอก (suaviza a negação), เถอะ (convite: 'vamos'), น่ะ (explica, 'é que…'), เหรอ (surpresa, 'é mesmo?'). Analogia: são os emojis da fala — o texto é o mesmo, a intenção muda.",
+   "ex": "ไป|bpai กัน|gan เถอะ|tə̀",
+   "pt": "Vamos lá!",
+   "en": "Let's go!",
+   "gaps": [
+    {
+     "s": "ลอง|lɔɔng ชิม|chim ดู|duu ___",
+     "o": [
+      "สิ|sì",
+      "หรอก|rɔ̀ɔk",
+      "เหรอ|rə̌ə",
+      "ล่ะ|lâ"
+     ],
+     "a": "สิ",
+     "x": "Incentivo: สิ."
+    },
+    {
+     "s": "ไม่|mâi แพง|pɛɛng ___",
+     "o": [
+      "หรอก|rɔ̀ɔk",
+      "เถอะ|tə̀",
+      "สิ|sì",
+      "ล่ะ|lâ"
+     ],
+     "a": "หรอก",
+     "x": "Negação suavizada: หรอก."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ผม|pǒm ไม่|mâi ได้|dâai ไป|bpai หรอก|rɔ̀ɔk",
+     "pt": "Não, eu não fui.",
+     "en": "I didn't go, actually."
+    }
+   ]
+  },
+  {
+   "id": "g6-10",
+   "t": "Linguagem jurídica: มิได้, หาก, อนึ่ง",
+   "e": "O texto legal e oficial usa formas antigas: มิได้ e มิ no lugar de ไม่ได้/ไม่ (ผู้ใดมิได้ปฏิบัติตาม = quem não cumprir); หาก ou หากว่า no lugar de ถ้า; อนึ่ง ('outrossim') para acrescentar; ทั้งนี้ ('ressalvado que'). Analogia: é o 'outrossim' e o 'doravante' dos contratos brasileiros.",
+   "ex": "หาก|hàak ผู้|pûu เช่า|châo มิได้|mí-dâai จ่าย|jàai ค่าเช่า|kâa-châo",
+   "pt": "Caso o locatário não pague o aluguel.",
+   "en": "Should the tenant fail to pay the rent.",
+   "gaps": [
+    {
+     "s": "___ ท่าน|tâan มี|mii ข้อสงสัย|kɔ̂ɔ-sǒng-sǎi โปรด|bpròot ติดต่อ|dtìt-dtɔ̀ɔ",
+     "o": [
+      "หาก|hàak",
+      "ถึงกับ|tʉ̌ng-gàp",
+      "ซึ่ง|sʉ̂ng",
+      "เถอะ|tə̀"
+     ],
+     "a": "หาก",
+     "x": "Condicional formal: หาก."
+    },
+    {
+     "s": "บริษัท|bɔɔ-rí-sàt ___ รับผิดชอบ|ráp-pìt-chɔ̂ɔp ความเสียหาย|kwaam-sǐia-hǎai",
+     "o": [
+      "มิได้|mí-dâai",
+      "ไม่|mâi",
+      "หรอก|rɔ̀ɔk",
+      "ถึงกับ|tʉ̌ng-gàp"
+     ],
+     "a": "มิได้",
+     "x": "Negação de documento: มิได้."
+    }
+   ],
+   "ord": [
+    {
+     "s": "อนึ่ง|à-nʉ̀ng ผู้|pûu สมัคร|sà-màk ต้อง|dtɔ̂ng มี|mii ใบอนุญาต|bai-à-nú-yâat",
+     "pt": "Outrossim, o candidato deve ter licença.",
+     "en": "Furthermore, applicants must hold a license."
+    }
+   ]
+  },
+  {
+   "id": "g6-11",
+   "t": "Diplomacia: suavizar e propor",
+   "e": "Na linguagem diplomática e de negócios, evita-se o 'não' direto: ขอ (peço licença para), เห็นควร (considera-se conveniente), อาจจะ (talvez), ขอรับไว้พิจารณา (vamos considerar — que muitas vezes quer dizer 'não'). Analogia: é a luva de veludo — a mão é a mesma, o toque é macio.",
+   "ex": "ทาง|taang เรา|rao ขอ|kɔ̌ɔ รับ|ráp ไว้|wái พิจารณา|pí-jaa-rá-naa",
+   "pt": "Vamos levar o assunto em consideração.",
+   "en": "We will take it under consideration.",
+   "gaps": [
+    {
+     "s": "ทั้ง|táng สอง|sɔ̌ɔng ประเทศ|bprà-têet ___ ว่า|wâa ควร|kuuan ร่วมมือ|rûuam-mʉʉ กัน|gan",
+     "o": [
+      "เห็นควร|hěn-kuuan",
+      "ถึงกับ|tʉ̌ng-gàp",
+      "หรอก|rɔ̀ɔk",
+      "มิได้|mí-dâai"
+     ],
+     "a": "เห็นควร",
+     "x": "Consenso diplomático: เห็นควร."
+    },
+    {
+     "s": "___ ส่ง|sòng ข้อมูล|kɔ̂ɔ-muun เพิ่มเติม|pə̂əm-dtəəm ได้|dâai ไหม|mǎi คะ|ká",
+     "o": [
+      "ขอ|kɔ̌ɔ",
+      "ต้อง|dtɔ̂ng",
+      "ห้าม|hâam",
+      "อย่า|yàa"
+     ],
+     "a": "ขอ",
+     "x": "Pedido cortês: ขอ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "สอง|sɔ̌ɔng ฝ่าย|fàai ตกลง|dtòk-long เจรจา|jee-rá-jaa กัน|gan ต่อ|dtɔ̀ɔ",
+     "pt": "As duas partes concordaram em continuar negociando.",
+     "en": "Both sides agreed to continue negotiating."
+    }
+   ]
+  },
+  {
+   "id": "g6-12",
+   "t": "Retórica escrita: ถือว่า, นับว่า, กล่าวได้ว่า",
+   "e": "Para avaliar e concluir num texto: ถือว่า (considera-se que), นับว่า (pode-se dizer que, conta como), กล่าวได้ว่า (pode-se afirmar que), เป็นที่ทราบกันดีว่า (é sabido que). Analogia: são os degraus que levam o leitor até a conclusão.",
+   "ex": "นับว่า|náp-wâa เป็น|bpen ข่าวดี|kàao-dii สำหรับ|sǎm-ràp ประชาชน|bprà-chaa-chon",
+   "pt": "Pode-se dizer que é uma boa notícia para o povo.",
+   "en": "It can be considered good news for the people.",
+   "gaps": [
+    {
+     "s": "___ โครงการ|kroong-gaan นี้|níi ประสบ|bprà-sòp ความสำเร็จ|kwaam-sǎm-rèt",
+     "o": [
+      "กล่าวได้ว่า|glàao-dâai-wâa",
+      "หรอก|rɔ̀ɔk",
+      "เถอะ|tə̀",
+      "มิได้|mí-dâai"
+     ],
+     "a": "กล่าวได้ว่า",
+     "x": "Conclusão de texto: กล่าวได้ว่า."
+    },
+    {
+     "s": "วันนี้|wan-níi ___ เป็น|bpen วัน|wan สำคัญ|sǎm-kan",
+     "o": [
+      "ถือว่า|tʉ̌ʉ-wâa",
+      "ถึงกับ|tʉ̌ng-gàp",
+      "ไม่ว่า|mâi-wâa",
+      "แม้|mɛ́ɛ"
+     ],
+     "a": "ถือว่า",
+     "x": "Avaliação: ถือว่า."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เป็นที่ทราบกันดีว่า|bpen-tîi-sâap-gan-dii-wâa ภาษาไทย|paa-sǎa-tai มี|mii ห้า|hâa เสียง|sǐiang",
+     "pt": "É sabido que o tailandês tem cinco tons.",
+     "en": "It is well known that Thai has five tones."
+    }
+   ]
+  }
+ ]
+}
