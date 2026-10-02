@@ -1,0 +1,443 @@
+{
+ "n": 34,
+ "paginas": "vol. 2, p. 593–615",
+ "titulo": {
+  "pt": "Negociando o aluguel",
+  "en": "Renting a house (4)"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "เป็น|bpen ยังไง|yang-ngai คะ|ká บ้าน|bâan หลัง|lǎng นี้|níi",
+   "fsi": "pen jaŋŋaj khá bâan lǎŋ níi",
+   "en": "How is this house?",
+   "pt": "E então, o que achou desta casa?"
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun ชอบ|chɔ̂ɔp ไหม|mǎi คะ|ká",
+   "fsi": "khun chɔ̂ɔp máj khá",
+   "en": "Do you like it?",
+   "pt": "Gostou?"
+  },
+  {
+   "sp": "B",
+   "s": "สบาย|sà-baai มาก|mâak ครับ|kráp",
+   "fsi": "sabaaj mâak khráp",
+   "en": "Very nice.",
+   "pt": "Muito confortável."
+  },
+  {
+   "sp": "B",
+   "s": "บริเวณ|bɔɔ-rí-ween ก็|gɔ̂ɔ กว้างขวาง|gwâang-kwǎang ดี|dii",
+   "fsi": "bɔɔríween kɔ̂ɔ kwâaŋkhwǎaŋ dii",
+   "en": "The grounds are nice and large too.",
+   "pt": "E o terreno é bem espaçoso."
+  },
+  {
+   "sp": "B",
+   "s": "ขอโทษ|kɔ̌ɔ-tôot คุณ|kun คิด|kít ค่าเช่า|kâa-châo ยังไง|yang-ngai ครับ|kráp",
+   "fsi": "khɔ̌ɔthôot khun khít khâachâw jaŋŋaj khráp",
+   "en": "Excuse me, how is the rent figured?",
+   "pt": "Com licença, como fica o aluguel?"
+  },
+  {
+   "sp": "A",
+   "s": "เดือน|dʉʉan ละ|lá ห้า|hâa พัน|pan บาท|bàat",
+   "fsi": "dʉan lá hâa phan bàat",
+   "en": "5,000 baht a month,",
+   "pt": "Cinco mil baht por mês,"
+  },
+  {
+   "sp": "A",
+   "s": "ไม่|mâi รวม|ruuam ค่าน้ำ|kâa-náam ค่าไฟ|kâa-fai ค่าแก๊ส|kâa-gɛ́t และ|lɛ́ ค่าโทรศัพท์|kâa-too-rá-sàp",
+   "fsi": "mâj ruam khâanáam khâafaj khâakɛ́t lɛ́ khâathoorasàp",
+   "en": "not including water, electricity, gas and telephone.",
+   "pt": "sem contar água, luz, gás e telefone."
+  },
+  {
+   "sp": "A",
+   "s": "ผู้เช่า|pûu-châo ต้อง|dtɔ̂ng เสีย|sǐia เอง|eeng",
+   "fsi": "phûuchâw tɔ̂ŋ sǐa ʔeeŋ",
+   "en": "The tenant has to pay those himself.",
+   "pt": "Isso o inquilino paga por conta própria."
+  },
+  {
+   "sp": "B",
+   "s": "เดือน|dʉʉan ละ|lá ห้า|hâa พัน|pan เชียว|chiiao หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "dʉan lá hâa phan chiaw rʉ̌ʉ khráp",
+   "en": "Five thousand baht a month?!",
+   "pt": "Cinco mil por mês, tudo isso?"
+  },
+  {
+   "sp": "B",
+   "s": "ลด|lót บ้าง|bâang ได้|dâai ไหม|mǎi ครับ|kráp",
+   "fsi": "lót bâaŋ dâj máj khráp",
+   "en": "Could you come down some?",
+   "pt": "Dá para fazer um desconto?"
+  },
+  {
+   "sp": "A",
+   "s": "ห้า|hâa พัน|pan ไม่|mâi แพง|pɛɛng หรอก|rɔ̀ɔk ค่ะ|kâ",
+   "fsi": "hâa phan mâj phɛɛŋ rɔ̀k khâ",
+   "en": "Five thousand is not too expensive,",
+   "pt": "Cinco mil não é caro, não,"
+  },
+  {
+   "sp": "A",
+   "s": "เพราะ|prɔ́ มี|mii เครื่องเรือน|krʉ̂ʉang-rʉʉan พร้อม|prɔ́ɔm",
+   "fsi": "phrɔ́ mii khrʉ̂aŋrʉan phrɔ́ɔm",
+   "en": "since it's furnished.",
+   "pt": "porque já vem mobiliada."
+  },
+  {
+   "sp": "B",
+   "s": "มี|mii อะไร|à-rai บ้าง|bâang ครับ|kráp",
+   "fsi": "mii ʔaraj bâaŋ khráp",
+   "en": "What is there?",
+   "pt": "Tem o quê?"
+  },
+  {
+   "sp": "A",
+   "s": "มี|mii ครบ|króp ทุก|túk อย่าง|yàang",
+   "fsi": "mii khróp thúk jàaŋ",
+   "en": "Everything:",
+   "pt": "Tem de tudo:"
+  },
+  {
+   "sp": "A",
+   "s": "ชุดรับแขก|chút-ráp-kɛ̀ɛk ชุดทานข้าว|chút-taan-kâao เตียง|dtiiang ตู้|dtûu",
+   "fsi": "chútrápkhɛ̀ɛk chútthaankhâaw tiaŋ tûu",
+   "en": "living room furniture, a dining set, beds, wardrobes,",
+   "pt": "conjunto de sala, mesa de jantar, camas, armários,"
+  },
+  {
+   "sp": "A",
+   "s": "เตาแก๊ส|dtao-gɛ́t ตู้เย็น|dtûu-yen และ|lɛ́ พัดลม|pát-lom",
+   "fsi": "tawkɛ́t tûujen lɛ́ phátlom",
+   "en": "a gas stove, a refrigerator and electric fans.",
+   "pt": "fogão a gás, geladeira e ventiladores."
+  },
+  {
+   "sp": "A",
+   "s": "ขาด|kàat แต่|dtɛ̀ɛ เครื่องปรับอากาศ|krʉ̂ʉang-bpràp-aa-gàat",
+   "fsi": "khàat tɛ̀ɛ khrʉ̂aŋpràpʔaakàat",
+   "en": "The only thing missing is air conditioning.",
+   "pt": "Só falta o ar-condicionado."
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun ต้อง|dtɔ̂ng เอา|ao มา|maa เอง|eeng",
+   "fsi": "khun tɔ̂ŋ ʔaw maa ʔeeŋ",
+   "en": "You have to bring your own,",
+   "pt": "Esse o senhor tem que trazer,"
+  },
+  {
+   "sp": "A",
+   "s": "แต่|dtɛ̀ɛ เรา|rao ติดตั้ง|dtìt-dtâng ให้|hâi ฟรี|frii",
+   "fsi": "tɛ̀ɛ raw tìttâŋ hâj frii",
+   "en": "but we'll install it for you free.",
+   "pt": "mas a gente instala de graça."
+  },
+  {
+   "sp": "B",
+   "s": "ต้อง|dtɔ̂ng ทำ|tam สัญญา|sǎn-yaa เช่า|châo กี่|gìi ปี|bpii ครับ|kráp",
+   "fsi": "tɔ̂ŋ tham sǎnjaa châw kìi pii khráp",
+   "en": "How long a lease is required?",
+   "pt": "O contrato tem que ser de quantos anos?"
+  },
+  {
+   "sp": "A",
+   "s": "หนึ่ง|nʉ̀ng ปี|bpii ค่ะ|kâ",
+   "fsi": "nʉ̀ŋ pii khâ",
+   "en": "One year.",
+   "pt": "Um ano."
+  },
+  {
+   "sp": "A",
+   "s": "จ่าย|jàai เงิน|ngən ล่วงหน้า|lûuang-nâa สาม|sǎam เดือน|dʉʉan",
+   "fsi": "càaj ŋən lûaŋnâa sǎam dʉan",
+   "en": "Three months' rent in advance.",
+   "pt": "Três meses pagos adiantado."
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun จะ|jà ย้าย|yáai มา|maa อยู่|yùu เมื่อไร|mʉ̂ʉa-rài คะ|ká",
+   "fsi": "khun cà jáaj maa jùu mʉ̂arài khá",
+   "en": "When would you like to move in?",
+   "pt": "Quando o senhor pretende se mudar?"
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ขอ|kɔ̌ɔ ปรึกษา|bprʉ̀k-sǎa ภรรยา|pan-rá-yaa ก่อน|gɔ̀ɔn",
+   "fsi": "phǒm khɔ̌ɔ prʉ̀ksǎa phanrajaa kɔ̀ɔn",
+   "en": "I'd like to talk it over with my wife first.",
+   "pt": "Quero conversar com a minha esposa antes."
+  },
+  {
+   "sp": "B",
+   "s": "ถ้า|tâa ตกลง|dtòk-long จะ|jà ย้าย|yáai มา|maa เดือนหน้า|dʉʉan-nâa",
+   "fsi": "thâa tòkloŋ cà jáaj maa dʉannâa",
+   "en": "If we take it, we'll move in next month.",
+   "pt": "Se fecharmos, mudamos no mês que vem."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "บริเวณ",
+   "p": "bɔɔ-rí-ween",
+   "fsi": "bɔɔríween",
+   "pt": "área, terreno, arredores",
+   "en": "grounds, area"
+  },
+  {
+   "th": "กว้าง",
+   "p": "gwâang",
+   "fsi": "kwâaŋ",
+   "pt": "largo, amplo",
+   "en": "wide"
+  },
+  {
+   "th": "กว้างขวาง",
+   "p": "gwâang-kwǎang",
+   "fsi": "kwâaŋkhwǎaŋ",
+   "pt": "espaçoso",
+   "en": "roomy, spacious"
+  },
+  {
+   "th": "รวม",
+   "p": "ruuam",
+   "fsi": "ruam",
+   "pt": "incluir; somar; juntar",
+   "en": "to include; to combine"
+  },
+  {
+   "th": "ค่าน้ำ",
+   "p": "kâa-náam",
+   "fsi": "khâanáam",
+   "pt": "conta de água",
+   "en": "water bill"
+  },
+  {
+   "th": "ค่าไฟ",
+   "p": "kâa-fai",
+   "fsi": "khâafaj",
+   "pt": "conta de luz",
+   "en": "electric bill"
+  },
+  {
+   "th": "ค่าแก๊ส",
+   "p": "kâa-gɛ́t",
+   "fsi": "khâakɛ́t",
+   "pt": "conta de gás",
+   "en": "gas bill"
+  },
+  {
+   "th": "ค่าโทรศัพท์",
+   "p": "kâa-too-rá-sàp",
+   "fsi": "khâathoorasàp",
+   "pt": "conta de telefone",
+   "en": "phone bill"
+  },
+  {
+   "th": "ค่าเล่าเรียน",
+   "p": "kâa-lâo-riian",
+   "fsi": "khâalâwrian",
+   "pt": "mensalidade escolar",
+   "en": "tuition"
+  },
+  {
+   "th": "ค่ารถ",
+   "p": "kâa-rót",
+   "fsi": "khâarót",
+   "pt": "passagem, gasto com transporte",
+   "en": "carfare"
+  },
+  {
+   "th": "ผู้เช่า",
+   "p": "pûu-châo",
+   "fsi": "phûuchâw",
+   "pt": "inquilino",
+   "en": "tenant"
+  },
+  {
+   "th": "เชียว",
+   "p": "chiiao",
+   "fsi": "chiaw",
+   "pt": "tudo isso!, bem (depois de quantidade: espanto)",
+   "en": "really, so much"
+  },
+  {
+   "th": "ลด",
+   "p": "lót",
+   "fsi": "lót",
+   "pt": "reduzir, baixar (preço)",
+   "en": "to reduce"
+  },
+  {
+   "th": "ครบ",
+   "p": "króp",
+   "fsi": "khróp",
+   "pt": "completo, sem faltar nada",
+   "en": "complete"
+  },
+  {
+   "th": "ขาด",
+   "p": "kàat",
+   "fsi": "khàat",
+   "pt": "faltar; rasgar",
+   "en": "to lack; to tear"
+  },
+  {
+   "th": "ชุดรับแขก",
+   "p": "chút-ráp-kɛ̀ɛk",
+   "fsi": "chútrápkhɛ̀ɛk",
+   "pt": "conjunto de sala de estar",
+   "en": "living room set"
+  },
+  {
+   "th": "ตู้",
+   "p": "dtûu",
+   "fsi": "tûu",
+   "pt": "armário",
+   "en": "cabinet, wardrobe"
+  },
+  {
+   "th": "ตู้เย็น",
+   "p": "dtûu-yen",
+   "fsi": "tûujen",
+   "pt": "geladeira",
+   "en": "refrigerator"
+  },
+  {
+   "th": "เตาแก๊ส",
+   "p": "dtao-gɛ́t",
+   "fsi": "tawkɛ́t",
+   "pt": "fogão a gás",
+   "en": "gas stove"
+  },
+  {
+   "th": "พัดลม",
+   "p": "pát-lom",
+   "fsi": "phátlom",
+   "pt": "ventilador",
+   "en": "electric fan"
+  },
+  {
+   "th": "เครื่องปรับอากาศ",
+   "p": "krʉ̂ʉang-bpràp-aa-gàat",
+   "fsi": "khrʉ̂aŋpràpʔaakàat",
+   "pt": "ar-condicionado",
+   "en": "air conditioner"
+  },
+  {
+   "th": "ติดตั้ง",
+   "p": "dtìt-dtâng",
+   "fsi": "tìttâŋ",
+   "pt": "instalar",
+   "en": "to install"
+  },
+  {
+   "th": "ฟรี",
+   "p": "frii",
+   "fsi": "frii",
+   "pt": "grátis",
+   "en": "free (of charge)"
+  },
+  {
+   "th": "สัญญา",
+   "p": "sǎn-yaa",
+   "fsi": "sǎnjaa",
+   "pt": "contrato; prometer",
+   "en": "contract; to promise"
+  },
+  {
+   "th": "ล่วงหน้า",
+   "p": "lûuang-nâa",
+   "fsi": "lûaŋnâa",
+   "pt": "adiantado, com antecedência",
+   "en": "in advance"
+  },
+  {
+   "th": "ย้าย",
+   "p": "yáai",
+   "fsi": "jáaj",
+   "pt": "mudar(-se)",
+   "en": "to move"
+  },
+  {
+   "th": "ปรึกษา",
+   "p": "bprʉ̀k-sǎa",
+   "fsi": "prʉ̀ksǎa",
+   "pt": "consultar, conversar sobre",
+   "en": "to consult"
+  },
+  {
+   "th": "เดือนหน้า",
+   "p": "dʉʉan-nâa",
+   "fsi": "dʉannâa",
+   "pt": "mês que vem",
+   "en": "next month"
+  },
+  {
+   "th": "เข้าหุ้น",
+   "p": "kâo-hûn",
+   "fsi": "khâwhûn",
+   "pt": "entrar de sócio, rachar (custos)",
+   "en": "to go into partnership"
+  },
+  {
+   "th": "โบว์ลิ่ง",
+   "p": "boo-lîng",
+   "fsi": "boolîŋ",
+   "pt": "boliche",
+   "en": "bowling"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "เสีย, ออก, จ่าย: três jeitos de pagar",
+    "en": "Three verbs for paying"
+   },
+   "e": {
+    "pt": "เสีย(ค่า…) é pagar o que se deve por um serviço (เสียค่าเช่า); ออก(เงิน) é bancar, entrar com o dinheiro (จอห์นออกสองพัน = John entra com dois mil); จ่าย(เงิน) é o ato de desembolsar numa ocasião (จ่ายค่าเช่าเดือนละครั้ง). Analogia: เสีย é a conta, ออก é a cota de cada um, จ่าย é a hora do caixa.",
+    "en": "เสีย: pay what is owed; ออก: put up the money; จ่าย: the actual payment."
+   },
+   "ex": "เขา|kǎo จ่าย|jàai ค่าเช่า|kâa-châo เดือน|dʉʉan ละ|lá ครั้ง|kráng"
+  },
+  {
+   "t": {
+    "pt": "ครบ × ขาด",
+    "en": "ครบ vs ขาด"
+   },
+   "e": {
+    "pt": "ครบ = completo, todos presentes (ได้หนังสือครบทุกเล่ม = recebeu todos os livros); ขาด = faltar (ขาดไปสองเล่ม = faltam dois). Como เสร็จ, ครบ costuma vir depois do verbo.",
+    "en": "ครบ: complete; ขาด: missing."
+   },
+   "ex": "หนังสือ|nǎng-sʉ̌ʉ ครบ|króp ไหม|mǎi"
+  },
+  {
+   "t": {
+    "pt": "เชียว: espanto com a quantidade",
+    "en": "เชียว after a quantity"
+   },
+   "e": {
+    "pt": "Depois de uma quantia, เชียว mostra que a pessoa achou demais: ห้าพันเชียวหรือ = cinco mil, tudo isso?!",
+    "en": "After a quantity, เชียว shows it is more than expected."
+   },
+   "ex": "ร้อย|rɔ́ɔi บาท|bàat เชียว|chiiao"
+  },
+  {
+   "t": {
+    "pt": "ค่า + algo: a conta de…",
+    "en": "ค่า compounds"
+   },
+   "e": {
+    "pt": "ค่า (custo) + nome ou verbo forma as contas do dia a dia: ค่าน้ำ, ค่าไฟ, ค่าเช่า, ค่ารถ, ค่าอาหาร, ค่าหมอ, ค่าเล่าเรียน, ค่าจ้าง. Analogia: é o 'taxa de' da nossa conta de condomínio.",
+    "en": "ค่า + noun/verb: the cost of something (ค่าน้ำ, ค่าเช่า, ค่าจ้าง)."
+   },
+   "ex": "ค่า|kâa อาหาร|aa-hǎan"
+  }
+ ]
+}

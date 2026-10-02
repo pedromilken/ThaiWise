@@ -1,0 +1,436 @@
+{
+ "n": 33,
+ "paginas": "vol. 2, p. 572–592",
+ "titulo": {
+  "pt": "Escolhendo a casa: cômodos e cores",
+  "en": "Renting a house (3)"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "ผม|pǒm ได้ยิน|dâai-yin ว่า|wâa คุณ|kun มี|mii บ้าน|bâan ให้|hâi เช่า|châo",
+   "fsi": "phǒm dâjjin wâa khun mii bâan hâj châw",
+   "en": "I heard you had a house to rent,",
+   "pt": "Ouvi dizer que a senhora tem casa para alugar,"
+  },
+  {
+   "sp": "A",
+   "s": "ใช่ไหม|châi-mǎi ครับ|kráp",
+   "fsi": "châj máj khráp",
+   "en": "is that true?",
+   "pt": "é isso mesmo?"
+  },
+  {
+   "sp": "B",
+   "s": "ค่ะ|kâ มี|mii อยู่|yùu หลาย|lǎai หลัง|lǎng",
+   "fsi": "khâ mii jùu lǎaj lǎŋ",
+   "en": "Yes, I have several.",
+   "pt": "Tenho, sim, várias."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun ต้องการ|dtɔ̂ng-gaan แบบ|bɛ̀ɛp ไหน|nǎi คะ|ká",
+   "fsi": "khun tɔ̂ŋkaan bɛ̀ɛp nǎj khá",
+   "en": "What kind do you want?",
+   "pt": "O senhor quer de que tipo?"
+  },
+  {
+   "sp": "B",
+   "s": "ชั้นเดียว|chán-diiao สอง|sɔ̌ɔng ชั้น|chán หรือ|rʉ̌ʉ ชั้นครึ่ง|chán-krʉ̂ng",
+   "fsi": "chán diaw sɔ̌ɔŋ chán rʉ̌ʉ chán khrʉ̂ŋ",
+   "en": "One story, two stories, or one and a half?",
+   "pt": "Térrea, de dois andares ou de um andar e meio?"
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm อยาก|yàak ได้|dâai บ้าน|bâan ที่|tîi มี|mii ห้องนอน|hɔ̂ng-nɔɔn สาม|sǎam ห้อง|hɔ̂ng",
+   "fsi": "phǒm jàak dâj bâan thîi mii hɔ̂ŋnɔɔn sǎam hɔ̂ŋ",
+   "en": "I want a house with three bedrooms",
+   "pt": "Quero uma casa com três quartos"
+  },
+  {
+   "sp": "A",
+   "s": "และ|lɛ́ ติด|dtìt มุ้งลวด|múng-lûuat ทั้ง|táng หลัง|lǎng",
+   "fsi": "lɛ́ tìt múŋlûat tháŋ lǎŋ",
+   "en": "and completely screened in.",
+   "pt": "e com tela em toda a casa."
+  },
+  {
+   "sp": "A",
+   "s": "จะ|jà เป็น|bpen สอง|sɔ̌ɔng ชั้น|chán หรือ|rʉ̌ʉ ชั้นครึ่ง|chán-krʉ̂ng ก็|gɔ̂ɔ ได้|dâai",
+   "fsi": "cà pen sɔ̌ɔŋ chán rʉ̌ʉ chán khrʉ̂ŋ kɔ̂ɔ dâj",
+   "en": "Two stories or one and a half is fine.",
+   "pt": "Pode ser de dois andares ou de um e meio."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun ชอบ|chɔ̂ɔp บ้าน|bâan ตึก|dtʉ̀k หรือ|rʉ̌ʉ ไม้|mái คะ|ká",
+   "fsi": "khun chɔ̂ɔp bâan tʉ̀k rʉ̌ʉ máaj khá",
+   "en": "Do you want a masonry house or a wooden one?",
+   "pt": "Prefere casa de alvenaria ou de madeira?"
+  },
+  {
+   "sp": "A",
+   "s": "อะไร|à-rai ก็|gɔ̂ɔ ได้|dâai ครับ|kráp",
+   "fsi": "ʔaraj kɔ̂ɔ dâj khráp",
+   "en": "Either is OK.",
+   "pt": "Tanto faz."
+  },
+  {
+   "sp": "B",
+   "s": "ดิฉัน|dì-chǎn มี|mii บ้าน|bâan สอง|sɔ̌ɔng ชั้น|chán",
+   "fsi": "dichǎn mii bâan sɔ̌ɔŋ chán",
+   "en": "I have a two-story house,",
+   "pt": "Tenho uma casa de dois andares,"
+  },
+  {
+   "sp": "B",
+   "s": "ครึ่ง|krʉ̂ng ตึก|dtʉ̀k ครึ่ง|krʉ̂ng ไม้|mái อยู่|yùu หลัง|lǎng หนึ่ง|nʉ̀ng",
+   "fsi": "khrʉ̂ŋ tʉ̀k khrʉ̂ŋ máaj jùu lǎŋ nʉ̀ŋ",
+   "en": "half masonry and half wood.",
+   "pt": "metade alvenaria, metade madeira."
+  },
+  {
+   "sp": "B",
+   "s": "เป็น|bpen บ้าน|bâan แบบ|bɛ̀ɛp สมัยใหม่|sà-mǎi-mài",
+   "fsi": "pen bâan bɛ̀ɛp samǎjmàj",
+   "en": "It's a modern-style house.",
+   "pt": "É uma casa em estilo moderno."
+  },
+  {
+   "sp": "B",
+   "s": "ข้างนอก|kâang-nɔ̂ɔk ทา|taa สี|sǐi เขียว|kǐiao อ่อน|ɔ̀ɔn",
+   "fsi": "khâaŋnɔ̂ɔk thaa sǐi khǐaw ʔɔ̀ɔn",
+   "en": "Outside it's painted light green;",
+   "pt": "Por fora é pintada de verde-claro;"
+  },
+  {
+   "sp": "B",
+   "s": "ข้างใน|kâang-nai สี|sǐi ขาว|kǎao",
+   "fsi": "khâaŋnaj sǐi khǎaw",
+   "en": "inside it's white.",
+   "pt": "por dentro é branca."
+  },
+  {
+   "sp": "B",
+   "s": "ชั้นบน|chán-bon มี|mii ห้องนอน|hɔ̂ng-nɔɔn สาม|sǎam ห้อง|hɔ̂ng",
+   "fsi": "chánbon mii hɔ̂ŋnɔɔn sǎam hɔ̂ŋ",
+   "en": "Upstairs there are three bedrooms",
+   "pt": "Em cima tem três quartos"
+  },
+  {
+   "sp": "B",
+   "s": "ห้องน้ำ|hɔ̂ng-náam หนึ่ง|nʉ̀ng ห้อง|hɔ̂ng",
+   "fsi": "hɔ̂ŋnáam nʉ̀ŋ hɔ̂ŋ",
+   "en": "and one bathroom.",
+   "pt": "e um banheiro."
+  },
+  {
+   "sp": "B",
+   "s": "ชั้นล่าง|chán-lâang มี|mii ห้องรับแขก|hɔ̂ng-ráp-kɛ̀ɛk ห้องครัว|hɔ̂ng-kruua ห้องอาหาร|hɔ̂ng-aa-hǎan",
+   "fsi": "chánlâaŋ mii hɔ̂ŋrápkhɛ̀ɛk hɔ̂ŋkhrua hɔ̂ŋʔaahǎan",
+   "en": "Downstairs there's a living room, a kitchen, a dining room",
+   "pt": "Embaixo há sala de estar, cozinha, sala de jantar"
+  },
+  {
+   "sp": "B",
+   "s": "และ|lɛ́ ห้องน้ำ|hɔ̂ng-náam อีก|ìik ห้อง|hɔ̂ng หนึ่ง|nʉ̀ng",
+   "fsi": "lɛ́ hɔ̂ŋnáam ʔìik hɔ̂ŋ nʉ̀ŋ",
+   "en": "and another bathroom.",
+   "pt": "e mais um banheiro."
+  },
+  {
+   "sp": "B",
+   "s": "แล้วก็|lɛ́ɛo-gɔ̂ɔ หลัง|lǎng บ้าน|bâan มี|mii เรือน|rʉʉan คนใช้|kon-chái",
+   "fsi": "lɛ́ɛwkɔ̂ɔ lǎŋ bâan mii rʉan khonchái",
+   "en": "And behind the house there are servant quarters",
+   "pt": "E nos fundos tem a casa dos empregados"
+  },
+  {
+   "sp": "B",
+   "s": "และ|lɛ́ ห้องเก็บของ|hɔ̂ng-gèp-kɔ̌ɔng อยู่|yùu ต่างหาก|dtàang-hàak",
+   "fsi": "lɛ́ hɔ̂ŋkèpkhɔ̌ɔŋ jùu tàaŋhàak",
+   "en": "and a separate storage room.",
+   "pt": "e um depósito separado."
+  },
+  {
+   "sp": "A",
+   "s": "มี|mii โรงรถ|roong-rót ไหม|mǎi ครับ|kráp",
+   "fsi": "mii rooŋrót máj khráp",
+   "en": "Is there a carport?",
+   "pt": "Tem garagem?"
+  },
+  {
+   "sp": "B",
+   "s": "มี|mii ค่ะ|kâ",
+   "fsi": "mii khâ",
+   "en": "Yes, there is.",
+   "pt": "Tem, sim."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ได้ยิน",
+   "p": "dâai-yin",
+   "fsi": "dâjjin",
+   "pt": "ouvir (perceber), ouvir dizer",
+   "en": "to hear"
+  },
+  {
+   "th": "ต้องการ",
+   "p": "dtɔ̂ng-gaan",
+   "fsi": "tɔ̂ŋkaan",
+   "pt": "querer, precisar (formal)",
+   "en": "to want, need"
+  },
+  {
+   "th": "แบบ",
+   "p": "bɛ̀ɛp",
+   "fsi": "bɛ̀ɛp",
+   "pt": "tipo, modelo, estilo",
+   "en": "type, model, style"
+  },
+  {
+   "th": "อยากได้",
+   "p": "yàak-dâai",
+   "fsi": "jàakdâj",
+   "pt": "querer (ter algo)",
+   "en": "to want (a thing)"
+  },
+  {
+   "th": "ชั้นเดียว",
+   "p": "chán-diiao",
+   "fsi": "chándiaw",
+   "pt": "térreo, de um andar",
+   "en": "one-story"
+  },
+  {
+   "th": "ชั้นครึ่ง",
+   "p": "chán-krʉ̂ng",
+   "fsi": "chánkhrʉ̂ŋ",
+   "pt": "de um andar e meio",
+   "en": "one-and-a-half-story"
+  },
+  {
+   "th": "ชั้นบน",
+   "p": "chán-bon",
+   "fsi": "chánbon",
+   "pt": "andar de cima",
+   "en": "upstairs"
+  },
+  {
+   "th": "ชั้นล่าง",
+   "p": "chán-lâang",
+   "fsi": "chánlâaŋ",
+   "pt": "andar de baixo",
+   "en": "downstairs"
+  },
+  {
+   "th": "ห้องนอน",
+   "p": "hɔ̂ng-nɔɔn",
+   "fsi": "hɔ̂ŋnɔɔn",
+   "pt": "quarto de dormir",
+   "en": "bedroom"
+  },
+  {
+   "th": "ห้องครัว",
+   "p": "hɔ̂ng-kruua",
+   "fsi": "hɔ̂ŋkhrua",
+   "pt": "cozinha",
+   "en": "kitchen"
+  },
+  {
+   "th": "ห้องเก็บของ",
+   "p": "hɔ̂ng-gèp-kɔ̌ɔng",
+   "fsi": "hɔ̂ŋkèpkhɔ̌ɔŋ",
+   "pt": "depósito, despensa",
+   "en": "storeroom"
+  },
+  {
+   "th": "มุ้ง",
+   "p": "múng",
+   "fsi": "múŋ",
+   "pt": "mosquiteiro",
+   "en": "mosquito net"
+  },
+  {
+   "th": "มุ้งลวด",
+   "p": "múng-lûuat",
+   "fsi": "múŋlûat",
+   "pt": "tela de janela",
+   "en": "window screen"
+  },
+  {
+   "th": "ไม้",
+   "p": "mái",
+   "fsi": "máaj",
+   "pt": "madeira; vara",
+   "en": "wood; stick"
+  },
+  {
+   "th": "บ้านไม้",
+   "p": "bâan-mái",
+   "fsi": "bâanmáaj",
+   "pt": "casa de madeira",
+   "en": "wooden house"
+  },
+  {
+   "th": "บ้านตึก",
+   "p": "bâan-dtʉ̀k",
+   "fsi": "bâantʉ̀k",
+   "pt": "casa de alvenaria",
+   "en": "masonry house"
+  },
+  {
+   "th": "สมัยใหม่",
+   "p": "sà-mǎi-mài",
+   "fsi": "samǎjmàj",
+   "pt": "moderno, de estilo novo",
+   "en": "modern"
+  },
+  {
+   "th": "ทันสมัย",
+   "p": "tan-sà-mǎi",
+   "fsi": "thansamǎj",
+   "pt": "atualizado, moderno",
+   "en": "up to date"
+  },
+  {
+   "th": "ทา",
+   "p": "taa",
+   "fsi": "thaa",
+   "pt": "pintar, passar (tinta, creme)",
+   "en": "to paint, apply"
+  },
+  {
+   "th": "อ่อน",
+   "p": "ɔ̀ɔn",
+   "fsi": "ʔɔ̀ɔn",
+   "pt": "claro (cor); macio, fraco",
+   "en": "light (color); soft, weak"
+  },
+  {
+   "th": "เข้ม",
+   "p": "kêm",
+   "fsi": "khêm",
+   "pt": "escuro, intenso (cor)",
+   "en": "dark (color)"
+  },
+  {
+   "th": "ต่างหาก",
+   "p": "dtàang-hàak",
+   "fsi": "tàaŋhàak",
+   "pt": "à parte, separado",
+   "en": "separately"
+  },
+  {
+   "th": "แล้วก็",
+   "p": "lɛ́ɛo-gɔ̂ɔ",
+   "fsi": "lɛ́ɛwkɔ̂ɔ",
+   "pt": "e também, e aí",
+   "en": "and also"
+  },
+  {
+   "th": "หญ้า",
+   "p": "yâa",
+   "fsi": "jâa",
+   "pt": "grama, capim",
+   "en": "grass"
+  },
+  {
+   "th": "สวน",
+   "p": "sǔuan",
+   "fsi": "sǔan",
+   "pt": "jardim, pomar",
+   "en": "garden"
+  },
+  {
+   "th": "สนามหญ้า",
+   "p": "sà-nǎam-yâa",
+   "fsi": "sanǎamjâa",
+   "pt": "gramado",
+   "en": "lawn"
+  },
+  {
+   "th": "คู่",
+   "p": "kûu",
+   "fsi": "khûu",
+   "pt": "par",
+   "en": "pair"
+  },
+  {
+   "th": "น้ำตาล",
+   "p": "nám-dtaan",
+   "fsi": "námtaan",
+   "pt": "marrom; açúcar",
+   "en": "brown; sugar"
+  },
+  {
+   "th": "น้ำเงิน",
+   "p": "nám-ngən",
+   "fsi": "námŋən",
+   "pt": "azul-escuro",
+   "en": "dark blue"
+  },
+  {
+   "th": "กรมท่า",
+   "p": "grom-má-tâa",
+   "fsi": "krommathâa",
+   "pt": "azul-marinho",
+   "en": "navy blue"
+  },
+  {
+   "th": "เฉลียง",
+   "p": "chà-lǐiang",
+   "fsi": "chalǐaŋ",
+   "pt": "varanda, sacada",
+   "en": "balcony, porch"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Interrogativa + ก็ได้: qualquer um serve",
+    "en": "Question word + ก็ได้: any will do"
+   },
+   "e": {
+    "pt": "Palavra interrogativa + ก็ได้ = 'qualquer… serve': อะไรก็ได้ (qualquer coisa), เวลาไหนก็ได้ (qualquer hora), ร้านไหนก็ได้ (qualquer restaurante). Analogia: é o 'tanto faz' com o assunto já embutido.",
+    "en": "Question word + ก็ได้: any … is fine."
+   },
+   "ex": "ร้าน|ráan ไหน|nǎi ก็|gɔ̂ɔ ได้|dâai"
+  },
+  {
+   "t": {
+    "pt": "อยาก × อยากได้",
+    "en": "อยาก vs อยากได้"
+   },
+   "e": {
+    "pt": "อยาก vem antes de um verbo (อยากไปอยู่ต่างจังหวัด = quero ir morar no interior); อยากได้ vem antes de uma coisa (อยากได้บ้าน = quero uma casa). Analogia: อยาก é querer fazer; อยากได้ é querer ter.",
+    "en": "อยาก + verb (want to do); อยากได้ + noun (want to have)."
+   },
+   "ex": "ผม|pǒm อยาก|yàak ได้|dâai บ้าน|bâan"
+  },
+  {
+   "t": {
+    "pt": "Montando nomes de cômodos",
+    "en": "Building compound nouns"
+   },
+   "e": {
+    "pt": "Nome + verbo: ห้องนอน (quarto, 'sala de dormir'), ห้องรับแขก (sala de visitas, 'sala de receber hóspede'), ห้องเก็บของ ('sala de guardar coisas'). Nome + nome: ห้องอาหาร, ห้องครัว, โรงรถ, สวนดอกไม้. Analogia: são peças de LEGO que se encaixam formando palavras novas.",
+    "en": "Noun + verb phrase (ห้องนอน) or noun + noun (ห้องอาหาร)."
+   },
+   "ex": "ห้อง|hɔ̂ng นอน|nɔɔn"
+  },
+  {
+   "t": {
+    "pt": "Cores: claro e escuro",
+    "en": "Light and dark colors"
+   },
+   "e": {
+    "pt": "สี + cor; acrescente อ่อน para claro e แก่ ou เข้ม para escuro: สีเขียวอ่อน (verde-claro), สีเขียวแก่ (verde-escuro), สีน้ำเงินเข้ม (azul-escuro). Azul-claro tem nome próprio: สีฟ้า ('cor do céu'). Marrom é สีน้ำตาล ('cor de açúcar').",
+    "en": "สี + color + อ่อน (light) / แก่, เข้ม (dark); สีฟ้า sky blue; สีน้ำตาล brown."
+   },
+   "ex": "สี|sǐi เขียว|kǐiao อ่อน|ɔ̀ɔn"
+  }
+ ]
+}
