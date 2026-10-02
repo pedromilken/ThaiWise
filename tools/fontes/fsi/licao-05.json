@@ -1,65 +1,452 @@
-{"n": 5, "paginas": "vol. 1, p. 52–63",
- "titulo": {"pt": "Cumprimentos, apresentações e despedidas", "en": "Social formulae"},
+{
+ "n": 5,
+ "paginas": "vol. 1, p. 52–63",
+ "titulo": {
+  "pt": "Cumprimentos, apresentações e despedidas",
+  "en": "Social formulae"
+ },
  "dialogo": [
-  {"sp": "A", "s": "สวัสดี|sà-wàt-dii ครับ|kráp คุณ|kun ปรีชา|bprii-chaa", "fsi": "sawàtdii khráp, khun priichaa", "en": "Hello, Pricha.", "pt": "Olá, Pricha."},
-  {"sp": "B", "s": "สวัสดี|sà-wàt-dii ครับ|kráp คุณ|kun สมศักดิ์|sǒm-sàk", "fsi": "sawàtdii khráp, khun sǒmsàk", "en": "Hello, Somsak.", "pt": "Olá, Somsak."},
-  {"sp": "B", "s": "เป็น|bpen ยังไง|yang-ngai บ้าง|bâang ครับ|kráp", "fsi": "pen jaŋŋaj bâaŋ khráp", "en": "How are you?", "pt": "Como você vai?"},
-  {"sp": "A", "s": "ก็|gɔ̂ɔ เรื่อยๆ|rʉ̂ai-rʉ̂ai ครับ|kráp", "fsi": "kɔ̂ɔ rʉ̂aj rʉ̂aj khráp", "en": "O.K. (so, so)", "pt": "Vai indo, assim-assim."},
-  {"sp": "B", "s": "โอ|oo คุณ|kun ปรีชา|bprii-chaa ครับ|kráp", "fsi": "ʔoo, khun priichaa khráp", "en": "Oh, Prichaa", "pt": "Ah, Pricha!"},
-  {"sp": "B", "s": "นี่|nîi คุณ|kun จอห์น|jɔɔn", "fsi": "nîi khun coon", "en": "This is John.", "pt": "Este é o John."},
-  {"sp": "B", "s": "นั่น|nân คุณ|kun แมรี่|mɛ̂ɛ-rîi", "fsi": "nân khun mɛ̂ɛrîi", "en": "That's Mary.", "pt": "Aquela é a Mary."},
-  {"sp": "B", "s": "ภรรยา|pan-rá-yaa คุณ|kun จอห์น|jɔɔn", "fsi": "phanrájaa khun coon", "en": "John's wife.", "pt": "A esposa do John."},
-  {"sp": "A", "s": "สวัสดี|sà-wàt-dii ครับ|kráp", "fsi": "sawàtdii khráp", "en": "Hello.", "pt": "Olá."},
-  {"sp": "J", "s": "สวัสดี|sà-wàt-dii ครับ|kráp", "fsi": "sawàtdii khráp", "en": "Hello.", "pt": "Olá."},
-  {"sp": "M", "s": "สวัสดี|sà-wàt-dii ค่ะ|kâ", "fsi": "sawàtdii khâ", "en": "Hello.", "pt": "Olá."},
-  {"sp": "A", "s": "ขอโทษ|kɔ̌ɔ-tôot ผม|pǒm ไป|bpai ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp", "fsi": "khɔ̌ɔthôot, phǒm paj kɔ̀ɔn ná khráp", "en": "Excuse me, I must go.", "pt": "Com licença, preciso ir andando."},
-  {"sp": "B", "s": "เชิญ|chəən ครับ|kráp พบ|póp กัน|gan ใหม่|mài ครับ|kráp", "fsi": "chəən khráp, phòp kan màj khráp", "en": "All right, I'll see you again.", "pt": "Claro. Até a próxima!"}
+  {
+   "sp": "A",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp คุณ|kun ปรีชา|bprii-chaa",
+   "fsi": "sawàtdii khráp, khun priichaa",
+   "en": "Hello, Pricha.",
+   "pt": "Olá, Pricha."
+  },
+  {
+   "sp": "B",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp คุณ|kun สมศักดิ์|sǒm-sàk",
+   "fsi": "sawàtdii khráp, khun sǒmsàk",
+   "en": "Hello, Somsak.",
+   "pt": "Olá, Somsak."
+  },
+  {
+   "sp": "B",
+   "s": "เป็น|bpen ยังไง|yang-ngai บ้าง|bâang ครับ|kráp",
+   "fsi": "pen jaŋŋaj bâaŋ khráp",
+   "en": "How are you?",
+   "pt": "Como você vai?"
+  },
+  {
+   "sp": "A",
+   "s": "ก็|gɔ̂ɔ เรื่อยๆ|rʉ̂ai-rʉ̂ai ครับ|kráp",
+   "fsi": "kɔ̂ɔ rʉ̂aj rʉ̂aj khráp",
+   "en": "O.K. (so, so)",
+   "pt": "Vai indo, assim-assim."
+  },
+  {
+   "sp": "B",
+   "s": "โอ|oo คุณ|kun ปรีชา|bprii-chaa ครับ|kráp",
+   "fsi": "ʔoo, khun priichaa khráp",
+   "en": "Oh, Prichaa",
+   "pt": "Ah, Pricha!"
+  },
+  {
+   "sp": "B",
+   "s": "นี่|nîi คุณ|kun จอห์น|jɔɔn",
+   "fsi": "nîi khun coon",
+   "en": "This is John.",
+   "pt": "Este é o John."
+  },
+  {
+   "sp": "B",
+   "s": "นั่น|nân คุณ|kun แมรี่|mɛ̂ɛ-rîi",
+   "fsi": "nân khun mɛ̂ɛrîi",
+   "en": "That's Mary.",
+   "pt": "Aquela é a Mary."
+  },
+  {
+   "sp": "B",
+   "s": "ภรรยา|pan-rá-yaa คุณ|kun จอห์น|jɔɔn",
+   "fsi": "phanrájaa khun coon",
+   "en": "John's wife.",
+   "pt": "A esposa do John."
+  },
+  {
+   "sp": "A",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp",
+   "fsi": "sawàtdii khráp",
+   "en": "Hello.",
+   "pt": "Olá."
+  },
+  {
+   "sp": "J",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp",
+   "fsi": "sawàtdii khráp",
+   "en": "Hello.",
+   "pt": "Olá."
+  },
+  {
+   "sp": "M",
+   "s": "สวัสดี|sà-wàt-dii ค่ะ|kâ",
+   "fsi": "sawàtdii khâ",
+   "en": "Hello.",
+   "pt": "Olá."
+  },
+  {
+   "sp": "A",
+   "s": "ขอโทษ|kɔ̌ɔ-tôot ผม|pǒm ไป|bpai ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp",
+   "fsi": "khɔ̌ɔthôot, phǒm paj kɔ̀ɔn ná khráp",
+   "en": "Excuse me, I must go.",
+   "pt": "Com licença, preciso ir andando."
+  },
+  {
+   "sp": "B",
+   "s": "เชิญ|chəən ครับ|kráp พบ|póp กัน|gan ใหม่|mài ครับ|kráp",
+   "fsi": "chəən khráp, phóp kan màj khráp",
+   "en": "All right, I'll see you again.",
+   "pt": "Claro. Até a próxima!"
+  }
  ],
  "vocab": [
-  {"th": "อาจารย์", "p": "aa-jaan", "fsi": "ʔaacaan", "pt": "professor(a) universitário(a)", "en": "college or university teacher"},
-  {"th": "โอ", "p": "oo", "fsi": "ʔoo", "pt": "oh!, ah! (interjeição)", "en": "Oh!"},
-  {"th": "บ้าง", "p": "bâang", "fsi": "bâaŋ", "pt": "alguns, um pouco (pronome); no fim da pergunta, dá o tom de 'e por aí?'", "en": "some, any (pronominal)"},
-  {"th": "เชิญ", "p": "chəən", "fsi": "chəən", "pt": "por favor, fique à vontade (entre, sente-se, sirva-se); convidar", "en": "please, go ahead and...; to invite"},
-  {"th": "ด็อกเตอร์", "p": "dɔ́k-dtəə", "fsi": "dɔ́ktəə", "pt": "doutor (com Ph.D.)", "en": "doctor (Ph.D.)"},
-  {"th": "อย่างไร", "p": "yàang-rai", "fsi": "jaaŋraj", "pt": "como (palavra de pergunta)", "en": "how (question word)"},
-  {"th": "ยังไง", "p": "yang-ngai", "fsi": "jaŋŋaj", "pt": "como (forma coloquial de อย่างไร)", "en": "how (colloquial variant of อย่างไร)"},
-  {"th": "ยินดี", "p": "yin-dii", "fsi": "jindii", "pt": "contente, satisfeito", "en": "(to be) glad"},
-  {"th": "แย่", "p": "yɛ̂ɛ", "fsi": "jɛ̂ɛ", "pt": "péssimo, em mau estado", "en": "(to be) terrible, to be in a bad way"},
-  {"th": "กัน", "p": "gan", "fsi": "kan", "pt": "partícula de ação mútua: um ao outro, entre si", "en": "together (particle indicating mutuality or reciprocity)"},
-  {"th": "ก็", "p": "gɔ̂ɔ", "fsi": "kɔ̂ɔ", "pt": "então, pois (partícula de ligação; em ก็เรื่อย ๆ não se traduz)", "en": "connective particle; not translated in ก็เรื่อย ๆ"},
-  {"th": "ก่อน", "p": "gɔ̀ɔn", "fsi": "kɔ̀ɔn", "pt": "antes; primeiro", "en": "before, first"},
-  {"th": "กระทรวง", "p": "grà-suuang", "fsi": "kràsuaŋ", "pt": "ministério (divisão do governo)", "en": "ministry (division of the government)"},
-  {"th": "ขอบใจ", "p": "kɔ̀ɔp-jai", "fsi": "khɔ̀ɔpcaj", "pt": "obrigado (de superior para inferior)", "en": "thank you (superior to inferior)"},
-  {"th": "มา", "p": "maa", "fsi": "maa", "pt": "vir", "en": "to come"},
-  {"th": "ใหม่", "p": "mài", "fsi": "màj", "pt": "novo; de novo", "en": "again, new"},
-  {"th": "ไม่ได้", "p": "mâi-dâai", "fsi": "mâj daj", "pt": "não (contrário ao que se supunha; muito usado para o passado)", "en": "not, not as assumed to be"},
-  {"th": "หมอ", "p": "mɔ̌ɔ", "fsi": "mɔ̌ɔ", "pt": "médico(a), doutor(a)", "en": "medical doctor"},
-  {"th": "ไหน", "p": "nǎi", "fsi": "naj", "pt": "qual; forma curta de อย่างไร ('como')", "en": "variant form of อย่างไร"},
-  {"th": "ไป", "p": "bpai", "fsi": "paj", "pt": "ir", "en": "to go"},
-  {"th": "ไปก่อน", "p": "bpai-gɔ̀ɔn", "fsi": "paj kɔ̀ɔn", "pt": "ir na frente, ir primeiro (ao se despedir)", "en": "to go first, to go ahead"},
-  {"th": "ประเทศ", "p": "bprà-têet", "fsi": "prathêet", "pt": "país, nação", "en": "country, nation"},
-  {"th": "พบ", "p": "póp", "fsi": "phòp", "pt": "encontrar, topar com (alguém)", "en": "to meet, run into (someone)"},
-  {"th": "พบกัน", "p": "póp-gan", "fsi": "phòp kan", "pt": "encontrar-se, ver-se (um ao outro)", "en": "to meet or see each other"},
-  {"th": "รัฐมนตรี", "p": "rát-tà-mon-dtrii", "fsi": "rátthamontrii", "pt": "ministro (chefe de um ministério)", "en": "minister (head of a ministry)"},
-  {"th": "เรื่อยๆ", "p": "rʉ̂ai-rʉ̂ai", "fsi": "rʉ̂aj rʉ̂aj", "pt": "assim-assim, mais ou menos (resposta a cumprimento)", "en": "so so (as a response to a greeting)"},
-  {"th": "ต่าง", "p": "dtàang", "fsi": "tàaŋ", "pt": "diferente, separado", "en": "(to be) different, separate"},
-  {"th": "ต่างประเทศ", "p": "dtàang-bprà-têet", "fsi": "tàaŋprathêet", "pt": "estrangeiro, exterior", "en": "foreign"},
-  {"th": "ท่าน", "p": "tân", "fsi": "thân", "pt": "o senhor, a senhora; você, ele/ela (pessoa de status superior)", "en": "you, he, she (for persons of superior status)"},
-  {"th": "ที่", "p": "tîi", "fsi": "thîi", "pt": "que (conectivo); em, no, na", "en": "that, which (connective)"},
-  {"th": "ธุระ", "p": "tú-rá", "fsi": "thura", "pt": "negócio, assunto, incumbência", "en": "business, affairs, errands"},
-  {"th": "ไปธุระ", "p": "bpai-tú-rá", "fsi": "paj thura", "pt": "sair a negócios, sair para resolver algo", "en": "to go out on business"},
-  {"th": "เที่ยว", "p": "tîiao", "fsi": "thiaw", "pt": "passear, divertir-se", "en": "for pleasure"},
-  {"th": "ไปเที่ยว", "p": "bpai-tîiao", "fsi": "paj thiaw", "pt": "sair para se divertir, sair a passeio", "en": "to go out for pleasure"}
+  {
+   "th": "อาจารย์",
+   "p": "aa-jaan",
+   "fsi": "ʔaacaan",
+   "pt": "professor(a) universitário(a)",
+   "en": "college or university teacher"
+  },
+  {
+   "th": "โอ",
+   "p": "oo",
+   "fsi": "ʔoo",
+   "pt": "oh!, ah! (interjeição)",
+   "en": "Oh!"
+  },
+  {
+   "th": "บ้าง",
+   "p": "bâang",
+   "fsi": "bâaŋ",
+   "pt": "alguns, um pouco (pronome); no fim da pergunta, dá o tom de 'e por aí?'",
+   "en": "some, any (pronominal)"
+  },
+  {
+   "th": "เชิญ",
+   "p": "chəən",
+   "fsi": "chəən",
+   "pt": "por favor, fique à vontade (entre, sente-se, sirva-se); convidar",
+   "en": "please, go ahead and...; to invite"
+  },
+  {
+   "th": "ด็อกเตอร์",
+   "p": "dɔ́k-dtəə",
+   "fsi": "dɔ́ktəə",
+   "pt": "doutor (com Ph.D.)",
+   "en": "doctor (Ph.D.)"
+  },
+  {
+   "th": "อย่างไร",
+   "p": "yàang-rai",
+   "fsi": "jaaŋraj",
+   "pt": "como (palavra de pergunta)",
+   "en": "how (question word)"
+  },
+  {
+   "th": "ยังไง",
+   "p": "yang-ngai",
+   "fsi": "jaŋŋaj",
+   "pt": "como (forma coloquial de อย่างไร)",
+   "en": "how (colloquial variant of อย่างไร)"
+  },
+  {
+   "th": "ยินดี",
+   "p": "yin-dii",
+   "fsi": "jindii",
+   "pt": "contente, satisfeito",
+   "en": "(to be) glad"
+  },
+  {
+   "th": "แย่",
+   "p": "yɛ̂ɛ",
+   "fsi": "jɛ̂ɛ",
+   "pt": "péssimo, em mau estado",
+   "en": "(to be) terrible, to be in a bad way"
+  },
+  {
+   "th": "กัน",
+   "p": "gan",
+   "fsi": "kan",
+   "pt": "partícula de ação mútua: um ao outro, entre si",
+   "en": "together (particle indicating mutuality or reciprocity)"
+  },
+  {
+   "th": "ก็",
+   "p": "gɔ̂ɔ",
+   "fsi": "kɔ̂ɔ",
+   "pt": "então, pois (partícula de ligação; em ก็เรื่อย ๆ não se traduz)",
+   "en": "connective particle; not translated in ก็เรื่อย ๆ"
+  },
+  {
+   "th": "ก่อน",
+   "p": "gɔ̀ɔn",
+   "fsi": "kɔ̀ɔn",
+   "pt": "antes; primeiro",
+   "en": "before, first"
+  },
+  {
+   "th": "กระทรวง",
+   "p": "grà-suuang",
+   "fsi": "kràsuaŋ",
+   "pt": "ministério (divisão do governo)",
+   "en": "ministry (division of the government)"
+  },
+  {
+   "th": "ขอบใจ",
+   "p": "kɔ̀ɔp-jai",
+   "fsi": "khɔ̀ɔpcaj",
+   "pt": "obrigado (de superior para inferior)",
+   "en": "thank you (superior to inferior)"
+  },
+  {
+   "th": "มา",
+   "p": "maa",
+   "fsi": "maa",
+   "pt": "vir",
+   "en": "to come"
+  },
+  {
+   "th": "ใหม่",
+   "p": "mài",
+   "fsi": "màj",
+   "pt": "novo; de novo",
+   "en": "again, new"
+  },
+  {
+   "th": "ไม่ได้",
+   "p": "mâi-dâai",
+   "fsi": "mâj daj",
+   "pt": "não (contrário ao que se supunha; muito usado para o passado)",
+   "en": "not, not as assumed to be"
+  },
+  {
+   "th": "หมอ",
+   "p": "mɔ̌ɔ",
+   "fsi": "mɔ̌ɔ",
+   "pt": "médico(a), doutor(a)",
+   "en": "medical doctor"
+  },
+  {
+   "th": "ไหน",
+   "p": "nǎi",
+   "fsi": "naj",
+   "pt": "qual; forma curta de อย่างไร ('como')",
+   "en": "variant form of อย่างไร"
+  },
+  {
+   "th": "ไป",
+   "p": "bpai",
+   "fsi": "paj",
+   "pt": "ir",
+   "en": "to go"
+  },
+  {
+   "th": "ไปก่อน",
+   "p": "bpai-gɔ̀ɔn",
+   "fsi": "paj kɔ̀ɔn",
+   "pt": "ir na frente, ir primeiro (ao se despedir)",
+   "en": "to go first, to go ahead"
+  },
+  {
+   "th": "ประเทศ",
+   "p": "bprà-têet",
+   "fsi": "prathêet",
+   "pt": "país, nação",
+   "en": "country, nation"
+  },
+  {
+   "th": "พบ",
+   "p": "póp",
+   "fsi": "phóp",
+   "pt": "encontrar, topar com (alguém)",
+   "en": "to meet, run into (someone)"
+  },
+  {
+   "th": "พบกัน",
+   "p": "póp-gan",
+   "fsi": "phóp kan",
+   "pt": "encontrar-se, ver-se (um ao outro)",
+   "en": "to meet or see each other"
+  },
+  {
+   "th": "รัฐมนตรี",
+   "p": "rát-tà-mon-dtrii",
+   "fsi": "rátthamontrii",
+   "pt": "ministro (chefe de um ministério)",
+   "en": "minister (head of a ministry)"
+  },
+  {
+   "th": "เรื่อยๆ",
+   "p": "rʉ̂ai-rʉ̂ai",
+   "fsi": "rʉ̂aj rʉ̂aj",
+   "pt": "assim-assim, mais ou menos (resposta a cumprimento)",
+   "en": "so so (as a response to a greeting)"
+  },
+  {
+   "th": "ต่าง",
+   "p": "dtàang",
+   "fsi": "tàaŋ",
+   "pt": "diferente, separado",
+   "en": "(to be) different, separate"
+  },
+  {
+   "th": "ต่างประเทศ",
+   "p": "dtàang-bprà-têet",
+   "fsi": "tàaŋprathêet",
+   "pt": "estrangeiro, exterior",
+   "en": "foreign"
+  },
+  {
+   "th": "ท่าน",
+   "p": "tân",
+   "fsi": "thân",
+   "pt": "o senhor, a senhora; você, ele/ela (pessoa de status superior)",
+   "en": "you, he, she (for persons of superior status)"
+  },
+  {
+   "th": "ที่",
+   "p": "tîi",
+   "fsi": "thîi",
+   "pt": "que (conectivo); em, no, na",
+   "en": "that, which (connective)"
+  },
+  {
+   "th": "ธุระ",
+   "p": "tú-rá",
+   "fsi": "thura",
+   "pt": "negócio, assunto, incumbência",
+   "en": "business, affairs, errands"
+  },
+  {
+   "th": "ไปธุระ",
+   "p": "bpai-tú-rá",
+   "fsi": "paj thura",
+   "pt": "sair a negócios, sair para resolver algo",
+   "en": "to go out on business"
+  },
+  {
+   "th": "เที่ยว",
+   "p": "tîiao",
+   "fsi": "thiaw",
+   "pt": "passear, divertir-se",
+   "en": "for pleasure"
+  },
+  {
+   "th": "ไปเที่ยว",
+   "p": "bpai-tîiao",
+   "fsi": "paj thiaw",
+   "pt": "sair para se divertir, sair a passeio",
+   "en": "to go out for pleasure"
+  }
  ],
  "notas": [
-  {"t": {"pt": "Quem cumprimenta quem: status e idade", "en": "Who greets whom: status and age"}, "e": {"pt": "A forma do cumprimento depende do status e da idade dos dois lados, que o livro divide em três grupos: iguais, superiores e inferiores. 'Inferior' é quem tem status menor, ou o mesmo status e menos idade; dentro de cada grupo ainda há o registro formal e o informal. O detalhe prático para um estrangeiro: na Tailândia o seu status costuma ser alto sem que você perceba, pela idade ou pelo cargo. Use as formas de 'iguais' com a maioria das pessoas que encontrar no trabalho e reserve as de 'inferior para superior' para autoridades mais graduadas.", "en": "Greeting forms depend on the status and age of both speakers — equals, superiors, inferiors — and each group has a formal and an informal register. A foreigner in Thailand usually ranks high without realizing it, so use the 'equals' forms most of the time."}},
-  {"t": {"pt": "Entre iguais: formal e informal", "en": "Between equals: formal and informal"}, "e": {"pt": "No registro formal os dois lados dizem exatamente o mesmo, สวัสดีครับ ou สวัสดีค่ะ, e a conversa pode seguir como na lição 1. Entre íntimos a primeira sílaba cai: (สะ)วัดดีครับ. A pergunta do dia a dia é เป็นยังไงบ้างครับ ('como vai?'), com três respostas prontas: ก็เรื่อย ๆ ('assim-assim'), แย่ ('péssimo') ou uma pergunta de volta, ไปไหนครับ ('aonde vai?') e ไปไหนมา ('de onde vem?'), respondidas com ไปเที่ยว ('a passeio') ou ไปธุระ ('a trabalho').", "en": "Formal: both sides say สวัสดีครับ/ค่ะ. Intimates drop the first syllable: (สะ)วัดดีครับ. The everyday question เป็นยังไงบ้างครับ has three ready answers — ก็เรื่อย ๆ, แย่ — or is turned back as ไปไหน(มา), answered with ไปเที่ยว or ไปธุระ."}, "ex": "เป็น|bpen ยังไง|yang-ngai บ้าง|bâang ครับ|kráp"},
-  {"t": {"pt": "ไป...มา: fui e já voltei", "en": "ไป...มา: went and came back"}, "e": {"pt": "O livro registra a moldura ไป + lugar ou atividade + มา, que conta uma ida e volta já encerrada: ไปตลาดมา ('fui ao mercado e voltei'), ไปเที่ยวมา ('voltei de um passeio'), ไปธุระมา ('voltei de resolver algo'). É ela que responde a ไปไหนมา ('onde você estava?'). O มา do fim não é 'vir' no sentido literal: é o que fecha o trajeto, como o nosso 'e voltei' implícito. Não confunda com ไปมา junto, que é outra palavra e significa 'ir e vir, vai e vem'.", "en": "The book lists the frame ไป + place or activity + มา for a round trip already completed: ไปตลาดมา 'I went to the market (and am back)', ไปเที่ยวมา, ไปธุระมา. It is what answers ไปไหนมา 'where have you been?'. The final มา closes the trip rather than meaning 'come'. Don't confuse it with ไปมา written together, a different word meaning 'back and forth'."}, "ex": "ไป|bpai ตลาด|dtà-làat มา|maa"},
-  {"t": {"pt": "Com superior e inferior entra o wai", "en": "Superiors, inferiors and the wai"}, "e": {"pt": "De inferior para superior só existe o formal: สวัสดีครับ acompanhado do wai, as mãos juntas — e quanto mais alto o status do outro, mais altas as mãos. O superior responde (สวัสดี) ou apenas retribui o wai; outra saída é ท่านสบายดีหรือครับ, respondido com สบายดี ขอบใจ. De superior para inferior só existe o informal: เป็นยังไงบ้าง → สบายดีครับ. Ou seja, não se sobe de registro informal nem se desce de registro formal; entre os dois extremos, às vezes basta trocar os wais, com o inferior começando.", "en": "Inferior to superior: formal only — สวัสดีครับ plus a wai (hands higher for higher status), answered with (สวัสดี) or a returning wai, or ท่านสบายดีหรือครับ → สบายดี ขอบใจ. Superior to inferior: informal only — เป็นยังไงบ้าง → สบายดีครับ."}, "ex": "ท่าน|tân สบายดี|sà-baai-dii หรือ|rʉ̌ʉ ครับ|kráp"},
-  {"t": {"pt": "Apresentar alguém", "en": "Introducing someone"}, "e": {"pt": "Entre iguais, chama-se a atenção da pessoa com คุณ + nome e aponta-se o outro: คุณสมศักดิ์ครับ นี่คุณปรีชา — e os dois trocam สวัสดีครับ. Quando os níveis são diferentes, é sempre o inferior que é apresentado ao superior, na forma คุณ + nome + นี่ท่าน + cargo. Depois do สวัสดี, muitos grupos acrescentam ยินดีที่ได้รู้จัก ('prazer em conhecer'). Entre iguais, a mulher é apresentada ao homem e normalmente faz o wai antes; entre duas mulheres o wai não é obrigatório, mas conta como educação.", "en": "Between equals: คุณ + name of the person you address, then นี่ + the one being introduced; both say สวัสดีครับ. An inferior is always introduced to a superior: คุณ + name, นี่ท่าน + rank. Many add ยินดีที่ได้รู้จัก after สวัสดี. Among equals a woman is introduced to a man and usually wais first."}, "ex": "ยินดี|yin-dii ที่|tîi ได้|dâai รู้จัก|rúu-jàk"},
-  {"t": {"pt": "A despedida vale para todos os níveis", "en": "Leavetaking works at every level"}, "e": {"pt": "Quem vai embora pede licença com ขอโทษ ผมไปก่อนนะครับ ('com licença, vou na frente'), e quem fica responde เชิญครับ พบกันใหม่ครับ ('pois não, até a próxima'). Repare no นะ antes do ครับ: ele amacia o aviso de que você está saindo. Sem o นะ, ผมไปก่อนครับ soa seco, quase como quem comunica uma decisão.", "en": "The one leaving says ขอโทษ ผมไปก่อนนะครับ 'excuse me, I must go'; the one staying answers เชิญครับ พบกันใหม่ครับ. The นะ before ครับ softens the announcement."}, "ex": "ผม|pǒm ไป|bpai ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp"},
-  {"t": {"pt": "เชิญ dá sinal verde", "en": "เชิญ gives the green light"}, "e": {"pt": "เชิญครับ é um convite para a pessoa fazer algo que é bom para ela: comer, entrar, sentar. Mas também serve para autorizar algo que ela já disse que queria fazer — como ir embora, e é por isso que aparece na despedida. Analogia: é o nosso 'pois não' dito na porta, que ao mesmo tempo oferece e libera.", "en": "เชิญครับ invites someone to do something good for them (eat, come in, sit down) or authorizes something they already wanted to do, such as taking leave — which is why it appears in leavetaking."}, "ex": "เชิญ|chəən ครับ|kráp"},
-  {"t": {"pt": "Títulos no lugar de คุณ", "en": "Titles instead of คุณ"}, "e": {"pt": "Com um superior, ท่าน ocupa o lugar de คุณ e pode vir seguido do cargo: ท่านทูต ('senhor embaixador'), ท่านรัฐมนตรีว่าการกระทรวงต่างประเทศ ('senhor ministro das Relações Exteriores'). Os demais títulos vêm antes do nome: (คุณ)หมอ para médicos, ด็อกเตอร์ para quem tem doutorado, อาจารย์ para professores universitários e ครู para professores em geral. Com o rei ou com um monge budista, nenhuma dessas formas serve.", "en": "With a superior, ท่าน replaces คุณ and may be followed by a rank (ท่านทูต 'Mr. Ambassador'). Other titles precede the name: (คุณ)หมอ for medical doctors, ด็อกเตอร์ for Ph.D.s, อาจารย์ for college teachers, ครู for school teachers. None of these forms is correct for the King or a Buddhist priest."}, "ex": "ท่าน|tân รัฐมนตรี|rát-tà-mon-dtrii"},
-  {"t": {"pt": "Três negações: ไม่, ไม่ได้, ไม่ใช่", "en": "Three negatives: ไม่, ไม่ได้, ไม่ใช่"}, "e": {"pt": "A escolha depende do que se nega. ไม่ nega qualquer verbo: อากาศไม่ร้อน ('o tempo não está quente'), ผมไม่มีนาฬิกา ('não tenho relógio'). ไม่ได้ nega verbos de movimento e de ação, além de เป็น e ชื่อ, e é o 'não, ao contrário do que se supunha' — muito usado para o passado: ผมไม่ได้ปิดไฟ ('não apaguei a luz'), เขาไม่ได้ชื่อสมศักดิ์ ('ele não se chama Somsak'). ไม่ใช่ nega um substantivo em frases sem verbo: นี่ไม่ใช่ดินสอเขา, นาฬิกาเรือนนี้ไม่ใช่ของคุณ. Com เป็น as duas saídas servem: para afirmar do nada, เขาไม่ได้เป็นนักเรียน; para responder a uma pergunta, เขาเป็นครู ไม่ใช่นักเรียน.", "en": "ไม่ negates any verb (อากาศไม่ร้อน, ผมไม่มีนาฬิกา). ไม่ได้ negates motion and action verbs plus เป็น and ชื่อ — 'not, contrary to assumption', common for the past (ผมไม่ได้ปิดไฟ). ไม่ใช่ negates noun phrases in verbless sentences (นี่ไม่ใช่ดินสอเขา). With เป็น both work: ไม่ได้เป็น in a first statement, เป็น ... ไม่ใช่ when answering."}, "ex": "เขา|kǎo ไม่ได้|mâi-dâai เป็น|bpen นักเรียน|nák-riian"},
-  {"t": {"pt": "เป็นยังไง: 'como está...?'", "en": "เป็นยังไง: 'how is...?'"}, "e": {"pt": "เป็นอย่างไร (formal) e ยังไง (coloquial) perguntam 'como está' e aceitam qualquer sujeito, não só gente: อากาศเป็นอย่างไร ('como está o tempo?'), (การ)เรียนภาษาไทยเป็นอย่างไร ('como vai o estudo de tailandês?'). O บ้าง no fim é o tempero que deixa a pergunta natural entre conhecidos. Pense nele como o 'e aí, tudo bem?' contra o 'como vai o senhor?'.", "en": "เป็นอย่างไร (formal) and ยังไง (informal) mean 'how is...?' and take any subject: อากาศเป็นอย่างไร 'how's the weather?', (การ)เรียนภาษาไทยเป็นอย่างไร 'how's studying Thai?'. บ้าง at the end is what makes the question natural between acquaintances."}, "ex": "อากาศ|aa-gàat เป็น|bpen ยังไง|yang-ngai"}
- ]}
+  {
+   "t": {
+    "pt": "Quem cumprimenta quem: status e idade",
+    "en": "Who greets whom: status and age"
+   },
+   "e": {
+    "pt": "A forma do cumprimento depende do status e da idade dos dois lados, que o livro divide em três grupos: iguais, superiores e inferiores. 'Inferior' é quem tem status menor, ou o mesmo status e menos idade; dentro de cada grupo ainda há o registro formal e o informal. O detalhe prático para um estrangeiro: na Tailândia o seu status costuma ser alto sem que você perceba, pela idade ou pelo cargo. Use as formas de 'iguais' com a maioria das pessoas que encontrar no trabalho e reserve as de 'inferior para superior' para autoridades mais graduadas.",
+    "en": "Greeting forms depend on the status and age of both speakers — equals, superiors, inferiors — and each group has a formal and an informal register. A foreigner in Thailand usually ranks high without realizing it, so use the 'equals' forms most of the time."
+   }
+  },
+  {
+   "t": {
+    "pt": "Entre iguais: formal e informal",
+    "en": "Between equals: formal and informal"
+   },
+   "e": {
+    "pt": "No registro formal os dois lados dizem exatamente o mesmo, สวัสดีครับ ou สวัสดีค่ะ, e a conversa pode seguir como na lição 1. Entre íntimos a primeira sílaba cai: (สะ)วัดดีครับ. A pergunta do dia a dia é เป็นยังไงบ้างครับ ('como vai?'), com três respostas prontas: ก็เรื่อย ๆ ('assim-assim'), แย่ ('péssimo') ou uma pergunta de volta, ไปไหนครับ ('aonde vai?') e ไปไหนมา ('de onde vem?'), respondidas com ไปเที่ยว ('a passeio') ou ไปธุระ ('a trabalho').",
+    "en": "Formal: both sides say สวัสดีครับ/ค่ะ. Intimates drop the first syllable: (สะ)วัดดีครับ. The everyday question เป็นยังไงบ้างครับ has three ready answers — ก็เรื่อย ๆ, แย่ — or is turned back as ไปไหน(มา), answered with ไปเที่ยว or ไปธุระ."
+   },
+   "ex": "เป็น|bpen ยังไง|yang-ngai บ้าง|bâang ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "ไป...มา: fui e já voltei",
+    "en": "ไป...มา: went and came back"
+   },
+   "e": {
+    "pt": "O livro registra a moldura ไป + lugar ou atividade + มา, que conta uma ida e volta já encerrada: ไปตลาดมา ('fui ao mercado e voltei'), ไปเที่ยวมา ('voltei de um passeio'), ไปธุระมา ('voltei de resolver algo'). É ela que responde a ไปไหนมา ('onde você estava?'). O มา do fim não é 'vir' no sentido literal: é o que fecha o trajeto, como o nosso 'e voltei' implícito. Não confunda com ไปมา junto, que é outra palavra e significa 'ir e vir, vai e vem'.",
+    "en": "The book lists the frame ไป + place or activity + มา for a round trip already completed: ไปตลาดมา 'I went to the market (and am back)', ไปเที่ยวมา, ไปธุระมา. It is what answers ไปไหนมา 'where have you been?'. The final มา closes the trip rather than meaning 'come'. Don't confuse it with ไปมา written together, a different word meaning 'back and forth'."
+   },
+   "ex": "ไป|bpai ตลาด|dtà-làat มา|maa"
+  },
+  {
+   "t": {
+    "pt": "Com superior e inferior entra o wai",
+    "en": "Superiors, inferiors and the wai"
+   },
+   "e": {
+    "pt": "De inferior para superior só existe o formal: สวัสดีครับ acompanhado do wai, as mãos juntas — e quanto mais alto o status do outro, mais altas as mãos. O superior responde (สวัสดี) ou apenas retribui o wai; outra saída é ท่านสบายดีหรือครับ, respondido com สบายดี ขอบใจ. De superior para inferior só existe o informal: เป็นยังไงบ้าง → สบายดีครับ. Ou seja, não se sobe de registro informal nem se desce de registro formal; entre os dois extremos, às vezes basta trocar os wais, com o inferior começando.",
+    "en": "Inferior to superior: formal only — สวัสดีครับ plus a wai (hands higher for higher status), answered with (สวัสดี) or a returning wai, or ท่านสบายดีหรือครับ → สบายดี ขอบใจ. Superior to inferior: informal only — เป็นยังไงบ้าง → สบายดีครับ."
+   },
+   "ex": "ท่าน|tân สบายดี|sà-baai-dii หรือ|rʉ̌ʉ ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "Apresentar alguém",
+    "en": "Introducing someone"
+   },
+   "e": {
+    "pt": "Entre iguais, chama-se a atenção da pessoa com คุณ + nome e aponta-se o outro: คุณสมศักดิ์ครับ นี่คุณปรีชา — e os dois trocam สวัสดีครับ. Quando os níveis são diferentes, é sempre o inferior que é apresentado ao superior, na forma คุณ + nome + นี่ท่าน + cargo. Depois do สวัสดี, muitos grupos acrescentam ยินดีที่ได้รู้จัก ('prazer em conhecer'). Entre iguais, a mulher é apresentada ao homem e normalmente faz o wai antes; entre duas mulheres o wai não é obrigatório, mas conta como educação.",
+    "en": "Between equals: คุณ + name of the person you address, then นี่ + the one being introduced; both say สวัสดีครับ. An inferior is always introduced to a superior: คุณ + name, นี่ท่าน + rank. Many add ยินดีที่ได้รู้จัก after สวัสดี. Among equals a woman is introduced to a man and usually wais first."
+   },
+   "ex": "ยินดี|yin-dii ที่|tîi ได้|dâai รู้จัก|rúu-jàk"
+  },
+  {
+   "t": {
+    "pt": "A despedida vale para todos os níveis",
+    "en": "Leavetaking works at every level"
+   },
+   "e": {
+    "pt": "Quem vai embora pede licença com ขอโทษ ผมไปก่อนนะครับ ('com licença, vou na frente'), e quem fica responde เชิญครับ พบกันใหม่ครับ ('pois não, até a próxima'). Repare no นะ antes do ครับ: ele amacia o aviso de que você está saindo. Sem o นะ, ผมไปก่อนครับ soa seco, quase como quem comunica uma decisão.",
+    "en": "The one leaving says ขอโทษ ผมไปก่อนนะครับ 'excuse me, I must go'; the one staying answers เชิญครับ พบกันใหม่ครับ. The นะ before ครับ softens the announcement."
+   },
+   "ex": "ผม|pǒm ไป|bpai ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "เชิญ dá sinal verde",
+    "en": "เชิญ gives the green light"
+   },
+   "e": {
+    "pt": "เชิญครับ é um convite para a pessoa fazer algo que é bom para ela: comer, entrar, sentar. Mas também serve para autorizar algo que ela já disse que queria fazer — como ir embora, e é por isso que aparece na despedida. Analogia: é o nosso 'pois não' dito na porta, que ao mesmo tempo oferece e libera.",
+    "en": "เชิญครับ invites someone to do something good for them (eat, come in, sit down) or authorizes something they already wanted to do, such as taking leave — which is why it appears in leavetaking."
+   },
+   "ex": "เชิญ|chəən ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "Títulos no lugar de คุณ",
+    "en": "Titles instead of คุณ"
+   },
+   "e": {
+    "pt": "Com um superior, ท่าน ocupa o lugar de คุณ e pode vir seguido do cargo: ท่านทูต ('senhor embaixador'), ท่านรัฐมนตรีว่าการกระทรวงต่างประเทศ ('senhor ministro das Relações Exteriores'). Os demais títulos vêm antes do nome: (คุณ)หมอ para médicos, ด็อกเตอร์ para quem tem doutorado, อาจารย์ para professores universitários e ครู para professores em geral. Com o rei ou com um monge budista, nenhuma dessas formas serve.",
+    "en": "With a superior, ท่าน replaces คุณ and may be followed by a rank (ท่านทูต 'Mr. Ambassador'). Other titles precede the name: (คุณ)หมอ for medical doctors, ด็อกเตอร์ for Ph.D.s, อาจารย์ for college teachers, ครู for school teachers. None of these forms is correct for the King or a Buddhist priest."
+   },
+   "ex": "ท่าน|tân รัฐมนตรี|rát-tà-mon-dtrii"
+  },
+  {
+   "t": {
+    "pt": "Três negações: ไม่, ไม่ได้, ไม่ใช่",
+    "en": "Three negatives: ไม่, ไม่ได้, ไม่ใช่"
+   },
+   "e": {
+    "pt": "A escolha depende do que se nega. ไม่ nega qualquer verbo: อากาศไม่ร้อน ('o tempo não está quente'), ผมไม่มีนาฬิกา ('não tenho relógio'). ไม่ได้ nega verbos de movimento e de ação, além de เป็น e ชื่อ, e é o 'não, ao contrário do que se supunha' — muito usado para o passado: ผมไม่ได้ปิดไฟ ('não apaguei a luz'), เขาไม่ได้ชื่อสมศักดิ์ ('ele não se chama Somsak'). ไม่ใช่ nega um substantivo em frases sem verbo: นี่ไม่ใช่ดินสอเขา, นาฬิกาเรือนนี้ไม่ใช่ของคุณ. Com เป็น as duas saídas servem: para afirmar do nada, เขาไม่ได้เป็นนักเรียน; para responder a uma pergunta, เขาเป็นครู ไม่ใช่นักเรียน.",
+    "en": "ไม่ negates any verb (อากาศไม่ร้อน, ผมไม่มีนาฬิกา). ไม่ได้ negates motion and action verbs plus เป็น and ชื่อ — 'not, contrary to assumption', common for the past (ผมไม่ได้ปิดไฟ). ไม่ใช่ negates noun phrases in verbless sentences (นี่ไม่ใช่ดินสอเขา). With เป็น both work: ไม่ได้เป็น in a first statement, เป็น ... ไม่ใช่ when answering."
+   },
+   "ex": "เขา|kǎo ไม่ได้|mâi-dâai เป็น|bpen นักเรียน|nák-riian"
+  },
+  {
+   "t": {
+    "pt": "เป็นยังไง: 'como está...?'",
+    "en": "เป็นยังไง: 'how is...?'"
+   },
+   "e": {
+    "pt": "เป็นอย่างไร (formal) e ยังไง (coloquial) perguntam 'como está' e aceitam qualquer sujeito, não só gente: อากาศเป็นอย่างไร ('como está o tempo?'), (การ)เรียนภาษาไทยเป็นอย่างไร ('como vai o estudo de tailandês?'). O บ้าง no fim é o tempero que deixa a pergunta natural entre conhecidos. Pense nele como o 'e aí, tudo bem?' contra o 'como vai o senhor?'.",
+    "en": "เป็นอย่างไร (formal) and ยังไง (informal) mean 'how is...?' and take any subject: อากาศเป็นอย่างไร 'how's the weather?', (การ)เรียนภาษาไทยเป็นอย่างไร 'how's studying Thai?'. บ้าง at the end is what makes the question natural between acquaintances."
+   },
+   "ex": "อากาศ|aa-gàat เป็น|bpen ยังไง|yang-ngai"
+  }
+ ]
+}

@@ -57,7 +57,7 @@ def analyse(w):
     return c, bool(live), not short, mark
 # exceções conhecidas: ก็ (escrito curto, dito descendente), sílabas com letra muda que o analisador não modela,
 # e empréstimos do inglês que seguem a pronúncia e não a escrita (เทป, ลิฟต์…)
-EXCECOES = {'ก็', 'เทป', 'แฟลต'}
+EXCECOES = {'ก็', 'เทป', 'แฟลต', 'เมตร', 'เพชร', 'แบงก์'}
 diffs = []
 for w in D['words']:
     p = w['p']

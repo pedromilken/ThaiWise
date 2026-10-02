@@ -1,68 +1,450 @@
-{"n": 15, "paginas": "vol. 1, p. 257–261",
- "titulo": {"pt": "Uma entrevista em Korat", "en": "An Interview at Korat"},
+{
+ "n": 15,
+ "paginas": "vol. 1, p. 257–261",
+ "titulo": {
+  "pt": "Uma entrevista em Korat",
+  "en": "An Interview at Korat"
+ },
  "dialogo": [
-  {"sp": "A", "s": "สวัสดี|sà-wàt-dii ครับ|kráp ผม|pǒm ชื่อ|chʉ̂ʉ ทอม|tɔɔm", "fsi": "sawàtdii khráp, phǒm chʉ̂ʉ thɔɔm", "en": "Hello, my name is Tom.", "pt": "Olá, meu nome é Tom."},
-  {"sp": "B", "s": "ผม|pǒm ชื่อ|chʉ̂ʉ แมน|mɛɛn ครับ|kráp", "fsi": "phǒm chʉ̂ʉ mɛɛn khráp", "en": "My name is Maen.", "pt": "Meu nome é Maen."},
-  {"sp": "A", "s": "ยินดี|yin-dii ที่|tîi ได้|dâai รู้จัก|rúu-jàk", "fsi": "jindii thîi dâj rúucàk", "en": "Glad to meet you.", "pt": "Prazer em conhecer você."},
-  {"sp": "B", "s": "คุณ|kun เป็น|bpen ทหาร|tá-hǎan หรือ|rʉ̌ʉ ครับ|kráp", "fsi": "khun pen thahǎan rʉ̌ʉ khráp", "en": "You're a soldier, aren't you?", "pt": "Você é militar, não é?"},
-  {"sp": "A", "s": "เปล่า|bplào ครับ|kráp", "fsi": "plaaw khráp", "en": "No, I'm not.", "pt": "Não, não sou."},
-  {"sp": "A", "s": "ผม|pǒm เป็น|bpen พลเรือน|pon-lá-rʉʉan", "fsi": "phǒm pen phonlarʉan", "en": "I'm a civilian.", "pt": "Eu sou civil."},
-  {"sp": "B", "s": "คุณ|kun พูด|pûut ภาษา|paa-sǎa ไทย|tai เก่ง|gèng มาก|mâak", "fsi": "khun phûut phaasǎa thaj keŋ mâak", "en": "You speak Thai very well.", "pt": "Você fala tailandês muito bem."},
-  {"sp": "A", "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp", "fsi": "khɔ̀ɔpkhun khráp", "en": "Thank you.", "pt": "Obrigado."},
-  {"sp": "B", "s": "คุณ|kun มา|maa ทำ|tam อะไร|à-rai ที่นี่|tîi-nîi ครับ|kráp", "fsi": "khun maa tham ʔaraj thîinîi khráp", "en": "What did you come here to do?", "pt": "O que você veio fazer aqui?"},
-  {"sp": "A", "s": "ผม|pǒm มา|maa ทำงาน|tam-ngaan ที่|tîi ยูซิส|yuu-sít ครับ|kráp", "fsi": "phǒm maa thamŋaan thîi juusít khráp", "en": "To work at USIS.", "pt": "Vim trabalhar na USIS."},
-  {"sp": "B", "s": "ขอโทษ|kɔ̌ɔ-tôot คุณ|kun มี|mii ครอบครัว|krɔ̂ɔp-kruua แล้ว|lɛ́ɛo หรือยัง|rʉ̌ʉ-yang ครับ|kráp", "fsi": "khɔ̌ɔthôot khun mii khrɔ̂ɔpkhrua lɛ́ɛw rʉ̌ʉjaŋ khráp", "en": "Do you have a family?", "pt": "Desculpe, você já tem família?"},
-  {"sp": "A", "s": "มี|mii แล้ว|lɛ́ɛo ครับ|kráp แต่|dtɛ̀ɛ เวลานี้|wee-laa-níi ผม|pǒm อยู่|yùu คนเดียว|kon-diiao", "fsi": "mii lɛ́ɛw khráp, tɛ̀ɛ weelaaníi phǒm jùu khondiaw", "en": "I do, but at present I live by myself.", "pt": "Já tenho, sim. Mas, no momento, moro sozinho."},
-  {"sp": "B", "s": "ทำไม|tam-mai ล่ะ|lâ ครับ|kráp ภรรยา|pan-rá-yaa กับ|gàp ลูก|lûuk ของ|kɔ̌ɔng คุณ|kun อยู่|yùu ที่|tîi อเมริกา|à-mee-rí-gaa หรือ|rʉ̌ʉ ครับ|kráp", "fsi": "thammaj lâ khráp, phanrájaa kàp lûuk khɔ̌ɔŋ khun jùu thîi ʔameerikaa rʉ̌ʉ khráp", "en": "Why? Are your wife and children in America?", "pt": "Por quê? Sua esposa e seus filhos estão na América?"},
-  {"sp": "A", "s": "เปล่า|bplào ครับ|kráp", "fsi": "plaaw khráp", "en": "No, they aren't.", "pt": "Não, não estão."},
-  {"sp": "A", "s": "เขา|kǎo ยัง|yang อยู่|yùu ที่|tîi กรุงเทพฯ|grung-têep เพราะ|prɔ́ ก่อน|gɔ̀ɔn ที่|tîi ผม|pǒm จะ|jà มา|maa ที่นี่|tîi-nîi ผม|pǒm ทำงาน|tam-ngaan ที่|tîi กรุงเทพฯ|grung-têep", "fsi": "kháw jaŋ jùu thîi kruŋthêep, phrɔ́ kɔ̀ɔn thîi phǒm cà maa thîinîi, phǒm thamŋaan thîi kruŋthêep", "en": "They're still in Bangkok, because before I came here I worked in Bangkok.", "pt": "Eles ainda estão em Bangkok, porque antes de eu vir para cá trabalhava em Bangkok."},
-  {"sp": "B", "s": "คุณ|kun มี|mii บุตร|bùt กี่|gìi คน|kon ครับ|kráp", "fsi": "khun mii bùt kìi khon khráp", "en": "How many children do you have?", "pt": "Quantos filhos você tem?"},
-  {"sp": "A", "s": "สอง|sɔ̌ɔng คน|kon ครับ|kráp", "fsi": "sɔ̌ɔŋ khon khráp", "en": "Two.", "pt": "Dois."},
-  {"sp": "B", "s": "ผู้หญิง|pûu-yǐng หรือ|rʉ̌ʉ ผู้ชาย|pûu-chaai ครับ|kráp", "fsi": "phûujǐŋ rʉ̌ʉ phûuchaaj khráp", "en": "Girls or boys?", "pt": "Meninas ou meninos?"},
-  {"sp": "A", "s": "คนโต|kon-dtoo เป็น|bpen ผู้หญิง|pûu-yǐng คนเล็ก|kon-lék เป็น|bpen ผู้ชาย|pûu-chaai", "fsi": "khontoo pen phûujǐŋ, khonlék pen phûuchaaj", "en": "The oldest is a girl; the youngest, a boy.", "pt": "A mais velha é menina; o mais novo, menino."},
-  {"sp": "B", "s": "อายุ|aa-yú เท่าไร|tâo-rài ครับ|kráp", "fsi": "ʔaajú thâawraj khráp", "en": "What ages?", "pt": "Quantos anos eles têm?"},
-  {"sp": "A", "s": "คนโต|kon-dtoo อายุ|aa-yú สิบ|sìp ขวบ|kùuap คนเล็ก|kon-lék อายุ|aa-yú ห้า|hâa ขวบ|kùuap", "fsi": "khontoo ʔaajú sìp khùap, khonlék ʔaajú hâa khùap", "en": "The oldest is 10; the youngest is 5.", "pt": "A mais velha tem dez anos; o mais novo, cinco."},
-  {"sp": "B", "s": "เรียน|riian หนังสือ|nǎng-sʉ̌ʉ ที่ไหน|tîi-nǎi ครับ|kráp", "fsi": "rian naŋsʉ̌ʉ thîinǎj khráp", "en": "Where do they go to school?", "pt": "E eles estudam onde?"},
-  {"sp": "A", "s": "ลูก|lûuk ผม|pǒm หรือ|rʉ̌ʉ ครับ|kráp", "fsi": "lûuk phǒm rʉ̌ʉ khráp", "en": "My children?", "pt": "Meus filhos?"},
-  {"sp": "A", "s": "คน|kon หนึ่ง|nʉ̀ng เรียน|riian ที่|tîi โรงเรียนนานาชาติ|roong-riian-naa-naa-châat อีก|ìik คน|kon หนึ่ง|nʉ̀ng ยัง|yang ไม่|mâi เรียน|riian หนังสือ|nǎng-sʉ̌ʉ", "fsi": "khonnʉŋ rian thîi rooŋrian naanaachâat, ʔìik khonnʉŋ jaŋ mâj rian naŋsʉ̌ʉ", "en": "One goes to the International Schools; the other doesn't go to school yet.", "pt": "Um estuda na Escola Internacional; o outro ainda não estuda."},
-  {"sp": "B", "s": "โรงเรียนนานาชาติ|roong-riian-naa-naa-châat เป็น|bpen โรงเรียน|roong-riian ของ|kɔ̌ɔng อเมริกัน|à-mee-rí-gan ใช่ไหม|châi-mǎi ครับ|kráp", "fsi": "rooŋrian naanaachâat pen rooŋrian khɔ̌ɔŋ ʔameerikan, châj máj khráp", "en": "The International School is the American School, isn't it?", "pt": "A Escola Internacional é a escola americana, não é?"},
-  {"sp": "A", "s": "ใช่|châi ครับ|kráp", "fsi": "châj khráp", "en": "Yes, it is.", "pt": "É, sim."},
-  {"sp": "A", "s": "แต่|dtɛ̀ɛ เขา|kǎo มี|mii ครู|kruu และ|lɛ́ นักเรียน|nák-riian ชาติ|châat อื่นๆ|ʉ̀ʉn-ʉ̀ʉn หลาย|lǎai คน|kon", "fsi": "tɛ̀ɛ kháw mii khruu lɛ́ nákrian châat ʉ̀ʉn ʉ̀ʉn lǎaj khon", "en": "But they have many teachers and students of other nationalities.", "pt": "Mas eles têm muitos professores e alunos de outras nacionalidades."},
-  {"sp": "B", "s": "โรงเรียน|roong-riian นี้|níi อยู่|yùu ที่ไหน|tîi-nǎi ครับ|kráp", "fsi": "rooŋrian níi jùu thîinǎj khráp", "en": "Where is that school?", "pt": "Onde fica essa escola?"},
-  {"sp": "A", "s": "อยู่|yùu ที่|tîi ซอย|sɔɔi ร่วมใจ|rûuam-jai ถนน|tà-nǒn สุขุมวิท|sù-kǔm-wít ครับ|kráp", "fsi": "jùu thîi sɔɔj rûamcaj, thanǒn sùkhǔmwít khráp", "en": "It's at Ruamchaj Lane, Sukhumwit Road.", "pt": "Fica na Soi Ruam Chai, na rua Sukhumvit."},
-  {"sp": "B", "s": "ผม|pǒm ยัง|yang ไม่|mâi เคย|kəəi ไป|bpai สำนักงาน|sǎm-nák-ngaan ยูซิส|yuu-sít เลย|ləəi อยู่|yùu ที่ไหน|tîi-nǎi ครับ|kráp", "fsi": "phǒm jaŋ mâj khəəj paj sǎmnákŋaan juusít ləəj, jùu thîinǎj khráp", "en": "I've never been to (the USIS office). Where is it?", "pt": "Eu nunca fui ao escritório da USIS. Fica onde?"},
-  {"sp": "A", "s": "อยู่|yùu ใกล้ๆ|glâi-glâi กับ|gàp ตลาด|dtà-làat ครับ|kráp วันหลัง|wan-làng อันอื่น|an-ʉ̀ʉn เชิญ|chəən ไป|bpai เยี่ยม|yîiam เรา|rao ที่|tîi บ้าน|bâan นะ|ná ครับ|kráp", "fsi": "jùu klâjklâj kàp talàat khráp, wanlàŋ ʔanʉ̀ʉn chəən paj jíam rao thîi bâan ná khráp", "en": "It's quite close to the market. Why don't you come over and visit us some day?", "pt": "Fica bem perto do mercado. Qualquer dia desses venha nos visitar lá em casa."},
-  {"sp": "B", "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp", "fsi": "khɔ̀ɔpkhun khráp", "en": "Thank you.", "pt": "Obrigado."},
-  {"sp": "B", "s": "ที่ทำงาน|tîi-tam-ngaan ของ|kɔ̌ɔng คุณ|kun เปิด|bpə̀ət กี่|gìi โมง|moong ครับ|kráp", "fsi": "thîithamŋaan khɔ̌ɔŋ khun pə̀ət kìi mooŋ khráp", "en": "When does your office open?", "pt": "Que horas o seu escritório abre?"},
-  {"sp": "A", "s": "ห้องสมุด|hɔ̂ng-sà-mùt เปิด|bpə̀ət เวลา|wee-laa เที่ยง|tîiang ปิด|bpìt ราว|raao หนึ่ง|nʉ̀ng ทุ่ม|tûm แต่|dtɛ̀ɛ ผม|pǒm เข้า|kâo ทำงาน|tam-ngaan เวลา|wee-laa สอง|sɔ̌ɔng โมง|moong ครึ่ง|krʉ̂ng เลิก|lə̂ək ห้า|hâa โมง|moong เย็น|yen", "fsi": "hɔ̂ɔŋsamùt pə̀ət weelaa thîaŋ, pìt raaw nʉ̀ŋthûm, tɛ̀ɛ phǒm khâw thamŋaan weelaa sɔ̌ɔŋ mooŋ khrʉ̂ŋ, lə̂ək hâa mooŋ jen", "en": "The library opens at noon, (and) closes around 7 p.m. but I begin at 8:30 a.m., and quit at 5 p.m.", "pt": "A biblioteca abre ao meio-dia e fecha lá pelas sete da noite. Mas eu entro às oito e meia da manhã e saio às cinco da tarde."},
-  {"sp": "B", "s": "งั้น|ngán วันหลัง|wan-làng ผม|pǒm จะ|jà ไป|bpai เยี่ยม|yîiam คุณ|kun", "fsi": "ŋán, wanlàŋ phǒm cà paj jíam khun", "en": "Then someday I'll go visit you.", "pt": "Então um dia desses eu vou visitar você."},
-  {"sp": "B", "s": "ผม|pǒm ลา|laa ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp จะ|jà รีบ|rîip ไป|bpai ธุระ|tú-rá", "fsi": "phǒm laa kɔ̀ɔn ná khráp, cà rîip paj thúrá", "en": "I'll say 'Goodbye!' I have urgent business (to take care of).", "pt": "Já vou indo, tá? Preciso correr para resolver um assunto."},
-  {"sp": "A", "s": "ครับ|kráp", "fsi": "khráp", "en": "All right.", "pt": "Certo."},
-  {"sp": "A", "s": "หวัง|wǎng ว่า|wâa เรา|rao คง|kong ได้|dâai พบ|póp กัน|gan อีก|ìik", "fsi": "wǎŋ wâa rao khoŋ dâj phòp kan ʔìik", "en": "I hope we'll meet again.", "pt": "Espero que a gente se encontre de novo."}
+  {
+   "sp": "A",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp ผม|pǒm ชื่อ|chʉ̂ʉ ทอม|tɔɔm",
+   "fsi": "sawàtdii khráp, phǒm chʉ̂ʉ thɔɔm",
+   "en": "Hello, my name is Tom.",
+   "pt": "Olá, meu nome é Tom."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ชื่อ|chʉ̂ʉ แมน|mɛɛn ครับ|kráp",
+   "fsi": "phǒm chʉ̂ʉ mɛɛn khráp",
+   "en": "My name is Maen.",
+   "pt": "Meu nome é Maen."
+  },
+  {
+   "sp": "A",
+   "s": "ยินดี|yin-dii ที่|tîi ได้|dâai รู้จัก|rúu-jàk",
+   "fsi": "jindii thîi dâj rúucàk",
+   "en": "Glad to meet you.",
+   "pt": "Prazer em conhecer você."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun เป็น|bpen ทหาร|tá-hǎan หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "khun pen thahǎan rʉ̌ʉ khráp",
+   "en": "You're a soldier, aren't you?",
+   "pt": "Você é militar, não é?"
+  },
+  {
+   "sp": "A",
+   "s": "เปล่า|bplào ครับ|kráp",
+   "fsi": "plaaw khráp",
+   "en": "No, I'm not.",
+   "pt": "Não, não sou."
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm เป็น|bpen พลเรือน|pon-lá-rʉʉan",
+   "fsi": "phǒm pen phonlarʉan",
+   "en": "I'm a civilian.",
+   "pt": "Eu sou civil."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun พูด|pûut ภาษา|paa-sǎa ไทย|tai เก่ง|gèng มาก|mâak",
+   "fsi": "khun phûut phaasǎa thaj keŋ mâak",
+   "en": "You speak Thai very well.",
+   "pt": "Você fala tailandês muito bem."
+  },
+  {
+   "sp": "A",
+   "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp",
+   "fsi": "khɔ̀ɔpkhun khráp",
+   "en": "Thank you.",
+   "pt": "Obrigado."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun มา|maa ทำ|tam อะไร|à-rai ที่นี่|tîi-nîi ครับ|kráp",
+   "fsi": "khun maa tham ʔaraj thîinîi khráp",
+   "en": "What did you come here to do?",
+   "pt": "O que você veio fazer aqui?"
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm มา|maa ทำงาน|tam-ngaan ที่|tîi ยูซิส|yuu-sít ครับ|kráp",
+   "fsi": "phǒm maa thamŋaan thîi juusít khráp",
+   "en": "To work at USIS.",
+   "pt": "Vim trabalhar na USIS."
+  },
+  {
+   "sp": "B",
+   "s": "ขอโทษ|kɔ̌ɔ-tôot คุณ|kun มี|mii ครอบครัว|krɔ̂ɔp-kruua แล้ว|lɛ́ɛo หรือยัง|rʉ̌ʉ-yang ครับ|kráp",
+   "fsi": "khɔ̌ɔthôot khun mii khrɔ̂ɔpkhrua lɛ́ɛw rʉ̌ʉjaŋ khráp",
+   "en": "Do you have a family?",
+   "pt": "Desculpe, você já tem família?"
+  },
+  {
+   "sp": "A",
+   "s": "มี|mii แล้ว|lɛ́ɛo ครับ|kráp แต่|dtɛ̀ɛ เวลานี้|wee-laa-níi ผม|pǒm อยู่|yùu คนเดียว|kon-diiao",
+   "fsi": "mii lɛ́ɛw khráp, tɛ̀ɛ weelaaníi phǒm jùu khondiaw",
+   "en": "I do, but at present I live by myself.",
+   "pt": "Já tenho, sim. Mas, no momento, moro sozinho."
+  },
+  {
+   "sp": "B",
+   "s": "ทำไม|tam-mai ล่ะ|lâ ครับ|kráp ภรรยา|pan-rá-yaa กับ|gàp ลูก|lûuk ของ|kɔ̌ɔng คุณ|kun อยู่|yùu ที่|tîi อเมริกา|à-mee-rí-gaa หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "thammaj lâ khráp, phanrájaa kàp lûuk khɔ̌ɔŋ khun jùu thîi ʔameerikaa rʉ̌ʉ khráp",
+   "en": "Why? Are your wife and children in America?",
+   "pt": "Por quê? Sua esposa e seus filhos estão na América?"
+  },
+  {
+   "sp": "A",
+   "s": "เปล่า|bplào ครับ|kráp",
+   "fsi": "plaaw khráp",
+   "en": "No, they aren't.",
+   "pt": "Não, não estão."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo ยัง|yang อยู่|yùu ที่|tîi กรุงเทพฯ|grung-têep เพราะ|prɔ́ ก่อน|gɔ̀ɔn ที่|tîi ผม|pǒm จะ|jà มา|maa ที่นี่|tîi-nîi ผม|pǒm ทำงาน|tam-ngaan ที่|tîi กรุงเทพฯ|grung-têep",
+   "fsi": "kháw jaŋ jùu thîi kruŋthêep, phrɔ́ kɔ̀ɔn thîi phǒm cà maa thîinîi, phǒm thamŋaan thîi kruŋthêep",
+   "en": "They're still in Bangkok, because before I came here I worked in Bangkok.",
+   "pt": "Eles ainda estão em Bangkok, porque antes de eu vir para cá trabalhava em Bangkok."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun มี|mii บุตร|bùt กี่|gìi คน|kon ครับ|kráp",
+   "fsi": "khun mii bùt kìi khon khráp",
+   "en": "How many children do you have?",
+   "pt": "Quantos filhos você tem?"
+  },
+  {
+   "sp": "A",
+   "s": "สอง|sɔ̌ɔng คน|kon ครับ|kráp",
+   "fsi": "sɔ̌ɔŋ khon khráp",
+   "en": "Two.",
+   "pt": "Dois."
+  },
+  {
+   "sp": "B",
+   "s": "ผู้หญิง|pûu-yǐng หรือ|rʉ̌ʉ ผู้ชาย|pûu-chaai ครับ|kráp",
+   "fsi": "phûujǐŋ rʉ̌ʉ phûuchaaj khráp",
+   "en": "Girls or boys?",
+   "pt": "Meninas ou meninos?"
+  },
+  {
+   "sp": "A",
+   "s": "คนโต|kon-dtoo เป็น|bpen ผู้หญิง|pûu-yǐng คนเล็ก|kon-lék เป็น|bpen ผู้ชาย|pûu-chaai",
+   "fsi": "khontoo pen phûujǐŋ, khonlék pen phûuchaaj",
+   "en": "The oldest is a girl; the youngest, a boy.",
+   "pt": "A mais velha é menina; o mais novo, menino."
+  },
+  {
+   "sp": "B",
+   "s": "อายุ|aa-yú เท่าไร|tâo-rài ครับ|kráp",
+   "fsi": "ʔaajú thâawraj khráp",
+   "en": "What ages?",
+   "pt": "Quantos anos eles têm?"
+  },
+  {
+   "sp": "A",
+   "s": "คนโต|kon-dtoo อายุ|aa-yú สิบ|sìp ขวบ|kùuap คนเล็ก|kon-lék อายุ|aa-yú ห้า|hâa ขวบ|kùuap",
+   "fsi": "khontoo ʔaajú sìp khùap, khonlék ʔaajú hâa khùap",
+   "en": "The oldest is 10; the youngest is 5.",
+   "pt": "A mais velha tem dez anos; o mais novo, cinco."
+  },
+  {
+   "sp": "B",
+   "s": "เรียน|riian หนังสือ|nǎng-sʉ̌ʉ ที่ไหน|tîi-nǎi ครับ|kráp",
+   "fsi": "rian naŋsʉ̌ʉ thîinǎj khráp",
+   "en": "Where do they go to school?",
+   "pt": "E eles estudam onde?"
+  },
+  {
+   "sp": "A",
+   "s": "ลูก|lûuk ผม|pǒm หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "lûuk phǒm rʉ̌ʉ khráp",
+   "en": "My children?",
+   "pt": "Meus filhos?"
+  },
+  {
+   "sp": "A",
+   "s": "คน|kon หนึ่ง|nʉ̀ng เรียน|riian ที่|tîi โรงเรียนนานาชาติ|roong-riian-naa-naa-châat อีก|ìik คน|kon หนึ่ง|nʉ̀ng ยัง|yang ไม่|mâi เรียน|riian หนังสือ|nǎng-sʉ̌ʉ",
+   "fsi": "khonnʉŋ rian thîi rooŋrian naanaachâat, ʔìik khonnʉŋ jaŋ mâj rian naŋsʉ̌ʉ",
+   "en": "One goes to the International Schools; the other doesn't go to school yet.",
+   "pt": "Um estuda na Escola Internacional; o outro ainda não estuda."
+  },
+  {
+   "sp": "B",
+   "s": "โรงเรียนนานาชาติ|roong-riian-naa-naa-châat เป็น|bpen โรงเรียน|roong-riian ของ|kɔ̌ɔng อเมริกัน|à-mee-rí-gan ใช่ไหม|châi-mǎi ครับ|kráp",
+   "fsi": "rooŋrian naanaachâat pen rooŋrian khɔ̌ɔŋ ʔameerikan, châj máj khráp",
+   "en": "The International School is the American School, isn't it?",
+   "pt": "A Escola Internacional é a escola americana, não é?"
+  },
+  {
+   "sp": "A",
+   "s": "ใช่|châi ครับ|kráp",
+   "fsi": "châj khráp",
+   "en": "Yes, it is.",
+   "pt": "É, sim."
+  },
+  {
+   "sp": "A",
+   "s": "แต่|dtɛ̀ɛ เขา|kǎo มี|mii ครู|kruu และ|lɛ́ นักเรียน|nák-riian ชาติ|châat อื่นๆ|ʉ̀ʉn-ʉ̀ʉn หลาย|lǎai คน|kon",
+   "fsi": "tɛ̀ɛ kháw mii khruu lɛ́ nákrian châat ʉ̀ʉn ʉ̀ʉn lǎaj khon",
+   "en": "But they have many teachers and students of other nationalities.",
+   "pt": "Mas eles têm muitos professores e alunos de outras nacionalidades."
+  },
+  {
+   "sp": "B",
+   "s": "โรงเรียน|roong-riian นี้|níi อยู่|yùu ที่ไหน|tîi-nǎi ครับ|kráp",
+   "fsi": "rooŋrian níi jùu thîinǎj khráp",
+   "en": "Where is that school?",
+   "pt": "Onde fica essa escola?"
+  },
+  {
+   "sp": "A",
+   "s": "อยู่|yùu ที่|tîi ซอย|sɔɔi ร่วมใจ|rûuam-jai ถนน|tà-nǒn สุขุมวิท|sù-kǔm-wít ครับ|kráp",
+   "fsi": "jùu thîi sɔɔj rûamcaj, thanǒn sùkhǔmwít khráp",
+   "en": "It's at Ruamchaj Lane, Sukhumwit Road.",
+   "pt": "Fica na Soi Ruam Chai, na rua Sukhumvit."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ยัง|yang ไม่|mâi เคย|kəəi ไป|bpai สำนักงาน|sǎm-nák-ngaan ยูซิส|yuu-sít เลย|ləəi อยู่|yùu ที่ไหน|tîi-nǎi ครับ|kráp",
+   "fsi": "phǒm jaŋ mâj khəəj paj sǎmnákŋaan juusít ləəj, jùu thîinǎj khráp",
+   "en": "I've never been to (the USIS office). Where is it?",
+   "pt": "Eu nunca fui ao escritório da USIS. Fica onde?"
+  },
+  {
+   "sp": "A",
+   "s": "อยู่|yùu ใกล้ๆ|glâi-glâi กับ|gàp ตลาด|dtà-làat ครับ|kráp วันหลัง|wan-lǎng อันอื่น|an-ʉ̀ʉn เชิญ|chəən ไป|bpai เยี่ยม|yîiam เรา|rao ที่|tîi บ้าน|bâan นะ|ná ครับ|kráp",
+   "fsi": "jùu klâjklâj kàp talàat khráp, wanlǎŋ ʔanʉ̀ʉn chəən paj jîam rao thîi bâan ná khráp",
+   "en": "It's quite close to the market. Why don't you come over and visit us some day?",
+   "pt": "Fica bem perto do mercado. Qualquer dia desses venha nos visitar lá em casa."
+  },
+  {
+   "sp": "B",
+   "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp",
+   "fsi": "khɔ̀ɔpkhun khráp",
+   "en": "Thank you.",
+   "pt": "Obrigado."
+  },
+  {
+   "sp": "B",
+   "s": "ที่ทำงาน|tîi-tam-ngaan ของ|kɔ̌ɔng คุณ|kun เปิด|bpə̀ət กี่|gìi โมง|moong ครับ|kráp",
+   "fsi": "thîithamŋaan khɔ̌ɔŋ khun pə̀ət kìi mooŋ khráp",
+   "en": "When does your office open?",
+   "pt": "Que horas o seu escritório abre?"
+  },
+  {
+   "sp": "A",
+   "s": "ห้องสมุด|hɔ̂ng-sà-mùt เปิด|bpə̀ət เวลา|wee-laa เที่ยง|tîiang ปิด|bpìt ราว|raao หนึ่ง|nʉ̀ng ทุ่ม|tûm แต่|dtɛ̀ɛ ผม|pǒm เข้า|kâo ทำงาน|tam-ngaan เวลา|wee-laa สอง|sɔ̌ɔng โมง|moong ครึ่ง|krʉ̂ng เลิก|lə̂ək ห้า|hâa โมง|moong เย็น|yen",
+   "fsi": "hɔ̂ɔŋsamùt pə̀ət weelaa thîaŋ, pìt raaw nʉ̀ŋthûm, tɛ̀ɛ phǒm khâw thamŋaan weelaa sɔ̌ɔŋ mooŋ khrʉ̂ŋ, lə̂ək hâa mooŋ jen",
+   "en": "The library opens at noon, (and) closes around 7 p.m. but I begin at 8:30 a.m., and quit at 5 p.m.",
+   "pt": "A biblioteca abre ao meio-dia e fecha lá pelas sete da noite. Mas eu entro às oito e meia da manhã e saio às cinco da tarde."
+  },
+  {
+   "sp": "B",
+   "s": "งั้น|ngán วันหลัง|wan-lǎng ผม|pǒm จะ|jà ไป|bpai เยี่ยม|yîiam คุณ|kun",
+   "fsi": "ŋán, wanlǎŋ phǒm cà paj jîam khun",
+   "en": "Then someday I'll go visit you.",
+   "pt": "Então um dia desses eu vou visitar você."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ลา|laa ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp จะ|jà รีบ|rîip ไป|bpai ธุระ|tú-rá",
+   "fsi": "phǒm laa kɔ̀ɔn ná khráp, cà rîip paj thúrá",
+   "en": "I'll say 'Goodbye!' I have urgent business (to take care of).",
+   "pt": "Já vou indo, tá? Preciso correr para resolver um assunto."
+  },
+  {
+   "sp": "A",
+   "s": "ครับ|kráp",
+   "fsi": "khráp",
+   "en": "All right.",
+   "pt": "Certo."
+  },
+  {
+   "sp": "A",
+   "s": "หวัง|wǎng ว่า|wâa เรา|rao คง|kong ได้|dâai พบ|póp กัน|gan อีก|ìik",
+   "fsi": "wǎŋ wâa rao khoŋ dâj phóp kan ʔìik",
+   "en": "I hope we'll meet again.",
+   "pt": "Espero que a gente se encontre de novo."
+  }
  ],
  "vocab": [
-  {"th": "เยี่ยม", "p": "yîiam", "fsi": "jíam", "pt": "visitar, ir ver (alguém)", "en": "to visit"},
-  {"th": "เข้า", "p": "kâo", "fsi": "khâw", "pt": "começar (a trabalhar, a estudar); entrar", "en": "to begin (to work, to learn), enter"},
-  {"th": "คง", "p": "kong", "fsi": "khoŋ", "pt": "provavelmente, deve ser; คงจะ = 'provavelmente vai'", "en": "(ca) probably"},
-  {"th": "ลา", "p": "laa", "fsi": "laa", "pt": "despedir-se (dito apenas por quem está saindo)", "en": "to say goodbye (said only by person leaving)"},
-  {"th": "เลิก", "p": "lə̂ək", "fsi": "lə̂ək", "pt": "parar, encerrar; acabar, terminar (uma atividade)", "en": "quit, finish, to be over or through"},
-  {"th": "พลเรือน", "p": "pon-lá-rʉʉan", "fsi": "phonlarʉan", "pt": "civil, pessoa civil (não militar); classificador คน", "en": "(khon) civilian"},
-  {"th": "เพราะ", "p": "prɔ́", "fsi": "phrɔ́", "pt": "porque, pois", "en": "because"},
-  {"th": "ราว", "p": "raao", "fsi": "raaw", "pt": "cerca de, mais ou menos (ราว ๆ)", "en": "around, about"},
-  {"th": "รีบ", "p": "rîip", "fsi": "rîip", "pt": "apressar-se, ter urgência", "en": "to hurry, to be urgent"},
-  {"th": "โรงเรียนนานาชาติ", "p": "roong-riian-naa-naa-châat", "fsi": "rooŋrian naanaachâat", "pt": "a Escola Internacional (a escola americana de Bangkok)", "en": "The International School (roonrian)"},
-  {"th": "ร่วมใจ", "p": "rûuam-jai", "fsi": "rûamcaj", "pt": "Ruam Chai (nome de uma travessa da rua Sukhumvit)", "en": "Ruam chaj (name of lane on Sukhumwit Road)"},
-  {"th": "สำนักงาน", "p": "sǎm-nák-ngaan", "fsi": "sǎmnákŋaan", "pt": "escritório, sede (de um órgão, empresa etc.); classificador แห่ง", "en": "(hén) office (of an agency, etc.)"},
-  {"th": "ซอย", "p": "sɔɔi", "fsi": "sɔɔj", "pt": "travessa, rua estreita (o 'soi' tailandês)", "en": "lane (narrow street)"},
-  {"th": "สุขุมวิท", "p": "sù-kǔm-wít", "fsi": "sùkhǔmwít", "pt": "Sukhumvit (grande avenida de Bangkok)", "en": "Sukhumwit Road"},
-  {"th": "ทำไม", "p": "tam-mai", "fsi": "thammaj", "pt": "por que, por qual motivo", "en": "why (question word)"},
-  {"th": "วันหลัง", "p": "wan-làng", "fsi": "wanlàŋ", "pt": "um dia desses, qualquer dia (no futuro)", "en": "some day (in the future)"},
-  {"th": "หวัง", "p": "wǎng", "fsi": "wǎŋ", "pt": "esperar, ter esperança", "en": "to hope"},
-  {"th": "เวลานี้", "p": "wee-laa-níi", "fsi": "weelaaníi", "pt": "neste momento, atualmente", "en": "at present"}
+  {
+   "th": "เยี่ยม",
+   "p": "yîiam",
+   "fsi": "jîam",
+   "pt": "visitar, ir ver (alguém)",
+   "en": "to visit"
+  },
+  {
+   "th": "เข้า",
+   "p": "kâo",
+   "fsi": "khâw",
+   "pt": "começar (a trabalhar, a estudar); entrar",
+   "en": "to begin (to work, to learn), enter"
+  },
+  {
+   "th": "คง",
+   "p": "kong",
+   "fsi": "khoŋ",
+   "pt": "provavelmente, deve ser; คงจะ = 'provavelmente vai'",
+   "en": "(ca) probably"
+  },
+  {
+   "th": "ลา",
+   "p": "laa",
+   "fsi": "laa",
+   "pt": "despedir-se (dito apenas por quem está saindo)",
+   "en": "to say goodbye (said only by person leaving)"
+  },
+  {
+   "th": "เลิก",
+   "p": "lə̂ək",
+   "fsi": "lə̂ək",
+   "pt": "parar, encerrar; acabar, terminar (uma atividade)",
+   "en": "quit, finish, to be over or through"
+  },
+  {
+   "th": "พลเรือน",
+   "p": "pon-lá-rʉʉan",
+   "fsi": "phonlarʉan",
+   "pt": "civil, pessoa civil (não militar); classificador คน",
+   "en": "(khon) civilian"
+  },
+  {
+   "th": "เพราะ",
+   "p": "prɔ́",
+   "fsi": "phrɔ́",
+   "pt": "porque, pois",
+   "en": "because"
+  },
+  {
+   "th": "ราว",
+   "p": "raao",
+   "fsi": "raaw",
+   "pt": "cerca de, mais ou menos (ราว ๆ)",
+   "en": "around, about"
+  },
+  {
+   "th": "รีบ",
+   "p": "rîip",
+   "fsi": "rîip",
+   "pt": "apressar-se, ter urgência",
+   "en": "to hurry, to be urgent"
+  },
+  {
+   "th": "โรงเรียนนานาชาติ",
+   "p": "roong-riian-naa-naa-châat",
+   "fsi": "rooŋrian naanaachâat",
+   "pt": "a Escola Internacional (a escola americana de Bangkok)",
+   "en": "The International School (roonrian)"
+  },
+  {
+   "th": "ร่วมใจ",
+   "p": "rûuam-jai",
+   "fsi": "rûamcaj",
+   "pt": "Ruam Chai (nome de uma travessa da rua Sukhumvit)",
+   "en": "Ruam chaj (name of lane on Sukhumwit Road)"
+  },
+  {
+   "th": "สำนักงาน",
+   "p": "sǎm-nák-ngaan",
+   "fsi": "sǎmnákŋaan",
+   "pt": "escritório, sede (de um órgão, empresa etc.); classificador แห่ง",
+   "en": "(hén) office (of an agency, etc.)"
+  },
+  {
+   "th": "ซอย",
+   "p": "sɔɔi",
+   "fsi": "sɔɔj",
+   "pt": "travessa, rua estreita (o 'soi' tailandês)",
+   "en": "lane (narrow street)"
+  },
+  {
+   "th": "สุขุมวิท",
+   "p": "sù-kǔm-wít",
+   "fsi": "sùkhǔmwít",
+   "pt": "Sukhumvit (grande avenida de Bangkok)",
+   "en": "Sukhumwit Road"
+  },
+  {
+   "th": "ทำไม",
+   "p": "tam-mai",
+   "fsi": "thammaj",
+   "pt": "por que, por qual motivo",
+   "en": "why (question word)"
+  },
+  {
+   "th": "วันหลัง",
+   "p": "wan-lǎng",
+   "fsi": "wanlǎŋ",
+   "pt": "um dia desses, qualquer dia (no futuro)",
+   "en": "some day (in the future)"
+  },
+  {
+   "th": "หวัง",
+   "p": "wǎng",
+   "fsi": "wǎŋ",
+   "pt": "esperar, ter esperança",
+   "en": "to hope"
+  },
+  {
+   "th": "เวลานี้",
+   "p": "wee-laa-níi",
+   "fsi": "weelaaníi",
+   "pt": "neste momento, atualmente",
+   "en": "at present"
+  }
  ],
  "notas": [
-  {"t": {"pt": "แล้วหรือยัง: o 'já?' do tailandês", "en": "แล้วหรือยัง: asking 'already?'"}, "e": {"pt": "O แล้ว avisa que a coisa já aconteceu ou que o estado já vale: มีแล้วครับ é 'já tenho'. Na pergunta ele vem amarrado ao หรือยัง — คุณมีครอบครัวแล้วหรือยังครับ ('você já tem família?') — e a resposta ecoa o แล้ว: มีแล้วครับ. É o nosso 'já...?' de 'você já almoçou?', só que aqui o แล้ว é obrigatório para dizer que a bola já está em jogo. Sem ele, คุณมีครอบครัวครับ pergunta apenas se a pessoa tem família, sem nenhuma ideia de 'até agora'.", "en": "แล้ว marks that something has happened or now holds: มีแล้วครับ 'I already have (one)'. In questions it comes with หรือยัง (คุณมีครอบครัวแล้วหรือยังครับ), and the answer echoes the แล้ว (มีแล้วครับ). Without it the question is a plain 'do you have a family?', with no 'by now' sense."}, "ex": "คุณ|kun มี|mii ครอบครัว|krɔ̂ɔp-kruua แล้ว|lɛ́ɛo หรือยัง|rʉ̌ʉ-yang ครับ|kráp"},
-  {"t": {"pt": "ยังไม่เคย...เลย: o 'nunca' com prazo de validade", "en": "ยังไม่เคย...เลย: 'never (so far)'"}, "e": {"pt": "เคย diz que a pessoa já experimentou aquilo alguma vez na vida. Negando com ยังไม่ e fechando a frase com เลย, você obtém o 'nunca... até agora': ผมยังไม่เคยไปสำนักงานยูซิสเลย ('nunca fui ao escritório da USIS'). O เลย do fim é o que dá o gosto de 'nem uma vez sequer'; sem ele a frase continua correta, só menos enfática. Repare que o tailandês não tem um verbo para 'nunca': ele empilha negação + เคย + เลย, do jeito que a gente empilha 'nunca... na vida'.", "en": "เคย says you have experienced something before. Negated as ยังไม่เคย and closed off with เลย it gives 'never... so far': ผมยังไม่เคยไปสำนักงานยูซิสเลย 'I've never been to the USIS office'. The final เลย adds 'not even once'; without it the sentence is still correct, only less emphatic."}, "ex": "ผม|pǒm ยัง|yang ไม่|mâi เคย|kəəi ไป|bpai สำนักงาน|sǎm-nák-ngaan เลย|ləəi"},
-  {"t": {"pt": "มา + verbo: o que você veio fazer", "en": "มา + verb: what you came to do"}, "e": {"pt": "O มา ('vir') gruda direto no verbo que explica o motivo da vinda, sem preposição nenhuma no meio: มาทำงาน ('vim trabalhar'), มาเรียน ('vim estudar'). Na pergunta, o verbo vira อะไร — คุณมาทำอะไรที่นี่ครับ ('o que você veio fazer aqui?') — e a resposta devolve o mesmo molde: ผมมาทำงานที่ยูซิสครับ, com o ที่ puxando o lugar. É o nosso 'vim fazer o quê?', na ordem vir + fazer + onde. O mesmo vale para o ไป: ไปธุระ é 'sair para resolver um assunto'.", "en": "มา 'come' is glued straight onto the verb that states the purpose, with no preposition: มาทำงาน 'come to work', มาเรียน 'come to study'. In the question the verb becomes อะไร (คุณมาทำอะไรที่นี่ครับ) and the answer repeats the frame (ผมมาทำงานที่ยูซิสครับ), with ที่ introducing the place. The same holds for ไป (ไปธุระ)."}, "ex": "คุณ|kun มา|maa ทำ|tam อะไร|à-rai ที่นี่|tîi-nîi ครับ|kráp"},
-  {"t": {"pt": "ลา só sai da boca de quem vai embora", "en": "ลา is said only by the person leaving"}, "e": {"pt": "O livro é explícito no vocabulário: ลา ('dizer tchau') é palavra de quem parte — quem fica não usa. No diálogo o Maen fecha a conversa em três passos: dá o motivo (จะรีบไปธุระ, 'preciso correr para resolver um assunto'), avisa que está saindo (ผมลาก่อนนะครับ) e o Tom responde só ครับ. Aí vem o fecho de cortesia de quem fica: หวังว่าเราคงได้พบกันอีก ('espero que a gente se encontre de novo'). É o nosso 'já vou indo, tá?', com uma diferença de etiqueta: em tailandês dizer o motivo faz parte da despedida educada, não soa a justificativa.", "en": "The vocabulary is explicit: ลา 'to say goodbye' is used only by the person leaving. In the dialog Maen gives the reason (จะรีบไปธุระ), announces the departure (ผมลาก่อนนะครับ) and Tom simply answers ครับ; the one who stays adds a courteous closing, หวังว่าเราคงได้พบกันอีก 'I hope we'll meet again'. Stating the reason is part of polite leavetaking, not an excuse."}, "ex": "ผม|pǒm ลา|laa ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp"}
- ]}
+  {
+   "t": {
+    "pt": "แล้วหรือยัง: o 'já?' do tailandês",
+    "en": "แล้วหรือยัง: asking 'already?'"
+   },
+   "e": {
+    "pt": "O แล้ว avisa que a coisa já aconteceu ou que o estado já vale: มีแล้วครับ é 'já tenho'. Na pergunta ele vem amarrado ao หรือยัง — คุณมีครอบครัวแล้วหรือยังครับ ('você já tem família?') — e a resposta ecoa o แล้ว: มีแล้วครับ. É o nosso 'já...?' de 'você já almoçou?', só que aqui o แล้ว é obrigatório para dizer que a bola já está em jogo. Sem ele, คุณมีครอบครัวครับ pergunta apenas se a pessoa tem família, sem nenhuma ideia de 'até agora'.",
+    "en": "แล้ว marks that something has happened or now holds: มีแล้วครับ 'I already have (one)'. In questions it comes with หรือยัง (คุณมีครอบครัวแล้วหรือยังครับ), and the answer echoes the แล้ว (มีแล้วครับ). Without it the question is a plain 'do you have a family?', with no 'by now' sense."
+   },
+   "ex": "คุณ|kun มี|mii ครอบครัว|krɔ̂ɔp-kruua แล้ว|lɛ́ɛo หรือยัง|rʉ̌ʉ-yang ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "ยังไม่เคย...เลย: o 'nunca' com prazo de validade",
+    "en": "ยังไม่เคย...เลย: 'never (so far)'"
+   },
+   "e": {
+    "pt": "เคย diz que a pessoa já experimentou aquilo alguma vez na vida. Negando com ยังไม่ e fechando a frase com เลย, você obtém o 'nunca... até agora': ผมยังไม่เคยไปสำนักงานยูซิสเลย ('nunca fui ao escritório da USIS'). O เลย do fim é o que dá o gosto de 'nem uma vez sequer'; sem ele a frase continua correta, só menos enfática. Repare que o tailandês não tem um verbo para 'nunca': ele empilha negação + เคย + เลย, do jeito que a gente empilha 'nunca... na vida'.",
+    "en": "เคย says you have experienced something before. Negated as ยังไม่เคย and closed off with เลย it gives 'never... so far': ผมยังไม่เคยไปสำนักงานยูซิสเลย 'I've never been to the USIS office'. The final เลย adds 'not even once'; without it the sentence is still correct, only less emphatic."
+   },
+   "ex": "ผม|pǒm ยัง|yang ไม่|mâi เคย|kəəi ไป|bpai สำนักงาน|sǎm-nák-ngaan เลย|ləəi"
+  },
+  {
+   "t": {
+    "pt": "มา + verbo: o que você veio fazer",
+    "en": "มา + verb: what you came to do"
+   },
+   "e": {
+    "pt": "O มา ('vir') gruda direto no verbo que explica o motivo da vinda, sem preposição nenhuma no meio: มาทำงาน ('vim trabalhar'), มาเรียน ('vim estudar'). Na pergunta, o verbo vira อะไร — คุณมาทำอะไรที่นี่ครับ ('o que você veio fazer aqui?') — e a resposta devolve o mesmo molde: ผมมาทำงานที่ยูซิสครับ, com o ที่ puxando o lugar. É o nosso 'vim fazer o quê?', na ordem vir + fazer + onde. O mesmo vale para o ไป: ไปธุระ é 'sair para resolver um assunto'.",
+    "en": "มา 'come' is glued straight onto the verb that states the purpose, with no preposition: มาทำงาน 'come to work', มาเรียน 'come to study'. In the question the verb becomes อะไร (คุณมาทำอะไรที่นี่ครับ) and the answer repeats the frame (ผมมาทำงานที่ยูซิสครับ), with ที่ introducing the place. The same holds for ไป (ไปธุระ)."
+   },
+   "ex": "คุณ|kun มา|maa ทำ|tam อะไร|à-rai ที่นี่|tîi-nîi ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "ลา só sai da boca de quem vai embora",
+    "en": "ลา is said only by the person leaving"
+   },
+   "e": {
+    "pt": "O livro é explícito no vocabulário: ลา ('dizer tchau') é palavra de quem parte — quem fica não usa. No diálogo o Maen fecha a conversa em três passos: dá o motivo (จะรีบไปธุระ, 'preciso correr para resolver um assunto'), avisa que está saindo (ผมลาก่อนนะครับ) e o Tom responde só ครับ. Aí vem o fecho de cortesia de quem fica: หวังว่าเราคงได้พบกันอีก ('espero que a gente se encontre de novo'). É o nosso 'já vou indo, tá?', com uma diferença de etiqueta: em tailandês dizer o motivo faz parte da despedida educada, não soa a justificativa.",
+    "en": "The vocabulary is explicit: ลา 'to say goodbye' is used only by the person leaving. In the dialog Maen gives the reason (จะรีบไปธุระ), announces the departure (ผมลาก่อนนะครับ) and Tom simply answers ครับ; the one who stays adds a courteous closing, หวังว่าเราคงได้พบกันอีก 'I hope we'll meet again'. Stating the reason is part of polite leavetaking, not an excuse."
+   },
+   "ex": "ผม|pǒm ลา|laa ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp"
+  }
+ ]
+}

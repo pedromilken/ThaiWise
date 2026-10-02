@@ -1,0 +1,451 @@
+{
+ "n": 40,
+ "paginas": "vol. 2, p. 713–740",
+ "titulo": {
+  "pt": "Banco, empréstimo e as últimas compras",
+  "en": "Banking and shopping trip"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "คุณ|kun มี|mii แบงก์|bɛ́ng ย่อย|yɔ̂i บ้าง|bâang ไหม|mǎi",
+   "fsi": "khun mii bɛ́ŋ jɔ̂j bâaŋ máj",
+   "en": "Do you have any change?",
+   "pt": "Você tem nota miúda?"
+  },
+  {
+   "sp": "B",
+   "s": "มี|mii แต่|dtɛ̀ɛ ไม่|mâi ถึง|tʉ̌ng ร้อย|rɔ́ɔi บาท|bàat",
+   "fsi": "mii tɛ̀ɛ mâj thʉ̌ŋ rɔ́ɔj bàat",
+   "en": "Yes, but not as much as 100 baht.",
+   "pt": "Tenho, mas não chega a cem baht."
+  },
+  {
+   "sp": "A",
+   "s": "งั้น|ngán ขอ|kɔ̌ɔ ยืม|yʉʉm ก่อน|gɔ̀ɔn สัก|sàk ยี่สิบ|yîi-sìp บาท|bàat ได้|dâai ไหม|mǎi",
+   "fsi": "ŋán khɔ̌ɔ jʉʉm kɔ̀ɔn sàk jîisìp bàat dâj máj",
+   "en": "Well, could I borrow 20 baht, then?",
+   "pt": "Então me empresta uns vinte baht rapidinho?"
+  },
+  {
+   "sp": "A",
+   "s": "ขอบคุณ|kɔ̀ɔp-kun มาก|mâak",
+   "fsi": "khɔ̀ɔpkhun mâak",
+   "en": "Thank you.",
+   "pt": "Muito obrigado."
+  },
+  {
+   "sp": "B",
+   "s": "วันนี้|wan-níi จะ|jà ไป|bpai ไหน|nǎi หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "wanníi cà paj nǎj rʉ̌ʉ khráp",
+   "en": "You're going somewhere today?",
+   "pt": "Vai a algum lugar hoje?"
+  },
+  {
+   "sp": "A",
+   "s": "จะ|jà ไป|bpai ธนาคาร|tá-naa-kaan",
+   "fsi": "cà paj thanaakhaan",
+   "en": "To the bank.",
+   "pt": "Vou ao banco."
+  },
+  {
+   "sp": "B",
+   "s": "ไป|bpai ฝาก|fàak เงิน|ngən หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "paj fàak ŋən rʉ̌ʉ khráp",
+   "en": "To deposit money?",
+   "pt": "Depositar dinheiro?"
+  },
+  {
+   "sp": "A",
+   "s": "เปล่า|bplàao จะ|jà ไป|bpai เบิก|bə̀ək เงิน|ngən",
+   "fsi": "plàaw cà paj bə̀ək ŋən",
+   "en": "No, to take some money out,",
+   "pt": "Não, sacar,"
+  },
+  {
+   "sp": "A",
+   "s": "กับ|gàp จะ|jà พา|paa เพื่อน|pʉ̂ʉan ฝรั่ง|fà-ràng ไป|bpai แลก|lɛ̂ɛk เงิน|ngən ไทย|tai ด้วย|dûuai",
+   "fsi": "kàp cà phaa phʉ̂an faràŋ paj lɛ̂ɛk ŋən thaj dûaj",
+   "en": "and take a Western friend to change money,",
+   "pt": "e levar uma amiga estrangeira para trocar dinheiro,"
+  },
+  {
+   "sp": "A",
+   "s": "เพราะ|prɔ́ จะ|jà ไป|bpai ซื้อ|sʉ́ʉ ของ|kɔ̌ɔng กัน|gan",
+   "fsi": "phrɔ́ cà paj sʉ́ʉ khɔ̌ɔŋ kan",
+   "en": "because we're going shopping.",
+   "pt": "porque a gente vai fazer compras."
+  },
+  {
+   "sp": "A",
+   "s": "เพื่อน|pʉ̂ʉan เขา|kǎo อยาก|yàak ซื้อ|sʉ́ʉ ผ้าไหม|pâa-mǎi ไทย|tai ขัน|kǎn เงิน|ngən",
+   "fsi": "phʉ̂an kháw jàak sʉ́ʉ phâamǎj thaj khǎn ŋən",
+   "en": "She wants Thai silk, a silver bowl",
+   "pt": "Ela quer seda tailandesa, uma tigela de prata"
+  },
+  {
+   "sp": "A",
+   "s": "แล้วก็|lɛ́ɛo-gɔ̂ɔ ชาม|chaam สลัด|sà-làt ที่|tîi ทำ|tam ด้วย|dûuai ไม้|mái",
+   "fsi": "lɛ́ɛwkɔ̂ɔ chaam salàt thîi tham dûaj máaj",
+   "en": "and a wooden salad bowl.",
+   "pt": "e uma saladeira de madeira."
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun รู้จัก|rúu-jàk ร้าน|ráan ดีๆ|dii-dii ที่|tîi ไม่|mâi แพง|pɛɛng นัก|nák บ้าง|bâang ไหม|mǎi",
+   "fsi": "khun rúucàk ráan diidii thîi mâj phɛɛŋ nák bâaŋ máj",
+   "en": "Do you know any good, inexpensive shops?",
+   "pt": "Conhece alguma loja boa e não muito cara?"
+  },
+  {
+   "sp": "B",
+   "s": "ร้าน|ráan สินค้า|sǐn-káa ไทย|tai ไง|ngai ครับ|kráp",
+   "fsi": "ráan sǐnkháa thaj ŋaj khráp",
+   "en": "The 'Thai Merchandise' shop, of course.",
+   "pt": "A loja 'Produtos Tailandeses', ora!"
+  },
+  {
+   "sp": "B",
+   "s": "เขา|kǎo มี|mii ของ|kɔ̌ɔng ไทย|tai ดีๆ|dii-dii สวยๆ|sǔuai-sǔuai ให้|hâi เลือก|lʉ̂ʉak เยอะ|yə́",
+   "fsi": "kháw mii khɔ̌ɔŋ thaj diidii sǔajsǔaj hâj lʉ̂ak jə́",
+   "en": "They have a large selection of beautiful, good Thai things.",
+   "pt": "Tem um monte de coisas tailandesas boas e bonitas para escolher."
+  },
+  {
+   "sp": "B",
+   "s": "ฝีมือ|fǐi-mʉʉ เขา|kǎo ดี|dii มาก|mâak เพราะ|prɔ́ เขา|kǎo มี|mii ช่าง|châang ดีๆ|dii-dii",
+   "fsi": "fǐimʉʉ kháw dii mâak phrɔ́ kháw mii châaŋ diidii",
+   "en": "Their work is very good because they have good artisans.",
+   "pt": "O acabamento é ótimo, porque eles têm bons artesãos."
+  },
+  {
+   "sp": "A",
+   "s": "จริง|jing นะ|ná เพิ่ง|pə̂ng นึก|nʉ́k ออก|ɔ̀ɔk",
+   "fsi": "ciŋ ná phə̂ŋ nʉ́k ʔɔ̀ɔk",
+   "en": "That's true, it just occurred to me.",
+   "pt": "É mesmo, só agora me lembrei."
+  },
+  {
+   "sp": "B",
+   "s": "อ้อ|ɔ̂ɔ คุณ|kun จะ|jà ผ่าน|pàan ร้าน|ráan นานาภัณฑ์|naa-naa-pan ไหม|mǎi",
+   "fsi": "ʔɔ̂ɔ khun cà phàan ráan naanaaphan máj",
+   "en": "By the way, are you going by the Nana Phan shop?",
+   "pt": "Ah, você vai passar pela loja Nanaphan?"
+  },
+  {
+   "sp": "A",
+   "s": "ผ่าน|pàan จะ|jà ฝาก|fàak ซื้อ|sʉ́ʉ อะไร|à-rai บ้าง|bâang",
+   "fsi": "phàan cà fàak sʉ́ʉ ʔaraj bâaŋ",
+   "en": "Yes, could I get you something?",
+   "pt": "Vou. Quer que eu compre alguma coisa?"
+  },
+  {
+   "sp": "B",
+   "s": "ช่วย|chûuai ซื้อ|sʉ́ʉ ถ่าน|tàan ไฟฉาย|fai-chǎai ให้|hâi ด้วย|dûuai",
+   "fsi": "chûaj sʉ́ʉ thàan fajchǎaj hâj dûaj",
+   "en": "Could you buy some flashlight batteries for me?",
+   "pt": "Compra umas pilhas de lanterna para mim?"
+  },
+  {
+   "sp": "A",
+   "s": "เอา|ao กี่|gìi ก้อน|gɔ̂ɔn",
+   "fsi": "ʔaw kìi kɔ̂ɔn",
+   "en": "How many do you want?",
+   "pt": "Quantas?"
+  },
+  {
+   "sp": "B",
+   "s": "สอง|sɔ̌ɔng ก้อน|gɔ̂ɔn",
+   "fsi": "sɔ̌ɔŋ kɔ̂ɔn",
+   "en": "Two,",
+   "pt": "Duas,"
+  },
+  {
+   "sp": "B",
+   "s": "แล้วก็|lɛ́ɛo-gɔ̂ɔ หลอดไฟ|lɔ̀ɔt-fai หกสิบ|hòk-sìp วัตต์|wát สาม|sǎam หลอด|lɔ̀ɔt",
+   "fsi": "lɛ́ɛwkɔ̂ɔ lɔ̀ɔtfaj hòksìp wát sǎam lɔ̀ɔt",
+   "en": "and three sixty-watt light bulbs.",
+   "pt": "e três lâmpadas de sessenta watts."
+  },
+  {
+   "sp": "B",
+   "s": "นี่|nîi ครับ|kráp เงิน|ngən ค่า|kâa ของ|kɔ̌ɔng",
+   "fsi": "nîi khráp ŋən khâa khɔ̌ɔŋ",
+   "en": "Here's the money.",
+   "pt": "Aqui está o dinheiro."
+  },
+  {
+   "sp": "A",
+   "s": "ยัง|yang ไม่|mâi ต้อง|dtɔ̂ng ให้|hâi หรอก|rɔ̀ɔk ครับ|kráp",
+   "fsi": "jaŋ mâj tɔ̂ŋ hâj rɔ̀k khráp",
+   "en": "Don't bother about it yet,",
+   "pt": "Não precisa me dar agora, não,"
+  },
+  {
+   "sp": "A",
+   "s": "เพราะ|prɔ́ ยัง|yang ไม่|mâi ทราบ|sâap ว่า|wâa เท่าไร|tâo-rài",
+   "fsi": "phrɔ́ jaŋ mâj sâap wâa thâwrài",
+   "en": "because I don't know how much it'll be.",
+   "pt": "porque ainda não sei quanto vai dar."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ยืม",
+   "p": "yʉʉm",
+   "fsi": "jʉʉm",
+   "pt": "pegar emprestado",
+   "en": "to borrow"
+  },
+  {
+   "th": "ให้ยืม",
+   "p": "hâi-yʉʉm",
+   "fsi": "hâjjʉʉm",
+   "pt": "emprestar (a alguém)",
+   "en": "to lend"
+  },
+  {
+   "th": "ฝาก",
+   "p": "fàak",
+   "fsi": "fàak",
+   "pt": "depositar; confiar algo a alguém; pedir para fazer",
+   "en": "to deposit; to entrust"
+  },
+  {
+   "th": "เบิก",
+   "p": "bə̀ək",
+   "fsi": "bə̀ək",
+   "pt": "sacar, retirar (dinheiro)",
+   "en": "to withdraw"
+  },
+  {
+   "th": "ถอน",
+   "p": "tɔ̌ɔn",
+   "fsi": "thɔ̌ɔn",
+   "pt": "retirar, sacar; arrancar",
+   "en": "to withdraw; to pull out"
+  },
+  {
+   "th": "เช็ค",
+   "p": "chék",
+   "fsi": "chék",
+   "pt": "cheque",
+   "en": "check"
+  },
+  {
+   "th": "ขึ้นเงิน",
+   "p": "kʉ̂n-ngən",
+   "fsi": "khʉ̂nŋən",
+   "pt": "descontar (cheque)",
+   "en": "to cash"
+  },
+  {
+   "th": "ขัน",
+   "p": "kǎn",
+   "fsi": "khǎn",
+   "pt": "tigela (de metal)",
+   "en": "bowl"
+  },
+  {
+   "th": "ชาม",
+   "p": "chaam",
+   "fsi": "chaam",
+   "pt": "tigela, prato fundo",
+   "en": "bowl, dish"
+  },
+  {
+   "th": "สลัด",
+   "p": "sà-làt",
+   "fsi": "salàt",
+   "pt": "salada",
+   "en": "salad"
+  },
+  {
+   "th": "ไง",
+   "p": "ngai",
+   "fsi": "ŋaj",
+   "pt": "ora, oras (enfático, no fim); como",
+   "en": "you know; how"
+  },
+  {
+   "th": "เยอะ",
+   "p": "yə́",
+   "fsi": "jə́",
+   "pt": "muito, um monte (coloquial)",
+   "en": "a lot"
+  },
+  {
+   "th": "ฝีมือ",
+   "p": "fǐi-mʉʉ",
+   "fsi": "fǐimʉʉ",
+   "pt": "habilidade manual, acabamento",
+   "en": "craftsmanship, skill"
+  },
+  {
+   "th": "ช่าง",
+   "p": "châang",
+   "fsi": "châaŋ",
+   "pt": "artesão, técnico",
+   "en": "craftsman"
+  },
+  {
+   "th": "ช่างไม้",
+   "p": "châang-mái",
+   "fsi": "châaŋmáaj",
+   "pt": "carpinteiro",
+   "en": "carpenter"
+  },
+  {
+   "th": "ช่างตัดเสื้อ",
+   "p": "châang-dtàt-sʉ̂ʉa",
+   "fsi": "châaŋtàtsʉ̂a",
+   "pt": "alfaiate",
+   "en": "tailor"
+  },
+  {
+   "th": "ช่างทอง",
+   "p": "châang-tɔɔng",
+   "fsi": "châaŋthɔɔŋ",
+   "pt": "ourives",
+   "en": "goldsmith"
+  },
+  {
+   "th": "ช่างถ่ายรูป",
+   "p": "châang-tàai-rûup",
+   "fsi": "châaŋthàajrûup",
+   "pt": "fotógrafo",
+   "en": "photographer"
+  },
+  {
+   "th": "ช่างตัดผม",
+   "p": "châang-dtàt-pǒm",
+   "fsi": "châaŋtàtphǒm",
+   "pt": "barbeiro",
+   "en": "barber"
+  },
+  {
+   "th": "นึก",
+   "p": "nʉ́k",
+   "fsi": "nʉ́k",
+   "pt": "pensar, lembrar",
+   "en": "to think of, recall"
+  },
+  {
+   "th": "นึกออก",
+   "p": "nʉ́k-ɔ̀ɔk",
+   "fsi": "nʉ́kʔɔ̀ɔk",
+   "pt": "lembrar-se (conseguir lembrar)",
+   "en": "to recall"
+  },
+  {
+   "th": "คิดออก",
+   "p": "kít-ɔ̀ɔk",
+   "fsi": "khítʔɔ̀ɔk",
+   "pt": "descobrir, resolver (pensando)",
+   "en": "to figure out"
+  },
+  {
+   "th": "ถ่านไฟฉาย",
+   "p": "tàan-fai-chǎai",
+   "fsi": "thàanfajchǎaj",
+   "pt": "pilha (de lanterna)",
+   "en": "flashlight battery"
+  },
+  {
+   "th": "ไฟฉาย",
+   "p": "fai-chǎai",
+   "fsi": "fajchǎaj",
+   "pt": "lanterna",
+   "en": "flashlight"
+  },
+  {
+   "th": "หลอดไฟ",
+   "p": "lɔ̀ɔt-fai",
+   "fsi": "lɔ̀ɔtfaj",
+   "pt": "lâmpada",
+   "en": "light bulb"
+  },
+  {
+   "th": "วัตต์",
+   "p": "wát",
+   "fsi": "wát",
+   "pt": "watt",
+   "en": "watt"
+  },
+  {
+   "th": "นานาภัณฑ์",
+   "p": "naa-naa-pan",
+   "fsi": "naanaaphan",
+   "pt": "Nanaphan (nome de loja)",
+   "en": "Nana Phan (shop name)"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "ถึง com quantidades: chegar a",
+    "en": "ถึง with amounts"
+   },
+   "e": {
+    "pt": "ถึง como verbo principal é 'chegar a' e, com quantias, 'chegar a tanto': มีแบงก์ย่อยแต่ไม่ถึงร้อยบาท = tenho trocado, mas não chega a cem baht.",
+    "en": "ถึง: to reach; with amounts, 'to be as much as'."
+   },
+   "ex": "ไม่|mâi ถึง|tʉ̌ng ร้อย|rɔ́ɔi บาท|bàat"
+  },
+  {
+   "t": {
+    "pt": "สัก × ตั้ง: pouco ou muito",
+    "en": "สัก vs ตั้ง"
+   },
+   "e": {
+    "pt": "Antes de uma quantia, สัก a diminui ('só uns'): ขอยืมสักร้อยบาท = me empresta só uns cem? ตั้ง a aumenta ('nada menos que'): ตั้งร้อยบาทเชียวหรือ = cem baht, tudo isso? Analogia: สัก é a lupa ao contrário; ตั้ง é a lupa.",
+    "en": "สัก minimizes an amount; ตั้ง stresses it is large."
+   },
+   "ex": "ตั้ง|dtâng ร้อย|rɔ́ɔi บาท|bàat เชียว|chiiao"
+  },
+  {
+   "t": {
+    "pt": "ยืม × ให้ยืม: pegar e dar emprestado",
+    "en": "Borrow and lend"
+   },
+   "e": {
+    "pt": "ยืม é pegar emprestado (ผมขอยืมเงินคุณ); ให้ยืม é emprestar (เขาให้ผมยืมห้าบาท = ele me emprestou cinco baht). ก่อน em ขอยืมก่อน diz que é por pouco tempo.",
+    "en": "ยืม: to borrow; ให้ + person + ยืม: to lend."
+   },
+   "ex": "เขา|kǎo ให้|hâi ผม|pǒm ยืม|yʉʉm เงิน|ngən"
+  },
+  {
+   "t": {
+    "pt": "ช่าง + ofício",
+    "en": "ช่าง compounds"
+   },
+   "e": {
+    "pt": "ช่าง (artesão) + o que ele faz: ช่างตัดผม (barbeiro), ช่างตัดเสื้อ (alfaiate), ช่างทอง (ourives), ช่างถ่ายรูป (fotógrafo), ช่างไม้ (carpinteiro).",
+    "en": "ช่าง + skill: ช่างตัดผม, ช่างไม้, ช่างทอง…"
+   },
+   "ex": "ช่าง|châang ตัด|dtàt ผม|pǒm"
+  },
+  {
+   "t": {
+    "pt": "ออก no fim: conseguir resolver",
+    "en": "Completive ออก"
+   },
+   "e": {
+    "pt": "ออก depois de verbo de pensar mostra que se chegou ao resultado: คิดออก (descobriu), นึกออก (lembrou). A negação vai antes do ออก: คิดไม่ออก (não consegui descobrir), นึกไม่ออก (não lembro). Analogia: ออก é a lâmpada que acende.",
+    "en": "ออก after thinking verbs: success; negate as คิดไม่ออก."
+   },
+   "ex": "ผม|pǒm นึก|nʉ́k ไม่|mâi ออก|ɔ̀ɔk"
+  },
+  {
+   "t": {
+    "pt": "ฝาก e ทำด้วย",
+    "en": "ฝาก; ทำด้วย"
+   },
+   "e": {
+    "pt": "ฝาก é confiar algo a alguém: ฝากเงิน (depositar), ฝากซื้อ (pedir que alguém compre por você). ทำด้วย + material = feito de: ชามที่ทำด้วยไม้ (tigela de madeira). E ด้วย no fim de um pedido diz 'já que você vai mesmo': ช่วยซื้อให้ด้วย.",
+    "en": "ฝาก: entrust; ทำด้วย + material: made of."
+   },
+   "ex": "โต๊ะ|dtó ตัว|dtuua นี้|níi ทำ|tam ด้วย|dûuai ไม้|mái"
+  }
+ ]
+}

@@ -1,0 +1,425 @@
+{
+ "n": 39,
+ "paginas": "vol. 2, p. 691–712",
+ "titulo": {
+  "pt": "Comprando frutas na feira",
+  "en": "Buying fruit"
+ },
+ "dialogo": [
+  {
+   "sp": "C",
+   "s": "ส้ม|sôm นี่|nîi ขาย|kǎai ยังไง|yang-ngai",
+   "fsi": "sôm nîi khǎaj jaŋŋaj",
+   "en": "How much are these oranges?",
+   "pt": "Quanto estão essas laranjas?"
+  },
+  {
+   "sp": "V",
+   "s": "โล|loo ละ|lá สิบห้า|sìp-hâa บาท|bàat ค่ะ|kâ",
+   "fsi": "loo lá sìp hâa bàat khâ",
+   "en": "Fifteen baht a kilo.",
+   "pt": "Quinze baht o quilo."
+  },
+  {
+   "sp": "C",
+   "s": "กิโล|gì-loo หนึ่ง|nʉ̀ng มี|mii กี่|gìi ลูก|lûuk",
+   "fsi": "kiloo nʉ̀ŋ mii kìi lûuk",
+   "en": "How many oranges in a kilo?",
+   "pt": "Quantas vêm num quilo?"
+  },
+  {
+   "sp": "V",
+   "s": "ราว|raao หกเจ็ด|hòk-jèt ลูก|lûuk",
+   "fsi": "raaw hòkcèt lûuk",
+   "en": "Around six or seven.",
+   "pt": "Umas seis ou sete."
+  },
+  {
+   "sp": "C",
+   "s": "โล|loo ละ|lá สิบ|sìp บาท|bàat ได้|dâai ไหม|mǎi",
+   "fsi": "loo lá sìp bàat dâj máj",
+   "en": "How about 10 baht a kilo?",
+   "pt": "Dez baht o quilo, dá?"
+  },
+  {
+   "sp": "V",
+   "s": "ไม่|mâi ได้|dâai ค่ะ|kâ",
+   "fsi": "mâj dâj khâ",
+   "en": "Impossible.",
+   "pt": "Não dá."
+  },
+  {
+   "sp": "V",
+   "s": "นี่|nîi ส้ม|sôm อย่างดี|yàang-dii นะ|ná คะ|ká",
+   "fsi": "nîi sôm jàaŋdii ná khá",
+   "en": "This is a very good kind of orange.",
+   "pt": "É laranja de primeira, viu?"
+  },
+  {
+   "sp": "V",
+   "s": "รส|rót ดี|dii หวาน|wǎan สนิท|sà-nìt",
+   "fsi": "rót dii wǎan sanìt",
+   "en": "Good flavor, really sweet.",
+   "pt": "Saborosa e docinha."
+  },
+  {
+   "sp": "C",
+   "s": "งั้น|ngán สิบสอง|sìp-sɔ̌ɔng บาท|bàat ก็แล้วกัน|gɔ̂ɔ-lɛ́ɛo-gan นะ|ná",
+   "fsi": "ŋán sìp sɔ̌ɔŋ bàat kɔ̂ɔlɛ́ɛwkan ná",
+   "en": "Then let's say 12 baht.",
+   "pt": "Então fica doze, combinado?"
+  },
+  {
+   "sp": "C",
+   "s": "เอา|ao กิโล|gì-loo หนึ่ง|nʉ̀ng",
+   "fsi": "ʔaw kiloo nʉ̀ŋ",
+   "en": "I'll take one kilo.",
+   "pt": "Levo um quilo."
+  },
+  {
+   "sp": "V",
+   "s": "จะ|jà รับ|ráp อะไร|à-rai อีก|ìik ไหม|mǎi คะ|ká",
+   "fsi": "cà ráp ʔaraj ʔìik máj khá",
+   "en": "Anything else?",
+   "pt": "Mais alguma coisa?"
+  },
+  {
+   "sp": "C",
+   "s": "สับปะรด|sàp-bpà-rót นี่|nîi ลูก|lûuk เท่าไร|tâo-rài",
+   "fsi": "sàpparót nîi lûuk thâwrài",
+   "en": "How much are these pineapples each?",
+   "pt": "Quanto é cada abacaxi?"
+  },
+  {
+   "sp": "V",
+   "s": "สี่|sìi บาท|bàat ค่ะ|kâ",
+   "fsi": "sìi bàat khâ",
+   "en": "Four baht.",
+   "pt": "Quatro baht."
+  },
+  {
+   "sp": "C",
+   "s": "สาม|sǎam บาท|bàat ได้|dâai ไหม|mǎi",
+   "fsi": "sǎam bàat dâj máj",
+   "en": "Is three OK?",
+   "pt": "Três, pode ser?"
+  },
+  {
+   "sp": "V",
+   "s": "ไม่|mâi ได้|dâai ค่ะ|kâ สี่|sìi บาท|bàat ขาดตัว|kàat-dtuua",
+   "fsi": "mâj dâj khâ sìi bàat khàattua",
+   "en": "Can't do it. Four baht, no bargaining.",
+   "pt": "Não dá. Quatro, preço fixo."
+  },
+  {
+   "sp": "C",
+   "s": "เอา|ao ลูก|lûuk หนึ่ง|nʉ̀ng",
+   "fsi": "ʔaw lûuk nʉ̀ŋ",
+   "en": "I'll take one.",
+   "pt": "Levo um."
+  },
+  {
+   "sp": "C",
+   "s": "ช่วย|chûuai เลือก|lʉ̂ʉak ลูก|lûuk ดีๆ|dii-dii ให้|hâi ด้วย|dûuai",
+   "fsi": "chûaj lʉ̂ak lûuk diidii hâj dûaj",
+   "en": "Pick out a good one for me.",
+   "pt": "Escolhe um bom para mim."
+  },
+  {
+   "sp": "V",
+   "s": "นี่|nîi ค่ะ|kâ ทั้งหมด|táng-mòt สิบหก|sìp-hòk บาท|bàat ถ้วน|tûuan",
+   "fsi": "nîi khâ tháŋmòt sìp hòk bàat thûan",
+   "en": "Here it is. That makes 16 baht exactly.",
+   "pt": "Aqui. Dá dezesseis baht redondos."
+  },
+  {
+   "sp": "V",
+   "s": "คุณ|kun มี|mii แบงก์|bɛ́ng ย่อย|yɔ̂i ไหม|mǎi คะ|ká",
+   "fsi": "khun mii bɛ́ŋ jɔ̂j máj khá",
+   "en": "Do you have any smaller bills?",
+   "pt": "Tem nota menor?"
+  },
+  {
+   "sp": "V",
+   "s": "ดิฉัน|dì-chǎn ไม่|mâi มี|mii ทอน|tɔɔn",
+   "fsi": "dichǎn mâj mii thɔɔn",
+   "en": "I don't have any change.",
+   "pt": "Não tenho troco."
+  },
+  {
+   "sp": "C",
+   "s": "ไม่|mâi มี|mii เลย|ləəi ครับ|kráp",
+   "fsi": "mâj mii ləəj khráp",
+   "en": "No, I don't have any at all.",
+   "pt": "Não tenho nenhuma."
+  },
+  {
+   "sp": "V",
+   "s": "งั้น|ngán รอ|rɔɔ สัก|sàk ประเดี๋ยว|bprà-dǐiao นะ|ná คะ|ká",
+   "fsi": "ŋán rɔɔ sàk pradǐaw ná khá",
+   "en": "Then please wait a minute.",
+   "pt": "Então espera um instantinho."
+  },
+  {
+   "sp": "V",
+   "s": "ดิฉัน|dì-chǎn จะ|jà ไป|bpai แลก|lɛ̂ɛk มา|maa ให้|hâi",
+   "fsi": "dichǎn cà paj lɛ̂ɛk maa hâj",
+   "en": "I'll go get some change for you.",
+   "pt": "Vou trocar e já volto."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ส้ม",
+   "p": "sôm",
+   "fsi": "sôm",
+   "pt": "laranja",
+   "en": "orange"
+  },
+  {
+   "th": "ส้มโอ",
+   "p": "sôm-oo",
+   "fsi": "sômʔoo",
+   "pt": "pomelo",
+   "en": "pomelo"
+  },
+  {
+   "th": "สับปะรด",
+   "p": "sàp-bpà-rót",
+   "fsi": "sàpparót",
+   "pt": "abacaxi",
+   "en": "pineapple"
+  },
+  {
+   "th": "กล้วย",
+   "p": "glûuai",
+   "fsi": "klûaj",
+   "pt": "banana",
+   "en": "banana"
+  },
+  {
+   "th": "มะม่วง",
+   "p": "má-mûuang",
+   "fsi": "mamûaŋ",
+   "pt": "manga",
+   "en": "mango"
+  },
+  {
+   "th": "มะละกอ",
+   "p": "má-lá-gɔɔ",
+   "fsi": "malakɔɔ",
+   "pt": "mamão",
+   "en": "papaya"
+  },
+  {
+   "th": "มังคุด",
+   "p": "mang-kút",
+   "fsi": "maŋkhút",
+   "pt": "mangostim",
+   "en": "mangosteen"
+  },
+  {
+   "th": "เงาะ",
+   "p": "ngɔ́",
+   "fsi": "ŋɔ́",
+   "pt": "rambutã",
+   "en": "rambutan"
+  },
+  {
+   "th": "ลางสาด",
+   "p": "laang-sàat",
+   "fsi": "laaŋsàat",
+   "pt": "langsat",
+   "en": "langsat"
+  },
+  {
+   "th": "ทุเรียน",
+   "p": "tú-riian",
+   "fsi": "thúrian",
+   "pt": "durião",
+   "en": "durian"
+  },
+  {
+   "th": "แตงโม",
+   "p": "dtɛɛng-moo",
+   "fsi": "tɛɛŋmoo",
+   "pt": "melancia",
+   "en": "watermelon"
+  },
+  {
+   "th": "ชมพู่",
+   "p": "chom-pûu",
+   "fsi": "chomphûu",
+   "pt": "jambo (fruta)",
+   "en": "rose apple"
+  },
+  {
+   "th": "แม่ค้า",
+   "p": "mɛ̂ɛ-káa",
+   "fsi": "mɛ̂ɛkháa",
+   "pt": "vendedora, comerciante",
+   "en": "saleswoman"
+  },
+  {
+   "th": "โล",
+   "p": "loo",
+   "fsi": "loo",
+   "pt": "quilo (forma curta de กิโล)",
+   "en": "kilo (short)"
+  },
+  {
+   "th": "รส",
+   "p": "rót",
+   "fsi": "rót",
+   "pt": "sabor",
+   "en": "flavor"
+  },
+  {
+   "th": "สนิท",
+   "p": "sà-nìt",
+   "fsi": "sanìt",
+   "pt": "completamente; íntimo (amigo)",
+   "en": "completely; close"
+  },
+  {
+   "th": "สด",
+   "p": "sòt",
+   "fsi": "sòt",
+   "pt": "fresco",
+   "en": "fresh"
+  },
+  {
+   "th": "สุก",
+   "p": "sùk",
+   "fsi": "sùk",
+   "pt": "maduro",
+   "en": "ripe"
+  },
+  {
+   "th": "ขาดตัว",
+   "p": "kàat-dtuua",
+   "fsi": "khàattua",
+   "pt": "preço fixo, sem desconto",
+   "en": "fixed price"
+  },
+  {
+   "th": "แบงก์",
+   "p": "bɛ́ng",
+   "fsi": "bɛ́ŋ",
+   "pt": "nota (de dinheiro)",
+   "en": "bank note"
+  },
+  {
+   "th": "ย่อย",
+   "p": "yɔ̂i",
+   "fsi": "jɔ̂j",
+   "pt": "miúdo, pequeno (troco); digerir",
+   "en": "small; to digest"
+  },
+  {
+   "th": "ทอน",
+   "p": "tɔɔn",
+   "fsi": "thɔɔn",
+   "pt": "dar troco",
+   "en": "to give change"
+  },
+  {
+   "th": "แลก",
+   "p": "lɛ̂ɛk",
+   "fsi": "lɛ̂ɛk",
+   "pt": "trocar (dinheiro)",
+   "en": "to exchange"
+  },
+  {
+   "th": "ที่แลกเงิน",
+   "p": "tîi-lɛ̂ɛk-ngən",
+   "fsi": "thîilɛ̂ɛkŋən",
+   "pt": "casa de câmbio",
+   "en": "money exchange"
+  },
+  {
+   "th": "ประเดี๋ยว",
+   "p": "bprà-dǐiao",
+   "fsi": "pradǐaw",
+   "pt": "um instante",
+   "en": "a moment"
+  },
+  {
+   "th": "เหรียญ",
+   "p": "rǐian",
+   "fsi": "rǐan",
+   "pt": "moeda",
+   "en": "coin"
+  },
+  {
+   "th": "ดอลลาร์",
+   "p": "dɔɔn-lâa",
+   "fsi": "dɔɔnlâa",
+   "pt": "dólar",
+   "en": "dollar"
+  },
+  {
+   "th": "แฟน",
+   "p": "fɛɛn",
+   "fsi": "fɛɛn",
+   "pt": "namorado(a); cônjuge",
+   "en": "boyfriend, girlfriend"
+  },
+  {
+   "th": "เกิน",
+   "p": "gəən",
+   "fsi": "kəən",
+   "pt": "passar de, exceder",
+   "en": "to exceed"
+  },
+  {
+   "th": "หวี",
+   "p": "wǐi",
+   "fsi": "wǐi",
+   "pt": "pente; penca (de bananas)",
+   "en": "comb; hand (of bananas)"
+  },
+  {
+   "th": "พวง",
+   "p": "puuang",
+   "fsi": "phuaŋ",
+   "pt": "cacho (classificador)",
+   "en": "bunch"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Nome + adjetivo: qualquer um do tipo",
+    "en": "Noun + stative verb: non-specific"
+   },
+   "e": {
+    "pt": "Nome + verbo de estado fala de um tipo em geral: รถใหม่ = carros novos. Dobrar o adjetivo pode suavizar (รถสีขาวๆ = um carro meio branco), reforçar (อยากได้รถใหญ่ๆ = quero um carro bem grande) ou indicar plural (เขามีบ้านสวยๆ = ele tem casas bonitas).",
+    "en": "Noun + stative verb is general; reduplication softens, strengthens or pluralizes."
+   },
+   "ex": "เขา|kǎo มี|mii บ้าน|bâan สวยๆ|sǔuai-sǔuai"
+  },
+  {
+   "t": {
+    "pt": "Nome + classificador + adjetivo: aquele",
+    "en": "Noun + classifier + stative verb: specific"
+   },
+   "e": {
+    "pt": "Com classificador, fala-se de uma unidade específica: หนังสือเล่มใหญ่ = o livro grande (aquele). Dobrado, vira 'um qualquer que seja assim': สับปะรดลูกดีๆ = um abacaxi bom, qualquer um que seja bom; เลือกลูกใหญ่ๆให้ลูกหนึ่ง = escolhe um grandinho.",
+    "en": "Classifier makes it specific (เล่มใหญ่ the big one); reduplicated, 'any good one'."
+   },
+   "ex": "เลือก|lʉ̂ʉak ลูก|lûuk ใหญ่ๆ|yài-yài"
+  },
+  {
+   "t": {
+    "pt": "Classificadores de fruta",
+    "en": "Classifiers for fruit"
+   },
+   "e": {
+    "pt": "ลูก para fruta inteira (ส้มสองลูก); ผล no registro formal; หวี para penca e เครือ para cacho de bananas; พวง e ช่อ para cachos. ขาดตัว é o preço sem pechincha.",
+    "en": "ลูก for whole fruit; หวี / เครือ for bananas; พวง / ช่อ for bunches."
+   },
+   "ex": "กล้วย|glûuai สอง|sɔ̌ɔng หวี|wǐi"
+  }
+ ]
+}

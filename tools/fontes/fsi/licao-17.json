@@ -1,41 +1,253 @@
-{"n": 17, "paginas": "vol. 1, p. 276–289",
- "titulo": {"pt": "Perguntando o caminho (3)", "en": "Directions (3)"},
+{
+ "n": 17,
+ "paginas": "vol. 1, p. 276–289",
+ "titulo": {
+  "pt": "Perguntando o caminho (3)",
+  "en": "Directions (3)"
+ },
  "dialogo": [
-  {"sp": "A", "s": "ขอโทษ|kɔ̌ɔ-tôot ครับ|kráp คุณ|kun ทราบ|sâap ไหม|mǎi ครับ|kráp ว่า|wâa โรงแรม|roong-rɛɛm เพรสซิเดนท์|pêet-sí-dên อยู่|yùu ที่ไหน|tîi-nǎi", "fsi": "khɔ̌ɔthôot khráp khun sâap máj khráp waa rooŋrɛɛm présidén jùu thîinǎj", "en": "Excuse me, do you know where the President Hotel is?", "pt": "Com licença, o senhor sabe onde fica o Hotel President?"},
-  {"sp": "B", "s": "ที่|tîi ถนน|tà-nǒn เกษร|gee-sɔ̌ɔn ครับ|kráp", "fsi": "thîi thanǒn keesɔ̌ɔn khráp", "en": "It's on Gaysorn street.", "pt": "Fica na rua Gaysorn."},
-  {"sp": "A", "s": "ไป|bpai ทาง|taang ไหน|nǎi ครับ|kráp", "fsi": "paj thaaŋ nǎj khráp", "en": "Which direction is it?", "pt": "Vai-se por onde?"},
-  {"sp": "B", "s": "เดิน|dəən ตรง|dtrong ไป|bpai ทาง|taang นี้|níi ถึง|tʉ̌ng สี่แยก|sìi-yɛ̂ɛk", "fsi": "dəən troŋ paj thaaŋ níi thʉ̌ŋ sìijɛ̂ɛk", "en": "Go straight this way to the corner,", "pt": "Ande reto por aqui até o cruzamento,"},
-  {"sp": "B", "s": "ข้าม|kâam ถนน|tà-nǒn ไป|bpai แล้ว|lɛ́ɛo เดิน|dəən ไป|bpai ทางขวา|taang-kwǎa", "fsi": "khaam thanǒn paj lɛ́ɛw dəən paj thaaŋkhwǎa", "en": "cross the street, then go to the right.", "pt": "atravesse a rua e siga à direita."},
-  {"sp": "B", "s": "โฮเต็ล|hoo-dten จะ|jà อยู่|yùu ทางซ้าย|taang-sáai มือ|mʉʉ", "fsi": "hǒoten cà jùu thaaŋsáaj mʉʉ", "en": "The hotel is on the left.", "pt": "O hotel vai ficar à esquerda."},
-  {"sp": "A", "s": "อยู่|yùu ตรง|dtrong กัน|gan ข้าม|kâam กับ|gàp โรงแรม|roong-rɛɛm เอราวัณ|ee-raa-wan ใช่ไหม|châi-mǎi ครับ|kráp", "fsi": "jùu troŋ kan khaam kàp rooŋrɛɛm ʔeeraawan châj máj khráp", "en": "It's directly opposite Erawan Hotel, isn't it?", "pt": "Fica bem em frente ao Hotel Erawan, não é?"},
-  {"sp": "B", "s": "อยู่|yùu เยื้อง|yʉ́ʉang กัน|gan หน่อย|nɔ̀ɔi ครับ|kráp", "fsi": "jùu jʉ́aŋ kan nɔ̀ɔj khráp", "en": "It's catercornered to it.", "pt": "Fica meio na diagonal."}
+  {
+   "sp": "A",
+   "s": "ขอโทษ|kɔ̌ɔ-tôot ครับ|kráp คุณ|kun ทราบ|sâap ไหม|mǎi ครับ|kráp ว่า|wâa โรงแรม|roong-rɛɛm เพรสซิเดนท์|pêet-sí-dên อยู่|yùu ที่ไหน|tîi-nǎi",
+   "fsi": "khɔ̌ɔthôot khráp khun sâap máj khráp waa rooŋrɛɛm présidén jùu thîinǎj",
+   "en": "Excuse me, do you know where the President Hotel is?",
+   "pt": "Com licença, o senhor sabe onde fica o Hotel President?"
+  },
+  {
+   "sp": "B",
+   "s": "ที่|tîi ถนน|tà-nǒn เกษร|gee-sɔ̌ɔn ครับ|kráp",
+   "fsi": "thîi thanǒn keesɔ̌ɔn khráp",
+   "en": "It's on Gaysorn street.",
+   "pt": "Fica na rua Gaysorn."
+  },
+  {
+   "sp": "A",
+   "s": "ไป|bpai ทาง|taang ไหน|nǎi ครับ|kráp",
+   "fsi": "paj thaaŋ nǎj khráp",
+   "en": "Which direction is it?",
+   "pt": "Vai-se por onde?"
+  },
+  {
+   "sp": "B",
+   "s": "เดิน|dəən ตรง|dtrong ไป|bpai ทาง|taang นี้|níi ถึง|tʉ̌ng สี่แยก|sìi-yɛ̂ɛk",
+   "fsi": "dəən troŋ paj thaaŋ níi thʉ̌ŋ sìijɛ̂ɛk",
+   "en": "Go straight this way to the corner,",
+   "pt": "Ande reto por aqui até o cruzamento,"
+  },
+  {
+   "sp": "B",
+   "s": "ข้าม|kâam ถนน|tà-nǒn ไป|bpai แล้ว|lɛ́ɛo เดิน|dəən ไป|bpai ทางขวา|taang-kwǎa",
+   "fsi": "khaam thanǒn paj lɛ́ɛw dəən paj thaaŋkhwǎa",
+   "en": "cross the street, then go to the right.",
+   "pt": "atravesse a rua e siga à direita."
+  },
+  {
+   "sp": "B",
+   "s": "โฮเต็ล|hoo-dten จะ|jà อยู่|yùu ทางซ้าย|taang-sáai มือ|mʉʉ",
+   "fsi": "hooten cà jùu thaaŋsáaj mʉʉ",
+   "en": "The hotel is on the left.",
+   "pt": "O hotel vai ficar à esquerda."
+  },
+  {
+   "sp": "A",
+   "s": "อยู่|yùu ตรง|dtrong กัน|gan ข้าม|kâam กับ|gàp โรงแรม|roong-rɛɛm เอราวัณ|ee-raa-wan ใช่ไหม|châi-mǎi ครับ|kráp",
+   "fsi": "jùu troŋ kan khaam kàp rooŋrɛɛm ʔeeraawan châj máj khráp",
+   "en": "It's directly opposite Erawan Hotel, isn't it?",
+   "pt": "Fica bem em frente ao Hotel Erawan, não é?"
+  },
+  {
+   "sp": "B",
+   "s": "อยู่|yùu เยื้อง|yʉ́ʉang กัน|gan หน่อย|nɔ̀ɔi ครับ|kráp",
+   "fsi": "jùu jʉ́aŋ kan nɔ̀ɔj khráp",
+   "en": "It's catercornered to it.",
+   "pt": "Fica meio na diagonal."
+  }
  ],
  "vocab": [
-  {"th": "อังรีดูนังต์", "p": "ang-rii-duu-nang", "fsi": "ʔaŋrii duunaŋ", "pt": "Angri Dunang (nome de uma rua de Bangkok, a antiga Henri Durant)", "en": "Henri Durant (name of a street)"},
-  {"th": "อมรินทร์", "p": "am-má-riin", "fsi": "ʔammáriin", "pt": "Amarin (nome de um hotel de Bangkok)", "en": "Amarin (name of a hotel)"},
-  {"th": "บน", "p": "bon", "fsi": "bon", "pt": "em cima, na parte de cima; sobre", "en": "above, on top of"},
-  {"th": "ดีไซน์ไทย", "p": "dii-sai-tai", "fsi": "diisaj thaj", "pt": "Design Thai (nome de uma loja de roupas)", "en": "Design Thai (name of a dress shop)"},
-  {"th": "เยื้องกับ", "p": "yʉ́ʉang-gàp", "fsi": "jʉ́aŋ kàp", "pt": "na diagonal de, enviesado em relação a", "en": "diagonally across (from)"},
-  {"th": "เยื้องกัน", "p": "yʉ́ʉang-gan", "fsi": "jʉ́aŋ kan", "pt": "ficar na diagonal um do outro", "en": "to be diagonally across from each other"},
-  {"th": "ข้าม", "p": "kâam", "fsi": "khâam", "pt": "atravessar, cruzar; do outro lado", "en": "to cross, across"},
-  {"th": "ข้างบน", "p": "kâang-bon", "fsi": "khâaŋbon", "pt": "lá em cima, na parte de cima", "en": "up above"},
-  {"th": "ข้างล่าง", "p": "kâang-lâang", "fsi": "khâaŋlâaŋ", "pt": "lá embaixo, na parte de baixo", "en": "down below"},
-  {"th": "ลิโด", "p": "lí-doo", "fsi": "líddoo", "pt": "Lido (nome de um cinema de Bangkok)", "en": "Lido (name)"},
-  {"th": "มุม", "p": "mum", "fsi": "mum", "pt": "canto, esquina, ângulo", "en": "corner"},
-  {"th": "งานเลี้ยง", "p": "ngaan-líiang", "fsi": "ŋaanlíaŋ", "pt": "festa, recepção", "en": "party (entertainment)"},
-  {"th": "เพรสซิเดนท์", "p": "pêet-sí-dên", "fsi": "présidén", "pt": "President (nome de um hotel de Bangkok)", "en": "President (English name)"},
-  {"th": "โรงหนัง", "p": "roong-nǎng", "fsi": "rooŋnǎŋ", "pt": "cinema, sala de cinema", "en": "movie house, cinema"},
-  {"th": "สยาม", "p": "sà-yǎam", "fsi": "sajǎam", "pt": "Siam, o antigo nome da Tailândia", "en": "Siam (former name for Thailand)"},
-  {"th": "สยามอินเตอร์", "p": "sà-yǎam-in-dtəə", "fsi": "sajǎam ʔintəə", "pt": "Siam Inter (o hotel que o livro chama de Siam International)", "en": "Siam International Hotel"},
-  {"th": "สนามม้า", "p": "sà-nǎam-máa", "fsi": "sanaam máa", "pt": "hipódromo, pista de corrida de cavalos", "en": "(hen) race track"},
-  {"th": "ทราบ", "p": "sâap", "fsi": "sâap", "pt": "saber (um fato); forma educada e formal de รู้", "en": "to know"},
-  {"th": "เสื้อผ้า", "p": "sʉ̂ʉa-pâa", "fsi": "sʉ̂aphâa", "pt": "roupa, vestuário", "en": "(tua, chut) cloth"},
-  {"th": "ทางเหนือ", "p": "taang-nʉ̌ʉa", "fsi": "thaaŋnʉ̌a", "pt": "para o norte; o lado norte", "en": "North"},
-  {"th": "ทางใต้", "p": "taang-dtâi", "fsi": "thaaŋtâj", "pt": "para o sul; o lado sul", "en": "South"},
-  {"th": "ถึง", "p": "tʉ̌ng", "fsi": "thʉ̌ŋ", "pt": "chegar a, atingir; até", "en": "to reach, get to"},
-  {"th": "ตรงข้ามกันกับ", "p": "dtrong-kâam-gan-gàp", "fsi": "troŋkhaam kan kàp", "pt": "do lado oposto a, em frente a", "en": "opposite"}
+  {
+   "th": "อังรีดูนังต์",
+   "p": "ang-rii-duu-nang",
+   "fsi": "ʔaŋrii duunaŋ",
+   "pt": "Angri Dunang (nome de uma rua de Bangkok, a antiga Henri Durant)",
+   "en": "Henri Durant (name of a street)"
+  },
+  {
+   "th": "อมรินทร์",
+   "p": "am-má-riin",
+   "fsi": "ʔammáriin",
+   "pt": "Amarin (nome de um hotel de Bangkok)",
+   "en": "Amarin (name of a hotel)"
+  },
+  {
+   "th": "บน",
+   "p": "bon",
+   "fsi": "bon",
+   "pt": "em cima, na parte de cima; sobre",
+   "en": "above, on top of"
+  },
+  {
+   "th": "ดีไซน์ไทย",
+   "p": "dii-sai-tai",
+   "fsi": "diisaj thaj",
+   "pt": "Design Thai (nome de uma loja de roupas)",
+   "en": "Design Thai (name of a dress shop)"
+  },
+  {
+   "th": "เยื้องกับ",
+   "p": "yʉ́ʉang-gàp",
+   "fsi": "jʉ́aŋ kàp",
+   "pt": "na diagonal de, enviesado em relação a",
+   "en": "diagonally across (from)"
+  },
+  {
+   "th": "เยื้องกัน",
+   "p": "yʉ́ʉang-gan",
+   "fsi": "jʉ́aŋ kan",
+   "pt": "ficar na diagonal um do outro",
+   "en": "to be diagonally across from each other"
+  },
+  {
+   "th": "ข้าม",
+   "p": "kâam",
+   "fsi": "khâam",
+   "pt": "atravessar, cruzar; do outro lado",
+   "en": "to cross, across"
+  },
+  {
+   "th": "ข้างบน",
+   "p": "kâang-bon",
+   "fsi": "khâaŋbon",
+   "pt": "lá em cima, na parte de cima",
+   "en": "up above"
+  },
+  {
+   "th": "ข้างล่าง",
+   "p": "kâang-lâang",
+   "fsi": "khâaŋlâaŋ",
+   "pt": "lá embaixo, na parte de baixo",
+   "en": "down below"
+  },
+  {
+   "th": "ลิโด",
+   "p": "lí-doo",
+   "fsi": "líddoo",
+   "pt": "Lido (nome de um cinema de Bangkok)",
+   "en": "Lido (name)"
+  },
+  {
+   "th": "มุม",
+   "p": "mum",
+   "fsi": "mum",
+   "pt": "canto, esquina, ângulo",
+   "en": "corner"
+  },
+  {
+   "th": "งานเลี้ยง",
+   "p": "ngaan-líiang",
+   "fsi": "ŋaanlíaŋ",
+   "pt": "festa, recepção",
+   "en": "party (entertainment)"
+  },
+  {
+   "th": "เพรสซิเดนท์",
+   "p": "pêet-sí-dên",
+   "fsi": "présidén",
+   "pt": "President (nome de um hotel de Bangkok)",
+   "en": "President (English name)"
+  },
+  {
+   "th": "โรงหนัง",
+   "p": "roong-nǎng",
+   "fsi": "rooŋnǎŋ",
+   "pt": "cinema, sala de cinema",
+   "en": "movie house, cinema"
+  },
+  {
+   "th": "สยาม",
+   "p": "sà-yǎam",
+   "fsi": "sajǎam",
+   "pt": "Siam, o antigo nome da Tailândia",
+   "en": "Siam (former name for Thailand)"
+  },
+  {
+   "th": "สยามอินเตอร์",
+   "p": "sà-yǎam-in-dtəə",
+   "fsi": "sajǎam ʔintəə",
+   "pt": "Siam Inter (o hotel que o livro chama de Siam International)",
+   "en": "Siam International Hotel"
+  },
+  {
+   "th": "สนามม้า",
+   "p": "sà-nǎam-máa",
+   "fsi": "sanaam máa",
+   "pt": "hipódromo, pista de corrida de cavalos",
+   "en": "(hen) race track"
+  },
+  {
+   "th": "ทราบ",
+   "p": "sâap",
+   "fsi": "sâap",
+   "pt": "saber (um fato); forma educada e formal de รู้",
+   "en": "to know"
+  },
+  {
+   "th": "เสื้อผ้า",
+   "p": "sʉ̂ʉa-pâa",
+   "fsi": "sʉ̂aphâa",
+   "pt": "roupa, vestuário",
+   "en": "(tua, chut) cloth"
+  },
+  {
+   "th": "ทางเหนือ",
+   "p": "taang-nʉ̌ʉa",
+   "fsi": "thaaŋnʉ̌a",
+   "pt": "para o norte; o lado norte",
+   "en": "North"
+  },
+  {
+   "th": "ทางใต้",
+   "p": "taang-dtâi",
+   "fsi": "thaaŋtâj",
+   "pt": "para o sul; o lado sul",
+   "en": "South"
+  },
+  {
+   "th": "ถึง",
+   "p": "tʉ̌ng",
+   "fsi": "thʉ̌ŋ",
+   "pt": "chegar a, atingir; até",
+   "en": "to reach, get to"
+  },
+  {
+   "th": "ตรงข้ามกันกับ",
+   "p": "dtrong-kâam-gan-gàp",
+   "fsi": "troŋkhaam kan kàp",
+   "pt": "do lado oposto a, em frente a",
+   "en": "opposite"
+  }
  ],
  "notas": [
-  {"t": {"pt": "ไป e มา atrás do verbo: a direção é sempre relativa a quem fala", "en": "paj and maa as postpositions: direction is relative to the speaker"}, "e": {"pt": "O tailandês cola ไป ou มา depois de outro verbo para dizer para que lado a ação corre: ไป é movimento para longe de quem fala, มา é movimento na direção dele. Por isso เข้ามา é 'entrar para onde estou' e เข้าไป é 'entrar para lá'; o mesmo molde vale para ออกมา/ออกไป, เดินมา/เดินไป e กลับมา/กลับไป. E não é só verbo de andar: โทร(ศัพท์)มา é 'telefonar para cá' e โทร(ศัพท์)ไป é 'telefonar para lá'. Pense no nosso 'vem cá' × 'vai lá', só que soldado no fim do verbo — e a bússola é sempre o falante, nunca o lugar.", "en": "Thai attaches ไป or มา after another verb to fix the direction of motion: ไป = away from the speaker, มา = toward the speaker. Hence เข้ามา 'enter (toward me)' versus เข้าไป 'enter (away from me)', and the same mold in ออกมา/ออกไป, เดินมา/เดินไป, กลับมา/กลับไป. It is not limited to verbs of walking: โทร(ศัพท์)มา 'call toward me' versus โทร(ศัพท์)ไป 'call away'. The reference point is always the speaker, not the place."}, "ex": "เข้า|kâo มา|maa เข้า|kâo ไป|bpai"},
-  {"t": {"pt": "ข้าง e ทาง: preposição vira palavra de lugar", "en": "khâang and thaan: prepositions become place words"}, "e": {"pt": "Preposições como ใน ('dentro') e นอก ('fora') se colam a um substantivo genérico de lugar — ข้าง ('lado') ou ทาง ('caminho, direção') — e formam uma palavra nova: ข้างใน ('lá dentro'), ข้างนอก ('lá fora'), ข้างหน้า ('à frente'), ข้างบน ('em cima'), ข้างหลัง ('atrás'), ข้างล่าง ('embaixo'). Com ทาง o molde dá as direções: ทางซ้าย ('à esquerda'), ทางขวา ('à direita'), ทางเหนือ ('para o norte'), ทางใต้ ('para o sul'). Repare que a ordem é a inversa da nossa: diz-se 'lado dentro', nunca 'dentro do lado'. É como se cada preposição virasse um adjetivo de um substantivo de lugar.", "en": "Prepositions such as ใน 'in' and นอก 'outside of' combine with a generic place noun — ข้าง 'side' or ทาง 'way, path' — to build single words: ข้างใน 'inside', ข้างนอก 'outside', ข้างหน้า 'in front of', ข้างบน 'up above', ข้างหลัง 'behind', ข้างล่าง 'down below'. With ทาง the same mold yields directions: ทางซ้าย 'to the left', ทางขวา 'to the right', ทางเหนือ 'North', ทางใต้ 'South'. The head noun comes first and the preposition second, the reverse of Portuguese 'dentro de'."}, "ex": "ข้างบน|kâang-bon ข้างล่าง|kâang-lâang"}
- ]}
+  {
+   "t": {
+    "pt": "ไป e มา atrás do verbo: a direção é sempre relativa a quem fala",
+    "en": "paj and maa as postpositions: direction is relative to the speaker"
+   },
+   "e": {
+    "pt": "O tailandês cola ไป ou มา depois de outro verbo para dizer para que lado a ação corre: ไป é movimento para longe de quem fala, มา é movimento na direção dele. Por isso เข้ามา é 'entrar para onde estou' e เข้าไป é 'entrar para lá'; o mesmo molde vale para ออกมา/ออกไป, เดินมา/เดินไป e กลับมา/กลับไป. E não é só verbo de andar: โทร(ศัพท์)มา é 'telefonar para cá' e โทร(ศัพท์)ไป é 'telefonar para lá'. Pense no nosso 'vem cá' × 'vai lá', só que soldado no fim do verbo — e a bússola é sempre o falante, nunca o lugar.",
+    "en": "Thai attaches ไป or มา after another verb to fix the direction of motion: ไป = away from the speaker, มา = toward the speaker. Hence เข้ามา 'enter (toward me)' versus เข้าไป 'enter (away from me)', and the same mold in ออกมา/ออกไป, เดินมา/เดินไป, กลับมา/กลับไป. It is not limited to verbs of walking: โทร(ศัพท์)มา 'call toward me' versus โทร(ศัพท์)ไป 'call away'. The reference point is always the speaker, not the place."
+   },
+   "ex": "เข้า|kâo มา|maa เข้า|kâo ไป|bpai"
+  },
+  {
+   "t": {
+    "pt": "ข้าง e ทาง: preposição vira palavra de lugar",
+    "en": "khâang and thaan: prepositions become place words"
+   },
+   "e": {
+    "pt": "Preposições como ใน ('dentro') e นอก ('fora') se colam a um substantivo genérico de lugar — ข้าง ('lado') ou ทาง ('caminho, direção') — e formam uma palavra nova: ข้างใน ('lá dentro'), ข้างนอก ('lá fora'), ข้างหน้า ('à frente'), ข้างบน ('em cima'), ข้างหลัง ('atrás'), ข้างล่าง ('embaixo'). Com ทาง o molde dá as direções: ทางซ้าย ('à esquerda'), ทางขวา ('à direita'), ทางเหนือ ('para o norte'), ทางใต้ ('para o sul'). Repare que a ordem é a inversa da nossa: diz-se 'lado dentro', nunca 'dentro do lado'. É como se cada preposição virasse um adjetivo de um substantivo de lugar.",
+    "en": "Prepositions such as ใน 'in' and นอก 'outside of' combine with a generic place noun — ข้าง 'side' or ทาง 'way, path' — to build single words: ข้างใน 'inside', ข้างนอก 'outside', ข้างหน้า 'in front of', ข้างบน 'up above', ข้างหลัง 'behind', ข้างล่าง 'down below'. With ทาง the same mold yields directions: ทางซ้าย 'to the left', ทางขวา 'to the right', ทางเหนือ 'North', ทางใต้ 'South'. The head noun comes first and the preposition second, the reverse of Portuguese 'dentro de'."
+   },
+   "ex": "ข้างบน|kâang-bon ข้างล่าง|kâang-lâang"
+  }
+ ]
+}

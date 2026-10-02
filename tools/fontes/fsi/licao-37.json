@@ -1,0 +1,366 @@
+{
+ "n": 37,
+ "paginas": "vol. 2, p. 646–669",
+ "titulo": {
+  "pt": "Roupas, metros e artesanato",
+  "en": "Buying clothing and jewelry"
+ },
+ "dialogo": [
+  {
+   "sp": "C",
+   "s": "ผ้า|pâa อย่าง|yàang นี้|níi ตัด|dtàt เสื้อนอก|sʉ̂ʉa-nɔ̂ɔk กับ|gàp กางเกง|gaang-geeng ผู้ชาย|pûu-chaai",
+   "fsi": "phâa jàaŋ níi tàt sʉ̂anɔ̂ɔk kàp kaaŋkeeŋ phûuchaaj",
+   "en": "For a men's jacket and pants in this material,",
+   "pt": "Para fazer paletó e calça masculina neste tecido,"
+  },
+  {
+   "sp": "C",
+   "s": "ใช้|chái ผ้า|pâa กี่|gìi หลา|lǎa",
+   "fsi": "chái phâa kìi lǎa",
+   "en": "how many yards does it take?",
+   "pt": "quantas jardas são necessárias?"
+  },
+  {
+   "sp": "V",
+   "s": "ราว|raao แปด|bpɛ̀ɛt หลา|lǎa",
+   "fsi": "raaw pɛ̀ɛt lǎa",
+   "en": "About eight yards.",
+   "pt": "Umas oito jardas."
+  },
+  {
+   "sp": "C",
+   "s": "คุณ|kun มี|mii สี|sǐi อะไร|à-rai บ้าง|bâang ครับ|kráp",
+   "fsi": "khun mii sǐi ʔaraj bâaŋ khráp",
+   "en": "What colors do you have?",
+   "pt": "Que cores a senhora tem?"
+  },
+  {
+   "sp": "V",
+   "s": "มี|mii สี|sǐi เทา|tao ดำ|dam กรมท่า|grom-má-tâa แล้วก็|lɛ́ɛo-gɔ̂ɔ สี|sǐi น้ำตาล|nám-dtaan",
+   "fsi": "mii sǐi thaw dam krommathâa lɛ́ɛwkɔ̂ɔ sǐi námtaan",
+   "en": "Grey, black, navy blue and brown.",
+   "pt": "Tenho cinza, preto, azul-marinho e marrom."
+  },
+  {
+   "sp": "C",
+   "s": "สี|sǐi ตก|dtòk บ้าง|bâang ไหม|mǎi",
+   "fsi": "sǐi tòk bâaŋ máj",
+   "en": "Does the color fade any?",
+   "pt": "Desbota?"
+  },
+  {
+   "sp": "V",
+   "s": "ไม่|mâi ตก|dtòk เลย|ləəi",
+   "fsi": "mâj tòk ləəj",
+   "en": "Not at all.",
+   "pt": "Nem um pouco."
+  },
+  {
+   "sp": "V",
+   "s": "รับรอง|ráp-rɔɔng ได้|dâai",
+   "fsi": "rápʔrɔɔŋ dâj",
+   "en": "I can guarantee it.",
+   "pt": "Isso eu garanto."
+  },
+  {
+   "sp": "C",
+   "s": "งั้น|ngán ผม|pǒm เอา|ao สี|sǐi เทา|tao แปด|bpɛ̀ɛt หลา|lǎa",
+   "fsi": "ŋán phǒm ʔaw sǐi thaw pɛ̀ɛt lǎa",
+   "en": "Then I'll take eight yards of grey.",
+   "pt": "Então levo oito jardas do cinza."
+  },
+  {
+   "sp": "C",
+   "s": "ทั้งหมด|táng-mòt เท่าไร|tâo-rài ครับ|kráp",
+   "fsi": "tháŋmòt thâwrài khráp",
+   "en": "How much is it altogether?",
+   "pt": "Quanto dá tudo?"
+  },
+  {
+   "sp": "V",
+   "s": "เก้า|gâo ร้อย|rɔ́ɔi หกสิบ|hòk-sìp บาท|bàat ถ้วน|tûuan ค่ะ|kâ",
+   "fsi": "kâaw rɔ́ɔj hòksìp bàat thûan khâ",
+   "en": "960 baht exactly.",
+   "pt": "Novecentos e sessenta baht redondos."
+  },
+  {
+   "sp": "V",
+   "s": "คุณ|kun ไม่|mâi ชม|chom สินค้า|sǐn-káa อย่าง|yàang อื่น|ʉ̀ʉn บ้าง|bâang หรือ|rʉ̌ʉ คะ|ká",
+   "fsi": "khun mâj chom sǐnkháa jàaŋ ʔʉ̀ʉn bâaŋ rʉ̌ʉ khá",
+   "en": "Wouldn't you like to look at something else?",
+   "pt": "Não quer dar uma olhada em outras coisas?"
+  },
+  {
+   "sp": "C",
+   "s": "คุณ|kun มี|mii อะไร|à-rai บ้าง|bâang ครับ|kráp",
+   "fsi": "khun mii ʔaraj bâaŋ khráp",
+   "en": "What do you have?",
+   "pt": "O que vocês têm?"
+  },
+  {
+   "sp": "V",
+   "s": "ทาง|taang โน้น|nóon มี|mii เครื่องเงิน|krʉ̂ʉang-ngən เครื่องถม|krʉ̂ʉang-tǒm เครื่องทอง|krʉ̂ʉang-tɔɔng",
+   "fsi": "thaaŋ nóon mii khrʉ̂aŋŋən khrʉ̂aŋthǒm khrʉ̂aŋthɔɔŋ",
+   "en": "Over there there's silverware, niello ware, gold,",
+   "pt": "Ali tem peças de prata, nielo, ouro"
+  },
+  {
+   "sp": "V",
+   "s": "แล้วก็|lɛ́ɛo-gɔ̂ɔ เพชรพลอย|pét-plɔɔi",
+   "fsi": "lɛ́ɛwkɔ̂ɔ phétphlɔɔj",
+   "en": "and jewelry.",
+   "pt": "e joias."
+  },
+  {
+   "sp": "V",
+   "s": "ทาง|taang ขวา|kwǎa มี|mii เครื่องเขิน|krʉ̂ʉang-kə̌ən เครื่องทองสัมฤทธิ์|krʉ̂ʉang-tɔɔng-sǎm-rít และ|lɛ́ ไม้แกะสลัก|mái-gɛ̀-sà-làk",
+   "fsi": "thaaŋ khwǎa mii khrʉ̂aŋkhə̌ən khrʉ̂aŋthɔɔŋsǎmrít lɛ́ máajkɛ̀salàk",
+   "en": "On the right there's lacquerware, bronzeware and wood carvings.",
+   "pt": "À direita, laca, bronze e madeira entalhada."
+  },
+  {
+   "sp": "V",
+   "s": "ร้าน|ráan ของ|kɔ̌ɔng เรา|rao มี|mii ของ|kɔ̌ɔng ให้|hâi เลือก|lʉ̂ʉak มาก|mâak กว่า|gwàa ที่อื่น|tîi-ʉ̀ʉn",
+   "fsi": "ráan khɔ̌ɔŋ raw mii khɔ̌ɔŋ hâj lʉ̂ak mâak kwàa thîiʔʉ̀ʉn",
+   "en": "Our shop has a better selection than other places.",
+   "pt": "A nossa loja tem mais opções que as outras."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "เสื้อนอก",
+   "p": "sʉ̂ʉa-nɔ̂ɔk",
+   "fsi": "sʉ̂anɔ̂ɔk",
+   "pt": "paletó",
+   "en": "jacket"
+  },
+  {
+   "th": "เทา",
+   "p": "tao",
+   "fsi": "thaw",
+   "pt": "cinza",
+   "en": "grey"
+  },
+  {
+   "th": "ตก",
+   "p": "dtòk",
+   "fsi": "tòk",
+   "pt": "cair; desbotar (cor)",
+   "en": "to fall; to fade"
+  },
+  {
+   "th": "รับรอง",
+   "p": "ráp-rɔɔng",
+   "fsi": "ráprɔɔŋ",
+   "pt": "garantir, atestar",
+   "en": "to guarantee"
+  },
+  {
+   "th": "สินค้า",
+   "p": "sǐn-káa",
+   "fsi": "sǐnkháa",
+   "pt": "mercadoria",
+   "en": "merchandise"
+  },
+  {
+   "th": "อื่น",
+   "p": "ʉ̀ʉn",
+   "fsi": "ʔʉ̀ʉn",
+   "pt": "outro",
+   "en": "other"
+  },
+  {
+   "th": "ที่อื่น",
+   "p": "tîi-ʉ̀ʉn",
+   "fsi": "thîiʔʉ̀ʉn",
+   "pt": "outro lugar",
+   "en": "elsewhere"
+  },
+  {
+   "th": "เลือก",
+   "p": "lʉ̂ʉak",
+   "fsi": "lʉ̂ak",
+   "pt": "escolher",
+   "en": "to choose"
+  },
+  {
+   "th": "ของให้เลือก",
+   "p": "kɔ̌ɔng-hâi-lʉ̂ʉak",
+   "fsi": "khɔ̌ɔŋhâjlʉ̂ak",
+   "pt": "opções, variedade (de produtos)",
+   "en": "selection"
+  },
+  {
+   "th": "เลือกตั้ง",
+   "p": "lʉ̂ʉak-dtâng",
+   "fsi": "lʉ̂aktâŋ",
+   "pt": "eleger; eleição",
+   "en": "to elect"
+  },
+  {
+   "th": "เชือก",
+   "p": "chʉ̂ʉak",
+   "fsi": "chʉ̂ak",
+   "pt": "corda; classificador de elefantes",
+   "en": "rope; classifier for elephants"
+  },
+  {
+   "th": "ฟุต",
+   "p": "fút",
+   "fsi": "fút",
+   "pt": "pé (medida)",
+   "en": "foot"
+  },
+  {
+   "th": "นิ้ว",
+   "p": "níu",
+   "fsi": "níw",
+   "pt": "polegada; dedo",
+   "en": "inch; finger"
+  },
+  {
+   "th": "เมตร",
+   "p": "méet",
+   "fsi": "méet",
+   "pt": "metro",
+   "en": "meter"
+  },
+  {
+   "th": "เซนติเมตร",
+   "p": "sen-dtì-méet",
+   "fsi": "sentiméet",
+   "pt": "centímetro",
+   "en": "centimeter"
+  },
+  {
+   "th": "กรัม",
+   "p": "gram",
+   "fsi": "kram",
+   "pt": "grama",
+   "en": "gram"
+  },
+  {
+   "th": "กิโลกรัม",
+   "p": "gì-loo-gram",
+   "fsi": "kilookram",
+   "pt": "quilograma",
+   "en": "kilogram"
+  },
+  {
+   "th": "ไมล์",
+   "p": "mai",
+   "fsi": "maj",
+   "pt": "milha",
+   "en": "mile"
+  },
+  {
+   "th": "แกะสลัก",
+   "p": "gɛ̀-sà-làk",
+   "fsi": "kɛ̀salàk",
+   "pt": "entalhar, esculpir",
+   "en": "to carve"
+  },
+  {
+   "th": "เขิน",
+   "p": "kə̌ən",
+   "fsi": "khə̌ən",
+   "pt": "laca; envergonhado",
+   "en": "lacquer; shy"
+  },
+  {
+   "th": "เครื่องเงิน",
+   "p": "krʉ̂ʉang-ngən",
+   "fsi": "khrʉ̂aŋŋən",
+   "pt": "prataria",
+   "en": "silverware"
+  },
+  {
+   "th": "เครื่องทอง",
+   "p": "krʉ̂ʉang-tɔɔng",
+   "fsi": "khrʉ̂aŋthɔɔŋ",
+   "pt": "peças de ouro",
+   "en": "goldware"
+  },
+  {
+   "th": "ทอง",
+   "p": "tɔɔng",
+   "fsi": "thɔɔŋ",
+   "pt": "ouro",
+   "en": "gold"
+  },
+  {
+   "th": "เพชร",
+   "p": "pét",
+   "fsi": "phét",
+   "pt": "diamante",
+   "en": "diamond"
+  },
+  {
+   "th": "พลอย",
+   "p": "plɔɔi",
+   "fsi": "phlɔɔj",
+   "pt": "pedra preciosa",
+   "en": "gem"
+  },
+  {
+   "th": "เพชรพลอย",
+   "p": "pét-plɔɔi",
+   "fsi": "phétphlɔɔj",
+   "pt": "joias, pedras preciosas",
+   "en": "jewelry"
+  },
+  {
+   "th": "โครงการ",
+   "p": "kroong-gaan",
+   "fsi": "khrooŋkaan",
+   "pt": "projeto",
+   "en": "project"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Sistemas de medida",
+    "en": "Measurement systems"
+   },
+   "e": {
+    "pt": "Na Tailândia convivem três sistemas: o métrico (เมตร, กิโล, กรัม, ลิตร) para distância, peso e volume; o inglês (นิ้ว, ฟุต, หลา) para tecidos e objetos pequenos — a seda em Bangkok ainda se vende por หลา; e o antigo sistema tailandês para área de terra.",
+    "en": "Metric for distance, weight and volume; English units (inches, yards) for fabric; the old Thai system for land."
+   },
+   "ex": "ผ้า|pâa สอง|sɔ̌ɔng หลา|lǎa"
+  },
+  {
+   "t": {
+    "pt": "Medidas com verbos de estado",
+    "en": "Measurement with stative verbs"
+   },
+   "e": {
+    "pt": "Verbo de estado + número + unidade dá a medida: โต๊ะตัวนี้กว้างยี่สิบสี่นิ้ว (esta mesa tem 24 polegadas de largura); เพื่อนผมสูงหนึ่งเมตรห้าสิบ (meu amigo tem 1,50 m); กระเป๋าใบนั้นหนักแปดกิโลกว่า (essa mala pesa mais de 8 kg).",
+    "en": "Stative verb + number + unit: กว้าง 24 นิ้ว, สูง 1 เมตร, หนัก 8 กิโล."
+   },
+   "ex": "กระเป๋า|grà-bpǎo หนัก|nàk ห้า|hâa กิโล|gì-loo"
+  },
+  {
+   "t": {
+    "pt": "O assunto vai para a frente",
+    "en": "Topic first"
+   },
+   "e": {
+    "pt": "Em vez de 'a cor deste tecido não desbota' (สีของผ้านี้ไม่ตก), o tailandês prefere 'este tecido, a cor não desbota' (ผ้านี้สีไม่ตก). Do mesmo jeito: รถคันนี้ราคาถูก, บ้านหลังนี้ค่าเช่าไม่แพง. Analogia: primeiro se aponta a coisa, depois se comenta sobre ela.",
+    "en": "Thai prefers topic + comment: ผ้านี้สีไม่ตก over สีของผ้านี้ไม่ตก."
+   },
+   "ex": "รถ|rót คัน|kan นี้|níi ราคา|raa-kaa ถูก|tùuk"
+  },
+  {
+   "t": {
+    "pt": "ใช้: gastar, levar (tempo, gente)",
+    "en": "ใช้: to take, require"
+   },
+   "e": {
+    "pt": "Além de 'usar', ใช้ é 'precisar de, levar': งานนี้ต้องใช้เวลาสองปี (este trabalho leva dois anos); ใช้ผ้ากี่หลา (precisa de quantas jardas).",
+    "en": "ใช้ also means to require or take (time, people, material)."
+   },
+   "ex": "งาน|ngaan นี้|níi ใช้|chái เวลา|wee-laa สอง|sɔ̌ɔng ปี|bpii"
+  }
+ ]
+}

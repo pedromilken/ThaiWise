@@ -1,0 +1,338 @@
+{
+ "n": 38,
+ "paginas": "vol. 2, p. 670–690",
+ "titulo": {
+  "pt": "Na loja de artigos de toalete",
+  "en": "Shopping for toilet articles"
+ },
+ "dialogo": [
+  {
+   "sp": "S",
+   "s": "ซื้อ|sʉ́ʉ อะไร|à-rai ครับ|kráp",
+   "fsi": "sʉ́ʉ ʔaraj khráp",
+   "en": "What do you want to buy?",
+   "pt": "O que deseja?"
+  },
+  {
+   "sp": "C",
+   "s": "แปรงสีฟัน|bprɛɛng-sǐi-fan มี|mii ไหม|mǎi",
+   "fsi": "prɛɛŋsǐifan mii máj",
+   "en": "Do you have toothbrushes?",
+   "pt": "Tem escova de dentes?"
+  },
+  {
+   "sp": "S",
+   "s": "มี|mii ครับ|kráp",
+   "fsi": "mii khráp",
+   "en": "We do.",
+   "pt": "Tem, sim."
+  },
+  {
+   "sp": "C",
+   "s": "ขอ|kɔ̌ɔ ดู|duu หน่อย|nɔ̀i ได้|dâai ไหม|mǎi",
+   "fsi": "khɔ̌ɔ duu nɔ̀j dâj máj",
+   "en": "May I see them?",
+   "pt": "Posso ver?"
+  },
+  {
+   "sp": "S",
+   "s": "นี่|nîi ครับ|kráp",
+   "fsi": "nîi khráp",
+   "en": "Here they are.",
+   "pt": "Aqui estão."
+  },
+  {
+   "sp": "S",
+   "s": "อย่าง|yàang นี้|níi อัน|an ละ|lá แปด|bpɛ̀ɛt บาท|bàat",
+   "fsi": "jàaŋ níi ʔan lá pɛ̀ɛt bàat",
+   "en": "This kind is 8 baht each,",
+   "pt": "Esta sai a oito baht cada,"
+  },
+  {
+   "sp": "S",
+   "s": "อย่าง|yàang นั้น|nán สิบสอง|sìp-sɔ̌ɔng บาท|bàat",
+   "fsi": "jàaŋ nán sìp sɔ̌ɔŋ bàat",
+   "en": "that kind 12 baht.",
+   "pt": "aquela, doze."
+  },
+  {
+   "sp": "C",
+   "s": "ที่|tîi ถูก|tùuk กว่า|gwàa นี้|níi มี|mii ไหม|mǎi",
+   "fsi": "thîi thùuk kwàa níi mii máj",
+   "en": "Do you have anything cheaper?",
+   "pt": "Tem alguma mais barata?"
+  },
+  {
+   "sp": "S",
+   "s": "ไม่|mâi มี|mii ครับ|kráp",
+   "fsi": "mâj mii khráp",
+   "en": "No.",
+   "pt": "Não tem."
+  },
+  {
+   "sp": "C",
+   "s": "งั้น|ngán เอา|ao อย่าง|yàang แปด|bpɛ̀ɛt บาท|bàat หนึ่ง|nʉ̀ng อัน|an",
+   "fsi": "ŋán ʔaw jàaŋ pɛ̀ɛt bàat nʉ̀ŋ ʔan",
+   "en": "Then I'll take one of the 8-baht ones.",
+   "pt": "Então levo uma de oito."
+  },
+  {
+   "sp": "S",
+   "s": "รับ|ráp อะไร|à-rai อีก|ìik ไหม|mǎi ครับ|kráp",
+   "fsi": "ráp ʔaraj ʔìik máj khráp",
+   "en": "Anything else?",
+   "pt": "Mais alguma coisa?"
+  },
+  {
+   "sp": "C",
+   "s": "เอา|ao สบู่|sà-bùu ลักส์|lák ก้อน|gɔ̂ɔn หนึ่ง|nʉ̀ng",
+   "fsi": "ʔaw sabùu lák kɔ̂ɔn nʉ̀ŋ",
+   "en": "I'd like a bar of Lux soap.",
+   "pt": "Quero um sabonete Lux."
+  },
+  {
+   "sp": "S",
+   "s": "นอก|nɔ̂ɔk หรือ|rʉ̌ʉ ใน|nai ครับ|kráp",
+   "fsi": "nɔ̂ɔk rʉ̌ʉ naj khráp",
+   "en": "Imported or domestic?",
+   "pt": "Importado ou nacional?"
+  },
+  {
+   "sp": "C",
+   "s": "เอา|ao สบู่|sà-bùu นอก|nɔ̂ɔk",
+   "fsi": "ʔaw sabùu nɔ̂ɔk",
+   "en": "Imported,",
+   "pt": "O importado,"
+  },
+  {
+   "sp": "C",
+   "s": "แล้วก็|lɛ́ɛo-gɔ̂ɔ ยาสีฟัน|yaa-sǐi-fan หลอด|lɔ̀ɔt เล็ก|lék หลอด|lɔ̀ɔt หนึ่ง|nʉ̀ng",
+   "fsi": "lɛ́ɛwkɔ̂ɔ jaasǐifan lɔ̀ɔt lék lɔ̀ɔt nʉ̀ŋ",
+   "en": "and one small tube of toothpaste,",
+   "pt": "e um tubo pequeno de pasta de dente,"
+  },
+  {
+   "sp": "C",
+   "s": "บุหรี่|bù-rìi เกล็ดทอง|glèt-tɔɔng ซอง|sɔɔng หนึ่ง|nʉ̀ng กับ|gàp ไม้ขีด|mái-kìit กลัก|glàk หนึ่ง|nʉ̀ng",
+   "fsi": "burìi klèt thɔɔŋ sɔɔŋ nʉ̀ŋ kàp máajkhìit klàk nʉ̀ŋ",
+   "en": "a pack of Gold Flake cigarettes and a small box of matches.",
+   "pt": "um maço de Gold Flake e uma caixinha de fósforos."
+  },
+  {
+   "sp": "S",
+   "s": "ยาสีฟัน|yaa-sǐi-fan ยี่ห้อ|yîi-hɔ̂ɔ อะไร|à-rai ครับ|kráp",
+   "fsi": "jaasǐifan jîihɔ̂ɔ ʔaraj khráp",
+   "en": "What brand of toothpaste?",
+   "pt": "Pasta de que marca?"
+  },
+  {
+   "sp": "C",
+   "s": "อะไร|à-rai ก็|gɔ̂ɔ ได้|dâai",
+   "fsi": "ʔaraj kɔ̂ɔ dâj",
+   "en": "Any brand.",
+   "pt": "Qualquer uma."
+  },
+  {
+   "sp": "S",
+   "s": "ทั้งหมด|táng-mòt ยี่สิบเจ็ด|yîi-sìp-jèt บาท|bàat ห้าสิบ|hâa-sìp สตางค์|sà-dtaang",
+   "fsi": "tháŋmòt jîisìpcèt bàat hâasìp sataaŋ",
+   "en": "That'll be 27.50 baht.",
+   "pt": "Fica vinte e sete baht e cinquenta satang."
+  },
+  {
+   "sp": "S",
+   "s": "นี่|nîi ครับ|kráp เงินทอน|ngən-tɔɔn สอง|sɔ̌ɔng บาท|bàat ห้าสิบ|hâa-sìp สตางค์|sà-dtaang",
+   "fsi": "nîi khráp ŋənthɔɔn sɔ̌ɔŋ bàat hâasìp sataaŋ",
+   "en": "Here is your change, 2.50 baht.",
+   "pt": "Aqui está o troco, dois e cinquenta."
+  },
+  {
+   "sp": "S",
+   "s": "ขอบคุณ|kɔ̀ɔp-kun มาก|mâak นะ|ná ครับ|kráp",
+   "fsi": "khɔ̀ɔpkhun mâak ná khráp",
+   "en": "Thank you very much.",
+   "pt": "Muito obrigado."
+  },
+  {
+   "sp": "S",
+   "s": "วันหลัง|wan-lǎng เชิญ|chəən มา|maa อุดหนุน|ùt-nǔn อีก|ìik นะ|ná ครับ|kráp",
+   "fsi": "wanlǎŋ chəən maa ʔùtnǔn ʔìik ná khráp",
+   "en": "Please come and patronize us again.",
+   "pt": "Volte sempre!"
+  }
+ ],
+ "vocab": [
+  {
+   "th": "แปรง",
+   "p": "bprɛɛng",
+   "fsi": "prɛɛŋ",
+   "pt": "escova",
+   "en": "brush"
+  },
+  {
+   "th": "แปรงสีฟัน",
+   "p": "bprɛɛng-sǐi-fan",
+   "fsi": "prɛɛŋsǐifan",
+   "pt": "escova de dentes",
+   "en": "toothbrush"
+  },
+  {
+   "th": "ยาสีฟัน",
+   "p": "yaa-sǐi-fan",
+   "fsi": "jaasǐifan",
+   "pt": "pasta de dente",
+   "en": "toothpaste"
+  },
+  {
+   "th": "สบู่",
+   "p": "sà-bùu",
+   "fsi": "sabùu",
+   "pt": "sabão, sabonete",
+   "en": "soap"
+  },
+  {
+   "th": "สบู่หอม",
+   "p": "sà-bùu-hɔ̌ɔm",
+   "fsi": "sabùuhɔ̌ɔm",
+   "pt": "sabonete",
+   "en": "toilet soap"
+  },
+  {
+   "th": "ก้อน",
+   "p": "gɔ̂ɔn",
+   "fsi": "kɔ̂ɔn",
+   "pt": "pedaço, bloco; classificador de barras",
+   "en": "lump, bar"
+  },
+  {
+   "th": "หลอด",
+   "p": "lɔ̀ɔt",
+   "fsi": "lɔ̀ɔt",
+   "pt": "tubo; canudo",
+   "en": "tube; straw"
+  },
+  {
+   "th": "ซอง",
+   "p": "sɔɔng",
+   "fsi": "sɔɔŋ",
+   "pt": "envelope; maço",
+   "en": "envelope; pack"
+  },
+  {
+   "th": "ไม้ขีด",
+   "p": "mái-kìit",
+   "fsi": "máajkhìit",
+   "pt": "fósforo",
+   "en": "match"
+  },
+  {
+   "th": "กลัก",
+   "p": "glàk",
+   "fsi": "klàk",
+   "pt": "caixinha (de fósforos)",
+   "en": "small box"
+  },
+  {
+   "th": "ยี่ห้อ",
+   "p": "yîi-hɔ̂ɔ",
+   "fsi": "jîihɔ̂ɔ",
+   "pt": "marca",
+   "en": "brand"
+  },
+  {
+   "th": "ตรา",
+   "p": "dtraa",
+   "fsi": "traa",
+   "pt": "marca, selo, emblema",
+   "en": "trademark, seal"
+  },
+  {
+   "th": "สตางค์",
+   "p": "sà-dtaang",
+   "fsi": "sataaŋ",
+   "pt": "satang (1/100 de baht); dinheiro",
+   "en": "satang"
+  },
+  {
+   "th": "เงินทอน",
+   "p": "ngən-tɔɔn",
+   "fsi": "ŋənthɔɔn",
+   "pt": "troco",
+   "en": "change"
+  },
+  {
+   "th": "วันหลัง",
+   "p": "wan-lǎng",
+   "fsi": "wanlǎŋ",
+   "pt": "outro dia, da próxima vez",
+   "en": "another day"
+  },
+  {
+   "th": "อุดหนุน",
+   "p": "ùt-nǔn",
+   "fsi": "ʔùtnǔn",
+   "pt": "prestigiar (como cliente); apoiar",
+   "en": "to patronize; support"
+  },
+  {
+   "th": "ของนอก",
+   "p": "kɔ̌ɔng-nɔ̂ɔk",
+   "fsi": "khɔ̌ɔŋnɔ̂ɔk",
+   "pt": "produto importado",
+   "en": "imported goods"
+  },
+  {
+   "th": "องค์",
+   "p": "ong",
+   "fsi": "ʔoŋ",
+   "pt": "classificador de imagens de Buda e da realeza",
+   "en": "classifier for Buddha images, royalty"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Compostos do dia a dia",
+    "en": "Everyday compounds"
+   },
+   "e": {
+    "pt": "แปรงสีฟัน = escova + esfregar + dente; ยาสีฟัน = 'remédio de esfregar dente'; สบู่หอม = sabão + cheiroso; ไม้ขีดไฟ = madeira + riscar + fogo. Analogia: o tailandês descreve a função, como 'guarda-chuva' em português.",
+    "en": "Compounds describe function: แปรงสีฟัน, ยาสีฟัน, ไม้ขีดไฟ."
+   },
+   "ex": "แปรง|bprɛɛng สี|sǐi ฟัน|fan"
+  },
+  {
+   "t": {
+    "pt": "ยี่ห้อ e ตรา: marcas",
+    "en": "Brands: ยี่ห้อ and ตรา"
+   },
+   "e": {
+    "pt": "Pergunta-se a marca com ยี่ห้ออะไร: รถยี่ห้ออะไร? — ฟอร์ด. Na propaganda, ตรา + imagem dá nome ao produto: สบู่ตรานกแก้ว (sabão marca Papagaio). Já 'X อะไร' pode pedir marca ou tipo: รถอะไร → รถฟอร์ด, รถอเมริกัน ou รถสปอร์ต.",
+    "en": "ยี่ห้ออะไร asks the brand; ตรา + symbol names products in ads."
+   },
+   "ex": "สบู่|sà-bùu ยี่ห้อ|yîi-hɔ̂ɔ อะไร|à-rai"
+  },
+  {
+   "t": {
+    "pt": "นอก × ใน: importado e nacional",
+    "en": "นอก vs ใน"
+   },
+   "e": {
+    "pt": "ของนอก é produto importado e ของใน, nacional. นักเรียนนอก é tailandês formado no exterior; นักเรียนใน, formado no país. Mas คนนอก é 'leigo, de fora' e คนใน, 'de dentro'.",
+    "en": "ของนอก imported, ของใน local; คนนอก outsider."
+   },
+   "ex": "สบู่|sà-bùu นอก|nɔ̂ɔk"
+  },
+  {
+   "t": {
+    "pt": "Classificadores: o mapa geral",
+    "en": "Classifiers overview"
+   },
+   "e": {
+    "pt": "Muitos dá para prever pelo significado: คน para pessoas; องค์ para imagens de Buda; ตัว para animais, móveis e roupas ('coisas com pernas ou braços'), mas também บุหรี่หนึ่งตัว; ฉบับ para jornais e cartas; เม็ด para coisas pequenas e redondas (comprimidos, diamantes); ก้อน para pedaços e barras. Analogia: é como aprender o gênero do substantivo em português — vale decorar junto com a palavra.",
+    "en": "Classifiers are partly predictable from meaning; learn them with each noun."
+   },
+   "ex": "ยา|yaa สอง|sɔ̌ɔng เม็ด|mét"
+  }
+ ]
+}
