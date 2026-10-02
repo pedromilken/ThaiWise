@@ -1,0 +1,390 @@
+{
+ "n": 20,
+ "paginas": "vol. 1, p. 319–324",
+ "titulo": {
+  "pt": "Retrato de uma vila: Bangchak",
+  "en": "Tambon Bangchak"
+ },
+ "dialogo": [
+  {
+   "sp": "N",
+   "s": "นี่|nîi คือ|kʉʉ ตำบล|dtam-bon บ้านจาก|bâan-jàak",
+   "fsi": "nîi khʉʉ tambon bâancàak",
+   "en": "This is Bangchak tambon.",
+   "pt": "Esta é a vila de Bangchak."
+  },
+  {
+   "sp": "N",
+   "s": "ตำบล|dtam-bon นี้|níi อยู่|yùu ใน|nai จังหวัด|jang-wàt แห่ง|hɛ̀ng หนึ่ง|nʉ̀ng ใน|nai ภาค|pâak กลาง|glaang",
+   "fsi": "tambon níi jùu naj caŋwàt hɛ̀ŋ nʉ̀ŋ naj phâak klaaŋ",
+   "en": "This tambon is in a province in the central region.",
+   "pt": "Esta vila fica numa província da região central."
+  },
+  {
+   "sp": "N",
+   "s": "ตำบล|dtam-bon นี้|níi ตั้ง|dtâng อยู่|yùu ริม|rim คลอง|klɔɔng",
+   "fsi": "tambon níi tâŋ jùu rim khlɔɔŋ",
+   "en": "This tambon is located on a canal.",
+   "pt": "A vila fica à beira de um canal."
+  },
+  {
+   "sp": "N",
+   "s": "วัด|wát เป็น|bpen ศูนย์กลาง|sǔun-glaang ของ|kɔ̌ɔng ตำบล|dtam-bon นี้|níi",
+   "fsi": "wát pen sǔunklaaŋ khɔ̌ɔŋ tambon níi",
+   "en": "The temple is the center of this tambon.",
+   "pt": "O templo é o centro da vila."
+  },
+  {
+   "sp": "N",
+   "s": "ข้างๆ|kâang-kâang วัด|wát มี|mii โรงเรียน|roong-riian",
+   "fsi": "khâaŋkhâaŋ wát mii rooŋrian",
+   "en": "Beside the temple is the school.",
+   "pt": "Ao lado do templo há uma escola."
+  },
+  {
+   "sp": "N",
+   "s": "โรงเรียน|roong-riian นี้|níi เป็น|bpen โรงเรียน|roong-riian เล็กๆ|lék-lék มี|mii ครู|kruu ห้า|hâa คน|kon",
+   "fsi": "rooŋrian níi pen rooŋrian léklék mii khruu hâa khon",
+   "en": "This is a very small school, with five teachers.",
+   "pt": "É uma escola pequenininha, com cinco professores."
+  },
+  {
+   "sp": "N",
+   "s": "คน|kon หนึ่ง|nʉ̀ng มา|maa จาก|jàak กรุงเทพฯ|grung-têep",
+   "fsi": "khon nʉ̀ŋ maa càak kruŋthêep",
+   "en": "One comes from Bangkok.",
+   "pt": "Um vem de Bangkok."
+  },
+  {
+   "sp": "N",
+   "s": "อีก|ìik สี่|sìi คน|kon เป็น|bpen คน|kon จังหวัด|jang-wàt นี้|níi",
+   "fsi": "ìik sìi khon pen khon caŋwàt níi",
+   "en": "The other four are natives of this province.",
+   "pt": "Os outros quatro são da própria província."
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi โรงเรียน|roong-riian มี|mii นักเรียน|nák-riian ราวๆ|raao-raao ร้อย|rɔ́ɔi ห้าสิบ|hâa-sìp คน|kon",
+   "fsi": "thîi rooŋrian mii nákrian raawraaw rɔ́ɔj hâasìp khon",
+   "en": "There are around 150 pupils at the school.",
+   "pt": "A escola tem uns cento e cinquenta alunos."
+  },
+  {
+   "sp": "N",
+   "s": "ฝั่ง|fàng ตรงกันข้าม|dtrong-gan-kâam กับ|gàp วัด|wát มี|mii ตลาด|dtà-làat ร้าน|ráan และ|lɛ́ สถานี|sà-tǎa-nii ตำรวจ|dtam-rùuat",
+   "fsi": "fàŋ troŋkankhâam kàp wát mii talàat ráan lɛ́ sathǎanii tamrùat",
+   "en": "On the opposite bank from the temple are the market, shops and the police station.",
+   "pt": "Na margem oposta ao templo ficam o mercado, as lojas e a delegacia."
+  },
+  {
+   "sp": "N",
+   "s": "ตลาด|dtà-làat อยู่|yùu เยื้อง|yʉ́ʉang กับ|gàp วัด|wát",
+   "fsi": "talàat jùu jʉ́aŋ kàp wát",
+   "en": "The market is diagonally opposite the temple.",
+   "pt": "O mercado fica em diagonal ao templo."
+  },
+  {
+   "sp": "N",
+   "s": "ข้างๆ|kâang-kâang ตลาด|dtà-làat มี|mii ร้าน|ráan ต่างๆ|dtàang-dtàang เช่น|chên ร้านขายของ|ráan-kǎai-kɔ̌ɔng ร้านตัดผม|ráan-dtàt-pǒm",
+   "fsi": "khâaŋkhâaŋ talàat mii ráan tàaŋtàaŋ chên ráankhǎajkhɔ̌ɔŋ ráantàtphǒm",
+   "en": "Next to the market are various shops, such as a store and a barber shop.",
+   "pt": "Perto do mercado há várias lojas, como um armazém e uma barbearia."
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi ตำบล|dtam-bon นี้|níi ไม่|mâi มี|mii โรงหนัง|roong-nǎng โรงแรม|roong-rɛɛm และ|lɛ́ ไปรษณีย์|bprai-sà-nii",
+   "fsi": "thîi tambon níi mâj mii rooŋnǎŋ rooŋrɛɛm lɛ́ prajsanii",
+   "en": "There is no movie house, hotel or post office in this tambon.",
+   "pt": "A vila não tem cinema, hotel nem correio."
+  },
+  {
+   "sp": "N",
+   "s": "โรงพยาบาล|roong-pá-yaa-baan ก็|gɔ̂ɔ ไม่|mâi มี|mii แต่|dtɛ̀ɛ มี|mii สุขศาลา|sùk-sǎa-laa",
+   "fsi": "rooŋphajaabaan kɔ̂ɔ mâj mii tɛ̀ɛ mii sùksǎalaa",
+   "en": "There is no hospital either, but there is a public health center.",
+   "pt": "Hospital também não tem, mas há um posto de saúde."
+  },
+  {
+   "sp": "N",
+   "s": "ที่|tîi สุขศาลา|sùk-sǎa-laa มี|mii นางพยาบาล|naang-pá-yaa-baan สอง|sɔ̌ɔng คน|kon",
+   "fsi": "thîi sùksǎalaa mii naaŋphajaabaan sɔ̌ɔŋ khon",
+   "en": "At the center there are two nurses.",
+   "pt": "No posto há duas enfermeiras."
+  },
+  {
+   "sp": "N",
+   "s": "สุขศาลา|sùk-sǎa-laa อยู่|yùu ใกล้|glâi กับ|gàp ตลาด|dtà-làat",
+   "fsi": "sùksǎalaa jùu klâj kàp talàat",
+   "en": "The center is near the market.",
+   "pt": "O posto fica perto do mercado."
+  },
+  {
+   "sp": "N",
+   "s": "สถานี|sà-tǎa-nii ตำรวจ|dtam-rùuat อยู่|yùu ไม่|mâi ไกล|glai จาก|jàak ตลาด|dtà-làat",
+   "fsi": "sathǎanii tamrùat jùu mâj klaj càak talàat",
+   "en": "The police station is not far from the market.",
+   "pt": "A delegacia fica perto do mercado."
+  },
+  {
+   "sp": "N",
+   "s": "ตำบล|dtam-bon นี้|níi มี|mii รถไฟ|rót-fai ผ่าน|pàan",
+   "fsi": "tambon níi mii rótfaj phàan",
+   "en": "The train passes through this tambon.",
+   "pt": "O trem passa pela vila."
+  },
+  {
+   "sp": "N",
+   "s": "สถานี|sà-tǎa-nii รถไฟ|rót-fai อยู่|yùu ไกล|glai จาก|jàak ตลาด|dtà-làat",
+   "fsi": "sathǎanii rótfaj jùu klaj càak talàat",
+   "en": "The train station is far from the market.",
+   "pt": "A estação de trem fica longe do mercado."
+  },
+  {
+   "sp": "N",
+   "s": "หัวหน้า|hǔua-nâa ของ|kɔ̌ɔng ตำบล|dtam-bon เรียกว่า|rîiak-wâa กำนัน|gam-nan",
+   "fsi": "hǔanâa khɔ̌ɔŋ tambon rîak wâa kamnan",
+   "en": "The head of the tambon is called the kamnan.",
+   "pt": "O chefe da vila se chama กำนัน."
+  },
+  {
+   "sp": "N",
+   "s": "เขา|kǎo ชื่อ|chʉ̂ʉ นาย|naai ประสิทธิ์|bprà-sìt เก่งงาน|gèng-ngaan",
+   "fsi": "kháw chʉ̂ʉ naaj prasìt kèŋŋaan",
+   "en": "He is Mr. Prasit Kengngan.",
+   "pt": "Ele é o senhor Prasit Kengngan."
+  },
+  {
+   "sp": "N",
+   "s": "นาย|naai ประสิทธิ์|bprà-sìt เป็น|bpen ชาวนา|chaao-naa เหมือนกัน|mʉ̌ʉan-gan",
+   "fsi": "naaj prasìt pen chaawnaa mʉ̌ankan",
+   "en": "Mr. Prasit is also a rice farmer.",
+   "pt": "O senhor Prasit também é lavrador."
+  },
+  {
+   "sp": "N",
+   "s": "ชาว|chaao บ้านจาก|bâan-jàak เกือบ|gʉ̀ʉap ทุก|túk คน|kon เป็น|bpen ชาวนา|chaao-naa",
+   "fsi": "chaaw bâancàak kʉ̀ap thúk khon pen chaawnaa",
+   "en": "Almost all the residents of Bangchak are rice farmers.",
+   "pt": "Quase todo mundo em Bangchak é lavrador."
+  },
+  {
+   "sp": "N",
+   "s": "บ้าน|bâan กำนัน|gam-nan อยู่|yùu ฝั่ง|fàng เดียว|diiao กับ|gàp วัด|wát",
+   "fsi": "bâan kamnan jùu fàŋ diaw kàp wát",
+   "en": "The kamnan's house is on the same bank as the temple.",
+   "pt": "A casa do กำนัน fica na mesma margem do templo."
+  },
+  {
+   "sp": "N",
+   "s": "หน้า|nâa บ้าน|bâan เขา|kǎo เป็น|bpen คลอง|klɔɔng หลัง|lǎng บ้าน|bâan เป็น|bpen นา|naa",
+   "fsi": "nâa bâan kháw pen khlɔɔŋ lǎŋ bâan pen naa",
+   "en": "In front of his house is the canal; behind are rice fields.",
+   "pt": "Na frente da casa dele passa o canal; atrás ficam os arrozais."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "อำเภอ",
+   "p": "am-pəə",
+   "fsi": "ʔamphəə",
+   "pt": "distrito (subdivisão da província)",
+   "en": "district"
+  },
+  {
+   "th": "บ้านจาก",
+   "p": "bâan-jàak",
+   "fsi": "bâancàak",
+   "pt": "Bangchak (nome de vila)",
+   "en": "Bangchak (tambon name)"
+  },
+  {
+   "th": "เช่น",
+   "p": "chên",
+   "fsi": "chên",
+   "pt": "como, por exemplo",
+   "en": "such as"
+  },
+  {
+   "th": "ฝั่ง",
+   "p": "fàng",
+   "fsi": "fàŋ",
+   "pt": "margem; lado",
+   "en": "bank (of a river); side"
+  },
+  {
+   "th": "แห่ง",
+   "p": "hɛ̀ng",
+   "fsi": "hɛ̀ŋ",
+   "pt": "classificador de lugares",
+   "en": "classifier for places"
+  },
+  {
+   "th": "หัวหน้า",
+   "p": "hǔua-nâa",
+   "fsi": "hǔanâa",
+   "pt": "chefe",
+   "en": "chief, head"
+  },
+  {
+   "th": "กำนัน",
+   "p": "gam-nan",
+   "fsi": "kamnan",
+   "pt": "กำนัน, chefe da vila (ตำบล)",
+   "en": "kamnan, head of a tambon"
+  },
+  {
+   "th": "ก็",
+   "p": "gɔ̂ɔ",
+   "fsi": "kɔ̂ɔ",
+   "pt": "então; também",
+   "en": "then, also"
+  },
+  {
+   "th": "เกือบ",
+   "p": "gʉ̀ʉap",
+   "fsi": "kʉ̀ap",
+   "pt": "quase",
+   "en": "almost"
+  },
+  {
+   "th": "คือ",
+   "p": "kʉʉ",
+   "fsi": "khʉʉ",
+   "pt": "ser (definição; registro formal)",
+   "en": "to be (formal, defining)"
+  },
+  {
+   "th": "คลอง",
+   "p": "klɔɔng",
+   "fsi": "khlɔɔŋ",
+   "pt": "canal",
+   "en": "canal"
+  },
+  {
+   "th": "แม่น้ำ",
+   "p": "mɛ̂ɛ-náam",
+   "fsi": "mɛ̂ɛnáam",
+   "pt": "rio",
+   "en": "river"
+  },
+  {
+   "th": "นา",
+   "p": "naa",
+   "fsi": "naa",
+   "pt": "arrozal",
+   "en": "rice field"
+  },
+  {
+   "th": "นาย",
+   "p": "naai",
+   "fsi": "naaj",
+   "pt": "senhor (título)",
+   "en": "Mr. (title)"
+  },
+  {
+   "th": "ผ่าน",
+   "p": "pàan",
+   "fsi": "phàan",
+   "pt": "passar",
+   "en": "to pass"
+  },
+  {
+   "th": "ราว",
+   "p": "raao",
+   "fsi": "raaw",
+   "pt": "cerca de, mais ou menos (ราว ๆ)",
+   "en": "around, approximately"
+  },
+  {
+   "th": "ริม",
+   "p": "rim",
+   "fsi": "rim",
+   "pt": "beira, margem",
+   "en": "edge, bank"
+  },
+  {
+   "th": "สุขศาลา",
+   "p": "sùk-sǎa-laa",
+   "fsi": "sùksǎalaa",
+   "pt": "posto de saúde",
+   "en": "public health center"
+  },
+  {
+   "th": "ศูนย์กลาง",
+   "p": "sǔun-glaang",
+   "fsi": "sǔunklaaŋ",
+   "pt": "centro",
+   "en": "center"
+  },
+  {
+   "th": "ตำบล",
+   "p": "dtam-bon",
+   "fsi": "tambon",
+   "pt": "ตำบล, vila (subdivisão do distrito)",
+   "en": "tambon, precinct"
+  },
+  {
+   "th": "ตั้ง",
+   "p": "dtâng",
+   "fsi": "tâŋ",
+   "pt": "estar situado; montar",
+   "en": "to be located; to set up"
+  },
+  {
+   "th": "ตรงกันข้าม",
+   "p": "dtrong-gan-kâam",
+   "fsi": "troŋkankhâam",
+   "pt": "do lado oposto, em frente",
+   "en": "opposite"
+  },
+  {
+   "th": "เยื้อง",
+   "p": "yʉ́ʉang",
+   "fsi": "jʉ́aŋ",
+   "pt": "em diagonal",
+   "en": "diagonally opposite"
+  },
+  {
+   "th": "ชาวนา",
+   "p": "chaao-naa",
+   "fsi": "chaawnaa",
+   "pt": "lavrador, plantador de arroz",
+   "en": "rice farmer"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "จังหวัด, อำเภอ, ตำบล: a divisão do país",
+    "en": "Province, district, tambon"
+   },
+   "e": {
+    "pt": "A Tailândia se divide em จังหวัด (províncias), que se dividem em อำเภอ (distritos), que se dividem em ตำบล (vilas ou subdistritos), cada uma chefiada por um กำนัน. Analogia: estado, município e bairro rural, com o กำนัน no papel de um líder comunitário eleito.",
+    "en": "Thailand is divided into จังหวัด (provinces), อำเภอ (districts) and ตำบล (tambons), each tambon headed by a กำนัน."
+   },
+   "ex": "ตำบล|dtam-bon นี้|níi อยู่|yùu ใน|nai จังหวัด|jang-wàt ไหน|nǎi"
+  },
+  {
+   "t": {
+    "pt": "คือ: o 'ser' que define",
+    "en": "คือ: defining 'to be'"
+   },
+   "e": {
+    "pt": "คือ iguala duas coisas, como um sinal de igual, e soa mais formal ou escrito do que เป็น: นี่คือตำบลบ้านจาก = 'esta é a vila de Bangchak'. เป็น classifica (é um lavrador); คือ identifica (é exatamente isto).",
+    "en": "คือ equates and identifies, and is more formal than เป็น, which classifies."
+   },
+   "ex": "นี่|nîi คือ|kʉʉ ตำบล|dtam-bon บ้านจาก|bâan-jàak"
+  },
+  {
+   "t": {
+    "pt": "Repetição que suaviza ou generaliza",
+    "en": "Reduplication"
+   },
+   "e": {
+    "pt": "O texto usa várias palavras dobradas: ข้างๆ (ali do lado), เล็กๆ (pequenininha), ต่างๆ (diversas), ราวๆ (mais ou menos). Dobrar a palavra deixa o sentido mais vago ou mais afetuoso, como os nossos diminutivos.",
+    "en": "Doubled words make meaning vaguer or more affectionate: ข้างๆ, เล็กๆ, ต่างๆ, ราวๆ."
+   },
+   "ex": "ร้าน|ráan ต่างๆ|dtàang-dtàang"
+  }
+ ]
+}

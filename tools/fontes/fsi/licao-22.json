@@ -1,0 +1,433 @@
+{
+ "n": 22,
+ "paginas": "vol. 2, p. 347–368",
+ "titulo": {
+  "pt": "Um americano telefona para um amigo tailandês",
+  "en": "An American contacts a Thai friend"
+ },
+ "dialogo": [
+  {
+   "sp": "V",
+   "s": "ฮัลโหล|han-lǒo ที่นี่|tîi-nîi เก้า|gâo หนึ่ง|nʉ̀ng โท|too แปด|bpɛ̀ɛt ศูนย์|sǔun ค่ะ|kâ",
+   "fsi": "hanlǒo thîinîi kâw nʉ̀ŋ thoo pɛ̀ɛt sǔun khâ",
+   "en": "Hello, this is 91280.",
+   "pt": "Alô, aqui é o 91280."
+  },
+  {
+   "sp": "D",
+   "s": "ขอ|kɔ̌ɔ พูด|pûut กับ|gàp คุณ|kun สุนทร|sǔn-tɔɔn หน่อย|nɔ̀i ได้|dâai ไหม|mǎi ฮะ|há",
+   "fsi": "khɔ̌ɔ phûut kàp khun sǔnthɔɔn nɔ̀j dâj máj há",
+   "en": "Could I speak with Mr. Sunthorn?",
+   "pt": "Poderia falar com o senhor Sunthorn?"
+  },
+  {
+   "sp": "V",
+   "s": "รอ|rɔɔ เดี๋ยว|dǐiao นะ|ná คะ|ká",
+   "fsi": "rɔɔ dǐaw ná khá",
+   "en": "Just a minute.",
+   "pt": "Um momentinho."
+  },
+  {
+   "sp": "S",
+   "s": "สุนทร|sǔn-tɔɔn พูด|pûut ครับ|kráp",
+   "fsi": "sǔnthɔɔn phûut khráp",
+   "en": "Sunthorn speaking.",
+   "pt": "Sunthorn falando."
+  },
+  {
+   "sp": "D",
+   "s": "สวัสดี|sà-wàt-dii ครับ|kráp",
+   "fsi": "sawàtdii khráp",
+   "en": "Hello.",
+   "pt": "Olá."
+  },
+  {
+   "sp": "D",
+   "s": "ผม|pǒm เดวิด|dee-wít พูด|pûut ครับ|kráp",
+   "fsi": "phǒm deewít phûut khráp",
+   "en": "It's David speaking.",
+   "pt": "É o David."
+  },
+  {
+   "sp": "D",
+   "s": "จำ|jam ผม|pǒm ได้|dâai ไหม|mǎi",
+   "fsi": "cam phǒm dâj máj",
+   "en": "Remember me?",
+   "pt": "Lembra de mim?"
+  },
+  {
+   "sp": "S",
+   "s": "อ้อ|ɔ̂ɔ คุณ|kun เดวิด|dee-wít หรือ|rʉ̌ʉ",
+   "fsi": "ʔɔ̂ɔ khun deewít rʉ̌ʉ",
+   "en": "Oh, it's David!",
+   "pt": "Ah, é o David!"
+  },
+  {
+   "sp": "S",
+   "s": "มา|maa ถึง|tʉ̌ng ตั้งแต่|dtâng-dtɛ̀ɛ เมื่อไร|mʉ̂ʉa-rài ฮะ|há",
+   "fsi": "maa thʉ̌ŋ tâŋtɛ̀ɛ mʉ̂arài há",
+   "en": "When did you get here?",
+   "pt": "Chegou quando?"
+  },
+  {
+   "sp": "D",
+   "s": "เมื่อ|mʉ̂ʉa วันศุกร์|wan-sùk ที่แล้ว|tîi-lɛ́ɛo",
+   "fsi": "mʉ̂a wansùk thîi lɛ́ɛw",
+   "en": "Last Friday.",
+   "pt": "Na sexta passada."
+  },
+  {
+   "sp": "S",
+   "s": "คุณ|kun ออก|ɔ̀ɔk จาก|jàak อเมริกา|à-mee-rí-gaa เมื่อไร|mʉ̂ʉa-rài ฮะ|há",
+   "fsi": "khun ʔɔ̀ɔk càak ʔameerikaa mʉ̂arài há",
+   "en": "When did you leave America?",
+   "pt": "Quando você saiu dos Estados Unidos?"
+  },
+  {
+   "sp": "D",
+   "s": "เมื่อ|mʉ̂ʉa สอง|sɔ̌ɔng เดือน|dʉʉan ก่อน|gɔ̀ɔn ฮะ|há",
+   "fsi": "mʉ̂a sɔ̌ɔŋ dʉan kɔ̀ɔn há",
+   "en": "Two months ago.",
+   "pt": "Faz dois meses."
+  },
+  {
+   "sp": "D",
+   "s": "ราว|raao วันที่|wan-tîi เก้า|gâo กุมภา|gum-paa",
+   "fsi": "raaw wanthîi kâaw kumphaa",
+   "en": "Around February the ninth.",
+   "pt": "Lá pelo dia nove de fevereiro."
+  },
+  {
+   "sp": "S",
+   "s": "เวลา|wee-laa นี้|níi คุณ|kun พัก|pák ที่ไหน|tîi-nǎi ฮะ|há",
+   "fsi": "weelaa níi khun phák thîinǎj há",
+   "en": "Where are you staying?",
+   "pt": "Onde você está hospedado?"
+  },
+  {
+   "sp": "D",
+   "s": "ที่|tîi โฮเต็ล|hoo-dten อิมพีเรียล|im-pii-riian ตรง|dtrong ซอย|sɔɔi ร่วมฤดี|rûuam-rʉ́-dii",
+   "fsi": "thîi hooten ʔimphiirian troŋ sɔɔj rûamrʉ́dii",
+   "en": "At the Imperial Hotel, on Ruam Rudee Lane.",
+   "pt": "No Hotel Imperial, na travessa Ruam Rudee."
+  },
+  {
+   "sp": "S",
+   "s": "เย็น|yen นี้|níi ว่าง|wâang ไหม|mǎi ฮะ|há",
+   "fsi": "jen níi wâaŋ máj há",
+   "en": "Are you free this evening?",
+   "pt": "Está livre hoje à noitinha?"
+  },
+  {
+   "sp": "S",
+   "s": "อยาก|yàak จะ|jà เชิญ|chəən มา|maa ทาน|taan ข้าว|kâao ที่|tîi บ้าน|bâan",
+   "fsi": "jàak cà chəən maa thaan khâaw thîi bâan",
+   "en": "I'd like to invite you to eat at my house.",
+   "pt": "Queria te convidar para jantar lá em casa."
+  },
+  {
+   "sp": "D",
+   "s": "อย่า|yàa รบกวน|róp-guuan เลย|ləəi ฮะ|há",
+   "fsi": "jàa rópkuan ləəj há",
+   "en": "Don't put yourself out.",
+   "pt": "Não precisa se incomodar."
+  },
+  {
+   "sp": "S",
+   "s": "ไม่|mâi รบกวน|róp-guuan หรอก|rɔ̀ɔk ฮะ|há",
+   "fsi": "mâj rópkuan rɔ̀ɔk há",
+   "en": "No trouble at all.",
+   "pt": "Incômodo nenhum."
+  },
+  {
+   "sp": "S",
+   "s": "ผม|pǒm อยาก|yàak ให้|hâi คุณ|kun รู้จัก|rúu-jàk บ้าน|bâan ผม|pǒm ด้วย|dûuai",
+   "fsi": "phǒm jàak hâj khun rúucàk bâan phǒm dûaj",
+   "en": "I'd like you to know where my house is.",
+   "pt": "Quero que você conheça a minha casa."
+  },
+  {
+   "sp": "D",
+   "s": "ขอบคุณ|kɔ̀ɔp-kun มาก|mâak ฮะ|há",
+   "fsi": "khɔ̀ɔpkhun mâak há",
+   "en": "Thanks very much.",
+   "pt": "Muito obrigado."
+  },
+  {
+   "sp": "D",
+   "s": "บ้าน|bâan คุณ|kun อยู่|yùu ที่ไหน|tîi-nǎi ล่ะ|lâ ฮะ|há",
+   "fsi": "bâan khun jùu thîinǎj lâ há",
+   "en": "Where is your house?",
+   "pt": "E onde fica a sua casa?"
+  },
+  {
+   "sp": "D",
+   "s": "ผม|pǒm ไป|bpai ไม่|mâi ถูก|tùuk",
+   "fsi": "phǒm paj mâj thùuk",
+   "en": "I don't know how to get there.",
+   "pt": "Não sei chegar lá."
+  },
+  {
+   "sp": "S",
+   "s": "ผม|pǒm จะ|jà ไป|bpai รับ|ráp คุณ|kun ที่|tîi โฮเต็ล|hoo-dten",
+   "fsi": "phǒm cà paj ráp khun thîi hooten",
+   "en": "I'll pick you up at the hotel.",
+   "pt": "Eu te pego no hotel."
+  },
+  {
+   "sp": "S",
+   "s": "ราว|raao สัก|sàk หก|hòk โมง|moong ครึ่ง|krʉ̂ng นะ|ná ฮะ|há",
+   "fsi": "raaw sàk hòk mooŋ khrʉ̂ŋ ná há",
+   "en": "Around 6:30, OK?",
+   "pt": "Lá pelas seis e meia, pode ser?"
+  },
+  {
+   "sp": "D",
+   "s": "ตกลง|dtòk-long ฮะ|há",
+   "fsi": "tòkloŋ há",
+   "en": "Right.",
+   "pt": "Combinado."
+  },
+  {
+   "sp": "D",
+   "s": "ผม|pǒm จะ|jà คอย|kɔɔi อยู่|yùu หน้า|nâa โฮเต็ล|hoo-dten",
+   "fsi": "phǒm cà khɔɔj jùu nâa hooten",
+   "en": "I'll wait for you in front of the hotel.",
+   "pt": "Te espero na frente do hotel."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ฮัลโหล",
+   "p": "han-lǒo",
+   "fsi": "hanlǒo",
+   "pt": "alô (ao telefone)",
+   "en": "hello (on the phone)"
+  },
+  {
+   "th": "ฮะ",
+   "p": "há",
+   "fsi": "há",
+   "pt": "partícula de polidez informal (forma relaxada de ครับ)",
+   "en": "casual polite particle"
+  },
+  {
+   "th": "จำได้",
+   "p": "jam-dâai",
+   "fsi": "camdâj",
+   "pt": "lembrar-se de, reconhecer",
+   "en": "to remember"
+  },
+  {
+   "th": "ตั้งแต่",
+   "p": "dtâng-dtɛ̀ɛ",
+   "fsi": "tâŋtɛ̀ɛ",
+   "pt": "desde",
+   "en": "since, from"
+  },
+  {
+   "th": "ที่แล้ว",
+   "p": "tîi-lɛ́ɛo",
+   "fsi": "thîilɛ́ɛw",
+   "pt": "passado (semana, mês…)",
+   "en": "last (week, month…)"
+  },
+  {
+   "th": "มะรืนนี้",
+   "p": "má-rʉʉn-níi",
+   "fsi": "márʉʉnníi",
+   "pt": "depois de amanhã",
+   "en": "the day after tomorrow"
+  },
+  {
+   "th": "เมื่อวานซืน",
+   "p": "mʉ̂ʉa-waan-sʉʉn",
+   "fsi": "mʉ̂awaansʉʉn",
+   "pt": "anteontem",
+   "en": "the day before yesterday"
+  },
+  {
+   "th": "พัก",
+   "p": "pák",
+   "fsi": "phák",
+   "pt": "hospedar-se; descansar",
+   "en": "to stay (at a hotel); to rest"
+  },
+  {
+   "th": "รบกวน",
+   "p": "róp-guuan",
+   "fsi": "rópkuan",
+   "pt": "incomodar",
+   "en": "to bother"
+  },
+  {
+   "th": "เลย",
+   "p": "ləəi",
+   "fsi": "ləəj",
+   "pt": "de jeito nenhum (após negação); então",
+   "en": "at all; so"
+  },
+  {
+   "th": "สุดท้าย",
+   "p": "sùt-táai",
+   "fsi": "sùtthaaj",
+   "pt": "último, final",
+   "en": "last, final"
+  },
+  {
+   "th": "มกราคม",
+   "p": "mók-gà-raa-kom",
+   "fsi": "mókkaraakhom",
+   "pt": "janeiro",
+   "en": "January"
+  },
+  {
+   "th": "กุมภาพันธ์",
+   "p": "gum-paa-pan",
+   "fsi": "kumphaaphan",
+   "pt": "fevereiro",
+   "en": "February"
+  },
+  {
+   "th": "มีนาคม",
+   "p": "mii-naa-kom",
+   "fsi": "miinaakhom",
+   "pt": "março",
+   "en": "March"
+  },
+  {
+   "th": "เมษายน",
+   "p": "mee-sǎa-yon",
+   "fsi": "meesǎajon",
+   "pt": "abril",
+   "en": "April"
+  },
+  {
+   "th": "พฤษภาคม",
+   "p": "prʉ́t-sà-paa-kom",
+   "fsi": "phrʉ́tsaphaakhom",
+   "pt": "maio",
+   "en": "May"
+  },
+  {
+   "th": "มิถุนายน",
+   "p": "mí-tù-naa-yon",
+   "fsi": "míthunaajon",
+   "pt": "junho",
+   "en": "June"
+  },
+  {
+   "th": "กรกฎาคม",
+   "p": "gà-rá-gà-daa-kom",
+   "fsi": "karakkadaakhom",
+   "pt": "julho",
+   "en": "July"
+  },
+  {
+   "th": "สิงหาคม",
+   "p": "sǐng-hǎa-kom",
+   "fsi": "sǐŋhǎakhom",
+   "pt": "agosto",
+   "en": "August"
+  },
+  {
+   "th": "กันยายน",
+   "p": "gan-yaa-yon",
+   "fsi": "kanjaajon",
+   "pt": "setembro",
+   "en": "September"
+  },
+  {
+   "th": "ตุลาคม",
+   "p": "dtù-laa-kom",
+   "fsi": "tulaakhom",
+   "pt": "outubro",
+   "en": "October"
+  },
+  {
+   "th": "พฤศจิกายน",
+   "p": "prʉ́t-sà-jì-gaa-yon",
+   "fsi": "phrʉ́tsacìkaajon",
+   "pt": "novembro",
+   "en": "November"
+  },
+  {
+   "th": "ธันวาคม",
+   "p": "tan-waa-kom",
+   "fsi": "thanwaakhom",
+   "pt": "dezembro",
+   "en": "December"
+  },
+  {
+   "th": "คริสต์ศักราช",
+   "p": "krít-sàk-gà-ràat",
+   "fsi": "khrítsàkkaràat",
+   "pt": "Era Cristã (ค.ศ.)",
+   "en": "Christian Era (A.D.)"
+  },
+  {
+   "th": "พุทธศักราช",
+   "p": "pút-tá-sàk-gà-ràat",
+   "fsi": "phútthasakkaràat",
+   "pt": "Era Budista (พ.ศ.)",
+   "en": "Buddhist Era (B.E.)"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Três jeitos de dizer 'atrás'",
+    "en": "Three ways to say 'ago'"
+   },
+   "e": {
+    "pt": "Período + ก่อน, ที่แล้ว ou มาแล้ว, com เมื่อ opcional na frente: (เมื่อ)สามอาทิตย์ก่อน, สามอาทิตย์ที่แล้ว e สามอาทิตย์มาแล้ว significam 'três semanas atrás'. Analogia: são como 'há três semanas', 'três semanas atrás' e 'faz três semanas' — mesma ideia, três montagens.",
+    "en": "Period + ก่อน / ที่แล้ว / มาแล้ว, optionally preceded by เมื่อ, all mean 'ago'."
+   },
+   "ex": "เมื่อ|mʉ̂ʉa สอง|sɔ̌ɔng เดือน|dʉʉan ก่อน|gɔ̀ɔn"
+  },
+  {
+   "t": {
+    "pt": "ตั้งแต่: desde",
+    "en": "ตั้งแต่: since"
+   },
+   "e": {
+    "pt": "ตั้งแต่ marca o ponto de partida no tempo: ตั้งแต่สองเดือนก่อน (desde dois meses atrás), ตั้งแต่เดือนพฤศจิกายน (desde novembro).",
+    "en": "ตั้งแต่ marks a starting point in time."
+   },
+   "ex": "ตั้งแต่|dtâng-dtɛ̀ɛ เดือน|dʉʉan มกราคม|mók-gà-raa-kom"
+  },
+  {
+   "t": {
+    "pt": "Os meses e os dois calendários",
+    "en": "Months and the two calendars"
+   },
+   "e": {
+    "pt": "Os meses de 31 dias terminam em -คม, os de 30 em -ยน e fevereiro em -พันธ์ — a terminação já diz o tamanho do mês. Na fala, corta-se a terminação: เมษา, กุมภา. A Tailândia usa o ano budista (พ.ศ.), 543 anos à frente do cristão (ค.ศ.): 2026 ค.ศ. = 2569 พ.ศ.",
+    "en": "Months of 31 days end in -คม, of 30 in -ยน, February in -พันธ์; the Buddhist Era (พ.ศ.) is 543 years ahead of the Christian Era."
+   },
+   "ex": "วันนี้|wan-níi วันที่|wan-tîi เท่าไร|tâo-rài"
+  },
+  {
+   "t": {
+    "pt": "อยาก × อยากให้",
+    "en": "อยาก vs อยากให้"
+   },
+   "e": {
+    "pt": "อยาก + verbo = eu mesmo quero fazer (ผมอยากพบคุณ). Quando quem age é outra pessoa, entra ให้: ผมอยากให้เขาพบคุณ = quero que ele te conheça. Analogia: ให้ é o 'que' do 'quero que…' do português.",
+    "en": "อยาก + verb when the subject is the same; อยากให้ + new subject + verb when it is someone else."
+   },
+   "ex": "ผม|pǒm อยาก|yàak ให้|hâi คุณ|kun มา|maa"
+  },
+  {
+   "t": {
+    "pt": "No telefone",
+    "en": "On the phone"
+   },
+   "e": {
+    "pt": "Atende-se com ฮัลโหล e o número; pede-se a pessoa com ขอพูดกับ… หน่อยได้ไหม; quem atende se identifica com 'nome + พูด'. ฮะ é uma versão relaxada de ครับ, comum entre amigos.",
+    "en": "Answer with ฮัลโหล; ask for someone with ขอพูดกับ…; identify yourself with 'name + พูด'. ฮะ is a relaxed ครับ."
+   },
+   "ex": "ขอ|kɔ̌ɔ พูด|pûut กับ|gàp คุณ|kun สุนทร|sǔn-tɔɔn"
+  }
+ ]
+}

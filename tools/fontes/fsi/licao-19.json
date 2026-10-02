@@ -1,0 +1,42 @@
+{"n": 19, "paginas": "vol. 1, p. 310–318",
+ "titulo": {"pt": "Onde fica o banheiro", "en": "Directions to the bathroom"},
+ "dialogo": [
+  {"sp": "A", "s": "ขอโทษ|kɔ̌ɔ-tôot ห้องน้ำ|hɔ̂ng-náam สำหรับ|sǎm-ràp ผู้ชาย|pûu-chaai อยู่|yùu ที่ไหน|tîi-nǎi ครับ|kráp", "fsi": "khɔ̌ɔthôot hɔ̂ŋnáam sǎmràp phûuchaaj jùu thîinǎj khráp", "en": "Excuse me, where's the men's bathroom?", "pt": "Com licença, onde fica o banheiro masculino?"},
+  {"sp": "B", "s": "ห้องน้ำ|hɔ̂ng-náam ผู้ชาย|pûu-chaai หรือ|rʉ̌ʉ ครับ|kráp", "fsi": "hɔ̂ŋnáam phûuchaaj rʉ̌ʉ khráp", "en": "The men's bathroom?", "pt": "O banheiro masculino?"},
+  {"sp": "B", "s": "อยู่|yùu ข้างล่าง|kâang-lâang", "fsi": "jùu khâaŋlâaŋ", "en": "It's downstairs.", "pt": "Fica lá embaixo."},
+  {"sp": "A", "s": "ไป|bpai ทาง|taang ไหน|nǎi ครับ|kráp", "fsi": "paj thaaŋ nǎj khráp", "en": "Which way?", "pt": "Por onde eu vou?"},
+  {"sp": "B", "s": "ไป|bpai ทาง|taang นี้|níi", "fsi": "paj thaaŋ níi", "en": "Go this way.", "pt": "Vá por aqui."},
+  {"sp": "B", "s": "ลง|long กระได|grà-dai ไป|bpai แล้ว|lɛ́ɛo เลี้ยว|líiao ขวา|kwǎa", "fsi": "loŋ kradaj paj lɛ́ɛw líaw khwǎa", "en": "Go down the stairs, then turn right.", "pt": "Desça a escada e depois vire à direita."},
+  {"sp": "B", "s": "ห้องน้ำ|hɔ̂ng-náam จะ|jà อยู่|yùu ทาง|taang ขวามือ|kwǎa-mʉʉ", "fsi": "hɔ̂ŋnáam cà jùu thaaŋ khwǎamʉʉ", "en": "The bathroom will be on your right.", "pt": "O banheiro vai estar do lado direito."},
+  {"sp": "A", "s": "ขอบคุณ|kɔ̀ɔp-kun ครับ|kráp", "fsi": "khɔ̀ɔpkhun khráp", "en": "Thank you.", "pt": "Obrigado."},
+  {"sp": "B", "s": "ไม่เป็นไร|mâi-bpen-rai ครับ|kráp", "fsi": "mâjpenraj khráp", "en": "You're welcome.", "pt": "De nada."}
+ ],
+ "vocab": [
+  {"th": "ใช้", "p": "chái", "fsi": "cháj", "pt": "usar", "en": "to use"},
+  {"th": "ชั้น", "p": "chán", "fsi": "chán", "pt": "andar (de um prédio)", "en": "floor, story"},
+  {"th": "จน", "p": "jon", "fsi": "con", "pt": "pobre", "en": "to be poor"},
+  {"th": "จอด", "p": "jɔ̀ɔt", "fsi": "cɔ̀ɔt", "pt": "estacionar", "en": "to park"},
+  {"th": "ดื่ม", "p": "dʉ̀ʉm", "fsi": "dʉ̀ʉm", "pt": "beber", "en": "to drink"},
+  {"th": "ห้องน้ำ", "p": "hɔ̂ng-náam", "fsi": "hɔ̂ŋnáam", "pt": "banheiro", "en": "bathroom"},
+  {"th": "ยืน", "p": "yʉʉn", "fsi": "jʉʉn", "pt": "ficar de pé", "en": "to stand"},
+  {"th": "เครื่องบิน", "p": "krʉ̂ʉang-bin", "fsi": "khrʉ̂aŋbin", "pt": "avião", "en": "airplane"},
+  {"th": "เครื่องมือ", "p": "krʉ̂ʉang-mʉʉ", "fsi": "khrʉ̂aŋmʉʉ", "pt": "ferramenta", "en": "tool"},
+  {"th": "ขึ้น", "p": "kʉ̂n", "fsi": "khʉ̂n", "pt": "subir", "en": "to go up"},
+  {"th": "กระได", "p": "grà-dai", "fsi": "kradaj", "pt": "escada", "en": "stairs"},
+  {"th": "ลง", "p": "long", "fsi": "loŋ", "pt": "descer", "en": "to go down"},
+  {"th": "เลี้ยว", "p": "líiao", "fsi": "líaw", "pt": "virar, dobrar", "en": "to turn"},
+  {"th": "ลิฟต์", "p": "líf", "fsi": "líf", "pt": "elevador", "en": "elevator"},
+  {"th": "ลุก", "p": "lúk", "fsi": "lúk", "pt": "levantar-se", "en": "to get up"},
+  {"th": "มือ", "p": "mʉʉ", "fsi": "mʉʉ", "pt": "mão", "en": "hand"},
+  {"th": "ขวามือ", "p": "kwǎa-mʉʉ", "fsi": "khwǎamʉʉ", "pt": "lado direito, à direita", "en": "right-hand side"},
+  {"th": "ผู้ใหญ่", "p": "pûu-yài", "fsi": "phûujàj", "pt": "adulto (clf. คน)", "en": "an adult"},
+  {"th": "ประธานาธิบดี", "p": "bprà-taa-naa-típ-bɔɔ-dii", "fsi": "prathaanaathípbɔɔdii", "pt": "presidente (de um país)", "en": "the President"},
+  {"th": "รวย", "p": "ruuai", "fsi": "ruaj", "pt": "rico", "en": "to be rich"},
+  {"th": "สำหรับ", "p": "sǎm-ràp", "fsi": "sǎmràp", "pt": "para, destinado a", "en": "for"},
+  {"th": "ที่จอดรถ", "p": "tîi-jɔ̀ɔt-rót", "fsi": "thîicɔ̀ɔtrót", "pt": "estacionamento", "en": "parking place"}
+ ],
+ "notas": [
+  {"t": {"pt": "ขึ้น e ลง com ไป e มา", "en": "ขึ้น and ลง with ไป and มา"}, "e": {"pt": "ขึ้น (subir) e ลง (descer) ganham ไป ou มา no fim para mostrar o sentido em relação a quem fala: ขึ้นไป é subir para longe de mim, ขึ้นมา é subir até onde estou. O meio vem no meio: ลงลิฟต์ไป = descer de elevador. Analogia: ไป e มา são as setas de um mapa com o ponto 'você está aqui'.", "en": "ขึ้น (up) and ลง (down) take ไป or มา to show direction relative to the speaker; the means goes in the middle: ลงลิฟต์ไป, go down by elevator."}, "ex": "ขึ้น|kʉ̂n ลิฟต์|líf ไป|bpai"},
+  {"t": {"pt": "สำหรับ: 'para' que pode cair", "en": "สำหรับ: 'for', often dropped"}, "e": {"pt": "สำหรับ significa 'para, destinado a'. Na fala ele costuma sumir: ห้องน้ำสำหรับผู้ชาย vira ห้องน้ำผู้ชาย, como 'banheiro masculino' no lugar de 'banheiro para homens'.", "en": "สำหรับ means 'for, intended for' and is often dropped in speech: ห้องน้ำผู้ชาย."}, "ex": "ห้องน้ำ|hɔ̂ng-náam สำหรับ|sǎm-ràp ผู้หญิง|pûu-yǐng"},
+  {"t": {"pt": "ทาง: por onde", "en": "ทาง: which way"}, "e": {"pt": "ทาง (caminho) monta direções: ไปทางไหน (por onde?), ทางนี้ (por aqui), ทางขวามือ (do lado direito). É a mesma ideia do nosso 'pelo lado de…'.", "en": "ทาง builds directions: ไปทางไหน, ทางนี้, ทางขวามือ."}, "ex": "อยู่|yùu ทาง|taang ซ้ายมือ|sáai-mʉʉ"}
+ ]}

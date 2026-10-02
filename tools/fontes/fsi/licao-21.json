@@ -1,0 +1,395 @@
+{
+ "n": 21,
+ "paginas": "vol. 2, p. 327–346",
+ "titulo": {
+  "pt": "Combinando um passeio ao mercado flutuante",
+  "en": "Planning a trip to the Floating Market"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "วันที่|wan-tîi เจ็ด|jèt เมษา|mee-sǎa นี้|níi เป็น|bpen วันหยุด|wan-yùt",
+   "fsi": "wanthîi cèt meesǎa níi pen wanjùt",
+   "en": "April 7th is a holiday.",
+   "pt": "Dia sete de abril é feriado."
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun ว่าง|wâang ไหม|mǎi",
+   "fsi": "khun wâaŋ máj",
+   "en": "Are you free?",
+   "pt": "Você está livre?"
+  },
+  {
+   "sp": "B",
+   "s": "วันที่|wan-tîi เจ็ด|jèt ตรง|dtrong กับ|gàp วัน|wan อะไร|à-rai ครับ|kráp",
+   "fsi": "wanthîi cèt troŋ kàp wan ʔaraj khráp",
+   "en": "What day of the week is the 7th?",
+   "pt": "O dia sete cai em que dia da semana?"
+  },
+  {
+   "sp": "A",
+   "s": "วันจันทร์|wan-jan",
+   "fsi": "wancan",
+   "en": "Monday.",
+   "pt": "Segunda-feira."
+  },
+  {
+   "sp": "B",
+   "s": "ยังงั้น|yang-ngán ผม|pǒm ว่าง|wâang ครับ|kráp",
+   "fsi": "jaŋŋán phǒm wâaŋ khráp",
+   "en": "Then I'm free.",
+   "pt": "Então estou livre."
+  },
+  {
+   "sp": "B",
+   "s": "คุณ|kun มี|mii ธุระ|tú-rá อะไร|à-rai หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "khun mii thúrá ʔaraj rʉ̌ʉ khráp",
+   "en": "You have something in mind?",
+   "pt": "Você está planejando alguma coisa?"
+  },
+  {
+   "sp": "A",
+   "s": "อยาก|yàak จะ|jà ชวน|chuuan ไป|bpai เที่ยว|tîiao ตลาดน้ำ|dtà-làat-náam",
+   "fsi": "jàak cà chuan paj thîaw talàatnáam",
+   "en": "I'd like to invite you to go to the Floating Market.",
+   "pt": "Queria te chamar para ir ao mercado flutuante."
+  },
+  {
+   "sp": "B",
+   "s": "ดี|dii ทีเดียว|tii-diiao ครับ|kráp",
+   "fsi": "dii thiidiaw khráp",
+   "en": "Very good.",
+   "pt": "Ótimo!"
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm อยาก|yàak ไป|bpai มา|maa นาน|naan แล้ว|lɛ́ɛo แต่|dtɛ̀ɛ ไม่|mâi มี|mii โอกาส|oo-gàat",
+   "fsi": "phǒm jàak paj maa naan lɛ́ɛw tɛ̀ɛ mâj mii ʔookàat",
+   "en": "I've been wanting to go for a long time, but haven't had the chance.",
+   "pt": "Faz tempo que quero ir, mas nunca tive a chance."
+  },
+  {
+   "sp": "B",
+   "s": "เรา|rao จะ|jà ไป|bpai กัน|gan ยังไง|yang-ngai ครับ|kráp",
+   "fsi": "raw cà paj kan jaŋŋaj khráp",
+   "en": "How shall we go?",
+   "pt": "Como a gente vai?"
+  },
+  {
+   "sp": "A",
+   "s": "จะ|jà นั่ง|nâng รถ|rót ไป|bpai บ้าน|bâan เพื่อน|pʉ̂ʉan ผม|pǒm ก่อน|gɔ̀ɔn",
+   "fsi": "cà nâŋ rót paj bâan phʉ̂an phǒm kɔ̀ɔn",
+   "en": "We'll go by car to a friend of mine's house first,",
+   "pt": "Vamos de carro até a casa de um amigo meu,"
+  },
+  {
+   "sp": "A",
+   "s": "แล้ว|lɛ́ɛo จะ|jà ไป|bpai ลง|long เรือ|rʉʉa ที่นั่น|tîi-nân",
+   "fsi": "lɛ́ɛw cà paj loŋ rʉa thîinân",
+   "en": "and then get in a boat there.",
+   "pt": "e lá a gente pega um barco."
+  },
+  {
+   "sp": "B",
+   "s": "บ้าน|bâan เขา|kǎo อยู่|yùu ริม|rim คลอง|klɔɔng หรือ|rʉ̌ʉ ครับ|kráp",
+   "fsi": "bâan kháw jùu rim khlɔɔŋ rʉ̌ʉ khráp",
+   "en": "His house is on the canal, eh?",
+   "pt": "A casa dele fica à beira do canal, é?"
+  },
+  {
+   "sp": "A",
+   "s": "ครับ|kráp",
+   "fsi": "khráp",
+   "en": "Right.",
+   "pt": "Isso."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo จะ|jà พา|paa เรา|rao ไป|bpai ดู|duu ตลาดน้ำ|dtà-làat-náam",
+   "fsi": "kháw cà phaa raw paj duu talàatnáam",
+   "en": "He will take us to see the Floating Market.",
+   "pt": "Ele vai levar a gente para ver o mercado flutuante."
+  },
+  {
+   "sp": "B",
+   "s": "เรา|rao จะ|jà พบ|póp กัน|gan ที่ไหน|tîi-nǎi",
+   "fsi": "raw cà phóp kan thîinǎj",
+   "en": "Where will we meet?",
+   "pt": "Onde a gente se encontra?"
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm จะ|jà ไป|bpai รับ|ráp คุณ|kun ที่|tîi บ้าน|bâan เวลา|wee-laa สองโมงเช้า|sɔ̌ɔng-moong-cháao",
+   "fsi": "phǒm cà paj ráp khun thîi bâan weelaa sɔ̌ɔŋmooŋcháaw",
+   "en": "I'll pick you up at home at 8 a.m.",
+   "pt": "Passo para te buscar em casa às oito da manhã."
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ควร|kuuan จะ|jà เอา|ao อะไร|à-rai ไป|bpai บ้าง|bâang",
+   "fsi": "phǒm khuan cà ʔaw ʔaraj paj bâaŋ",
+   "en": "What should I take with me?",
+   "pt": "O que eu devo levar?"
+  },
+  {
+   "sp": "A",
+   "s": "เอา|ao เงิน|ngən ไป|bpai ซื้อ|sʉ́ʉ ของ|kɔ̌ɔng กับ|gàp กล้องถ่ายรูป|glɔ̂ng-tàai-rûup",
+   "fsi": "ʔaw ŋən paj sʉ́ʉ khɔ̌ɔŋ kàp klɔ̂ŋthàajrûup",
+   "en": "Take some money for shopping and your camera.",
+   "pt": "Leve dinheiro para as compras e a câmera."
+  },
+  {
+   "sp": "A",
+   "s": "ก็|gɔ̂ɔ พอ|pɔɔ แล้ว|lɛ́ɛo ครับ|kráp",
+   "fsi": "kɔ̂ɔ phɔɔ lɛ́ɛw khráp",
+   "en": "That'll be enough.",
+   "pt": "Já está bom."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "โอกาส",
+   "p": "oo-gàat",
+   "fsi": "ʔookàat",
+   "pt": "oportunidade, chance",
+   "en": "chance"
+  },
+  {
+   "th": "จักรยาน",
+   "p": "jàk-grà-yaan",
+   "fsi": "càkkrajaan",
+   "pt": "bicicleta (clf. คัน)",
+   "en": "bicycle"
+  },
+  {
+   "th": "ชวน",
+   "p": "chuuan",
+   "fsi": "chuan",
+   "pt": "convidar, chamar (informal)",
+   "en": "to invite, urge"
+  },
+  {
+   "th": "กล้องถ่ายรูป",
+   "p": "glɔ̂ng-tàai-rûup",
+   "fsi": "klɔ̂ŋthàajrûup",
+   "pt": "câmera fotográfica",
+   "en": "camera"
+  },
+  {
+   "th": "เหล้า",
+   "p": "lâo",
+   "fsi": "lâw",
+   "pt": "bebida alcoólica (clf. ขวด)",
+   "en": "liquor"
+  },
+  {
+   "th": "ท่า",
+   "p": "tâa",
+   "fsi": "thâa",
+   "pt": "cais, porto",
+   "en": "port, pier"
+  },
+  {
+   "th": "ท่าพระจันทร์",
+   "p": "tâa-prá-jan",
+   "fsi": "thâaphracan",
+   "pt": "Tha Phra Chan (cais em Bangkok)",
+   "en": "Tha Phra Chan pier"
+  },
+  {
+   "th": "พา",
+   "p": "paa",
+   "fsi": "phaa",
+   "pt": "levar, acompanhar (alguém)",
+   "en": "to take, escort (someone)"
+  },
+  {
+   "th": "พอ",
+   "p": "pɔɔ",
+   "fsi": "phɔɔ",
+   "pt": "bastar, ser suficiente",
+   "en": "to be enough"
+  },
+  {
+   "th": "รถยนต์",
+   "p": "rót-yon",
+   "fsi": "rótjon",
+   "pt": "carro, automóvel (clf. คัน)",
+   "en": "car"
+  },
+  {
+   "th": "รถสามล้อ",
+   "p": "rót-sǎam-lɔ́ɔ",
+   "fsi": "rótsǎamlɔ́ɔ",
+   "pt": "riquixá de três rodas",
+   "en": "samlor"
+  },
+  {
+   "th": "รถตุ๊กตุ๊ก",
+   "p": "rót-dtúk-dtúk",
+   "fsi": "róttúktúk",
+   "pt": "tuk-tuk",
+   "en": "tuk-tuk"
+  },
+  {
+   "th": "ตลาดน้ำ",
+   "p": "dtà-làat-náam",
+   "fsi": "talàatnáam",
+   "pt": "mercado flutuante",
+   "en": "floating market"
+  },
+  {
+   "th": "ทีเดียว",
+   "p": "tii-diiao",
+   "fsi": "thiidiaw",
+   "pt": "bem, muito; exatamente",
+   "en": "quite, very; exactly"
+  },
+  {
+   "th": "ถีบ",
+   "p": "tìip",
+   "fsi": "thìip",
+   "pt": "pedalar; chutar",
+   "en": "to pedal; to kick"
+  },
+  {
+   "th": "ธรรมดา",
+   "p": "tam-má-daa",
+   "fsi": "thammadaa",
+   "pt": "comum, normalmente",
+   "en": "ordinary, usually"
+  },
+  {
+   "th": "ตรงกับ",
+   "p": "dtrong-gàp",
+   "fsi": "troŋkàp",
+   "pt": "cair em, coincidir com",
+   "en": "to fall on, coincide with"
+  },
+  {
+   "th": "วันอังคาร",
+   "p": "wan-ang-kaan",
+   "fsi": "wanʔaŋkhaan",
+   "pt": "terça-feira",
+   "en": "Tuesday"
+  },
+  {
+   "th": "วันพุธ",
+   "p": "wan-pút",
+   "fsi": "wanphút",
+   "pt": "quarta-feira",
+   "en": "Wednesday"
+  },
+  {
+   "th": "วันพฤหัส",
+   "p": "wan-prʉ́-hàt",
+   "fsi": "wanphrʉ́hàt",
+   "pt": "quinta-feira",
+   "en": "Thursday"
+  },
+  {
+   "th": "วันศุกร์",
+   "p": "wan-sùk",
+   "fsi": "wansùk",
+   "pt": "sexta-feira",
+   "en": "Friday"
+  },
+  {
+   "th": "วันพระ",
+   "p": "wan-prá",
+   "fsi": "wanphrá",
+   "pt": "dia santo budista",
+   "en": "Buddhist holy day"
+  },
+  {
+   "th": "เมษา",
+   "p": "mee-sǎa",
+   "fsi": "meesǎa",
+   "pt": "abril (forma curta de เมษายน)",
+   "en": "April (short form)"
+  },
+  {
+   "th": "ยังงั้น",
+   "p": "yang-ngán",
+   "fsi": "jaŋŋán",
+   "pt": "então, nesse caso (coloquial)",
+   "en": "then, in that case (colloquial)"
+  },
+  {
+   "th": "วันที่",
+   "p": "wan-tîi",
+   "fsi": "wanthîi",
+   "pt": "dia (do mês)",
+   "en": "date, day of the month"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "ว่าง: livre, sem compromisso",
+    "en": "ว่าง: free"
+   },
+   "e": {
+    "pt": "Falando de pessoas, ว่าง quer dizer 'desocupado, com tempo': คุณว่างไหม = você está livre? Falando de coisas, é 'vago': ห้องว่าง = quarto vago.",
+    "en": "Of people, ว่าง means free, not busy; of things, vacant."
+   },
+   "ex": "คุณ|kun ว่าง|wâang ไหม|mǎi"
+  },
+  {
+   "t": {
+    "pt": "ตรงกับ: cair em",
+    "en": "ตรงกับ: to fall on"
+   },
+   "e": {
+    "pt": "ตรงกับ liga uma data a outra referência: วันที่เจ็ดตรงกับวันอะไร = o dia sete cai em que dia da semana? Também converte calendários, como o ano cristão no budista. Analogia: é colocar duas réguas lado a lado.",
+    "en": "ตรงกับ matches a date to a weekday or to another calendar."
+   },
+   "ex": "วันที่|wan-tîi เจ็ด|jèt ตรงกับ|dtrong-gàp วันจันทร์|wan-jan"
+  },
+  {
+   "t": {
+    "pt": "เชิญ × ชวน: dois convites",
+    "en": "เชิญ vs ชวน"
+   },
+   "e": {
+    "pt": "เชิญ é o convite formal de quem é anfitrião e banca a ocasião; ชวน é o 'bora?' de quem chama alguém para acompanhá-lo. Analogia: convite impresso de casamento × mensagem no grupo dos amigos.",
+    "en": "เชิญ is a formal host's invitation; ชวน is an informal 'come along'."
+   },
+   "ex": "ผม|pǒm ชวน|chuuan เพื่อน|pʉ̂ʉan ไป|bpai ทะเล|tá-lee"
+  },
+  {
+   "t": {
+    "pt": "Como responder 'vai como?'",
+    "en": "Answering 'how are you going?'"
+   },
+   "e": {
+    "pt": "Há quatro moldes: (1) ไป + veículo (ไปรถไฟ); (2) verbo de embarque + veículo + ไป/มา + destino (นั่งรถไป, ลงเรือไป, ขึ้นเครื่องบินไป, ขับรถมา, ถีบจักรยานไป); (3) บิน ou เดิน + ไป/มา + destino; (4) ไป/มา + destino + โดย + veículo, que soa formal ou escrito.",
+    "en": "Four patterns: ไปรถไฟ; นั่งรถไป...; บินไป/เดินไป...; ไป... โดยรถเมล์ (formal)."
+   },
+   "ex": "เขา|kǎo ไป|bpai เชียงใหม่|chiiang-mài โดย|dooi รถไฟ|rót-fai"
+  },
+  {
+   "t": {
+    "pt": "พา × เอา: levar gente ou coisa",
+    "en": "พา vs เอา"
+   },
+   "e": {
+    "pt": "พา leva pessoas (เขาพาเราไปดูตลาดน้ำ); เอา leva objetos (เอาเงินไปซื้อของ). Os dois pedem ไป (para longe de quem fala) ou มา (para perto). Analogia: พา é guiar alguém pela mão; เอา é carregar na mochila.",
+    "en": "พา takes people, เอา takes things; both with ไป or มา."
+   },
+   "ex": "เอา|ao กล้องถ่ายรูป|glɔ̂ng-tàai-rûup มา|maa"
+  },
+  {
+   "t": {
+    "pt": "มานานแล้ว: faz tempo que…",
+    "en": "มานานแล้ว: for a long time"
+   },
+   "e": {
+    "pt": "Frase + มานานแล้ว = algo que começou há tempo e continua: ผมอยากไปมานานแล้ว = faz tempo que quero ir. Analogia: é o 'já faz um tempão que…' do português.",
+    "en": "Sentence + มานานแล้ว: something going on for a long time and still continuing."
+   },
+   "ex": "ผม|pǒm เรียน|riian ภาษาไทย|paa-sǎa-tai มา|maa นาน|naan แล้ว|lɛ́ɛo"
+  }
+ ]
+}

@@ -13,7 +13,7 @@
   {"sp": "J", "s": "สวัสดี|sà-wàt-dii ครับ|kráp", "fsi": "sawàtdii khráp", "en": "Hello.", "pt": "Olá."},
   {"sp": "M", "s": "สวัสดี|sà-wàt-dii ค่ะ|kâ", "fsi": "sawàtdii khâ", "en": "Hello.", "pt": "Olá."},
   {"sp": "A", "s": "ขอโทษ|kɔ̌ɔ-tôot ผม|pǒm ไป|bpai ก่อน|gɔ̀ɔn นะ|ná ครับ|kráp", "fsi": "khɔ̌ɔthôot, phǒm paj kɔ̀ɔn ná khráp", "en": "Excuse me, I must go.", "pt": "Com licença, preciso ir andando."},
-  {"sp": "B", "s": "เชิญ|chəən ครับ|kráp พบ|pòp กัน|gan ใหม่|mài ครับ|kráp", "fsi": "chəən khráp, phòp kan màj khráp", "en": "All right, I'll see you again.", "pt": "Claro. Até a próxima!"}
+  {"sp": "B", "s": "เชิญ|chəən ครับ|kráp พบ|póp กัน|gan ใหม่|mài ครับ|kráp", "fsi": "chəən khráp, phòp kan màj khráp", "en": "All right, I'll see you again.", "pt": "Claro. Até a próxima!"}
  ],
  "vocab": [
   {"th": "อาจารย์", "p": "aa-jaan", "fsi": "ʔaacaan", "pt": "professor(a) universitário(a)", "en": "college or university teacher"},
@@ -38,8 +38,8 @@
   {"th": "ไป", "p": "bpai", "fsi": "paj", "pt": "ir", "en": "to go"},
   {"th": "ไปก่อน", "p": "bpai-gɔ̀ɔn", "fsi": "paj kɔ̀ɔn", "pt": "ir na frente, ir primeiro (ao se despedir)", "en": "to go first, to go ahead"},
   {"th": "ประเทศ", "p": "bprà-têet", "fsi": "prathêet", "pt": "país, nação", "en": "country, nation"},
-  {"th": "พบ", "p": "pòp", "fsi": "phòp", "pt": "encontrar, topar com (alguém)", "en": "to meet, run into (someone)"},
-  {"th": "พบกัน", "p": "pòp-gan", "fsi": "phòp kan", "pt": "encontrar-se, ver-se (um ao outro)", "en": "to meet or see each other"},
+  {"th": "พบ", "p": "póp", "fsi": "phòp", "pt": "encontrar, topar com (alguém)", "en": "to meet, run into (someone)"},
+  {"th": "พบกัน", "p": "póp-gan", "fsi": "phòp kan", "pt": "encontrar-se, ver-se (um ao outro)", "en": "to meet or see each other"},
   {"th": "รัฐมนตรี", "p": "rát-tà-mon-dtrii", "fsi": "rátthamontrii", "pt": "ministro (chefe de um ministério)", "en": "minister (head of a ministry)"},
   {"th": "เรื่อยๆ", "p": "rʉ̂ai-rʉ̂ai", "fsi": "rʉ̂aj rʉ̂aj", "pt": "assim-assim, mais ou menos (resposta a cumprimento)", "en": "so so (as a response to a greeting)"},
   {"th": "ต่าง", "p": "dtàang", "fsi": "tàaŋ", "pt": "diferente, separado", "en": "(to be) different, separate"},

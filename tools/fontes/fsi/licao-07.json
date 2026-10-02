@@ -61,7 +61,7 @@
   {"th": "ร้าน", "p": "ráan", "fsi": "ráan", "pt": "loja, estabelecimento", "en": "shop, store"},
   {"th": "ร้านอาหาร", "p": "ráan-aa-hǎan", "fsi": "raanaahǎan", "pt": "restaurante", "en": "restaurant"},
   {"th": "ร้านขายของ", "p": "ráan-kǎai-kɔ̌ɔng", "fsi": "raankhǎajkhɔ̌ɔŋ", "pt": "loja, comércio", "en": "shop, store"},
-  {"th": "ราชบุรี", "p": "râat-bù-rii", "fsi": "râatburii", "pt": "Ratchaburi (cidade no centro da Tailândia)", "en": "Ratburi (city in Central Thailand)"},
+  {"th": "ราชบุรี", "p": "râat-chá-bù-rii", "fsi": "râatchaburii", "pt": "Ratchaburi (cidade no centro da Tailândia)", "en": "Ratburi (city in Central Thailand)"},
   {"th": "โรงพยาบาล", "p": "roong-pá-yaa-baan", "fsi": "rooŋphájaabaan", "pt": "hospital", "en": "hospital"},
   {"th": "โรงแรม", "p": "roong-rɛɛm", "fsi": "rooŋrɛɛm", "pt": "hotel", "en": "hotel"},
   {"th": "รถ", "p": "rót", "fsi": "rot", "pt": "carro, veículo", "en": "car"},

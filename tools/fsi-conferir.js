@@ -16,9 +16,9 @@ for (const f of ["vocab_a1.tsv", "vocab_a2.tsv"]) { const p = path.join(__dirnam
    oclusiva seguida de vogal abre sílaba (p t k c -> bp dt g j); no fim de sílaba fica p t k. Formas coloquiais do FSI
    (máj, kháw, chán) voltam à forma de dicionário antes de comparar. */
 const COLLOQ = [[/\bmáj\b/g, "mǎj"], [/\bkháw\b/g, "khǎw"], [/\bchán\b/g, "chǎn"], [/\bdichán\b/g, "dichǎn"]];
-function haas2paiboon(h, clusters = true) {
+function haas2paiboon(h, clusters = true, colloq = true) {
   let s = nfc(String(h || "").toLowerCase());
-  COLLOQ.forEach(([re, to]) => { s = s.replace(re, to); });
+  if (colloq) COLLOQ.forEach(([re, to]) => { s = s.replace(re, to); });
   s = nfd(s).replace(/ʔ/g, "|").replace(/[-,.?!'’"()]/g, " ").replace(/\s+/g, " ").trim();
   s = s.replace(/y/g, "ʉ").replace(/ŋ/g, "Ŋ").replace(/ph/g, "P").replace(/th/g, "T").replace(/kh/g, "K").replace(/ch/g, "C");
   const V = "(?=[aeiouɛɔəʉ])", VC = clusters ? "(?=[rlw]?[aeiouɛɔəʉ])" : V;   /* VC: encontros pr, kr, pl, kl, kw, tr abrem sílaba */
@@ -45,8 +45,9 @@ function compare(fsi, p, where, W) {
   if (!fsi) return;
   /* p/t/k + r/l/w no meio da palavra é ambíguo: encontro (kr-, pl-) ou final + início (nák-riian). Aceita a leitura que bater. */
   const shrink = x => x.replace(/([aeiouɛɔəʉ])\1/g, "$1"), b = skel(p);
-  const convs = [haas2paiboon(fsi, true), haas2paiboon(fsi, false)];
-  const conv = convs.find(c => shrink(skel(c)) === shrink(b)) || convs[0];
+  /* formas coloquiais (máj, kháw, chán) só valem quando a palavra é mesmo ไหม/เขา/ฉัน: tenta com e sem a troca */
+  const convs = [[true, true], [false, true], [true, false], [false, false]].map(([c, q]) => haas2paiboon(fsi, c, q));
+  const conv = convs.find(c => shrink(skel(c)) === shrink(b) && subseq(tones(c), tones(p))) || convs.find(c => shrink(skel(c)) === shrink(b)) || convs[0];
   const a = skel(conv), d = lev(a, b), r = 1 - d / Math.max(a.length, b.length, 1);
   if (shrink(a) !== shrink(b)) W.push(`${where}: FSI "${fsi}" → ${conv} difere de "${p}" (${Math.round(r * 100)}% igual)`);
   else if (!subseq(tones(conv), tones(p))) W.push(`${where}: tons diferentes — FSI ${conv} × Paiboon ${p}`);
