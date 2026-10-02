@@ -22,6 +22,7 @@ def tone_pb(p):
 def analyse(w):
     w = re.sub(r'.ร์|.์', '', w) if 'ทร์' not in w else w.replace('ทร์', '')
     if re.search('[ตทจ]ร$', w): w = w[:-1]          # ร final mudo: บุตร, ลิตร, จักร
+    w = re.sub('าติ$', 'าต', w)                     # ิ mudo: ชาติ, ญาติ
     mark = 0
     for k, v in MARKS.items():
         if k in w: mark = v; w = w.replace(k, '')
@@ -55,7 +56,7 @@ def analyse(w):
     return c, bool(live), not short, mark
 # exceções conhecidas: ก็ (escrito curto, dito descendente), sílabas com letra muda que o analisador não modela,
 # e empréstimos do inglês que seguem a pronúncia e não a escrita (เทป, ลิฟต์…)
-EXCECOES = {'ก็', 'ชาติ', 'เทป'}
+EXCECOES = {'ก็', 'เทป'}
 diffs = []
 for w in D['words']:
     p = w['p']

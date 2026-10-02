@@ -1,0 +1,346 @@
+{
+ "n": 27,
+ "paginas": "vol. 2, p. 441–471",
+ "titulo": {
+  "pt": "Mandando chamar um táxi",
+  "en": "Sending a servant for a taxi"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "ช่วย|chûuai เรียก|rîiak แท็กซี่|tɛ́k-sîi ให้|hâi ผม|pǒm คัน|kan หนึ่ง|nʉ̀ng",
+   "fsi": "chûaj rîak thɛ́ksîi hâj phǒm khan nʉ̀ŋ",
+   "en": "Please call a taxi for me.",
+   "pt": "Chame um táxi para mim, por favor."
+  },
+  {
+   "sp": "A",
+   "s": "บอก|bɔ̀ɔk เขา|kǎo ว่า|wâa ไป|bpai สาทร|sǎa-tɔɔn",
+   "fsi": "bɔ̀ɔk kháw wâa paj sǎathɔɔn",
+   "en": "Tell him I'm going to Sathorn,",
+   "pt": "Diga que vou para a Sathorn,"
+  },
+  {
+   "sp": "A",
+   "s": "เลย|ləəi จัสแม็ก|jàt-sà-mɛ́k ไป|bpai หน่อย|nɔ̀i",
+   "fsi": "ləəj càtsamɛ́k paj nɔ̀j",
+   "en": "a little past JUSMAG.",
+   "pt": "um pouco depois do JUSMAG."
+  },
+  {
+   "sp": "B",
+   "s": "จะ|jà ให้|hâi เขา|kǎo คอย|kɔɔi ด้วย|dûuai ไหม|mǎi คะ|ká",
+   "fsi": "cà hâj kháw khɔɔj dûaj máj khá",
+   "en": "Will you have him wait?",
+   "pt": "Quer que ele espere?"
+  },
+  {
+   "sp": "A",
+   "s": "ไม่ต้อง|mâi-dtɔ̂ng",
+   "fsi": "mâjtɔ̂ŋ",
+   "en": "That's not necessary.",
+   "pt": "Não precisa."
+  },
+  {
+   "sp": "A",
+   "s": "ได้|dâai รถ|rót ไหม|mǎi",
+   "fsi": "dâj rót máj",
+   "en": "Did you get one?",
+   "pt": "Conseguiu um carro?"
+  },
+  {
+   "sp": "B",
+   "s": "ได้|dâai ค่ะ|kâ",
+   "fsi": "dâj khâ",
+   "en": "Yes, I did.",
+   "pt": "Consegui."
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo เอา|ao เท่าไร|tâo-rài",
+   "fsi": "kháw ʔaw thâwrài",
+   "en": "How much does he want?",
+   "pt": "Quanto ele quer?"
+  },
+  {
+   "sp": "B",
+   "s": "สิบห้า|sìp-hâa บาท|bàat ค่ะ|kâ",
+   "fsi": "sìp hâa bàat khâ",
+   "en": "Fifteen baht.",
+   "pt": "Quinze baht."
+  },
+  {
+   "sp": "A",
+   "s": "ไม่|mâi แพง|pɛɛng ไป|bpai หรือ|rʉ̌ʉ",
+   "fsi": "mâj phɛɛŋ paj rʉ̌ʉ",
+   "en": "Isn't that too much?",
+   "pt": "Não está caro demais?"
+  },
+  {
+   "sp": "A",
+   "s": "ธรรมดา|tam-má-daa เวลา|wee-laa ฉัน|chǎn เรียก|rîiak เอง|eeng",
+   "fsi": "thammadaa weelaa chán rîak ʔeeŋ",
+   "en": "Usually, when I get one myself,",
+   "pt": "Normalmente, quando eu mesmo chamo,"
+  },
+  {
+   "sp": "A",
+   "s": "เขา|kǎo คิด|kít แปด|bpɛ̀ɛt บาท|bàat เท่านั้น|tâo-nán",
+   "fsi": "kháw khít pɛ̀ɛt bàat thâwnán",
+   "en": "they charge only 8 baht.",
+   "pt": "cobram só oito baht."
+  },
+  {
+   "sp": "B",
+   "s": "ตอนนี้|dtɔɔn-níi กำลัง|gam-lang เลิก|lə̂ək งาน|ngaan",
+   "fsi": "tɔɔnníi kamlaŋ lə̂ək ŋaan",
+   "en": "It's quitting time now.",
+   "pt": "Agora é hora da saída do trabalho."
+  },
+  {
+   "sp": "B",
+   "s": "แท็กซี่|tɛ́k-sîi หายาก|hǎa-yâak ค่ะ|kâ",
+   "fsi": "thɛ́ksîi hǎajâak khâ",
+   "en": "Taxis are hard to find.",
+   "pt": "Táxi está difícil de achar."
+  },
+  {
+   "sp": "B",
+   "s": "ต่อ|dtɔ̀ɔ ไม่|mâi ค่อย|kɔ̂i ได้|dâai",
+   "fsi": "tɔ̀ɔ mâj khɔ̂j dâj",
+   "en": "Bargaining is hardly possible.",
+   "pt": "Quase não dá para pechinchar."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "เรียก",
+   "p": "rîiak",
+   "fsi": "rîak",
+   "pt": "chamar",
+   "en": "to call"
+  },
+  {
+   "th": "ไม่ต้อง",
+   "p": "mâi-dtɔ̂ng",
+   "fsi": "mâjtɔ̂ŋ",
+   "pt": "não precisa",
+   "en": "not necessary"
+  },
+  {
+   "th": "เอง",
+   "p": "eeng",
+   "fsi": "ʔeeŋ",
+   "pt": "eu mesmo, por conta própria",
+   "en": "oneself, by oneself"
+  },
+  {
+   "th": "หายาก",
+   "p": "hǎa-yâak",
+   "fsi": "hǎajâak",
+   "pt": "difícil de encontrar, raro",
+   "en": "hard to find"
+  },
+  {
+   "th": "ต่อ",
+   "p": "dtɔ̀ɔ",
+   "fsi": "tɔ̀ɔ",
+   "pt": "pechinchar; continuar; emendar",
+   "en": "to bargain; to continue"
+  },
+  {
+   "th": "ไม่ค่อย",
+   "p": "mâi-kɔ̂i",
+   "fsi": "mâjkhɔ̂j",
+   "pt": "quase não, não muito",
+   "en": "hardly, not very"
+  },
+  {
+   "th": "อนุญาต",
+   "p": "à-nú-yâat",
+   "fsi": "ʔanújâat",
+   "pt": "permitir",
+   "en": "to permit"
+  },
+  {
+   "th": "ออกเสียง",
+   "p": "ɔ̀ɔk-sǐiang",
+   "fsi": "ʔɔ̀ɔksǐaŋ",
+   "pt": "pronunciar",
+   "en": "to pronounce"
+  },
+  {
+   "th": "บาน",
+   "p": "baan",
+   "fsi": "baan",
+   "pt": "classificador de portas e janelas",
+   "en": "classifier for doors"
+  },
+  {
+   "th": "ฉบับ",
+   "p": "chà-bàp",
+   "fsi": "chabàp",
+   "pt": "classificador de cartas e jornais",
+   "en": "classifier for letters, newspapers"
+  },
+  {
+   "th": "หยุดพัก",
+   "p": "yùt-pák",
+   "fsi": "jùtphák",
+   "pt": "fazer uma pausa",
+   "en": "to take a break"
+  },
+  {
+   "th": "เกินไป",
+   "p": "gəən-bpai",
+   "fsi": "kəənpaj",
+   "pt": "demais, em excesso",
+   "en": "excessively, too"
+  },
+  {
+   "th": "ค่าโดยสาร",
+   "p": "kâa-dooi-sǎan",
+   "fsi": "khâadoojsǎan",
+   "pt": "tarifa, passagem",
+   "en": "fare"
+  },
+  {
+   "th": "คำถาม",
+   "p": "kam-tǎam",
+   "fsi": "khamthǎam",
+   "pt": "pergunta",
+   "en": "question"
+  },
+  {
+   "th": "คนขับรถ",
+   "p": "kon-kàp-rót",
+   "fsi": "khonkhàprót",
+   "pt": "motorista",
+   "en": "driver"
+  },
+  {
+   "th": "โลก",
+   "p": "lôok",
+   "fsi": "lôok",
+   "pt": "mundo",
+   "en": "world"
+  },
+  {
+   "th": "มักจะ",
+   "p": "mák-jà",
+   "fsi": "mákcà",
+   "pt": "costumar, ter tendência a",
+   "en": "usually, likely to"
+  },
+  {
+   "th": "นักการเมือง",
+   "p": "nák-gaan-mʉʉang",
+   "fsi": "nákkaanmʉaŋ",
+   "pt": "político",
+   "en": "politician"
+  },
+  {
+   "th": "ผิด",
+   "p": "pìt",
+   "fsi": "phìt",
+   "pt": "errado; errar",
+   "en": "wrong; to make a mistake"
+  },
+  {
+   "th": "สะกด",
+   "p": "sà-gòt",
+   "fsi": "sakòt",
+   "pt": "soletrar",
+   "en": "to spell"
+  },
+  {
+   "th": "สงคราม",
+   "p": "sǒng-kraam",
+   "fsi": "sǒŋkhraam",
+   "pt": "guerra",
+   "en": "war"
+  },
+  {
+   "th": "ตำแหน่ง",
+   "p": "dtam-nɛ̀ng",
+   "fsi": "tamnɛ̀ŋ",
+   "pt": "posição, cargo",
+   "en": "position, rank"
+  },
+  {
+   "th": "จัสแม็ก",
+   "p": "jàt-sà-mɛ́k",
+   "fsi": "càtsamɛ́k",
+   "pt": "JUSMAG (missão militar dos EUA)",
+   "en": "JUSMAG"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "ฉัน: o 'eu' de quem está acima ou próximo",
+    "en": "ฉัน: social register"
+   },
+   "e": {
+    "pt": "Homens quase só usam ฉัน falando com alguém de status social mais baixo, como um empregado. Mulheres usam mais: com subordinados, com estranhos, com conhecidos e entre amigos. Analogia: o pronome também carrega um crachá de hierarquia.",
+    "en": "Men use ฉัน mainly to social inferiors; women use it more widely."
+   },
+   "ex": "ฉัน|chǎn ไป|bpai เอง|eeng"
+  },
+  {
+   "t": {
+    "pt": "เกินไป e ไป: demais",
+    "en": "เกินไป / ไป: too much"
+   },
+   "e": {
+    "pt": "Depois de verbo de estado, เกินไป ou só ไป quer dizer 'demais': แพงเกินไป = caro demais; แพงไปหรือ = não está caro demais?",
+    "en": "After stative verbs, เกินไป or ไป means 'too, excessively'."
+   },
+   "ex": "แพง|pɛɛng เกินไป|gəən-bpai"
+  },
+  {
+   "t": {
+    "pt": "ตอนที่ × เวลา: 'quando'",
+    "en": "ตอนที่ vs เวลา: 'when'"
+   },
+   "e": {
+    "pt": "As duas viram 'quando', mas เวลา fala de ocasiões que se repetem (เวลาผมไม่เข้าใจ = sempre que não entendo) e ตอนที่ de um período específico (ตอนที่คุณเป็นเด็ก = quando você era criança).",
+    "en": "เวลา: whenever, repeated occasions; ตอนที่: a particular period."
+   },
+   "ex": "เวลา|wee-laa ผม|pǒm ไม่|mâi เข้าใจ|kâo-jai"
+  },
+  {
+   "t": {
+    "pt": "ให้ depois do verbo: para alguém",
+    "en": "ให้ after a verb: for someone"
+   },
+   "e": {
+    "pt": "Como verbo secundário, ให้ quer dizer 'para alguém, no lugar de alguém': ช่วยขับรถให้ผม = dirija para mim; เขาทำอาหารให้คุณทาน = ele faz comida para você comer. Analogia: é o 'para mim' de 'faz isso para mim?'.",
+    "en": "As a secondary verb, ให้ means 'for the benefit of'."
+   },
+   "ex": "ช่วย|chûuai เรียก|rîiak แท็กซี่|tɛ́k-sîi ให้|hâi ผม|pǒm"
+  },
+  {
+   "t": {
+    "pt": "บอกให้, ขอให้, สั่งให้, อนุญาตให้",
+    "en": "Telling someone to do something"
+   },
+   "e": {
+    "pt": "Verbos de pedir, mandar ou permitir ganham ให้ + frase: เขาบอกให้ผมคอย = ele me disse para esperar; เขาอนุญาตให้ผมเรียน = ele me deixou estudar. Só ให้ (เขาให้ผมคอย) diz que ele me fez esperar, sem dizer como.",
+    "en": "บอก/ขอ/สั่ง/อนุญาต + ให้ + clause: telling, asking, ordering or permitting."
+   },
+   "ex": "เขา|kǎo บอก|bɔ̀ɔk ให้|hâi ผม|pǒm คอย|kɔɔi"
+  },
+  {
+   "t": {
+    "pt": "เอง: sozinho, por conta própria",
+    "en": "เอง: by oneself"
+   },
+   "e": {
+    "pt": "เอง no fim da oração = sem ajuda de ninguém: ผมไปซื้อเอง = fui eu mesmo comprar.",
+    "en": "เอง at the end of a clause: by oneself, without help."
+   },
+   "ex": "ผม|pǒm ทำ|tam เอง|eeng"
+  }
+ ]
+}

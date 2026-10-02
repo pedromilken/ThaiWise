@@ -1,0 +1,374 @@
+{
+ "n": 26,
+ "paginas": "vol. 2, p. 416–440",
+ "titulo": {
+  "pt": "Que presente dar num casamento",
+  "en": "Discussion of wedding gifts"
+ },
+ "dialogo": [
+  {
+   "sp": "A",
+   "s": "คุณ|kun สวัสดิ์|sà-wàt ฮะ|há ถาม|tǎam อะไร|à-rai หน่อย|nɔ̀i ได้|dâai ไหม|mǎi",
+   "fsi": "khun sawàt há thǎam ʔaraj nɔ̀j dâj máj",
+   "en": "Mr. Sawat, may I ask you something?",
+   "pt": "Seu Sawat, posso te perguntar uma coisa?"
+  },
+  {
+   "sp": "B",
+   "s": "ยินดี|yin-dii ฮะ|há",
+   "fsi": "jindii há",
+   "en": "Gladly.",
+   "pt": "Claro!"
+  },
+  {
+   "sp": "A",
+   "s": "วันอาทิตย์|wan-aa-tít นี้|níi ผม|pǒm ได้รับ|dâai-ráp เชิญ|chəən ไป|bpai งานเลี้ยง|ngaan-líiang",
+   "fsi": "wanʔaathít níi phǒm dâjráp chəən paj ŋaanlíaŋ",
+   "en": "This Sunday I've been invited to a party.",
+   "pt": "Neste domingo fui convidado para uma festa."
+  },
+  {
+   "sp": "B",
+   "s": "งาน|ngaan อะไร|à-rai ฮะ|há",
+   "fsi": "ŋaan ʔaraj há",
+   "en": "What kind of party?",
+   "pt": "Que festa?"
+  },
+  {
+   "sp": "A",
+   "s": "งาน|ngaan แต่งงาน|dtɛ̀ng-ngaan",
+   "fsi": "ŋaan tɛ̀ŋŋaan",
+   "en": "A wedding.",
+   "pt": "Um casamento."
+  },
+  {
+   "sp": "A",
+   "s": "ผม|pǒm ไม่|mâi ทราบ|sâap ว่า|wâa จะ|jà ซื้อ|sʉ́ʉ อะไร|à-rai ให้|hâi เขา|kǎo ดี|dii",
+   "fsi": "phǒm mâj sâap wâa cà sʉ́ʉ ʔaraj hâj kháw dii",
+   "en": "I don't know what I should buy them.",
+   "pt": "Não sei o que comprar para eles."
+  },
+  {
+   "sp": "B",
+   "s": "ให้|hâi ของใช้|kɔ̌ɔng-chái สิ|sì ฮะ|há",
+   "fsi": "hâj khɔ̌ɔŋchái sì há",
+   "en": "Give something useful.",
+   "pt": "Dá alguma coisa útil."
+  },
+  {
+   "sp": "A",
+   "s": "เช่น|chên อะไร|à-rai มั่ง|mâng",
+   "fsi": "chên ʔaraj mâŋ",
+   "en": "Like what?",
+   "pt": "Tipo o quê?"
+  },
+  {
+   "sp": "B",
+   "s": "เช่น|chên เครื่องครัว|krʉ̂ʉang-kruua สำหรับ|sǎm-ràp เจ้าสาว|jâo-sǎao",
+   "fsi": "chên khrʉ̂aŋkhrua sǎmràp câwsǎaw",
+   "en": "Kitchen utensils for the bride,",
+   "pt": "Utensílios de cozinha para a noiva,"
+  },
+  {
+   "sp": "B",
+   "s": "เครื่องใช้ไฟฟ้า|krʉ̂ʉang-chái-fai-fáa หรือ|rʉ̌ʉ ของ|kɔ̌ɔng สวยๆ|sǔuai-sǔuai สำหรับ|sǎm-ràp แต่ง|dtɛ̀ng บ้าน|bâan",
+   "fsi": "khrʉ̂aŋcháifajfáa rʉ̌ʉ khɔ̌ɔŋ sǔajsǔaj sǎmràp tɛ̀ŋ bâan",
+   "en": "electrical appliances, or pretty things to decorate the house.",
+   "pt": "eletrodomésticos ou coisas bonitas para enfeitar a casa."
+  },
+  {
+   "sp": "A",
+   "s": "ตอนที่|dtɔɔn-tîi คุณ|kun แต่งงาน|dtɛ̀ng-ngaan",
+   "fsi": "tɔɔnthîi khun tɛ̀ŋŋaan",
+   "en": "When you got married,",
+   "pt": "Quando você se casou,"
+  },
+  {
+   "sp": "A",
+   "s": "คุณ|kun ได้|dâai ของขวัญ|kɔ̌ɔng-kwǎn อะไร|à-rai มั่ง|mâng ฮะ|há",
+   "fsi": "khun dâj khɔ̌ɔŋkhwǎn ʔaraj mâŋ há",
+   "en": "what presents did you get?",
+   "pt": "que presentes você ganhou?"
+  },
+  {
+   "sp": "B",
+   "s": "ผม|pǒm ได้|dâai ทั้ง|táng เงิน|ngən และ|lɛ́ ของ|kɔ̌ɔng ฮะ|há",
+   "fsi": "phǒm dâj tháŋ ŋən lɛ́ khɔ̌ɔŋ há",
+   "en": "I got both money and things.",
+   "pt": "Ganhei dinheiro e também coisas."
+  },
+  {
+   "sp": "B",
+   "s": "เพื่อน|pʉ̂ʉan บางคน|baang-kon ก็|gɔ̂ɔ ให้|hâi ของ|kɔ̌ɔng",
+   "fsi": "phʉ̂an baaŋkhon kɔ̂ɔ hâj khɔ̌ɔŋ",
+   "en": "Some friends gave things;",
+   "pt": "Alguns amigos deram objetos;"
+  },
+  {
+   "sp": "B",
+   "s": "บางคน|baang-kon ก็|gɔ̂ɔ ให้|hâi เงิน|ngən",
+   "fsi": "baaŋkhon kɔ̂ɔ hâj ŋən",
+   "en": "some gave money.",
+   "pt": "outros deram dinheiro."
+  },
+  {
+   "sp": "B",
+   "s": "ญาติๆ|yâat-yâat ส่วนมาก|sùuan-mâak ให้|hâi เงิน|ngən",
+   "fsi": "jâatjâat sùanmâak hâj ŋən",
+   "en": "Most of the relatives gave money.",
+   "pt": "A maioria dos parentes deu dinheiro."
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ยินดี",
+   "p": "yin-dii",
+   "fsi": "jindii",
+   "pt": "com prazer, de bom grado",
+   "en": "gladly"
+  },
+  {
+   "th": "ได้รับ",
+   "p": "dâai-ráp",
+   "fsi": "dâjráp",
+   "pt": "receber; ser (passiva formal)",
+   "en": "to receive; to be (passive)"
+  },
+  {
+   "th": "ของใช้",
+   "p": "kɔ̌ɔng-chái",
+   "fsi": "khɔ̌ɔŋchái",
+   "pt": "objeto útil, utensílio",
+   "en": "useful thing, utensil"
+  },
+  {
+   "th": "มั่ง",
+   "p": "mâng",
+   "fsi": "mâŋ",
+   "pt": "alguns, um pouco (forma falada de บ้าง)",
+   "en": "some (colloquial บ้าง)"
+  },
+  {
+   "th": "เครื่องครัว",
+   "p": "krʉ̂ʉang-kruua",
+   "fsi": "khrʉ̂aŋkhrua",
+   "pt": "utensílios de cozinha",
+   "en": "kitchen utensils"
+  },
+  {
+   "th": "เจ้าสาว",
+   "p": "jâo-sǎao",
+   "fsi": "câwsǎaw",
+   "pt": "noiva",
+   "en": "bride"
+  },
+  {
+   "th": "เจ้าบ่าว",
+   "p": "jâo-bàao",
+   "fsi": "câwbàaw",
+   "pt": "noivo",
+   "en": "bridegroom"
+  },
+  {
+   "th": "เครื่องใช้ไฟฟ้า",
+   "p": "krʉ̂ʉang-chái-fai-fáa",
+   "fsi": "khrʉ̂aŋcháifajfáa",
+   "pt": "eletrodoméstico",
+   "en": "electrical appliance"
+  },
+  {
+   "th": "เครื่องเรือน",
+   "p": "krʉ̂ʉang-rʉʉan",
+   "fsi": "khrʉ̂aŋrʉan",
+   "pt": "móveis, mobília",
+   "en": "furniture"
+  },
+  {
+   "th": "ทั้ง",
+   "p": "táng",
+   "fsi": "tháŋ",
+   "pt": "tanto… quanto; todo, inteiro",
+   "en": "both; whole"
+  },
+  {
+   "th": "บางคน",
+   "p": "baang-kon",
+   "fsi": "baaŋkhon",
+   "pt": "algumas pessoas, uns",
+   "en": "some people"
+  },
+  {
+   "th": "ญาติ",
+   "p": "yâat",
+   "fsi": "jâat",
+   "pt": "parente",
+   "en": "relative"
+  },
+  {
+   "th": "ส่วนมาก",
+   "p": "sùuan-mâak",
+   "fsi": "sùanmâak",
+   "pt": "a maioria, na maior parte",
+   "en": "most of"
+  },
+  {
+   "th": "จำนวน",
+   "p": "jam-nuuan",
+   "fsi": "camnuan",
+   "pt": "quantidade, número",
+   "en": "amount"
+  },
+  {
+   "th": "ชิ้น",
+   "p": "chín",
+   "fsi": "chín",
+   "pt": "pedaço; classificador de peças",
+   "en": "piece; classifier"
+  },
+  {
+   "th": "ชุด",
+   "p": "chút",
+   "fsi": "chút",
+   "pt": "conjunto, jogo; roupa (traje)",
+   "en": "set; outfit"
+  },
+  {
+   "th": "อย่าง",
+   "p": "yàang",
+   "fsi": "jàaŋ",
+   "pt": "tipo, espécie; classificador de tipos",
+   "en": "kind; classifier"
+  },
+  {
+   "th": "ค่า",
+   "p": "kâa",
+   "fsi": "khâa",
+   "pt": "custo, taxa, valor",
+   "en": "fee, cost, value"
+  },
+  {
+   "th": "คะแนน",
+   "p": "ká-nɛɛn",
+   "fsi": "khanɛɛn",
+   "pt": "nota, pontos",
+   "en": "score, points"
+  },
+  {
+   "th": "คนใช้",
+   "p": "kon-chái",
+   "fsi": "khonchái",
+   "pt": "empregado doméstico",
+   "en": "servant"
+  },
+  {
+   "th": "คราว",
+   "p": "kraao",
+   "fsi": "khraaw",
+   "pt": "vez, ocasião",
+   "en": "time, occasion"
+  },
+  {
+   "th": "ครั้ง",
+   "p": "kráng",
+   "fsi": "khráŋ",
+   "pt": "vez (classificador)",
+   "en": "time (classifier)"
+  },
+  {
+   "th": "คริสต์มาส",
+   "p": "krít-sà-mâat",
+   "fsi": "khrítsamâat",
+   "pt": "Natal",
+   "en": "Christmas"
+  },
+  {
+   "th": "ละ",
+   "p": "lá",
+   "fsi": "lá",
+   "pt": "por, cada (em distribuição)",
+   "en": "per, each"
+  },
+  {
+   "th": "ทีวี",
+   "p": "tii-wii",
+   "fsi": "thiiwii",
+   "pt": "televisão",
+   "en": "TV"
+  },
+  {
+   "th": "ราชการ",
+   "p": "râat-chá-gaan",
+   "fsi": "râatchakaan",
+   "pt": "serviço público, governo",
+   "en": "government service"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Variantes das partículas de polidez",
+    "en": "Polite particle variants"
+   },
+   "e": {
+    "pt": "Entre conhecidos, ครับ e ค่ะ/คะ viram ฮะ (homem) e ฮ่ะ/ฮะ (mulher). É o mesmo respeito em tom mais leve. Analogia: 'senhor' × 'seu' em 'seu Sawat'.",
+    "en": "Informally, ครับ and ค่ะ/คะ become ฮะ / ฮ่ะ."
+   },
+   "ex": "ขอบคุณ|kɔ̀ɔp-kun ฮะ|há"
+  },
+  {
+   "t": {
+    "pt": "เชิญ × ได้รับเชิญ: convidar e ser convidado",
+    "en": "Active and passive invitation"
+   },
+   "e": {
+    "pt": "เขาเชิญผม = eles me convidaram; ผมได้รับเชิญ = fui convidado. ได้รับ funciona como uma passiva formal e positiva — o contrário de ถูก, que marca algo ruim.",
+    "en": "ได้รับ + verb is a formal, positive passive (the opposite of ถูก)."
+   },
+   "ex": "ผม|pǒm ได้รับ|dâai-ráp เชิญ|chəən"
+  },
+  {
+   "t": {
+    "pt": "ทาง + instituição: 'por parte de'",
+    "en": "ทาง + institution as agent"
+   },
+   "e": {
+    "pt": "ทาง + nome de instituição a trata como quem age: ทางโรงเรียนให้หนังสือผม = a escola me deu livros; ทางราชการ = o governo. Analogia: é o nosso 'por parte da escola'.",
+    "en": "ทาง + institution treats it as the agent: ทางโรงเรียน, ทางราชการ."
+   },
+   "ex": "ทาง|taang โรงเรียน|roong-riian ให้|hâi หนังสือ|nǎng-sʉ̌ʉ"
+  },
+  {
+   "t": {
+    "pt": "ให้: primeiro a coisa, depois a pessoa",
+    "en": "Order with ให้"
+   },
+   "e": {
+    "pt": "Com ให้ (dar), o objeto vem antes da pessoa: เขาให้หนังสือผม = ele me deu um livro. A quantidade vai para depois da pessoa: ให้หนังสือผมสองเล่ม. Analogia: primeiro se mostra o pacote, depois o destinatário, e só no fim se conta quantos.",
+    "en": "With ให้ the object precedes the recipient; quantities follow the recipient."
+   },
+   "ex": "เขา|kǎo ให้|hâi หนังสือ|nǎng-sʉ̌ʉ ผม|pǒm สอง|sɔ̌ɔng เล่ม|lêm"
+  },
+  {
+   "t": {
+    "pt": "Distribuição com ละ: cada um, por mês",
+    "en": "Distributives with ละ"
+   },
+   "e": {
+    "pt": "Classificador/unidade + ละ + quantidade = 'por cada': คนละสองเล่ม (dois livros para cada um), เดือนละแปดร้อยบาท (800 baht por mês).",
+    "en": "Unit + ละ + amount: per each (คนละ…, เดือนละ…)."
+   },
+   "ex": "คน|kon ละ|lá สอง|sɔ̌ɔng เล่ม|lêm"
+  },
+  {
+   "t": {
+    "pt": "Pergunta + ดี: pedindo conselho",
+    "en": "Question + ดี: asking for advice"
+   },
+   "e": {
+    "pt": "ดี no fim da pergunta pede uma sugestão: จะให้อะไรดี = o que seria bom dar? A resposta curta costuma fechar com สิ: ให้ของใช้สิ.",
+    "en": "Question + ดี asks for advice; short answers often end with สิ."
+   },
+   "ex": "จะ|jà ซื้อ|sʉ́ʉ อะไร|à-rai ดี|dii"
+  }
+ ]
+}

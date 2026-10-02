@@ -1,0 +1,297 @@
+{
+ "n": 28,
+ "paginas": "vol. 2, p. 472–480",
+ "titulo": {
+  "pt": "Pechinchando com o taxista",
+  "en": "Conversation with a taxi driver"
+ },
+ "dialogo": [
+  {
+   "sp": "D",
+   "s": "แท็กซี่|tɛ́k-sîi",
+   "fsi": "thɛ́ksîi",
+   "en": "Taxi!",
+   "pt": "Táxi!"
+  },
+  {
+   "sp": "T",
+   "s": "ไป|bpai ไหน|nǎi ครับ|kráp",
+   "fsi": "paj nǎj khráp",
+   "en": "Where to?",
+   "pt": "Para onde?"
+  },
+  {
+   "sp": "D",
+   "s": "ไป|bpai ประตูน้ำ|bprà-dtuu-náam เอา|ao เท่าไร|tâo-rài",
+   "fsi": "paj pratuunáam ʔaw thâwrài",
+   "en": "How much to Pratunam?",
+   "pt": "Quanto até Pratunam?"
+  },
+  {
+   "sp": "T",
+   "s": "สิบสอง|sìp-sɔ̌ɔng บาท|bàat ครับ|kráp",
+   "fsi": "sìp sɔ̌ɔŋ bàat khráp",
+   "en": "Twelve baht.",
+   "pt": "Doze baht."
+  },
+  {
+   "sp": "D",
+   "s": "เจ็ด|jèt บาท|bàat ได้|dâai ไหม|mǎi",
+   "fsi": "cèt bàat dâj máj",
+   "en": "How about seven?",
+   "pt": "Sete dá?"
+  },
+  {
+   "sp": "D",
+   "s": "ใกล้|glâi แค่|kɛ̂ɛ นี้|níi เอง|eeng",
+   "fsi": "klâj khɛ̂ɛ níi ʔeeŋ",
+   "en": "It's right near here.",
+   "pt": "É pertinho daqui."
+  },
+  {
+   "sp": "T",
+   "s": "ไม่ไหว|mâi-wǎi หรอก|rɔ̀ɔk ครับ|kráp",
+   "fsi": "mâjwǎj rɔ̀k khráp",
+   "en": "Can't do it.",
+   "pt": "Assim não dá."
+  },
+  {
+   "sp": "T",
+   "s": "แถว|tɛ̌ɛo นั้น|nán รถติด|rót-dtìt",
+   "fsi": "thɛ̌ɛw nán róttìt",
+   "en": "The traffic's heavy over there.",
+   "pt": "Lá o trânsito está parado."
+  },
+  {
+   "sp": "D",
+   "s": "งั้น|ngán แปด|bpɛ̀ɛt บาท|bàat ไป|bpai ไหม|mǎi",
+   "fsi": "ŋán pɛ̀ɛt bàat paj máj",
+   "en": "Then, will you go for eight?",
+   "pt": "Então, oito, vai?"
+  },
+  {
+   "sp": "D",
+   "s": "เคย|kəəi ไป|bpai ได้|dâai แปด|bpɛ̀ɛt บาท|bàat",
+   "fsi": "khəəj paj dâj pɛ̀ɛt bàat",
+   "en": "I've gone for eight before.",
+   "pt": "Já fui por oito."
+  },
+  {
+   "sp": "T",
+   "s": "เก้า|gâo บาท|bàat ก็แล้วกัน|gɔ̂ɔ-lɛ́ɛo-gan",
+   "fsi": "kâaw bàat kɔ̂ɔlɛ́ɛwkan",
+   "en": "Let's say nine baht.",
+   "pt": "Fica nove, então."
+  },
+  {
+   "sp": "T",
+   "s": "ไป|bpai ไหม|mǎi",
+   "fsi": "paj máj",
+   "en": "Do you want to go?",
+   "pt": "Vai ou não vai?"
+  },
+  {
+   "sp": "D",
+   "s": "ไป|bpai ก็|gɔ̂ɔ ไป|bpai",
+   "fsi": "paj kɔ̂ɔ paj",
+   "en": "If we're going, let's go.",
+   "pt": "Vamos, então."
+  },
+  {
+   "sp": "D",
+   "s": "ช่วย|chûuai ขับ|kàp ช้าๆ|cháa-cháa หน่อย|nɔ̀i นะ|ná ครับ|kráp",
+   "fsi": "chûaj khàp cháacháa nɔ̀j ná khráp",
+   "en": "Please drive slowly.",
+   "pt": "Dirija devagar, por favor."
+  },
+  {
+   "sp": "D",
+   "s": "คุณ|kun ครับ|kráp อย่า|yàa ขับ|kàp เร็ว|reo นัก|nák สิ|sì ครับ|kráp",
+   "fsi": "khun khráp jàa khàp rew nák sì khráp",
+   "en": "Say, don't drive so fast.",
+   "pt": "Moço, não corra tanto!"
+  },
+  {
+   "sp": "D",
+   "s": "กรุณา|gà-rú-naa ขับ|kàp ช้าๆ|cháa-cháa หน่อย|nɔ̀i ได้|dâai ไหม|mǎi ครับ|kráp",
+   "fsi": "karunaa khàp cháacháa nɔ̀j dâj máj khráp",
+   "en": "Could you please slow down a little?",
+   "pt": "Poderia ir mais devagar, por favor?"
+  }
+ ],
+ "vocab": [
+  {
+   "th": "ประตูน้ำ",
+   "p": "bprà-dtuu-náam",
+   "fsi": "pratuunáam",
+   "pt": "Pratunam (bairro de Bangkok)",
+   "en": "Pratunam"
+  },
+  {
+   "th": "แค่",
+   "p": "kɛ̂ɛ",
+   "fsi": "khɛ̂ɛ",
+   "pt": "só, apenas; até (tal ponto)",
+   "en": "only; up to"
+  },
+  {
+   "th": "ไม่ไหว",
+   "p": "mâi-wǎi",
+   "fsi": "mâjwǎj",
+   "pt": "não dá, não aguento",
+   "en": "can't manage it"
+  },
+  {
+   "th": "ไหว",
+   "p": "wǎi",
+   "fsi": "wǎj",
+   "pt": "aguentar, dar conta",
+   "en": "to be able to manage"
+  },
+  {
+   "th": "แถว",
+   "p": "tɛ̌ɛo",
+   "fsi": "thɛ̌ɛw",
+   "pt": "região, área; fila",
+   "en": "area; row"
+  },
+  {
+   "th": "ติด",
+   "p": "dtìt",
+   "fsi": "tìt",
+   "pt": "grudar, ficar preso; estar ligado",
+   "en": "to stick; to be stuck"
+  },
+  {
+   "th": "รถติด",
+   "p": "rót-dtìt",
+   "fsi": "róttìt",
+   "pt": "trânsito engarrafado",
+   "en": "traffic jam"
+  },
+  {
+   "th": "งั้น",
+   "p": "ngán",
+   "fsi": "ŋán",
+   "pt": "então, nesse caso (falado)",
+   "en": "then (colloquial)"
+  },
+  {
+   "th": "ก็แล้วกัน",
+   "p": "gɔ̂ɔ-lɛ́ɛo-gan",
+   "fsi": "kɔ̂ɔlɛ́ɛwkan",
+   "pt": "fica assim, então (propõe acordo)",
+   "en": "let's say, let it be"
+  },
+  {
+   "th": "นัก",
+   "p": "nák",
+   "fsi": "nák",
+   "pt": "tanto, demais",
+   "en": "so, so much"
+  },
+  {
+   "th": "ดัง",
+   "p": "dang",
+   "fsi": "daŋ",
+   "pt": "alto (som); famoso",
+   "en": "loud; famous"
+  },
+  {
+   "th": "อนุสาวรีย์",
+   "p": "à-nú-sǎa-wá-rii",
+   "fsi": "ʔanúsǎawárii",
+   "pt": "monumento",
+   "en": "monument"
+  },
+  {
+   "th": "ประชาธิปไตย",
+   "p": "bprà-chaa-típ-bpà-dtai",
+   "fsi": "prachaathíppataj",
+   "pt": "democracia",
+   "en": "democracy"
+  },
+  {
+   "th": "ปทุมวัน",
+   "p": "bpà-tum-wan",
+   "fsi": "pathumwan",
+   "pt": "Pathumwan (bairro de Bangkok)",
+   "en": "Pathumwan"
+  },
+  {
+   "th": "สะพานควาย",
+   "p": "sà-paan-kwaai",
+   "fsi": "saphaankhwaaj",
+   "pt": "Saphan Khwai (bairro de Bangkok)",
+   "en": "Saphan Khwai"
+  }
+ ],
+ "notas": [
+  {
+   "t": {
+    "pt": "Pedido afirmativo: verbo de estado dobrado",
+    "en": "Reduplication in requests"
+   },
+   "e": {
+    "pt": "Em pedidos afirmativos, o modificador vem dobrado e suavizado por หน่อย: พูดช้าๆหน่อย = fale um pouco mais devagar. No pedido negativo não se dobra, e entra นัก: อย่าพูดเร็วนัก = não fale tão rápido. Analogia: o dobro é o tom gentil do 'devagarzinho'.",
+    "en": "Affirmative requests reduplicate the stative verb (+ หน่อย); negative ones use อย่า … นัก."
+   },
+   "ex": "พูด|pûut ช้าๆ|cháa-cháa หน่อย|nɔ̀i"
+  },
+  {
+   "t": {
+    "pt": "เอง com distância: 'é logo ali'",
+    "en": "เอง with distance"
+   },
+   "e": {
+    "pt": "ใกล้แค่นี้เอง = é só até aqui, pertinho. เอง enfatiza que a distância (ou o valor) é pequena.",
+    "en": "เอง stresses how short the distance is."
+   },
+   "ex": "ใกล้|glâi แค่|kɛ̂ɛ นี้|níi เอง|eeng"
+  },
+  {
+   "t": {
+    "pt": "หรอก suaviza o 'não'",
+    "en": "หรอก softens denials"
+   },
+   "e": {
+    "pt": "หรอก (dito também rɔ̀k ou rɔ̀) acompanha negação, contradição ou correção e deixa a frase menos seca: ไม่ไหวหรอกครับ = assim não dá, não.",
+    "en": "หรอก softens a negation or correction."
+   },
+   "ex": "ไม่|mâi แพง|pɛɛng หรอก|rɔ̀ɔk"
+  },
+  {
+   "t": {
+    "pt": "นะ chama atenção para um comentário",
+    "en": "นะ: calling attention"
+   },
+   "e": {
+    "pt": "นะครับ/นะคะ no fim chama a atenção do outro para o que se disse, sem exigir resposta; se houver, é só ครับ: ขอบคุณมากนะครับ.",
+    "en": "นะ + polite particle calls attention to a remark; reply, if any, is ครับ."
+   },
+   "ex": "ขอบคุณ|kɔ̀ɔp-kun มาก|mâak นะ|ná ครับ|kráp"
+  },
+  {
+   "t": {
+    "pt": "สิ: pede ou insiste",
+    "en": "สิ: request or insistence"
+   },
+   "e": {
+    "pt": "สิ pede que a pessoa faça algo; หน่อย ou ที suaviza quando o favor é para quem fala. Dito mais longo (ซี) insiste no que já foi pedido: ขับช้าๆซี = vai devagar, como eu pedi!",
+    "en": "สิ requests; a lengthened ซี insists on something already asked."
+   },
+   "ex": "ลอง|lɔɔng ดู|duu สิ|sì"
+  },
+  {
+   "t": {
+    "pt": "ก็แล้วกัน: propondo um acordo",
+    "en": "ก็แล้วกัน: settling on something"
+   },
+   "e": {
+    "pt": "ก็แล้วกัน no fim propõe uma escolha e pede que o outro aceite: เก้าบาทก็แล้วกัน = fica nove baht, combinado? Analogia: é o 'fechou?' da pechincha.",
+    "en": "ก็แล้วกัน proposes a choice and urges agreement."
+   },
+   "ex": "วันนี้|wan-níi คุณ|kun ขับ|kàp ก็แล้วกัน|gɔ̂ɔ-lɛ́ɛo-gan"
+  }
+ ]
+}
