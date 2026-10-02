@@ -1,0 +1,522 @@
+{
+ "lv": 4,
+ "pontos": [
+  {
+   "id": "g4-01",
+   "t": "A passiva: ถูก, โดน, ได้รับ",
+   "e": "Três passivas com cores diferentes: ถูก (algo ruim, neutro-formal: ถูกขโมย), โดน (algo ruim, falado: โดนหมากัด), ได้รับ (algo bom, formal: ได้รับรางวัล). O agente vem logo depois: ถูกตำรวจจับ (foi preso pela polícia). Na fala comum, o tailandês prefere a voz ativa — a passiva com ถูก/โดน já carrega o tom de 'que azar'. Analogia: ถูก e โดน são a nuvem de chuva; ได้รับ é o raio de sol.",
+   "ex": "เขา|kǎo โดน|doon หมา|mǎa กัด|gàt",
+   "pt": "Ele foi mordido por um cachorro.",
+   "en": "He was bitten by a dog.",
+   "gaps": [
+    {
+     "s": "กระเป๋า|grà-bpǎo ของ|kɔ̌ɔng ผม|pǒm ___ ขโมย|kà-mooi",
+     "o": [
+      "ถูก|tùuk",
+      "ได้รับ|dâai-ráp",
+      "ให้|hâi",
+      "จึง|jʉng"
+     ],
+     "a": "ถูก",
+     "x": "Roubo é coisa ruim: ถูก."
+    },
+    {
+     "s": "เขา|kǎo ___ แต่งตั้ง|dtɛ̀ng-dtâng เป็น|bpen ผู้จัดการ|pûu-jàt-gaan",
+     "o": [
+      "ได้รับ|dâai-ráp",
+      "โดน|doon",
+      "ทำให้|tam-hâi",
+      "ปล่อย|bplɔ̀i"
+     ],
+     "a": "ได้รับ",
+     "x": "Promoção é boa: ได้รับ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "รถ|rót ผม|pǒm ถูก|tùuk ชน|chon",
+     "pt": "Meu carro foi batido.",
+     "en": "My car was hit."
+    }
+   ]
+  },
+  {
+   "id": "g4-02",
+   "t": "Orações relativas: ที่, ซึ่ง, อัน",
+   "e": "ที่ é o relativo de todo dia (คนที่ยืนอยู่ = a pessoa que está de pé); ซึ่ง é formal e costuma acrescentar uma explicação; อัน é literário e acompanha ideias abstratas (ความรู้อันมีค่า = um saber valioso). Analogia: ที่ é o 'que' falado, ซึ่ง é o 'o qual' dos relatórios, อัน é o 'cujo' dos discursos.",
+   "ex": "คน|kon ที่|tîi ยืน|yʉʉn อยู่|yùu เป็น|bpen ครู|kruu",
+   "pt": "A pessoa que está de pé é professora.",
+   "en": "The person standing is a teacher.",
+   "gaps": [
+    {
+     "s": "บ้าน|bâan ___ ผม|pǒm เช่า|châo อยู่|yùu ใกล้|glâi ทะเล|tá-lee",
+     "o": [
+      "ที่|tîi",
+      "อัน|an",
+      "จึง|jʉng",
+      "ก็|gɔ̂ɔ"
+     ],
+     "a": "ที่",
+     "x": "Relativo do dia a dia: ที่."
+    },
+    {
+     "s": "ความรู้|kwaam-rúu ___ มี|mii ค่า|kâa",
+     "o": [
+      "อัน|an",
+      "จึง|jʉng",
+      "ก็|gɔ̂ɔ",
+      "หรือ|rʉ̌ʉ"
+     ],
+     "a": "อัน",
+     "x": "Abstrato, registro literário: อัน.",
+     "h": "Registro literário."
+    }
+   ],
+   "ord": [
+    {
+     "s": "หนังสือ|nǎng-sʉ̌ʉ ที่|tîi ผม|pǒm ซื้อ|sʉ́ʉ แพง|pɛɛng มาก|mâak",
+     "pt": "O livro que comprei foi muito caro.",
+     "en": "The book I bought was very expensive."
+    }
+   ]
+  },
+  {
+   "id": "g4-03",
+   "t": "Ênfase: เอง, แหละ, ถึง",
+   "e": "เอง destaca a pessoa ou coisa exata (ผมเองที่โทรมา = fui eu mesmo que liguei; นี่เอง = é isso, então!). แหละ e นั่นแหละ confirmam com força (นี่แหละบ้านผม = esta aqui é a minha casa). ถึง (+ จะ) marca 'só então' (ทำเสร็จถึงไปได้ = só depois de terminar você pode ir). Analogia: são o negrito, o sublinhado e o asterisco da frase falada.",
+   "ex": "นี่|nîi แหละ|lɛ̀ บ้าน|bâan ผม|pǒm",
+   "pt": "Esta aqui é a minha casa.",
+   "en": "This is my house, right here.",
+   "gaps": [
+    {
+     "s": "ผม|pǒm ___ ที่|tîi โทร|too มา|maa",
+     "o": [
+      "เอง|eeng",
+      "เลย|ləəi",
+      "กัน|gan",
+      "ด้วย|dûuai"
+     ],
+     "a": "เอง",
+     "x": "'Fui eu mesmo': ผมเอง."
+    },
+    {
+     "s": "ทำ|tam การบ้าน|gaan-bâan เสร็จ|sèt ___ ไป|bpai เล่น|lên ได้|dâai",
+     "o": [
+      "ถึง|tʉ̌ng",
+      "เลย|ləəi",
+      "ก็|gɔ̂ɔ",
+      "แหละ|lɛ̀"
+     ],
+     "a": "ถึง",
+     "x": "'Só então': ถึง."
+    }
+   ],
+   "ord": [
+    {
+     "s": "นั่นแหละ|nân-lɛ̀ ที่|tîi ผม|pǒm พูด|pûut",
+     "pt": "É exatamente isso que eu disse.",
+     "en": "That's exactly what I said."
+    }
+   ]
+  },
+  {
+   "id": "g4-04",
+   "t": "Conjunções em pares: ทั้ง…และ, ไม่…ก็, ไม่ใช่…แต่, ทั้งๆที่",
+   "e": "ทั้ง A และ B = tanto A quanto B; ไม่ A ก็ B = se não for A, é B; ไม่ใช่ A แต่ B = não A, mas sim B; ทั้งๆที่ = apesar de, mesmo que (com tom de crítica: ไปทำงานทั้งๆที่ป่วย). Analogia: são pares de colchetes — abriu um, o outro tem que vir.",
+   "ex": "เขา|kǎo พูด|pûut ได้|dâai ทั้ง|táng ไทย|tai และ|lɛ́ จีน|jiin",
+   "pt": "Ele fala tanto tailandês quanto chinês.",
+   "en": "He speaks both Thai and Chinese.",
+   "gaps": [
+    {
+     "s": "ไม่|mâi เขา|kǎo ___ ฉัน|chǎn ที่|tîi ต้อง|dtɔ̂ng ไป|bpai",
+     "o": [
+      "ก็|gɔ̂ɔ",
+      "และ|lɛ́",
+      "แต่|dtɛ̀ɛ",
+      "หรือ|rʉ̌ʉ"
+     ],
+     "a": "ก็",
+     "x": "'Se não for ele, sou eu': ไม่…ก็."
+    },
+    {
+     "s": "เขา|kǎo ไป|bpai ทำงาน|tam-ngaan ___ ป่วย|bpùuai",
+     "o": [
+      "ทั้งๆที่|táng-táng-tîi",
+      "เพราะ|prɔ́",
+      "ถ้า|tâa",
+      "จน|jon"
+     ],
+     "a": "ทั้งๆที่",
+     "x": "'Mesmo doente': ทั้งๆที่."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ไม่ใช่|mâi-châi ผม|pǒm แต่|dtɛ̀ɛ เป็น|bpen เขา|kǎo",
+     "pt": "Não fui eu, foi ele.",
+     "en": "It wasn't me, it was him."
+    }
+   ]
+  },
+  {
+   "id": "g4-05",
+   "t": "Negações especiais",
+   "e": "ไม่ nega verbos e adjetivos; ไม่ใช่ nega identidade (ไม่ใช่หมอ = não sou médico); ไม่ได้ nega que algo aconteceu ou desfaz uma suposição (ไม่ได้ไป = não fui); ไม่ค่อย = quase não; ไม่เคย = nunca; ยังไม่ = ainda não; ไม่…เลย = nem um pouco; มิ/มิได้ = formal escrito. Analogia: são chaves diferentes para portas diferentes — a chave errada não gira.",
+   "ex": "ผม|pǒm ไม่ใช่|mâi-châi หมอ|mɔ̌ɔ",
+   "pt": "Não sou médico.",
+   "en": "I'm not a doctor.",
+   "gaps": [
+    {
+     "s": "เขา|kǎo ___ กิน|gin เผ็ด|pèt",
+     "o": [
+      "ไม่ค่อย|mâi-kɔ̂i",
+      "ไม่ใช่|mâi-châi",
+      "ที่|tîi",
+      "กว่า|gwàa"
+     ],
+     "a": "ไม่ค่อย",
+     "x": "'Quase não come picante': ไม่ค่อย.",
+     "h": "Quase não."
+    },
+    {
+     "s": "นี่|nîi ___ ของ|kɔ̌ɔng ผม|pǒm",
+     "o": [
+      "ไม่ใช่|mâi-châi",
+      "ไม่ค่อย|mâi-kɔ̂i",
+      "ไม่เคย|mâi-kəəi",
+      "ยังไม่|yang-mâi"
+     ],
+     "a": "ไม่ใช่",
+     "x": "Identidade: ไม่ใช่."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ผม|pǒm ไม่|mâi เคย|kəəi ไป|bpai ญี่ปุ่น|yîi-bpùn",
+     "pt": "Nunca fui ao Japão.",
+     "en": "I've never been to Japan."
+    }
+   ]
+  },
+  {
+   "id": "g4-06",
+   "t": "Prestes a, quase, acabou de",
+   "e": "กำลังจะ = prestes a (รถกำลังจะออก = o ônibus está saindo); ใกล้จะ = perto de (ใกล้จะจบ); เกือบ(จะ) = quase, mas não aconteceu (เกือบตกรถ = quase perdi o ônibus); เพิ่ง = acabou de. Analogia: é a régua do tempo — กำลังจะ é o dedo no gatilho, เกือบ é o tiro que passou raspando.",
+   "ex": "รถ|rót กำลังจะ|gam-lang-jà ออก|ɔ̀ɔk",
+   "pt": "O ônibus está para sair.",
+   "en": "The bus is about to leave.",
+   "gaps": [
+    {
+     "s": "ผม|pǒm ___ ตก|dtòk รถ|rót แล้ว|lɛ́ɛo",
+     "o": [
+      "เกือบ|gʉ̀ʉap",
+      "กำลัง|gam-lang",
+      "เพิ่ง|pə̂ng",
+      "ยัง|yang"
+     ],
+     "a": "เกือบ",
+     "x": "Quase aconteceu: เกือบ."
+    },
+    {
+     "s": "หนัง|nǎng ___ จบ|jòp แล้ว|lɛ́ɛo",
+     "o": [
+      "ใกล้จะ|glâi-jà",
+      "เคย|kəəi",
+      "ไม่ค่อย|mâi-kɔ̂i",
+      "ถูก|tùuk"
+     ],
+     "a": "ใกล้จะ",
+     "x": "Está quase acabando: ใกล้จะ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เขา|kǎo เพิ่ง|pə̂ng กลับ|glàp มา|maa",
+     "pt": "Ele acabou de voltar.",
+     "en": "He just came back."
+    }
+   ]
+  },
+  {
+   "id": "g4-07",
+   "t": "Cultura: pronomes conforme o contexto",
+   "e": "O tailandês escolhe 'eu' e 'você' conforme idade, intimidade e lugar. EU: ผม (homem, padrão), ดิฉัน (mulher, formal), ฉัน (mulher, informal), เรา (neutro, entre amigos), หนู (jovem com mais velhos), กระผม (homem, muito respeitoso), ข้าพเจ้า (discursos e documentos), กู (íntimo ou grosseiro). VOCÊ: คุณ (padrão), เธอ (íntimo, para alguém mais novo), นาย (entre amigos homens), แก (íntimo; ofensivo com estranhos), ท่าน (superior), มึง (íntimo ou grosseiro) — e os termos de parentesco (พี่, น้อง, ป้า). No escritório: ผม/ดิฉัน + คุณ; entre amigos: เรา + นาย/แก; no mercado: พี่/ป้า/น้อง. Analogia: é o 'tu, você, o senhor, Vossa Excelência' do português, multiplicado por dois.",
+   "ex": "คุณ|kun จะ|jà ไป|bpai ไหน|nǎi ครับ|kráp",
+   "pt": "Aonde o(a) senhor(a) vai?",
+   "en": "Where are you going?",
+   "gaps": [
+    {
+     "s": "___ ขอ|kɔ̌ɔ เสนอ|sà-nə̌ə อย่างนี้|yàang-níi ค่ะ|kâ",
+     "o": [
+      "ดิฉัน|dì-chǎn",
+      "กู|guu",
+      "หนู|nǔu",
+      "มึง|mʉng"
+     ],
+     "a": "ดิฉัน",
+     "x": "Mulher, reunião de trabalho: ดิฉัน.",
+     "h": "Numa reunião de trabalho."
+    },
+    {
+     "s": "___ ไป|bpai กิน|gin ข้าว|kâao กัน|gan ไหม|mǎi",
+     "o": [
+      "เรา|rao",
+      "ท่าน|tâan",
+      "กระผม|grà-pǒm",
+      "ข้าพเจ้า|kâa-pá-jâo"
+     ],
+     "a": "เรา",
+     "x": "Entre colegas da mesma idade: เรา.",
+     "h": "Entre colegas de faculdade."
+    }
+   ],
+   "ord": [
+    {
+     "s": "นาย|naai จะ|jà ไป|bpai ด้วย|dûuai ไหม|mǎi",
+     "pt": "Você (amigo) vai junto?",
+     "en": "Are you (buddy) coming too?"
+    }
+   ]
+  },
+  {
+   "id": "g4-08",
+   "t": "Cultura: títulos e formas de tratamento",
+   "e": "Em documentos e situações formais: นาย (Sr.), นาง (Sra., casada), นางสาว (Srta.), เด็กชาย e เด็กหญิง (meninos e meninas até 15 anos). No trato: อาจารย์ (professor universitário, e qualquer mestre respeitado), คุณครู (professor de escola), คุณหมอ (médico), ท่าน + cargo (ท่านนายก, ท่านทูต), พระ + nome para monges. Analogia: é o 'doutor', 'professor', 'dona' do Brasil — o título vem antes do nome e às vezes no lugar dele.",
+   "ex": "คุณหมอ|kun-mɔ̌ɔ ครับ|kráp ผม|pǒm ปวด|bpùuat หัว|hǔua",
+   "pt": "Doutor, estou com dor de cabeça.",
+   "en": "Doctor, I have a headache.",
+   "gaps": [
+    {
+     "s": "___ สมศรี|sǒm-sǐi ใจดี|jai-dii",
+     "o": [
+      "นางสาว|naang-sǎao",
+      "นาย|naai",
+      "เด็กชาย|dèk-chaai",
+      "พระ|prá"
+     ],
+     "a": "นางสาว",
+     "x": "Mulher solteira em documento: นางสาว.",
+     "h": "Num formulário, mulher solteira."
+    },
+    {
+     "s": "สวัสดี|sà-wàt-dii ครับ|kráp ___",
+     "o": [
+      "อาจารย์|aa-jaan",
+      "มึง|mʉng",
+      "น้อง|nɔ́ɔng",
+      "แก|gɛɛ"
+     ],
+     "a": "อาจารย์",
+     "x": "Professor universitário: อาจารย์.",
+     "h": "Cumprimentando o professor da faculdade."
+    }
+   ],
+   "ord": [
+    {
+     "s": "คุณครู|kun-kruu ครับ|kráp ผม|pǒm ไม่|mâi เข้าใจ|kâo-jai",
+     "pt": "Professor(a), eu não entendi.",
+     "en": "Teacher, I don't understand."
+    }
+   ]
+  },
+  {
+   "id": "g4-09",
+   "t": "Cultura: o wai (ไหว้)",
+   "e": "O wai é o cumprimento com as mãos juntas, e a altura mostra o respeito: na altura do peito (entre iguais), com as pontas dos dedos no nariz (mais velhos, superiores), na testa (monges, imagens de Buda). Quem é mais novo ou de status menor faz primeiro; o outro responde (รับไหว้). Adultos não fazem wai para crianças nem para atendentes — respondem com um aceno e um sorriso. Diante de monges e dos pais em ocasiões especiais, กราบ (prostrar-se). Analogia: é o aperto de mão com um medidor de respeito embutido.",
+   "ex": "เด็ก|dèk ไหว้|wâi ผู้ใหญ่|pûu-yài",
+   "pt": "A criança faz o wai ao adulto.",
+   "en": "The child wais the adult.",
+   "gaps": [
+    {
+     "s": "เมื่อ|mʉ̂ʉa มี|mii คน|kon ไหว้|wâi เรา|rao ควร|kuuan ___",
+     "o": [
+      "รับไหว้|ráp-wâi",
+      "ห้าม|hâam",
+      "หนี|nǐi",
+      "ขโมย|kà-mooi"
+     ],
+     "a": "รับไหว้",
+     "x": "Responder ao wai: รับไหว้."
+    },
+    {
+     "s": "คน|kon ไทย|tai ___ พระ|prá",
+     "o": [
+      "กราบ|gràap",
+      "ตี|dtii",
+      "ชน|chon",
+      "กัด|gàt"
+     ],
+     "a": "กราบ",
+     "x": "Diante do monge: กราบ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "นักเรียน|nák-riian ไหว้|wâi ครู|kruu",
+     "pt": "O aluno faz o wai ao professor.",
+     "en": "The student wais the teacher."
+    }
+   ]
+  },
+  {
+   "id": "g4-10",
+   "t": "Cultura: partículas de homem e de mulher",
+   "e": "Homem: ครับ em tudo; ครับผม é mais respeitoso (resposta ao chefe); ฮะ é relaxado. Mulher: ค่ะ (tom descendente) em afirmações, คะ (tom alto) em perguntas e ao chamar alguém; ขา responde a um chamado ('sim?'); จ้ะ e จ๊ะ são afetuosos, com crianças e íntimos. Trocar ค่ะ por คะ é um erro clássico de estrangeiros. Analogia: é o 'obrigado' e o 'obrigada' do português, mas presente em quase toda frase.",
+   "ex": "ขอบคุณ|kɔ̀ɔp-kun ค่ะ|kâ",
+   "pt": "Obrigada.",
+   "en": "Thank you (female).",
+   "gaps": [
+    {
+     "s": "คุณ|kun จะ|jà ไป|bpai ไหน|nǎi ___",
+     "o": [
+      "คะ|ká",
+      "ค่ะ|kâ",
+      "จ้ะ|jâ",
+      "ฮะ|há"
+     ],
+     "a": "คะ",
+     "x": "Pergunta feita por mulher: คะ (tom alto).",
+     "h": "Uma mulher pergunta."
+    },
+    {
+     "s": "ครับ|kráp ___",
+     "o": [
+      "ผม|pǒm",
+      "มึง|mʉng",
+      "จ๊ะ|já",
+      "หรอก|rɔ̀ɔk"
+     ],
+     "a": "ผม",
+     "x": "Resposta muito respeitosa: ครับผม.",
+     "h": "Funcionário respondendo ao chefe."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ไป|bpai ก่อน|gɔ̀ɔn นะ|ná คะ|ká",
+     "pt": "Já vou indo, viu?",
+     "en": "I'm off now (female)."
+    }
+   ]
+  },
+  {
+   "id": "g4-11",
+   "t": "Cultura: agradecer, desculpar, felicitar",
+   "e": "ขอบคุณ (obrigado) para todos; ขอบใจ só para mais novos ou íntimos. ขอโทษ (desculpe); ขออภัย é formal e aparece em avisos. Respostas: ไม่เป็นไร (tudo bem, não foi nada), ยินดี (de nada, formal). Ocasiões: ยินดีด้วย (parabéns), เสียใจด้วย (sinto muito, condolências). Analogia: são as frases de etiqueta que abrem portas — quem as usa bem soa educado mesmo com gramática imperfeita.",
+   "ex": "ขอบใจ|kɔ̀ɔp-jai นะ|ná",
+   "pt": "Valeu, viu! (para alguém mais novo)",
+   "en": "Thanks! (to someone younger)",
+   "gaps": [
+    {
+     "s": "___ ใน|nai ความ|kwaam ไม่|mâi สะดวก|sà-dùuak",
+     "o": [
+      "ขออภัย|kɔ̌ɔ-à-pai",
+      "ขอบใจ|kɔ̀ɔp-jai",
+      "ยินดีด้วย|yin-dii-dûuai",
+      "ไม่เป็นไร|mâi-bpen-rai"
+     ],
+     "a": "ขออภัย",
+     "x": "Aviso formal: ขออภัยในความไม่สะดวก.",
+     "h": "Placa de obras."
+    },
+    {
+     "s": "สอบ|sɔ̀ɔp ผ่าน|pàan แล้ว|lɛ́ɛo หรือ|rʉ̌ʉ ___ นะ|ná",
+     "o": [
+      "ยินดีด้วย|yin-dii-dûuai",
+      "เสียใจด้วย|sǐia-jai-dûuai",
+      "ขออภัย|kɔ̌ɔ-à-pai",
+      "ขอโทษ|kɔ̌ɔ-tôot"
+     ],
+     "a": "ยินดีด้วย",
+     "x": "Parabéns: ยินดีด้วย."
+    }
+   ],
+   "ord": [
+    {
+     "s": "เสียใจ|sǐia-jai ด้วย|dûuai นะ|ná ครับ|kráp",
+     "pt": "Meus sentimentos.",
+     "en": "I'm sorry for your loss."
+    }
+   ]
+  },
+  {
+   "id": "g4-12",
+   "t": "Cultura: tabus e palavras para reconhecer",
+   "e": "Para reconhecer, não para usar: กู e มึง são 'eu' e 'você' de íntimos (entre amigos homens) e ofensivos com estranhos; ไอ้ e อี antes do nome são pejorativos; มัน para uma pessoa é desprezo. Alguns tabus vão além da língua: a cabeça é a parte mais alta e não se toca; os pés são a mais baixa e não se aponta com eles; falar mal da monarquia é crime (lesa-majestade). Analogia: é o mapa dos buracos da estrada — você conhece para desviar.",
+   "ex": "อย่า|yàa ใช้|chái คำ|kam ว่า|wâa มึง|mʉng กับ|gàp คน|kon แปลกหน้า|bplɛ̀ɛk-nâa",
+   "pt": "Não use มึง com desconhecidos.",
+   "en": "Don't use มึง with strangers.",
+   "gaps": [
+    {
+     "s": "เวลา|wee-laa พูด|pûut กับ|gàp เจ้านาย|jâo-naai ใช้|chái ___",
+     "o": [
+      "คุณ|kun",
+      "มึง|mʉng",
+      "แก|gɛɛ",
+      "กู|guu"
+     ],
+     "a": "คุณ",
+     "x": "Com o chefe: คุณ (ou o título)."
+    },
+    {
+     "s": "อย่า|yàa ชี้|chíi ด้วย|dûuai ___",
+     "o": [
+      "เท้า|táao",
+      "ตา|dtaa",
+      "หู|hǔu",
+      "ปาก|bpàak"
+     ],
+     "a": "เท้า",
+     "x": "Os pés são a parte 'baixa': não se aponta com eles.",
+     "h": "Parte do corpo considerada baixa."
+    }
+   ],
+   "ord": [
+    {
+     "s": "ห้าม|hâam จับ|jàp หัว|hǔua คน|kon อื่น|ʉ̀ʉn",
+     "pt": "Não toque na cabeça dos outros.",
+     "en": "Don't touch other people's heads."
+    }
+   ]
+  },
+  {
+   "id": "g4-13",
+   "t": "Interjeições e reações",
+   "e": "As reações rápidas dão naturalidade: อ้าว (ué!, surpresa ou contrariedade), อุ๊ย (ai!, susto leve), โอ้โห (uau!), จริงเหรอ (é mesmo?), แหม (ora, ora…, ironia carinhosa), เฮ้อ (suspiro, cansaço). Analogia: são os temperos da conversa — pouca quantidade, muito sabor.",
+   "ex": "โอ้โห|ôo-hǒo สวย|sǔuai จัง|jang",
+   "pt": "Uau, que lindo!",
+   "en": "Wow, how beautiful!",
+   "gaps": [
+    {
+     "s": "___ ทำไม|tam-mai มา|maa เร็ว|reo จัง|jang",
+     "o": [
+      "อ้าว|âao",
+      "ขอบใจ|kɔ̀ɔp-jai",
+      "กราบ|gràap",
+      "ไหว้|wâi"
+     ],
+     "a": "อ้าว",
+     "x": "Surpresa: อ้าว, por que chegou tão cedo?"
+    },
+    {
+     "s": "___ ร้อน|rɔ́ɔn จัง|jang",
+     "o": [
+      "เฮ้อ|hə́ə",
+      "เถอะ|tə̀",
+      "หรอก|rɔ̀ɔk",
+      "ที่|tîi"
+     ],
+     "a": "เฮ้อ",
+     "x": "Suspiro de cansaço: เฮ้อ."
+    }
+   ],
+   "ord": [
+    {
+     "s": "อุ๊ย|úi ขอโทษ|kɔ̌ɔ-tôot ค่ะ|kâ",
+     "pt": "Ai, desculpe!",
+     "en": "Oops, sorry!"
+    }
+   ]
+  }
+ ]
+}

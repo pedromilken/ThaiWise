@@ -10,7 +10,8 @@ Treino adaptativo de **tailandês**: escrita e regra dos tons, vocabulário e gr
 |---|---|---|
 | Módulo 0: escrita e tons | autoral | 44 consoantes (3 classes, nome acrofônico, som inicial e final), 28 vogais curtas e longas, 46 sílabas de treino de tom |
 | Vocabulário temático | autoral, por tema | A1 e A2: 501 palavras em 20 unidades · C1: 153 palavras em 8 unidades (registro formal) · C2: 108 palavras em 6 unidades (linguagem real, monástica, provérbios, คำซ้อน, diplomacia, literatura) |
-| Gramática | autoral, com analogia, exemplo, Paiboon+, 2 lacunas e 1 frase por ponto | 55 pontos (A1 16 · A2 14 · C1 13 · C2 12), 103 lacunas, 55 frases para montar |
+| Gramática | autoral, com analogia, exemplo, Paiboon+, 2 lacunas e 1 frase por ponto | **92 pontos** em todos os níveis (A1 22 · A2 20 · B1 12 · B2 13 · C1 13 · C2 12), 177 lacunas, 92 frases para montar |
+| Cultura | pontos marcados com “Cultura:” dentro da gramática | nomes e apelidos, parentesco como pronome, escada da polidez, เกรงใจ e o “não” indireto, pronomes por contexto, títulos, o wai, partículas de gênero, agradecer e desculpar, tabus, interjeições; e no C2 ราชาศัพท์, linguagem monástica, verbos de morte por hierarquia |
 | Lições do FSI | FSI Thai Basic Course (Foreign Service Institute, domínio público), convertidas para escrita tailandesa | **40 de 40**: diálogos, vocabulário e notas de gramática (A1–B2) |
 | Total | | **1.585 palavras**, 82 unidades, 6.969 testes automáticos |
 
@@ -58,7 +59,8 @@ O tom tailandês é **calculado**: classe da consoante inicial (média, alta, ba
 | Traduzir | significado → palavra; montar a frase |
 | Ouvir | ouvir e escolher (voz tailandesa do sistema; sem voz, fica oculto) |
 | Falar | reconhecimento de fala `th-TH` (Chrome e Edge) |
-| Gramática | lacunas e frases para montar |
+| Gramática | autoral, com analogia, exemplo, Paiboon+, 2 lacunas e 1 frase por ponto | **92 pontos** em todos os níveis (A1 22 · A2 20 · B1 12 · B2 13 · C1 13 · C2 12), 177 lacunas, 92 frases para montar |
+| Cultura | pontos marcados com “Cultura:” dentro da gramática | nomes e apelidos, parentesco como pronome, escada da polidez, เกรงใจ e o “não” indireto, pronomes por contexto, títulos, o wai, partículas de gênero, agradecer e desculpar, tabus, interjeições; e no C2 ราชาศัพท์, linguagem monástica, verbos de morte por hierarquia |
 
 ## Rastreamento e jogo (herdados do Wikawise)
 

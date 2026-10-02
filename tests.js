@@ -61,6 +61,7 @@ ok(E.levelOpen(S0, 0, M0) && E.levelOpen(S0, 1, M0) && !E.levelOpen(S0, 2, M0), 
 ok(E.levelOpen(S0, 2, M1), "A2 abre com o A1 dominado");
 ok(E.unitOpen(S0, "v1u01", M0) && !E.unitOpen(S0, "v1u02", M0) && E.unitOpen(S0, "f01", M0), "trilhas temática e FSI encadeadas separadamente");
 ok(Math.abs(E.prior("v1u01", M0) - .15) < 1e-9 && Math.abs(E.prior("v1u02", M1) - .575) < 1e-9, "prior hierárquico");
+for (let lv = 1; lv <= 6; lv++) ok((DATA.grammar[lv] || []).length >= 10, "nível " + lv + " tem gramática autoral (≥ 10 pontos)");
 { const vazio = DATA.levels.find(L => L.lv > 1 && !L.units.length);
   ok(!vazio || !E.levelOpen(S0, vazio.lv, M1), "nível sem conteúdo não abre"); }
 
