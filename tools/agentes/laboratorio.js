@@ -55,9 +55,10 @@ function makeBrain(spec) {
   const [kind, ...rest] = spec.split(":"), model = rest.join(":");
   const stats = { calls: 0, ms: 0, inTok: 0, outTok: 0, fails: 0, retries: 0 };
   let consecutive = 0, noThink = false, inflight = 0; const queue = [];
-  const limit = Math.max(1, +(process.env.LAB_PARALELO || 1));
+  /* limite de chamadas simultâneas: começa em --paralelo e CAI sozinho a cada 429 (limite do provedor), até 1 */
+  let limit = Math.max(1, +(process.env.LAB_PARALELO || 1));
   const acquire = () => inflight < limit ? (inflight++, Promise.resolve()) : new Promise(res => queue.push(res));
-  const release = () => { if (queue.length) queue.shift()(); else inflight--; };
+  const release = () => { inflight--; while (inflight < limit && queue.length) { inflight++; queue.shift()(); } };
   const post = async (url, headers, body) => {
     const ac = new AbortController(), tm = setTimeout(() => ac.abort(), 120000);
     try { return await fetch(url, { method: "POST", headers, body: JSON.stringify(body), signal: ac.signal }); } finally { clearTimeout(tm); }
@@ -77,7 +78,11 @@ function makeBrain(spec) {
     if (kind === "openai" || kind === "deepseek") {
       const base = (kind === "deepseek" ? (process.env.DEEPSEEK_BASE_URL || "https://api.deepseek.com") : (process.env.OPENAI_BASE_URL || "https://api.openai.com/v1")).replace(/\/+$/, "");
       const key = kind === "deepseek" ? process.env.DEEPSEEK_API_KEY : process.env.OPENAI_API_KEY;
-      const r = await post(base + "/chat/completions", { "content-type": "application/json", authorization: "Bearer " + key }, { model, messages, temperature, max_tokens: max });
+      /* DeepSeek: o modo "thinking" vem LIGADO por padrão e o raciocínio é cobrado como saída; aqui não serve (traduzir,
+         responder com uma letra), então vai desligado. Desligar via LAB_THINKING=1 para quem quiser medir com raciocínio. */
+      const body = { model, messages, temperature, max_tokens: max };
+      if (kind === "deepseek" && process.env.LAB_THINKING !== "1") body.thinking = { type: "disabled" };
+      const r = await post(base + "/chat/completions", { "content-type": "application/json", authorization: "Bearer " + key }, body);
       if (!r.ok) throw new Error("HTTP " + r.status + " " + (await r.text()).slice(0, 160));
       const d = await r.json(); if (d.usage) { stats.inTok += d.usage.prompt_tokens; stats.outTok += d.usage.completion_tokens; } return d.choices[0].message.content || "";
     }
@@ -93,13 +98,19 @@ function makeBrain(spec) {
   async function call(messages, { temperature = 0.7, max = 80, rng = Math.random } = {}) {
     const seedDraw = rng();   /* tirada ANTES de esperar a vez: a sequência do gerador fica igual em série ou em paralelo */
     await acquire(); const t0 = Date.now(); let text = "";
-    for (let att = 1; att <= 3; att++) {
+    for (let att = 1, rl = 0; att <= 3; att++) {
       try { text = await once(messages, temperature, max, () => seedDraw); consecutive = 0; break; }
       catch (e) {
+        const m = String(e.message || "");
+        /* sem saldo ou chave inválida: não adianta insistir; para já, com a causa (o que já foi feito fica salvo) */
+        if (/HTTP 40[12]\b/.test(m)) { release(); throw new Error((/402/.test(m) ? "Saldo insuficiente no provedor (" + kind + "). Recarregue o saldo, ou use um cérebro local (ex.: --cerebro ollama:qwen3:8b)," : "Chave de API recusada (" + kind + "). Confira a chave,") + " e rode o MESMO comando de novo: o que já foi feito está salvo e é retomado."); }
+        /* 429: o provedor pediu calma; reduz a simultaneidade e espera mais (não conta como tentativa até 6 vezes) */
+        if (/HTTP 429\b/.test(m) && rl < 6) { rl++; att--; stats.retries++; if (limit > 1) { limit--; if (stats.retries < 50) console.error("\n   aviso: limite do provedor; simultaneidade reduzida para " + limit); }
+          await new Promise(r => setTimeout(r, 4000 * 2 ** (rl - 1))); continue; }
         if (att < 3) { stats.retries++; await new Promise(r => setTimeout(r, att * (kind === "simulado" ? 1 : 1500))); continue; }
         stats.fails++; consecutive++;
         if (stats.fails <= 3) console.error("\n   aviso: " + (e.name === "AbortError" ? "sem resposta em 2 min" : e.message));
-        if (consecutive >= 10) { release(); throw new Error("o cérebro falhou 10 vezes seguidas; o servidor está no ar? Rode o mesmo comando com a mesma --rodada para retomar."); }
+        if (consecutive >= 10) { release(); throw new Error("o cérebro falhou 10 vezes seguidas; o servidor está no ar? Rode o mesmo comando de novo (com a mesma --rodada, no estudo) para retomar: o que já foi feito está salvo."); }
       }
     }
     release(); stats.calls++; stats.ms += Date.now() - t0;
@@ -509,6 +520,7 @@ function validTr(src, tgt) {
 }
 async function translate(opts) {
   const lang = opts.idioma; if (!lang || lang === "pt") throw new Error("Use --idioma es (ou en, fr...): o português é a língua de origem.");
+  if (!process.env.LAB_PARALELO) process.env.LAB_PARALELO = "4";
   const E = env(opts), brain = makeBrain(opts.cerebro); await preflight(brain);
   const miss = faltando(E, opts, [lang])[lang], cache = tradCache(lang), name = langNameOf(lang);
   console.log(`${A.nome} → ${name}: ${miss.length} textos a traduzir (${miss.reduce((s2, x) => s2 + x.length, 0)} caracteres); já no cache: ${Object.keys(cache).length}. Cérebro: ${brain.spec}`);
