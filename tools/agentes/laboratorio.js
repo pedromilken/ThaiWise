@@ -423,7 +423,7 @@ async function pilot(opts) {
 
 /* ---------------- triagem: critérios fixados antes de ver resultados ----------------
    (1) ≥ 90% de respostas legíveis em cada idioma do domínio; (2) acerto com notas ≥ 0,30;
-   (3) há o que medir: pelo menos 2 habilidades com degrau (IC de Δ acima de zero). 2 repetições, até 6 itens por
+   (3) há o que medir: pelo menos 2 habilidades com degrau, OU degrau global (todos os itens juntos, mesma regra). 2 repetições, até 6 itens por
    habilidade, ~40 itens no total.
    Domínio-CONTROLE (--papel controle): o papel dele é justamente não ter degrau (como engenharia de software no DevWise
    e o ENEM no artigo dos confundidores), então o critério (3) não se aplica; (1) e (2) continuam valendo. O papel fica
@@ -443,13 +443,18 @@ async function triage(opts) {
     res[lang] = { legivel: mean(rows.flatMap(x => [x.a0.fmt !== "ilegivel" ? 1 : 0, x.a1.fmt !== "ilegivel" ? 1 : 0])), c0: mean(rows.map(x => +x.a0.ok)), c1: mean(rows.map(x => +x.a1.ok)) };
     console.log(`  ${lang}: legíveis ${(100 * res[lang].legivel).toFixed(0)}%  sem notas ${res[lang].c0.toFixed(2)}  com notas ${res[lang].c1.toFixed(2)}`); }
   const R = regimes(med), nDeg = Object.values(R).filter(x => x.regime === "degrau").length, motivos = [];
+  /* degrau GLOBAL: a mesma regra do regime (IC 95% acima de zero e Δ̄ ≥ 0,10), com todos os itens da triagem juntos.
+     Necessário porque, com 3–4 itens por habilidade (IAWise), o IC por habilidade nunca exclui zero, qualquer que seja o
+     cérebro: o critério por habilidade era inalcançável ali. Vale igual para todos os domínios. */
+  const G = regimes(med.map(x => ({ ...x, lang: "*", skill: "*" })))["*|*"], degGlobal = G && G.regime === "degrau";
   for (const [l, x] of Object.entries(res)) if (x.legivel < GATE.legivel) motivos.push("legíveis em " + l + ": " + (100 * x.legivel).toFixed(0) + "%");
   if (mean(Object.values(res).map(x => x.c1)) < GATE.c1) motivos.push("acerto com notas abaixo de " + GATE.c1);
   const controle = opts.papel === "controle";
-  if (nDeg < GATE.habDegrau && !controle) motivos.push("só " + nDeg + " habilidade(s) com degrau: pouco a medir (se este domínio é controle, rode com --papel controle)");
+  console.log(`  degrau global: Δ = ${G ? (G.delta >= 0 ? "+" : "") + G.delta.toFixed(2) + " [" + G.lo.toFixed(2) + ", " + G.hi.toFixed(2) + "]" : "-"} · habilidades com degrau: ${nDeg}`);
+  if (nDeg < GATE.habDegrau && !degGlobal && !controle) motivos.push("só " + nDeg + " habilidade(s) com degrau e sem degrau global: pouco a medir (se este domínio é controle, rode com --papel controle)");
   if (controle) console.log("  papel: CONTROLE (" + nDeg + " habilidade(s) com degrau; o critério de degrau não se aplica)");
   const ok = !motivos.length, out = path.join(ROOT, "agentes", "saida", opts.rodada); fs.mkdirSync(out, { recursive: true });
-  fs.writeFileSync(path.join(out, "triagem-" + brainSlug(opts.cerebro) + ".json"), JSON.stringify({ dominio: A.id, cerebro: opts.cerebro, papel: opts.papel || "estudo", aprovado: ok, motivos, criterios: GATE, resultados: res, regimes: R, amostra: amostra.slice(0, 30), minutos: (Date.now() - t0) / 60000 }, null, 1));
+  fs.writeFileSync(path.join(out, "triagem-" + brainSlug(opts.cerebro) + ".json"), JSON.stringify({ dominio: A.id, cerebro: opts.cerebro, papel: opts.papel || "estudo", aprovado: ok, motivos, criterios: GATE, resultados: res, regimes: R, degrauGlobal: G, amostra: amostra.slice(0, 30), minutos: (Date.now() - t0) / 60000 }, null, 1));
   console.log(ok ? "\nAPROVADO: entra no estudo." : "\nREPROVADO: " + motivos.join("; ") + ".");
   if (!ok) process.exitCode = 2;
 }
