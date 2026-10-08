@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .DS_Store
 .qwen/
+
+# laboratório de agentes: resultados (grandes) e dependências locais
+agentes/saida/
+tools/agentes/node_modules/
+resultado-*.zip
