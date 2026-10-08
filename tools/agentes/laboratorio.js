@@ -34,7 +34,7 @@
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..");
 const KT = require("./kt-canonico.js");
-const NUCLEO_VERSAO = "1.0";
+const NUCLEO_VERSAO = "1.4";
 const MODELS = ["elo", "irt", "bkt", "pfa", "afm"];
 const STEP = 3;                                    /* as notas chegam depois do 3º item de cada habilidade (o adaptador pode fixar outro: passo) */
 const PASSO = () => (ENV && ENV.passo) || STEP;
@@ -347,11 +347,18 @@ function ci(vals, B = 2000) {
   for (let b = 0; b < B; b++) { let s = 0; for (let i = 0; i < v.length; i++) s += v[Math.floor(r() * v.length)]; bs.push(s / v.length); }
   bs.sort((x, y) => x - y); return { m, lo: bs[Math.floor(.025 * B)], hi: bs[Math.floor(.975 * B)], n: v.length };
 }
-/* bootstrap de idiomas inteiros quando há 2+ idiomas (alunos do mesmo idioma não são independentes); com 1 idioma, de alunos */
+/* Bootstrap de idiomas inteiros quando há 5+ idiomas (alunos do mesmo idioma não são independentes).
+   Com 2 a 4 idiomas, sortear idiomas é degenerado (com 2 só há 3 reamostras distintas: o "IC" vira o intervalo entre as
+   duas médias e sai estreito demais — erro achado na verificação de 08/10). Nesse caso o sorteio é de ALUNOS dentro de
+   cada idioma (estratificado), e com 1 idioma, de alunos. Continua otimista: os alunos dividem itens e verdade medida. */
 function ciLang(units, key, B = 2000) {
   const get = u => typeof key === "function" ? key(u) : u[key];
   const by = {}; for (const u of units) { const v = get(u); if (v == null || isNaN(v)) continue; (by[u.lang] = by[u.lang] || []).push(v); }
   const L = Object.keys(by); if (L.length < 2) return ci(units.map(get));
+  if (L.length < 5) { const all = L.flatMap(l => by[l]); if (all.length < 2) return ci(all); const m = all.reduce((s, x) => s + x, 0) / all.length, bs = [];
+    let a = 192837465; const r = () => { a = (a * 1103515245 + 12345) >>> 0; return a / 4294967296; };
+    for (let b = 0; b < B; b++) { let s2 = 0, n = 0; for (const l of L) { const g = by[l]; for (let i = 0; i < g.length; i++) { s2 += g[Math.floor(r() * g.length)]; n++; } } bs.push(s2 / n); }
+    bs.sort((x, y) => x - y); return { m, lo: bs[Math.floor(.025 * B)], hi: bs[Math.floor(.975 * B)], n: all.length }; }
   const all = L.flatMap(l => by[l]), m = all.reduce((s, x) => s + x, 0) / all.length, bs = []; let a = 123456789; const r = () => { a = (a * 1103515245 + 12345) >>> 0; return a / 4294967296; };
   for (let b = 0; b < B; b++) { let s2 = 0, n = 0; for (let i = 0; i < L.length; i++) { const g = by[L[Math.floor(r() * L.length)]]; for (const x of g) { s2 += x; n++; } } bs.push(s2 / n); }
   bs.sort((x, y) => x - y); return { m, lo: bs[Math.floor(.025 * B)], hi: bs[Math.floor(.975 * B)], n: all.length };
@@ -561,7 +568,7 @@ function compare(opts) {
   const U = (dom, b) => D.filter(x => x.dom === dom && (!b || x.cerebro === b)).flatMap(x => x.units);
   let r = `# Comparação entre domínios\n\nDomínios: ${names.join(", ")} · cérebros (os mesmos em todos): ${brains.join(", ")}.\n\n` +
     "| Domínio | Rodada | Papel |\n|---|---|---|\n" + names.map(n => { const z = D.filter(x => x.dom === n); return `| ${n} | ${[...new Set(z.map(x => x.rodada))].join(", ")} | ${[...new Set(z.map(x => x.papel))].join(", ")} |`; }).join("\n") + "\n\n" +
-    (aviso.length ? "> " + aviso.join("\n> ") + "\n\n" : "") + `O código de KT é o mesmo em todos (kt-canonico.js = DevWise/src/models.js). Médias com IC 95% por bootstrap de idiomas inteiros (com um idioma, de alunos).\n\n`;
+    (aviso.length ? "> " + aviso.join("\n> ") + "\n\n" : "") + `O código de KT é o mesmo em todos (kt-canonico.js = DevWise/src/models.js). Médias com IC 95% por bootstrap: de idiomas inteiros com 5+ idiomas; de alunos dentro de cada idioma com menos (com 2 idiomas, sortear idiomas é degenerado).\n\n`;
   r += "## Vazamento por domínio\n\n| Domínio | C0 (sem notas) | C1 (com notas) | Habilidades planas | com degrau | intermediárias |\n|---|---|---|---|---|---|\n";
   for (const n of names) { const z = D.filter(x => x.dom === n && x.resumo); if (!z.length) { r += `| ${n} | - | - | - | - | - |\n`; continue; }
     const g = k => z.reduce((s, x) => s + (x.resumo.regimes[k] || 0), 0); r += `| ${n} | ${f2(mean(z.map(x => x.resumo.c0)))} | ${f2(mean(z.map(x => x.resumo.c1)))} | ${g("plano")} | ${g("degrau")} | ${g("intermediario")} |\n`; }
