@@ -416,7 +416,7 @@ async function pilot(opts) {
   fs.writeFileSync(path.join(out, "tutores.jsonl"), all.tut.map(r => JSON.stringify(r)).join("\n"));
   const units = unitMetrics(E, all.med, all.game, all.fixed, opts), R = regimes(all.med);
   const resumoDominio = { c0: mean(all.med.map(x => x.c0)), c1: mean(all.med.map(x => x.c1)), regimes: Object.values(R).reduce((o, x) => (o[x.regime] = (o[x.regime] || 0) + 1, o), {}) };
-  fs.writeFileSync(path.join(out, "metricas.json"), JSON.stringify({ dominio: A.id, dominioPt: E.dominioPt, cerebro: opts.cerebro, nucleo: NUCLEO_VERSAO, resumo: resumoDominio, units }, null, 1));
+  fs.writeFileSync(path.join(out, "metricas.json"), JSON.stringify({ dominio: A.id, dominioPt: E.dominioPt, cerebro: opts.cerebro, papel: opts.papel || "estudo", rodada: opts.rodada, nucleo: NUCLEO_VERSAO, resumo: resumoDominio, units }, null, 1));
   fs.writeFileSync(path.join(out, "RESUMO.md"), report(E, brain, langs, all.med, all.game, all.fixed, all.tut, units, all.perLang, Date.now() - t0));
   console.log("Pronto em " + ((Date.now() - t0) / 60000).toFixed(1) + " min. Resultados em " + path.relative(ROOT, out));
 }
@@ -424,26 +424,32 @@ async function pilot(opts) {
 /* ---------------- triagem: critérios fixados antes de ver resultados ----------------
    (1) ≥ 90% de respostas legíveis em cada idioma do domínio; (2) acerto com notas ≥ 0,30;
    (3) há o que medir: pelo menos 2 habilidades com degrau (IC de Δ acima de zero). 2 repetições, até 6 itens por
-   habilidade, ~40 itens no total. */
+   habilidade, ~40 itens no total.
+   Domínio-CONTROLE (--papel controle): o papel dele é justamente não ter degrau (como engenharia de software no DevWise
+   e o ENEM no artigo dos confundidores), então o critério (3) não se aplica; (1) e (2) continuam valendo. O papel fica
+   gravado na triagem e em metricas.json, e a comparação o mostra. */
 const GATE = { legivel: 0.90, c1: 0.30, habDegrau: 2 };
 async function triage(opts) {
   const E = env(opts), brain = makeBrain(opts.cerebro); await preflight(brain);
   /* no máximo ~40 itens, como no DevWise: até 6 por habilidade, nas primeiras habilidades do estudo, sorteadas com semente */
   const all = studyItems(E, { ...opts, itens: Math.min(6, opts.itens || 6) }), sks = LAB.shuf([...new Set(all.map(i => i.skill))], makeRng(opts.semente, A.id, "triagem-hab")), keep = new Set(); let n = 0;
   for (const s of sks) { const k = all.filter(i => i.skill === s).length; if (n + k > 40 && keep.size >= 2) break; keep.add(s); n += k; }
-  const items = all.filter(i => keep.has(i.skill)), res = {}, med = [], t0 = Date.now();
+  const items = all.filter(i => keep.has(i.skill)), res = {}, med = [], amostra = [], t0 = Date.now();
   console.log("Triagem de " + brain.spec + " em " + A.nome + ": " + items.length + " itens × 2 condições × 2 repetições em " + E.idiomas.join(", "));
   for (const lang of E.idiomas) { const rl = makeRng(opts.semente, A.id, "triagem", lang), jobs = [];
     for (const it of items) for (let k = 0; k < 2; k++) jobs.push({ it, a0: attempt(E, brain, lang, it, false, rl), a1: attempt(E, brain, lang, it, true, rl) });
-    const rows = []; for (const j of jobs) { const a0 = await j.a0, a1 = await j.a1; rows.push({ it: j.it, a0, a1 }); med.push({ lang, skill: j.it.skill, item: j.it.id, c0: a0.ok ? 1 : 0, c1: a1.ok ? 1 : 0 }); }
+    const rows = []; for (const j of jobs) { const a0 = await j.a0, a1 = await j.a1; rows.push({ it: j.it, a0, a1 }); med.push({ lang, skill: j.it.skill, item: j.it.id, c0: a0.ok ? 1 : 0, c1: a1.ok ? 1 : 0 });
+      if (amostra.length < 30) amostra.push({ lang, item: j.it.id, c0: a0.ok ? 1 : 0, c1: a1.ok ? 1 : 0, resposta_sem_notas: String(a0.raw || ""), resposta_com_notas: String(a1.raw || "") }); }
     res[lang] = { legivel: mean(rows.flatMap(x => [x.a0.fmt !== "ilegivel" ? 1 : 0, x.a1.fmt !== "ilegivel" ? 1 : 0])), c0: mean(rows.map(x => +x.a0.ok)), c1: mean(rows.map(x => +x.a1.ok)) };
     console.log(`  ${lang}: legíveis ${(100 * res[lang].legivel).toFixed(0)}%  sem notas ${res[lang].c0.toFixed(2)}  com notas ${res[lang].c1.toFixed(2)}`); }
   const R = regimes(med), nDeg = Object.values(R).filter(x => x.regime === "degrau").length, motivos = [];
   for (const [l, x] of Object.entries(res)) if (x.legivel < GATE.legivel) motivos.push("legíveis em " + l + ": " + (100 * x.legivel).toFixed(0) + "%");
   if (mean(Object.values(res).map(x => x.c1)) < GATE.c1) motivos.push("acerto com notas abaixo de " + GATE.c1);
-  if (nDeg < GATE.habDegrau) motivos.push("só " + nDeg + " habilidade(s) com degrau: pouco a medir");
+  const controle = opts.papel === "controle";
+  if (nDeg < GATE.habDegrau && !controle) motivos.push("só " + nDeg + " habilidade(s) com degrau: pouco a medir (se este domínio é controle, rode com --papel controle)");
+  if (controle) console.log("  papel: CONTROLE (" + nDeg + " habilidade(s) com degrau; o critério de degrau não se aplica)");
   const ok = !motivos.length, out = path.join(ROOT, "agentes", "saida", opts.rodada); fs.mkdirSync(out, { recursive: true });
-  fs.writeFileSync(path.join(out, "triagem-" + brainSlug(opts.cerebro) + ".json"), JSON.stringify({ dominio: A.id, cerebro: opts.cerebro, aprovado: ok, motivos, criterios: GATE, resultados: res, regimes: R, minutos: (Date.now() - t0) / 60000 }, null, 1));
+  fs.writeFileSync(path.join(out, "triagem-" + brainSlug(opts.cerebro) + ".json"), JSON.stringify({ dominio: A.id, cerebro: opts.cerebro, papel: opts.papel || "estudo", aprovado: ok, motivos, criterios: GATE, resultados: res, regimes: R, amostra: amostra.slice(0, 30), minutos: (Date.now() - t0) / 60000 }, null, 1));
   console.log(ok ? "\nAPROVADO: entra no estudo." : "\nREPROVADO: " + motivos.join("; ") + ".");
   if (!ok) process.exitCode = 2;
 }
@@ -473,9 +479,14 @@ function readCsv(f) {   /* CSV com aspas (o formato que csvOf grava) */
   const h = rows.shift() || []; return rows.filter(r => r.length === h.length).map(r => Object.fromEntries(h.map((k, i) => [k, r[i]])));
 }
 /* ---------------- consolidação de uma rodada (vários cérebros, um domínio) ---------------- */
-function loadRuns(base) {
+/* aceita a pasta de UMA rodada (agentes/saida/<rodada>) ou a pasta de TODAS (agentes/saida): aí lê cada rodada dentro dela */
+function loadRuns(base, deep) {
   if (!fs.existsSync(base)) throw new Error("Pasta não encontrada: " + base);
-  return fs.readdirSync(base).filter(d => fs.existsSync(path.join(base, d, "metricas.json"))).sort().map(d => ({ d, j: JSON.parse(fs.readFileSync(path.join(base, d, "metricas.json"), "utf8")) }));
+  const dirs = fs.readdirSync(base).filter(d => fs.statSync(path.join(base, d)).isDirectory()).sort();
+  const here = dirs.filter(d => fs.existsSync(path.join(base, d, "metricas.json"))).map(d => { const f = path.join(base, d, "metricas.json");
+    return { d, j: JSON.parse(fs.readFileSync(f, "utf8")), rodada: path.basename(base), t: fs.statSync(f).mtimeMs }; });
+  if (here.length || !deep) return here;
+  return dirs.flatMap(r => loadRuns(path.join(base, r), false).map(x => ({ ...x, d: path.join(r, x.d) })));
 }
 function kendallW(ranks, rnd) {
   const n = ranks[0].length, W = rk => { const m = rk.length, Rs = rk[0].map((_, i) => rk.reduce((s, x) => s + x[i], 0)), Rm = mean(Rs); return 12 * Rs.reduce((s, x) => s + (x - Rm) ** 2, 0) / (m * m * (n ** 3 - n)); };
@@ -514,7 +525,7 @@ function compare(opts) {
   const doms = opts.pastas.split(",").map(x => { const i = x.indexOf("="), n = i > 0 ? x.slice(0, i) : path.basename(path.dirname(path.dirname(path.dirname(x)))), p = i > 0 ? x.slice(i + 1) : x; return { nome: n, base: path.resolve(p) }; });
   let rs = 77; const rnd = () => { rs = (rs * 1103515245 + 12345) >>> 0; return rs / 4294967296; };
   const D = [];
-  for (const d of doms) { const runs = loadRuns(d.base);
+  for (const d of doms) { const runs = loadRuns(d.base, true);
     for (const { d: sub, j } of runs) {
       let units = j.units;
       if (!j.dominio) {   /* laboratório original do DevWise */
@@ -524,11 +535,28 @@ function compare(opts) {
       let resumo = j.resumo || null;
       if (!resumo) { const f = path.join(d.base, sub, "medicao.csv"); if (fs.existsSync(f)) { const med = readCsv(f).map(x => ({ ...x, c0: +x.c0, c1: +x.c1 })), R = regimes(med);
         resumo = { c0: mean(med.map(x => x.c0)), c1: mean(med.map(x => x.c1)), regimes: Object.values(R).reduce((o, x) => (o[x.regime] = (o[x.regime] || 0) + 1, o), {}) }; } }
-      D.push({ dom: d.nome, cerebro: j.cerebro, dialeto: !!j.dialeto, units, resumo, sub }); } }
+      D.push({ dom: d.nome, cerebro: j.cerebro, dialeto: !!j.dialeto, units, resumo, sub, rodada: runs.find(x => x.d === sub).rodada, t: runs.find(x => x.d === sub).t, papel: j.papel || (j.dominio ? "estudo" : (j.dialeto ? "estudo" : "estudo")) }); } }
   if (!D.length) throw new Error("Nenhuma métrica encontrada nas pastas indicadas.");
+  /* Comparar domínios só faz sentido com o MESMO cérebro em todos: o par cérebro × domínio não pode variar junto com o domínio.
+     (1) sem --cerebro, ficam de fora os cérebros de teste (simulado, aleatorio); com --cerebro a,b, só esses;
+     (2) em cada domínio × cérebro vale a rodada mais recente (no DevWise, com as passadas com e sem dialeto dela);
+     (3) só entram os cérebros presentes em TODOS os domínios; o que sobra é avisado no topo do relatório. */
+  const want = opts.cerebroExplicito ? (opts.cerebros || opts.cerebro).split(",") : null;
+  let DD = D.filter(x => want ? want.includes(x.cerebro) : !/^(simulado|aleatorio)/.test(x.cerebro));
+  const latest = {}; for (const x of DD) { const k = x.dom + "|" + x.cerebro; if (!latest[k] || x.t > latest[k].t) latest[k] = x; }
+  DD = DD.filter(x => x.rodada === latest[x.dom + "|" + x.cerebro].rodada);
+  const allDoms = [...new Set(D.map(x => x.dom))], perBrain = {}; for (const x of DD) (perBrain[x.cerebro] = perBrain[x.cerebro] || new Set()).add(x.dom);
+  const domsWith = [...new Set(DD.map(x => x.dom))], common = Object.keys(perBrain).filter(b => perBrain[b].size === domsWith.length && domsWith.length >= 2);
+  const aviso = [];
+  for (const n of allDoms) if (!domsWith.includes(n)) aviso.push(`**${n}** ficou de fora: só tem ${[...new Set(D.filter(x => x.dom === n).map(x => x.cerebro))].join(", ")}.`);
+  for (const b of Object.keys(perBrain)) if (!common.includes(b)) aviso.push(`\`${b}\` ficou de fora: só rodou em ${[...perBrain[b]].join(", ")}.`);
+  if (!common.length) throw new Error("Nenhum cérebro rodou em 2+ domínios.\n" + aviso.join("\n").replace(/\*\*|`/g, "") + "\nRode o mesmo cérebro em todos os domínios, ou escolha com --cerebro <spec>.");
+  D.length = 0; D.push(...DD.filter(x => common.includes(x.cerebro)));
   const names = [...new Set(D.map(x => x.dom))], brains = [...new Set(D.map(x => x.cerebro))];
   const U = (dom, b) => D.filter(x => x.dom === dom && (!b || x.cerebro === b)).flatMap(x => x.units);
-  let r = `# Comparação entre domínios\n\nDomínios: ${names.join(", ")} · cérebros: ${brains.join(", ")}.\n\nO código de KT é o mesmo em todos (kt-canonico.js = DevWise/src/models.js). Médias com IC 95% por bootstrap de idiomas inteiros (com um idioma, de alunos).\n\n`;
+  let r = `# Comparação entre domínios\n\nDomínios: ${names.join(", ")} · cérebros (os mesmos em todos): ${brains.join(", ")}.\n\n` +
+    "| Domínio | Rodada | Papel |\n|---|---|---|\n" + names.map(n => { const z = D.filter(x => x.dom === n); return `| ${n} | ${[...new Set(z.map(x => x.rodada))].join(", ")} | ${[...new Set(z.map(x => x.papel))].join(", ")} |`; }).join("\n") + "\n\n" +
+    (aviso.length ? "> " + aviso.join("\n> ") + "\n\n" : "") + `O código de KT é o mesmo em todos (kt-canonico.js = DevWise/src/models.js). Médias com IC 95% por bootstrap de idiomas inteiros (com um idioma, de alunos).\n\n`;
   r += "## Vazamento por domínio\n\n| Domínio | C0 (sem notas) | C1 (com notas) | Habilidades planas | com degrau | intermediárias |\n|---|---|---|---|---|---|\n";
   for (const n of names) { const z = D.filter(x => x.dom === n && x.resumo); if (!z.length) { r += `| ${n} | - | - | - | - | - |\n`; continue; }
     const g = k => z.reduce((s, x) => s + (x.resumo.regimes[k] || 0), 0); r += `| ${n} | ${f2(mean(z.map(x => x.resumo.c0)))} | ${f2(mean(z.map(x => x.resumo.c1)))} | ${g("plano")} | ${g("degrau")} | ${g("intermediario")} |\n`; }
@@ -553,7 +581,7 @@ function compare(opts) {
       r += `| ${m.toUpperCase()} | ${da && db ? (nu / Math.sqrt(da * db)).toFixed(2) : "-"} (n = ${withR.length} domínios; sem teste) |\n`; }
   else r += "| - | são precisos 4+ domínios com resumo de vazamento |\n";
   if (/\|---\|---\|\n$/.test(r)) r += "| - | sem habilidades planas suficientes nos domínios |\n";
-  r += "\n## Como ler\n\n- O DevWise é o único domínio com degrau **construído** (dialeto cifrado); nos outros o degrau é o que as notas da própria ferramenta ensinam ao cérebro, e o regime de cada habilidade é medido.\n- Com um único cérebro, diferenças entre domínios misturam domínio e o par cérebro × domínio; com 2+ cérebros, a consolidação por domínio mostra se a ordem se mantém.\n";
+  r += "\n## Como ler\n\n- Um domínio de papel **controle** (ex.: ENEM) entra para medir alarme falso: nele não se espera degrau.\n- O DevWise é o único domínio com degrau **construído** (dialeto cifrado); nos outros o degrau é o que as notas da própria ferramenta ensinam ao cérebro, e o regime de cada habilidade é medido.\n- Com um único cérebro, diferenças entre domínios misturam domínio e o par cérebro × domínio; com 2+ cérebros, a consolidação por domínio mostra se a ordem se mantém.\n";
   const out = path.resolve(opts.saida || path.join(ROOT, "agentes", "saida", "COMPARACAO-DOMINIOS.md")); fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, r); console.log(r); console.log("Gravado em " + out);
 }
@@ -563,7 +591,7 @@ const argv = process.argv.slice(2), cmd = argv[0]; { const i = argv.indexOf("--p
 const arg = (k, d) => { const i = argv.indexOf("--" + k); return i >= 0 ? argv[i + 1] : d; };
 const opts = { cerebro: arg("cerebro", "ollama:qwen3:8b"), idiomas: arg("idiomas") ? arg("idiomas").split(",") : null, minutos: +arg("minutos", 0), reps: +arg("repeticoes", 2),
   habilidades: arg("habilidades", null), itens: arg("itens") ? +arg("itens") : null, partida: arg("partida", "ambas"), alunos: +arg("alunos", 1), tickets: +arg("tickets", 60), porhab: +arg("porhab", 10),
-  tutor: +arg("tutor", 4), semente: arg("semente", "studx"), rodada: arg("rodada", new Date().toISOString().slice(0, 10)), pastas: arg("pastas", null), saida: arg("saida", null), dificuldade: arg("dificuldade", "autoral"), turnos: +arg("turnos", 6), figuras: arg("figuras", "nao") };
+  tutor: +arg("tutor", 4), semente: arg("semente", "studx"), rodada: arg("rodada", new Date().toISOString().slice(0, 10)), pastas: arg("pastas", null), saida: arg("saida", null), dificuldade: arg("dificuldade", "autoral"), turnos: +arg("turnos", 6), figuras: arg("figuras", "nao"), papel: arg("papel", "estudo"), cerebros: arg("cerebros", null), cerebroExplicito: argv.includes("--cerebro") || argv.includes("--cerebros") };
 const run = async () => {
   if (cmd === "piloto") { for (const c of (arg("cerebros") || opts.cerebro).split(",")) await pilot({ ...opts, cerebro: c }); }
   else if (cmd === "triagem") await triage(opts);

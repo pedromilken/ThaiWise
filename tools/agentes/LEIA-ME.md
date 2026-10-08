@@ -60,6 +60,10 @@ Linha de base sem LLM: `--cerebro aleatorio` responde ao acaso (no IAWise, coman
 
 Mesmas garantias do DevWise: semente fixa (a mesma rodada refeita dá os mesmos arquivos), retomada por idioma, 3 tentativas por chamada e aborto só após 10 falhas seguidas, triagem com critérios fixados antes dos resultados (≥ 90% legíveis, acerto com notas ≥ 0,30, pelo menos 2 habilidades com degrau).
 
+## Domínio-controle (ENEM)
+
+Com notas que não ensinam (a habilidade da Matriz e questões resolvidas de outros itens), o ENEM tende a não ter degrau: é o papel de **controle**, como engenharia de software no DevWise e o próprio ENEM no artigo dos confundidores. Nele só se mede alarme falso. Rode com `-Controle` (ou `--papel controle`): a triagem deixa de exigir degrau, mas continua exigindo legibilidade e acerto com notas; o papel fica gravado e aparece na comparação.
+
 ## Comparar os domínios
 
 Com as pastas dos repositórios lado a lado (ex.: `Documents\DevWise`, `Documents\IAWise`, ...):
@@ -67,6 +71,8 @@ Com as pastas dos repositórios lado a lado (ex.: `Documents\DevWise`, `Document
     powershell -ExecutionPolicy Bypass -File tools\agentes\comparar-dominios.ps1
 
 ou, à mão: `node tools/agentes/laboratorio.js comparar --pastas DevWise=..\DevWise\agentes\saida\completo,IAWise=agentes\saida\completo,...`
+
+A comparação usa **o mesmo cérebro em todos os domínios** (padrão `ollama:qwen3:8b`; outro com `-Cerebro`) e, de cada domínio, a rodada mais recente dele. Cérebros de teste (`simulado`, `aleatorio`) ficam de fora, a não ser que sejam pedidos; domínios sem o cérebro pedido aparecem num aviso no topo.
 
 Gera `COMPARACAO-DOMINIOS.md`: vazamento por domínio, viés de ganho, alarme falso, excesso no degrau, Brier, AUC e queda C3 por domínio × modelo; **W de Kendall entre domínios** (a ordem dos modelos depende da área?); e se o achado do DevWise (AFM e PFA inventam aprendizagem) se repete em cada domínio. A rodada do DevWise entra como está (engenharia de software → plano; programação com dialeto → degrau).
 
