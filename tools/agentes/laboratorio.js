@@ -34,7 +34,7 @@
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..");
 const KT = require("./kt-canonico.js");
-const NUCLEO_VERSAO = "1.4";
+const NUCLEO_VERSAO = "1.5";
 const MODELS = ["elo", "irt", "bkt", "pfa", "afm"];
 const STEP = 3;                                    /* as notas chegam depois do 3º item de cada habilidade (o adaptador pode fixar outro: passo) */
 const PASSO = () => (ENV && ENV.passo) || STEP;
@@ -113,6 +113,7 @@ function makeBrain(spec) {
 function simulated(messages, rng) {
   const u = messages[messages.length - 1].content, sys = messages[0].content;
   if (/^Translate/.test(sys)) return u;
+  if (/^You are a professional translator/.test(sys)) return u;   /* identidade: testa o encanamento da tradução */
   if (/TUTOR/.test(sys)) { const m = u.match(/REFERENCE_HINT: (.*)/); return m ? m[1] : "..."; }
   const hasNotes = /NOTES:\n(?!\(none\))/.test(u), right = rng() < (hasNotes ? 0.85 : 0.3);
   const k = (u.match(/CORRECT_FOR_SIMULATION: (.*)/) || [])[1] || "";
@@ -160,7 +161,11 @@ function mcItem(title, prompt, options, r, extra = "") {
   const L = "ABCDEFGH", ord = shuf(options.map((_, i) => i), r), key = L[ord.indexOf(0)];
   const body = (title ? "ITEM: " + title + "\n" : "") + prompt + "\n" + (extra ? extra + "\n" : "") + "\n" + ord.map((o, i) => L[i] + ") " + options[o]).join("\n") + "\n\nReply with one line: ANSWER: <letter>";
   const wrong = L[ord.findIndex(o => o !== 0)];
-  return { body, key, wrong, random: rr => "ANSWER: " + L[Math.floor(rr() * options.length)], grade: a => { const x = readAnswer(a, "letter", ord.map(o => options[o])); if (x.v && x.v[0] === "@") x.v = L[+x.v.slice(1)]; return { ok: x.v === key, fmt: x.fmt }; } };
+  /* opção com o MESMO texto da correta (ex.: duas glosas distintas que viraram a mesma palavra na tradução) também vale:
+     o agente não tem como distingui-las */
+  const same = new Set(ord.map((o, i) => String(options[o]).trim() === String(options[0]).trim() ? L[i] : null).filter(Boolean));
+  const wrongL = L[ord.findIndex(o => String(options[o]).trim() !== String(options[0]).trim())] || wrong;
+  return { body, key, wrong: wrongL, random: rr => "ANSWER: " + L[Math.floor(rr() * options.length)], grade: a => { const x = readAnswer(a, "letter", ord.map(o => options[o])); if (x.v && x.v[0] === "@") x.v = L[+x.v.slice(1)]; return { ok: same.has(x.v), fmt: x.fmt }; } };
 }
 /* Ordenação genérica: peças embaralhadas, resposta = números na ordem certa. */
 /* accept: outras ordens que o jogo também aceita, como texto montado (peças coladas com `join`) */
@@ -178,7 +183,23 @@ async function singleTurn(brain, sys, item, notes, r, max = 40) {
   const a = brain.kind === "aleatorio" ? (brain.stats.calls++, item.random(r)) : await brain.call([{ role: "system", content: sys }, { role: "user", content: u }], { temperature: 0.7, max, rng: r });
   const g = item.grade(a); return { ok: !!g.ok, fmt: g.fmt, key: item.key, raw: String(a).slice(0, 200) };
 }
-const LAB = { readAnswer, mcItem, orderItem, singleTurn, shuf, makeRng };
+/* ---------------- camada de tradução (idiomas que a ferramenta não tem, ou só tem em parte) ----------------
+   Os adaptadores passam por LAB.tr(idioma, texto) todo texto que só existe em português na ferramenta. O texto traduzido
+   vem de um CACHE versionado em tools/agentes/idiomas/<idioma>.json, preenchido UMA vez pelo comando "traduzir" (com o
+   cérebro que se quiser, ex.: deepseek). Na hora do estudo não há tradução ao vivo: a mesma rodada refeita dá o mesmo
+   resultado, e o piloto se recusa a começar se faltar algum texto. Analogia: o dicionário é impresso antes da prova. */
+const LANGNAMES = { pt: "Portuguese", en: "English", es: "Spanish", fr: "French", de: "German", it: "Italian", zh: "Chinese", ja: "Japanese" };
+const langNameOf = l => LANGNAMES[l] || l;
+const TRAD = { cache: {}, missing: {} };
+const tradFile = lang => path.join(__dirname, "idiomas", lang + ".json");
+function tradCache(lang) { if (!TRAD.cache[lang]) { const f = tradFile(lang); TRAD.cache[lang] = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : {}; } return TRAD.cache[lang]; }
+function tr(lang, text) {
+  if (text == null || lang === "pt") return text;
+  const s = String(text); if (!/[A-Za-zÀ-ÿ]{2}/.test(s.replace(/\{[^}]*\}/g, ""))) return s;   /* só escrita não latina, números ou marcadores: nada a traduzir */
+  const c = tradCache(lang); if (c[s] != null) return c[s];
+  (TRAD.missing[lang] = TRAD.missing[lang] || new Set()).add(s); return s;
+}
+const LAB = { readAnswer, mcItem, orderItem, singleTurn, shuf, makeRng, tr, langName: langNameOf };
 
 /* ---------------- domínio ---------------- */
 const A = require("./adaptador.js");
@@ -210,7 +231,7 @@ function chrF(hyp, ref, n = 6, beta = 2) {
 }
 async function tutorRun(E, brain, lang, it, r) {
   const T = l => E.tutorTask(l, it, r); const t = T(lang); if (!t) return [];
-  const L = E.langName(lang), out = {}, sys = TUTOR_SYS(E.dominioEn), sim = s => brain.kind === "simulado" ? "REFERENCE_HINT: " + (s.reference || "...") + "\n" : "";
+  const L = langNameOf(lang), out = {}, sys = TUTOR_SYS(E.dominioEn), sim = s => brain.kind === "simulado" ? "REFERENCE_HINT: " + (s.reference || "...") + "\n" : "";
   out.S1 = await brain.call([{ role: "system", content: sys }, { role: "user", content: t.task + "\n" + sim(t) + "Write the hint in " + L + "." }], { temperature: 0.3, max: 160, rng: r });
   out.S2 = await brain.call([{ role: "system", content: sys }, { role: "user", content: "NOTES (" + L + "):\n" + E.notes(lang, it.skill, it.id) + "\n\n" + t.task + "\n" + sim(t) + "Write the hint in " + L + ", using the vocabulary of the NOTES." }], { temperature: 0.3, max: 160, rng: r });
   if (lang === "en") out.S3 = out.S1;
@@ -402,10 +423,12 @@ function report(E, brain, langs, med, game, fixed, tut, units, perLang, ms) {
 /* ---------------- piloto/estudo ---------------- */
 async function pilot(opts) {
   const E = env(opts), brain = makeBrain(opts.cerebro), langs = opts.idiomas || E.idiomas, budgetMs = opts.minutos > 0 ? opts.minutos * 60000 : Infinity, t0 = Date.now();
+  const falta = faltando(E, opts, langs), nf = Object.entries(falta).filter(([, v]) => v.length);
+  if (nf.length) throw new Error("Faltam traduções: " + nf.map(([l, v]) => l + " (" + v.length + " textos)").join(", ") + ". Rode antes: " + nf.map(([l]) => "node tools/agentes/laboratorio.js traduzir --idioma " + l + " --cerebro deepseek:deepseek-v4-pro").join(" ; "));
   await preflight(brain);
   const out = path.join(ROOT, "agentes", "saida", opts.rodada, brainSlug(opts.cerebro)), parc = path.join(out, "parcial"); fs.mkdirSync(parc, { recursive: true });
   const items = studyItems(E, opts);
-  fs.writeFileSync(path.join(out, "config.json"), JSON.stringify({ ...opts, dominio: A.id, nucleo: NUCLEO_VERSAO, itens: items.map(i => i.id), inicio: new Date().toISOString() }, null, 1));
+  fs.writeFileSync(path.join(out, "config.json"), JSON.stringify({ ...opts, idiomas: langs, dominio: A.id, nucleo: NUCLEO_VERSAO, itens: items.map(i => i.id), traducoes: Object.fromEntries(langs.filter(l => l !== "pt").map(l => [l, Object.keys(tradCache(l)).length])), inicio: new Date().toISOString() }, null, 1));
   console.log(`\n== ${A.nome} · ${brain.spec} · rodada ${opts.rodada} · ${items.length} itens em ${new Set(items.map(i => i.skill)).size} habilidades · ${opts.reps} repetições · ${opts.alunos} alunos · semente ${opts.semente}`);
   const all = { med: [], game: [], fixed: [], tut: [], perLang: [] }, timeLeft = () => budgetMs - (Date.now() - t0);
   for (const lang of langs) {
@@ -442,8 +465,10 @@ async function triage(opts) {
   const all = studyItems(E, { ...opts, itens: Math.min(6, opts.itens || 6) }), sks = LAB.shuf([...new Set(all.map(i => i.skill))], makeRng(opts.semente, A.id, "triagem-hab")), keep = new Set(); let n = 0;
   for (const s of sks) { const k = all.filter(i => i.skill === s).length; if (n + k > 40 && keep.size >= 2) break; keep.add(s); n += k; }
   const items = all.filter(i => keep.has(i.skill)), res = {}, med = [], amostra = [], t0 = Date.now();
-  console.log("Triagem de " + brain.spec + " em " + A.nome + ": " + items.length + " itens × 2 condições × 2 repetições em " + E.idiomas.join(", "));
-  for (const lang of E.idiomas) { const rl = makeRng(opts.semente, A.id, "triagem", lang), jobs = [];
+  const TL = opts.idiomas || E.idiomas, falta = faltando(E, opts, TL), nf = Object.entries(falta).filter(([, v]) => v.length);
+  if (nf.length) throw new Error("Faltam traduções: " + nf.map(([l, v]) => l + " (" + v.length + " textos)").join(", ") + ". Rode antes: node tools/agentes/laboratorio.js traduzir --idioma <idioma> --cerebro deepseek:deepseek-v4-pro");
+  console.log("Triagem de " + brain.spec + " em " + A.nome + ": " + items.length + " itens × 2 condições × 2 repetições em " + TL.join(", "));
+  for (const lang of TL) { const rl = makeRng(opts.semente, A.id, "triagem", lang), jobs = [];
     for (const it of items) for (let k = 0; k < 2; k++) jobs.push({ it, a0: attempt(E, brain, lang, it, false, rl), a1: attempt(E, brain, lang, it, true, rl) });
     const rows = []; for (const j of jobs) { const a0 = await j.a0, a1 = await j.a1; rows.push({ it: j.it, a0, a1 }); med.push({ lang, skill: j.it.skill, item: j.it.id, c0: a0.ok ? 1 : 0, c1: a1.ok ? 1 : 0 });
       if (amostra.length < 30) amostra.push({ lang, item: j.it.id, c0: a0.ok ? 1 : 0, c1: a1.ok ? 1 : 0, resposta_sem_notas: String(a0.raw || ""), resposta_com_notas: String(a1.raw || "") }); }
@@ -465,6 +490,54 @@ async function triage(opts) {
   console.log(ok ? "\nAPROVADO: entra no estudo." : "\nREPROVADO: " + motivos.join("; ") + ".");
   if (!ok) process.exitCode = 2;
 }
+/* textos que faltam no cache para estes idiomas (o adaptador percorre notas e itens do estudo: coletar) */
+function faltando(E, opts, langs) {
+  const items = studyItems(E, opts), out = {};
+  for (const lang of langs) { if (lang === "pt") continue; TRAD.missing[lang] = new Set(); if (E.coletar) E.coletar(lang, items);
+    if (E.tutorTask) for (const it of items) for (let k = 1; k <= 6; k++) { try { E.tutorTask(lang, it, makeRng("coleta-tutor", it.id, k)); } catch (e) {} }   /* as dicas de referência do tutor também */
+    out[lang] = [...TRAD.missing[lang]]; }
+  return out;
+}
+const PROT = /[\u3040-\u30ff\u4e00-\u9fff\u0e00-\u0e7f\u0e00-\u0e7f]+|\{[^}]*\}|\d+(?:[.,]\d+)?/g;
+function validTr(src, tgt) {
+  if (typeof tgt !== "string" || !tgt.trim()) return "vazio";
+  for (const p of src.match(PROT) || []) if (!tgt.includes(p)) return "perdeu " + p;
+  const lead = x => (x.match(/^\s*(##|-|\*|\d+\.)\s/) || [""])[0].trim();
+  if (lead(src) !== lead(tgt)) return "marcador inicial";
+  if (src.length > 20 && (tgt.length < .3 * src.length || tgt.length > 3 * src.length)) return "tamanho";
+  return null;
+}
+async function translate(opts) {
+  const lang = opts.idioma; if (!lang || lang === "pt") throw new Error("Use --idioma es (ou en, fr...): o português é a língua de origem.");
+  const E = env(opts), brain = makeBrain(opts.cerebro); await preflight(brain);
+  const miss = faltando(E, opts, [lang])[lang], cache = tradCache(lang), name = langNameOf(lang);
+  console.log(`${A.nome} → ${name}: ${miss.length} textos a traduzir (${miss.reduce((s2, x) => s2 + x.length, 0)} caracteres); já no cache: ${Object.keys(cache).length}. Cérebro: ${brain.spec}`);
+  if (!miss.length) { console.log("Nada a fazer."); return; }
+  fs.mkdirSync(path.dirname(tradFile(lang)), { recursive: true });
+  const save = () => { const f = tradFile(lang), o = {}; for (const k of Object.keys(cache).sort()) o[k] = cache[k]; fs.writeFileSync(f + ".tmp", JSON.stringify(o, null, 1)); fs.renameSync(f + ".tmp", f); };
+  const SYS = `You are a professional translator. Translate each string of the JSON array from Brazilian Portuguese (a few strings may already be in English) into natural, concise ${name} for an educational game. Rules: keep EXACTLY unchanged any Chinese characters, Thai script, pinyin, romanizations (Paiboon, RTGS), IPA, numbers, formulas, code and anything inside {braces}; keep leading markers such as "## ", "- ", "* " and separators such as " · ", " → ", " = ", " / ". Do not add explanations. Return ONLY a JSON array of strings with exactly the same number of items, in the same order.`;
+  const batches = []; let cur = [], sz = 0;
+  for (const x of miss) { if (cur.length && (cur.length >= 30 || sz + x.length > 5000)) { batches.push(cur); cur = []; sz = 0; } cur.push(x); sz += x.length; }
+  if (cur.length) batches.push(cur);
+  const r = makeRng("traducao", lang), failed = []; let done = 0, ok = 0;
+  async function run(batch, tries) {
+    const a = await brain.call([{ role: "system", content: SYS }, { role: "user", content: JSON.stringify(batch) }], { temperature: 0.2, max: Math.min(8000, 400 + Math.ceil(batch.reduce((s2, x) => s2 + x.length, 0) * 1.5)), rng: r });
+    let arr = null; try { const m = String(a).match(/\[[\s\S]*\]/); arr = m ? JSON.parse(m[0]) : null; } catch (e) { arr = null; }
+    const bad = [];
+    batch.forEach((src, i) => { const tgt = arr && arr.length === batch.length ? arr[i] : null, why = tgt == null ? "resposta fora do formato" : validTr(src, tgt);
+      if (why) bad.push({ src, why }); else { cache[src] = tgt; ok++; } });
+    if (bad.length && tries > 0) { for (const b of bad) await run([b.src], tries - 1); }
+    else failed.push(...bad);
+  }
+  await Promise.all(batches.map(b => run(b, 2).then(() => { done++; save(); process.stdout.write(`\r  lotes ${done}/${batches.length} · traduzidos ${ok}`); })));
+  save(); console.log("");
+  const ff = path.join(path.dirname(tradFile(lang)), lang + "-falhas.json");
+  if (failed.length) { fs.writeFileSync(ff, JSON.stringify(failed, null, 1)); console.log(`  ${failed.length} texto(s) não passaram na validação; ficaram em português. Veja ${path.relative(ROOT, ff)}. Rode de novo para tentar outra vez.`); }
+  else if (fs.existsSync(ff)) fs.unlinkSync(ff);
+  const rest = faltando(E, opts, [lang])[lang].length;
+  console.log(rest ? `Ainda faltam ${rest} textos.` : `Pronto: ${name} completo para o estudo padrão. Cache em ${path.relative(ROOT, tradFile(lang))} (versione este arquivo).`);
+  if (rest) process.exitCode = 2;
+}
 async function calibrate(opts) {
   const E = env(opts), brain = makeBrain(opts.cerebro); await preflight(brain); const r = makeRng(opts.semente, "calibrar");
   const its = shuf(studyItems(E, opts), r).slice(0, 8), lang = E.idiomas[0]; let ok = 0;
@@ -476,7 +549,8 @@ async function calibrate(opts) {
 }
 function info(opts) {
   const E = env(opts), items = studyItems(E, opts);
-  console.log(`${A.nome} · domínio: ${E.dominioPt}\nIdiomas: ${E.idiomas.join(", ")}\nHabilidades disponíveis: ${E.skills.length} · itens disponíveis: ${E.items.length}\nEstudo padrão: ${items.length} itens em ${new Set(items.map(i => i.skill)).size} habilidades`);
+  const ex = ["en", "es", "fr", "de", "it"].filter(l => fs.existsSync(tradFile(l)) || E.idiomas.includes(l)), fl = faltando(E, opts, ex);
+  console.log(`${A.nome} · domínio: ${E.dominioPt}\nIdiomas da ferramenta: ${E.idiomas.join(", ")} · cache de tradução: ${ex.map(l => l + " (" + Object.keys(tradCache(l)).length + " textos, " + (fl[l] || []).length + " faltando)").join(", ") || "nenhum"}\nHabilidades disponíveis: ${E.skills.length} · itens disponíveis: ${E.items.length}\nEstudo padrão: ${items.length} itens em ${new Set(items.map(i => i.skill)).size} habilidades`);
   for (const s of [...new Set(items.map(i => i.skill))]) { const t = items.filter(i => i.skill === s); console.log("  " + s.padEnd(12) + String(t.length).padStart(3) + " itens · " + E.skillName(s) + " · tipos " + [...new Set(t.map(i => i.type))].join(",")); }
   const r = makeRng("info"), it = items[0]; const lang = E.idiomas[0];
   if (E.preview) console.log("\nExemplo de item (" + it.id + "), com notas:\n" + "-".repeat(60) + "\n" + E.preview(lang, it, E.notes(lang, it.skill, it.id), r) + "\n" + "-".repeat(60));
@@ -603,7 +677,7 @@ const argv = process.argv.slice(2), cmd = argv[0]; { const i = argv.indexOf("--p
 const arg = (k, d) => { const i = argv.indexOf("--" + k); return i >= 0 ? argv[i + 1] : d; };
 const opts = { cerebro: arg("cerebro", "ollama:qwen3:8b"), idiomas: arg("idiomas") ? arg("idiomas").split(",") : null, minutos: +arg("minutos", 0), reps: +arg("repeticoes", 2),
   habilidades: arg("habilidades", null), itens: arg("itens") ? +arg("itens") : null, partida: arg("partida", "ambas"), alunos: +arg("alunos", 1), tickets: +arg("tickets", 60), porhab: +arg("porhab", 10),
-  tutor: +arg("tutor", 4), semente: arg("semente", "studx"), rodada: arg("rodada", new Date().toISOString().slice(0, 10)), pastas: arg("pastas", null), saida: arg("saida", null), dificuldade: arg("dificuldade", "autoral"), turnos: +arg("turnos", 6), figuras: arg("figuras", "nao"), papel: arg("papel", "estudo"), cerebros: arg("cerebros", null), cerebroExplicito: argv.includes("--cerebro") || argv.includes("--cerebros") };
+  tutor: +arg("tutor", 4), semente: arg("semente", "studx"), rodada: arg("rodada", new Date().toISOString().slice(0, 10)), pastas: arg("pastas", null), saida: arg("saida", null), dificuldade: arg("dificuldade", "autoral"), turnos: +arg("turnos", 6), figuras: arg("figuras", "nao"), papel: arg("papel", "estudo"), idioma: arg("idioma", null), cerebros: arg("cerebros", null), cerebroExplicito: argv.includes("--cerebro") || argv.includes("--cerebros") };
 const run = async () => {
   if (cmd === "piloto") { for (const c of (arg("cerebros") || opts.cerebro).split(",")) await pilot({ ...opts, cerebro: c }); }
   else if (cmd === "triagem") await triage(opts);
@@ -611,7 +685,8 @@ const run = async () => {
   else if (cmd === "consolidar") consolidate(opts);
   else if (cmd === "comparar") compare(opts);
   else if (cmd === "info") info(opts);
-  else console.log("Uso: node tools/agentes/laboratorio.js info|calibrar|triagem|piloto|consolidar|comparar [--cerebro ollama:qwen3:8b] (veja tools/agentes/LEIA-ME.md)");
+  else if (cmd === "traduzir") await translate(opts);
+  else console.log("Uso: node tools/agentes/laboratorio.js info|traduzir|calibrar|triagem|piloto|consolidar|comparar [--cerebro ollama:qwen3:8b] (veja tools/agentes/LEIA-ME.md)");
 };
 if (require.main === module) run().catch(e => { console.error("\nERRO: " + e.message); process.exit(1); });
-module.exports = { makeRng, regimes, unitMetrics, KT, LAB };
+module.exports = { makeRng, regimes, unitMetrics, KT, LAB, TRAD };

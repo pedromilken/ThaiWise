@@ -60,6 +60,21 @@ Linha de base sem LLM: `--cerebro aleatorio` responde ao acaso (no IAWise, coman
 
 Mesmas garantias do DevWise: semente fixa (a mesma rodada refeita dá os mesmos arquivos), retomada por idioma, 3 tentativas por chamada e aborto só após 10 falhas seguidas, triagem com critérios fixados antes dos resultados (≥ 90% legíveis, acerto com notas ≥ 0,30, pelo menos 2 habilidades com degrau).
 
+## Idiomas além dos da ferramenta (ex.: espanhol)
+
+O laboratório não depende de a ferramenta ter o idioma. Todo texto que só existe em português (no Wikawise e no ThaiWise isso inclui gramática e explicações, até na condição "en") passa por uma **camada de tradução com cache**:
+
+    node tools/agentes/laboratorio.js traduzir --idioma es --cerebro deepseek:deepseek-v4-pro
+    node tools/agentes/laboratorio.js traduzir --idioma en --cerebro deepseek:deepseek-v4-pro
+
+- O comando percorre exatamente o que o estudo mostra (notas, itens, opções, dicas do tutor e, no IAWise, os rótulos e mensagens dos simuladores) e traduz só o que falta. O resultado fica em `tools/agentes/idiomas/<idioma>.json`: **versione esse arquivo**.
+- Cada tradução é validada: hanzi, escrita tailandesa, números, `{marcadores}` e o marcador inicial da linha têm de sobreviver; o que falhar fica em `<idioma>-falhas.json` e é tentado de novo na próxima execução.
+- Durante o estudo **não há tradução ao vivo**: a rodada é reprodutível e o piloto se recusa a começar se faltar algum texto.
+- Custo aproximado (estudo padrão): espanhol ≈ 220 mil caracteres nas três ferramentas (a maior parte são as glosas do Wikawise); completar o "en" ≈ 32 mil.
+- O ENEMWise fica só em português: é a prova oficial.
+
+Limite: o idioma traduzido mede o KT com material **traduzido por máquina**, não com material autoral; isso vale como condição própria (como as traduções dos 20 idiomas do DevWise).
+
 ## Domínio-controle (ENEM)
 
 Com notas que não ensinam (a habilidade da Matriz e questões resolvidas de outros itens), o ENEM tende a não ter degrau: é o papel de **controle**, como engenharia de software no DevWise e o próprio ENEM no artigo dos confundidores. Nele só se mede alarme falso. Rode com `-Controle` (ou `--papel controle`): a triagem deixa de exigir degrau, mas continua exigindo legibilidade e acerto com notas; o papel fica gravado e aparece na comparação.

@@ -9,6 +9,7 @@
   piloto   : 2 cérebros, 3 alunos, 2 repetições
   completo : os cérebros pedidos, 5 alunos, 3 repetições (o mesmo desenho do painel do DevWise)
   -Controle: para o domínio-controle (o ENEM): a triagem não exige habilidades com degrau
+  -Idiomas "pt,en,es": idiomas do estudo; os textos que a ferramenta não tem são traduzidos antes (cache em tools\agentes\idiomas)
 
   Se parar no meio, rode o MESMO comando com a mesma -Rodada: o que já foi feito é retomado do disco.
 #>
@@ -17,7 +18,9 @@ param(
   [string]$Rodada = "",
   [string]$Cerebros = "qwen3:8b,gemma3:4b",
   [string]$Apis = "",         # ex.: "deepseek:deepseek-chat" (roda depois dos locais, com chamadas em paralelo)
-  [switch]$Controle           # domínio-CONTROLE (ex.: ENEM): a triagem não exige degrau; legibilidade e acerto continuam valendo
+  [switch]$Controle,          # domínio-CONTROLE (ex.: ENEM): a triagem não exige degrau; legibilidade e acerto continuam valendo
+  [string]$Idiomas = "",      # ex.: "pt,en,es" (vazio = os idiomas da ferramenta)
+  [string]$Tradutor = "deepseek:deepseek-v4-pro"   # preenche o cache de tradução dos idiomas pedidos (uma vez; depois não gasta nada)
 )
 $ErrorActionPreference = "Stop"
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
@@ -46,6 +49,11 @@ Add-Type -Namespace Win32 -Name Power -MemberDefinition '[DllImport("kernel32.dl
 $alunos = if ($Fase -eq "piloto") { 3 } else { 5 }
 $reps = if ($Fase -eq "piloto") { 2 } else { 3 }
 $papel = if ($Controle) { "controle" } else { "estudo" }
+$extra = @(); if ($Idiomas -ne "") { $extra = @("--idiomas", $Idiomas) }
+# Traduções que faltarem (o "en" das ferramentas também tem textos só em português): uma vez, com cache versionado
+if ($Idiomas -ne "") { foreach ($l in $Idiomas.Split(",")) { if ($l -ne "pt") {
+  node tools/agentes/laboratorio.js traduzir --idioma $l --cerebro $Tradutor --paralelo 8
+  if ($LASTEXITCODE -ne 0) { Write-Host "A tradução de '$l' não ficou completa. Rode de novo o mesmo comando (o que já foi traduzido fica no cache)." -ForegroundColor Yellow; exit 1 } } } }
 $inicio = Get-Date
 node tools/agentes/laboratorio.js info
 Write-Host "`nRodada '$Rodada' | fase $Fase | cérebros $Cerebros $Apis" -ForegroundColor Cyan
@@ -53,13 +61,13 @@ Write-Host "Pode deixar rodando. O Windows não vai hibernar enquanto esta janel
 $ok = $true
 try {
   foreach ($s in $specs) {
-    node tools/agentes/laboratorio.js triagem --cerebro $s --rodada $Rodada --papel $papel
+    node tools/agentes/laboratorio.js triagem --cerebro $s --rodada $Rodada --papel $papel @extra
     if ($LASTEXITCODE -eq 2) { Write-Host "  $s reprovado na triagem (critérios fixados antes); segue para o próximo." -ForegroundColor Yellow; continue }
-    node tools/agentes/laboratorio.js piloto --cerebro $s --alunos $alunos --repeticoes $reps --rodada $Rodada --papel $papel
+    node tools/agentes/laboratorio.js piloto --cerebro $s --alunos $alunos --repeticoes $reps --rodada $Rodada --papel $papel @extra
     if ($LASTEXITCODE -ne 0) { $ok = $false; break }
   }
   if ($ok -and $Apis -ne "") { foreach ($s in $Apis.Split(",")) {
-    node tools/agentes/laboratorio.js piloto --cerebro $s --alunos $alunos --repeticoes $reps --rodada $Rodada --paralelo 8 --papel $papel
+    node tools/agentes/laboratorio.js piloto --cerebro $s --alunos $alunos --repeticoes $reps --rodada $Rodada --paralelo 8 --papel $papel @extra
     if ($LASTEXITCODE -ne 0) { $ok = $false; break } } }
 } finally { [Win32.Power]::SetThreadExecutionState([uint32]"0x80000000") | Out-Null }
 
