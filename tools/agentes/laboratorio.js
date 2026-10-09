@@ -28,13 +28,14 @@
      node tools/agentes/laboratorio.js piloto   --cerebro ollama:qwen3:8b --alunos 5 --repeticoes 3
      node tools/agentes/laboratorio.js piloto   --cerebro simulado        (sem LLM: testa o encanamento)
      node tools/agentes/laboratorio.js consolidar --rodada <nome>
+     node tools/agentes/laboratorio.js ajustar   [--rodada <nome>]  (KT com parâmetros estimados, validação cruzada por aluno; sem LLM)
      node tools/agentes/laboratorio.js comparar  --pastas DevWise=..\DevWise\agentes\saida\<rodada>,IAWise=agentes\saida\<rodada>,...
    Cérebros: ollama:<modelo>, openai:<modelo> (OPENAI_BASE_URL + OPENAI_API_KEY), deepseek:<modelo>, anthropic:<modelo>, simulado, aleatorio. */
 "use strict";
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..");
 const KT = require("./kt-canonico.js");
-const NUCLEO_VERSAO = "1.8";
+const NUCLEO_VERSAO = "1.9";
 const MODELS = ["elo", "irt", "bkt", "pfa", "afm"];
 const STEP = 3;                                    /* as notas chegam depois do 3º item de cada habilidade (o adaptador pode fixar outro: passo) */
 const PASSO = () => (ENV && ENV.passo) || STEP;
@@ -459,6 +460,7 @@ async function pilot(opts) {
   const resumoDominio = { c0: mean(all.med.map(x => x.c0)), c1: mean(all.med.map(x => x.c1)), regimes: Object.values(R).reduce((o, x) => (o[x.regime] = (o[x.regime] || 0) + 1, o), {}) };
   fs.writeFileSync(path.join(out, "metricas.json"), JSON.stringify({ dominio: A.id, dominioPt: E.dominioPt, cerebro: opts.cerebro, papel: opts.papel || "estudo", rodada: opts.rodada, nucleo: NUCLEO_VERSAO, resumo: resumoDominio, units }, null, 1));
   fs.writeFileSync(path.join(out, "RESUMO.md"), report(E, brain, langs, all.med, all.game, all.fixed, all.tut, units, all.perLang, Date.now() - t0));
+  try { ajustarPasta(E, out); } catch (e) { console.log("   aviso: o ajuste dos modelos falhou (" + e.message + "); rode depois: node tools/agentes/laboratorio.js ajustar --rodada " + opts.rodada); }
   console.log("Pronto em " + ((Date.now() - t0) / 60000).toFixed(1) + " min. Resultados em " + path.relative(ROOT, out));
 }
 
@@ -588,7 +590,9 @@ function loadRuns(base, deep) {
   if (!fs.existsSync(base)) throw new Error("Pasta não encontrada: " + base);
   const dirs = fs.readdirSync(base).filter(d => fs.statSync(path.join(base, d)).isDirectory()).sort();
   const here = dirs.filter(d => fs.existsSync(path.join(base, d, "metricas.json"))).map(d => { const f = path.join(base, d, "metricas.json");
-    return { d, j: JSON.parse(fs.readFileSync(f, "utf8")), rodada: path.basename(base), t: fs.statSync(f).mtimeMs }; });
+    /* "mais recente" pelo início gravado em config.json (sobrevive a cópias e zips, que trocam a data dos arquivos); sem ele, pela data do arquivo */
+    let t = fs.statSync(f).mtimeMs; try { const c = JSON.parse(fs.readFileSync(path.join(base, d, "config.json"), "utf8")); if (c.inicio && !isNaN(Date.parse(c.inicio))) t = Date.parse(c.inicio); } catch (e) { }
+    return { d, j: JSON.parse(fs.readFileSync(f, "utf8")), rodada: path.basename(base), t }; });
   if (here.length || !deep) return here;
   return dirs.flatMap(r => loadRuns(path.join(base, r), false).map(x => ({ ...x, d: path.join(r, x.d) })));
 }
@@ -636,6 +640,8 @@ function compare(opts) {
         units = j.units.map(u => { const v = { ...u }; for (const m of MODELS) { if (u[m + "_excess_se"] != null) v[m + "_excess_plano"] = u[m + "_excess_se"]; if (j.dialeto && u[m + "_excess_prog"] != null) v[m + "_excess_degrau"] = u[m + "_excess_prog"]; if (u[m + "_brier_prog"] != null) v[m + "_brier_all"] = u[m + "_brier_prog"]; } return v; });
         if (!j.dialeto && runs.some(x => x.j.dialeto && x.j.cerebro === j.cerebro)) units = units.map(u => { const v = { ...u }; MODELS.forEach(m => delete v[m + "_excess_degrau"]); return v; });
       }
+      { const fa = path.join(d.base, sub, "ajuste.json");   /* KT ajustado (ajustar): junta as métricas por aluno */
+        if (fs.existsSync(fa)) { const aj = JSON.parse(fs.readFileSync(fa, "utf8")), by = Object.fromEntries(aj.units.map(u => [u.student, u])); units = units.map(u => ({ ...u, ...(by[u.student] || {}), aj: !!by[u.student] })); } }
       let resumo = j.resumo || null;
       if (!resumo) { const f = path.join(d.base, sub, "medicao.csv"); if (fs.existsSync(f)) { const med = readCsv(f).map(x => ({ ...x, c0: +x.c0, c1: +x.c1 })), R = regimes(med);
         resumo = { c0: mean(med.map(x => x.c0)), c1: mean(med.map(x => x.c1)), regimes: Object.values(R).reduce((o, x) => (o[x.regime] = (o[x.regime] || 0) + 1, o), {}) }; } }
@@ -678,6 +684,19 @@ function compare(opts) {
   for (const n of names) r += `| ${n} | ` + sgn(n, "excess_plano") + " |\n";
   r += "\nO mesmo sinal no **degrau** (+ = exagera a aprendizagem que existe; − = não a enxerga por inteiro):\n\n| Domínio | " + MODELS.map(m => m.toUpperCase()).join(" | ") + " |\n|---|" + MODELS.map(() => "---").join("|") + "|\n";
   for (const n of names) r += `| ${n} | ` + sgn(n, "excess_degrau") + " |\n";
+  /* parâmetros do jogo × ajustados: o fantasma é de calibração ou de especificação? */
+  const comAj = names.filter(n => U(n).some(u => u.aj));
+  if (comAj.length) {
+    r += "\n## Parâmetros do jogo × ajustados (validação cruzada por aluno)\n\nMesmo prior correto nas três variantes; muda só o parâmetro de aprendizagem: o do jogo, um único estimado nos outros alunos, ou um por habilidade (ridge para o único). Detalhes em AJUSTE.md de cada rodada.\n";
+    for (const [k, nome] of [["excess_plano", "Alarme falso"], ["excess_degrau", "Excesso no degrau"], ["logloss", "Log-loss fora da amostra"]]) {
+      r += `\n### ${nome}\n\n| Domínio | Variante | ` + AJ.modelos.map(m => m.toUpperCase()).join(" | ") + " |\n|---|---|" + AJ.modelos.map(() => "---").join("|") + "|\n";
+      for (const n of comAj) for (const v of AJ.variantes) r += `| ${n} | ${AJNOME[v]} | ` + AJ.modelos.map(m => fci(ciLang(U(n).filter(u => u.aj), `${m}_${v}_${k}`))).join(" | ") + " |\n"; }
+    r += "\n### Diagnóstico do alarme falso\n\n**calibração**: some ao estimar a taxa única · **especificação**: persiste com a taxa única e some com a taxa por habilidade · **persiste**: continua mesmo por habilidade · **sem fantasma**: já não havia com os parâmetros do jogo.\n\n| Domínio | " + AJ.modelos.map(m => m.toUpperCase()).join(" | ") + " |\n|---|" + AJ.modelos.map(() => "---").join("|") + "|\n";
+    const pos = (n, m, v) => { const c = ciLang(U(n).filter(u => u.aj), `${m}_${v}_excess_plano`); return c && !isNaN(c.lo) ? c.lo > 0 : null; };
+    for (const n of comAj) r += `| ${n} | ` + AJ.modelos.map(m => { const a = pos(n, m, "jogo"), b = pos(n, m, "global"), c = pos(n, m, "hab");
+      return a == null ? "-" : !a ? "sem fantasma" : !b ? "calibração" : !c ? "especificação" : "persiste"; }).join(" | ") + " |\n";
+    const sem = names.filter(n => !comAj.includes(n)); if (sem.length) r += `\nSem ajuste (rode \`ajustar\` no repositório): ${sem.join(", ")}.\n`;
+  }
   r += "\n## Vazamento × viés (descritivo)\n\n| Modelo | ρ de Spearman entre C0 do domínio e alarme falso |\n|---|---|\n";
   const withR = names.filter(n => D.some(x => x.dom === n && x.resumo));
   if (withR.length >= 4) for (const m of MODELS) { const c0 = withR.map(n => mean(D.filter(x => x.dom === n && x.resumo).map(x => x.resumo.c0))), ex = withR.map(n => mean(U(n).map(u => u[m + "_excess_plano"]).filter(x => x != null)));
@@ -690,21 +709,155 @@ function compare(opts) {
   fs.writeFileSync(out, r); console.log(r); console.log("Gravado em " + out);
 }
 
+/* ---------------- KT AJUSTADO: parâmetros do jogo × estimados nos dados (validação cruzada por aluno) ----------------
+   Pergunta da verificação de 08/10: a aprendizagem fantasma de AFM/PFA/BKT vem dos PARÂMETROS a priori do jogo (calibração)
+   ou da FORMA do modelo (especificação)? Três variantes, todas com o mesmo prior correto (C0 medido por idioma × habilidade,
+   como em unitMetrics), para isolar o parâmetro de aprendizagem:
+     jogo   os parâmetros de kt-canonico.js (Elo K0 1,8 · BKT T 0,2 / slip 0,1 · PFA γ 0,75 / ρ −0,15 · AFM γ 0,45)
+     global parâmetros de aprendizagem ÚNICOS para todas as habilidades, estimados por máxima verossimilhança nas respostas
+            dos OUTROS alunos (deixa-um-aluno-de-fora) e aplicados ao aluno deixado de fora
+     hab    um parâmetro de aprendizagem POR HABILIDADE, com encolhimento (ridge, λ = 2) para o global
+   Hipótese do transbordamento: com taxa única, as habilidades com degrau puxam a taxa para cima e ela "vaza" para as
+   planas; se for isso, o alarme falso some (ou cai muito) em "hab" e persiste em "global".
+   Ajuste nas respostas observadas (y), avaliação contra a verdade medida (p_true) e contra y (log-loss e AUC fora da amostra).
+   A TRI fica de fora: é estática por construção (não tem parâmetro de aprendizagem). Nada aqui chama LLM. */
+const AJ = { ridge: 2, jogo: { elo: { K: 1.8 }, bkt: { T: 0.2, S: 0.1 }, pfa: { g: 0.75, r: -0.15 }, afm: { g: 0.45 } }, modelos: ["elo", "bkt", "pfa", "afm"], variantes: ["jogo", "global", "hab"] };
+const lgt = p => Math.log(p / (1 - p)), sgm = x => 1 / (1 + Math.exp(-x)), clp = (x, a, b) => Math.max(a, Math.min(b, x));
+/* sequências (aluno × habilidade) da partida fixa, com as covariáveis de cada modelo */
+function ajSeqs(E, med, fixed) {
+  const R = regimes(med), seqs = [];
+  for (const st of [...new Set(fixed.map(g => g.student))]) {
+    const F = fixed.filter(g => g.student === st && g.p_true !== ""), lang = F[0] ? F[0].lang : st.split("-")[0];
+    for (const sk of [...new Set(F.map(g => g.skill))]) {
+      const rows = F.filter(g => g.skill === sk), rg = R[lang + "|" + sk], L0 = Math.min(.95, Math.max(.05, rg ? rg.c0 : L0_JOGO));
+      let s = 0, f = 0; const obs = rows.map((g, i) => { const it = E.byId[g.item], c = it && it.c != null ? it.c : 0.25;
+        const o = { y: +g.y, pt: +g.p_true, after: +g.kc_index > PASSO(), n: i, s, f, c, b: KT.itemB({ id: g.item, d: +g.d || 2 }), area: g.area }; if (+g.y) s++; else f++; return o; });
+      seqs.push({ student: st, lang, skill: sk, L0, a: lgt(L0), regime: rg ? rg.regime : "intermediario", obs });
+    }
+  }
+  return seqs;
+}
+/* previsão de cada modelo numa sequência, com parâmetros dados (p é a probabilidade ANTES da resposta) */
+const AJP = {
+  afm: (q, P) => q.obs.map(o => sgm(q.a + P.g * o.n)),
+  pfa: (q, P) => q.obs.map(o => sgm(q.a + P.g * o.s + P.r * o.f)),
+  bkt: (q, P) => { let L = q.L0; return q.obs.map(o => { const p = L * (1 - P.S) + (1 - L) * o.c, post = o.y ? L * (1 - P.S) / Math.max(1e-9, L * (1 - P.S) + (1 - L) * o.c) : L * P.S / Math.max(1e-9, L * P.S + (1 - L) * (1 - o.c)); L = Math.min(.995, post + (1 - post) * P.T); return p; }); },
+  elo: (q, P) => { let th = lgt(clp(q.L0, .02, .98)); return q.obs.map((o, n) => { const p = o.c + (1 - o.c) * sgm(th - o.b); th = clp(th + P.K / (1 + 0.06 * n) * (o.y - p) * (o.y ? 1 : 0.7), -4, 5); return p; }); }
+};
+const ajLL = (qs, m, P) => { let s = 0; for (const q of qs) { const p = AJP[m](q, P); q.obs.forEach((o, i) => { const v = clp(p[i], 1e-4, 1 - 1e-4); s += o.y ? Math.log(v) : Math.log(1 - v); }); } return s; };
+/* AFM e PFA: logística com offset conhecido (o prior), côncava: Newton com ridge para o centro dado */
+function ajNewton(qs, feats, x0, centro, lam) {
+  let x = x0.slice();
+  for (let it = 0; it < 50; it++) { const g = x.map((v, j) => -lam * (v - centro[j])), H = x.map((_, j) => x.map((__, k) => j === k ? -lam : 0));
+    for (const q of qs) for (const o of q.obs) { const z = feats(o), p = sgm(q.a + z.reduce((s, v, j) => s + v * x[j], 0)), w = p * (1 - p);
+      z.forEach((v, j) => { g[j] += (o.y - p) * v; z.forEach((u, k) => H[j][k] -= w * v * u); }); }
+    let d; if (x.length === 1) d = [-g[0] / Math.min(H[0][0], -1e-6)];
+    else { const det = H[0][0] * H[1][1] - H[0][1] * H[1][0] || -1e-6; d = [-(H[1][1] * g[0] - H[0][1] * g[1]) / det, -(-H[1][0] * g[0] + H[0][0] * g[1]) / det]; }
+    d = d.map(v => clp(v, -1, 1)); x = x.map((v, j) => clp(v + d[j], -5, 5)); if (Math.max(...d.map(Math.abs)) < 1e-6) break; }
+  return x;
+}
+const AJGRADE = { T: Array.from({ length: 31 }, (_, i) => i * 0.02), S: Array.from({ length: 16 }, (_, i) => i * 0.02), K: Array.from({ length: 41 }, (_, i) => i * 0.1) };
+/* estima os parâmetros de um modelo nas sequências de treino: { global, hab: {habilidade: params} } */
+function ajFit(qs, m) {
+  const lam = AJ.ridge, bySk = {}; qs.forEach(q => (bySk[q.skill] = bySk[q.skill] || []).push(q));
+  if (m === "afm" || m === "pfa") {
+    const feats = m === "afm" ? (o => [o.n]) : (o => [o.s, o.f]), x0 = m === "afm" ? [AJ.jogo.afm.g] : [AJ.jogo.pfa.g, AJ.jogo.pfa.r];
+    const G = ajNewton(qs, feats, x0, x0.map(() => 0), 1e-3), P = x => m === "afm" ? { g: x[0] } : { g: x[0], r: x[1] };
+    const hab = {}; for (const k in bySk) hab[k] = P(ajNewton(bySk[k], feats, G, G, lam));
+    return { global: P(G), hab };
+  }
+  if (m === "bkt") {
+    let best = null; for (const T of AJGRADE.T) for (const S of AJGRADE.S) { const v = ajLL(qs, "bkt", { T, S }); if (!best || v > best.v) best = { v, T, S }; }
+    const lT = t => lgt(clp(t, .005, .995)), hab = {};
+    for (const k in bySk) { let b = null; for (const T of AJGRADE.T) { const v = ajLL(bySk[k], "bkt", { T, S: best.S }) - lam / 2 * (lT(T) - lT(best.T)) ** 2; if (!b || v > b.v) b = { v, T }; } hab[k] = { T: b.T, S: best.S }; }
+    return { global: { T: best.T, S: best.S }, hab };
+  }
+  let best = null; for (const K of AJGRADE.K) { const v = ajLL(qs, "elo", { K }); if (!best || v > best.v) best = { v, K }; }
+  const hab = {}; for (const k in bySk) { let b = null; for (const K of AJGRADE.K) { const v = ajLL(bySk[k], "elo", { K }) - lam / 2 * (K - best.K) ** 2; if (!b || v > b.v) b = { v, K }; } hab[k] = { K: b.K }; }
+  return { global: { K: best.K }, hab };
+}
+/* métricas de uma unidade (aluno deixado de fora): mesmas definições de unitMetrics */
+function ajUnit(qs, preds) {
+  const u = {};
+  for (const m of AJ.modelos) for (const v of AJ.variantes) {
+    const P = []; qs.forEach(q => { const p = preds[m][v].get(q); q.obs.forEach((o, i) => P.push({ o, p: p[i], regime: q.regime })); });
+    const blk = (Q, tag) => { if (Q.length < 6 || !Q.some(x => x.o.after) || !Q.some(x => !x.o.after)) return;
+      const dT = mean(Q.filter(x => x.o.after).map(x => x.o.pt)) - mean(Q.filter(x => !x.o.after).map(x => x.o.pt)), dP = mean(Q.filter(x => x.o.after).map(x => x.p)) - mean(Q.filter(x => !x.o.after).map(x => x.p));
+      u[`${m}_${v}_excess_${tag}`] = dP - dT; };
+    blk(P, "all"); blk(P.filter(x => x.regime === "plano"), "plano"); blk(P.filter(x => x.regime === "degrau"), "degrau");
+    u[`${m}_${v}_brier_all`] = mean(P.map(x => (x.p - x.o.pt) ** 2));
+    u[`${m}_${v}_logloss`] = -mean(P.map(x => { const p = clp(x.p, 1e-4, 1 - 1e-4); return x.o.y ? Math.log(p) : Math.log(1 - p); }));
+    u[`${m}_${v}_auc`] = auc(P.map(x => x.p), P.map(x => x.o.y));
+  }
+  return u;
+}
+function ajustarPasta(E, dir) {
+  const fm = path.join(dir, "medicao.csv"), ff = path.join(dir, "jogo-fixo.csv"), fj = path.join(dir, "metricas.json");
+  if (!fs.existsSync(fm) || !fs.existsSync(ff) || !fs.existsSync(fj)) return null;
+  const J = JSON.parse(fs.readFileSync(fj, "utf8")), med = readCsv(fm).map(x => ({ ...x, c0: +x.c0, c1: +x.c1 })), fixed = readCsv(ff);
+  const seqs = ajSeqs(E, med, fixed), alunos = [...new Set(seqs.map(q => q.student))];
+  if (alunos.length < 2) return null;
+  const preds = {}; for (const m of AJ.modelos) { preds[m] = {}; for (const v of AJ.variantes) preds[m][v] = new Map(); }
+  for (const al of alunos) {   /* deixa-um-aluno-de-fora */
+    const tr = seqs.filter(q => q.student !== al), te = seqs.filter(q => q.student === al);
+    for (const m of AJ.modelos) { const F = ajFit(tr, m);
+      for (const q of te) { preds[m].jogo.set(q, AJP[m](q, AJ.jogo[m])); preds[m].global.set(q, AJP[m](q, F.global)); preds[m].hab.set(q, AJP[m](q, F.hab[q.skill] || F.global)); } }
+  }
+  const units = alunos.map(al => ({ student: al, lang: al.split("-")[0], ...ajUnit(seqs.filter(q => q.student === al), preds) }));
+  /* parâmetros com TODOS os alunos (descritivo): a taxa por habilidade separa planas de degraus? */
+  const params = {}, porRegime = {};
+  for (const m of AJ.modelos) { const F = ajFit(seqs, m); params[m] = F; const key = m === "bkt" ? "T" : m === "elo" ? "K" : "g";
+    porRegime[m] = {}; for (const rg of ["plano", "intermediario", "degrau"]) { const sk = [...new Set(seqs.filter(q => q.regime === rg).map(q => q.skill))]; porRegime[m][rg] = sk.length ? { n: sk.length, media: mean(sk.map(s => F.hab[s][key])) } : null; } }
+  const out = { dominio: J.dominio, dominioPt: J.dominioPt, cerebro: J.cerebro, papel: J.papel, rodada: J.rodada, nucleo: NUCLEO_VERSAO, ridge: AJ.ridge, jogo: AJ.jogo, params, porRegime, units };
+  fs.writeFileSync(path.join(dir, "ajuste.json"), JSON.stringify(out, null, 1));
+  fs.writeFileSync(path.join(dir, "AJUSTE.md"), ajReport(out));
+  return out;
+}
+const AJNOME = { jogo: "jogo", global: "ajustado (taxa única)", hab: "ajustado (por habilidade)" };
+function ajReport(o) {
+  const U = o.units, pk = { elo: "K", bkt: "T", pfa: "g", afm: "g" };
+  let r = `# KT ajustado · ${o.dominioPt || o.dominio} · ${o.cerebro} · rodada ${o.rodada}\n\nPrior correto em todas as variantes; parâmetros de aprendizagem do jogo × estimados nos outros alunos (deixa-um-aluno-de-fora, ${U.length} alunos). Ridge λ = ${o.ridge} para o global na variante por habilidade. IC 95% por bootstrap como no resto do laboratório.\n\n`;
+  for (const [k, nome] of [["excess_plano", "Alarme falso (habilidades planas)"], ["excess_degrau", "Excesso no degrau"], ["excess_all", "Viés de ganho (todas)"], ["brier_all", "Brier contra a verdade medida"], ["logloss", "Log-loss fora da amostra (respostas)"], ["auc", "AUC fora da amostra"]]) {
+    r += `## ${nome}\n\n| Variante | ` + AJ.modelos.map(m => m.toUpperCase()).join(" | ") + " |\n|---|" + AJ.modelos.map(() => "---").join("|") + "|\n";
+    for (const v of AJ.variantes) r += `| ${AJNOME[v]} | ` + AJ.modelos.map(m => fci(ciLang(U, `${m}_${v}_${k}`))).join(" | ") + " |\n";
+    r += "\n"; }
+  r += "## Parâmetro de aprendizagem estimado (todos os alunos)\n\n| Modelo | Parâmetro | Jogo | Ajustado (único) | Por habilidade: planas | intermediárias | com degrau |\n|---|---|---|---|---|---|---|\n";
+  for (const m of AJ.modelos) { const p = pk[m], j = m === "elo" ? o.jogo.elo.K : m === "bkt" ? o.jogo.bkt.T : o.jogo[m].g, g = o.params[m].global[p], pr = o.porRegime[m];
+    const cel = x => x ? `${f2(x.media)} (${x.n})` : "-";
+    r += `| ${m.toUpperCase()} | ${m === "elo" ? "K0" : m === "bkt" ? "T" : (m === "pfa" ? "γ sucesso (ρ falha único: " + f2(o.params.pfa.global.r) + ")" : "γ oportunidade")} | ${f2(j)} | ${f2(g)} | ${cel(pr.plano)} | ${cel(pr.intermediario)} | ${cel(pr.degrau)} |\n`; }
+  r += `\nComo ler: se o alarme falso cai de "jogo" para "ajustado (taxa única)", o fantasma era de calibração; se só cai em "por habilidade", era de especificação (a taxa única transborda das habilidades com degrau para as planas). Na última tabela, a taxa por habilidade das planas perto de zero e a das com degrau alta confirmam o transbordamento.\n`;
+  return r;
+}
+function ajustar(opts) {
+  const E = env(opts), base = path.join(ROOT, "agentes", "saida");
+  const rodadas = opts.rodadaExplicita ? [opts.rodada] : (fs.existsSync(base) ? fs.readdirSync(base).filter(d => fs.statSync(path.join(base, d)).isDirectory()) : []);
+  let n = 0;
+  for (const rd of rodadas) for (const { d } of loadRuns(path.join(base, rd))) {
+    const dir = path.join(base, rd, d), fa = path.join(dir, "ajuste.json");
+    if (opts.cerebroExplicito && brainSlug(opts.cerebro) !== d) continue;
+    if (!opts.refazer && fs.existsSync(fa) && JSON.parse(fs.readFileSync(fa, "utf8")).nucleo === NUCLEO_VERSAO && fs.statSync(fa).mtimeMs >= fs.statSync(path.join(dir, "metricas.json")).mtimeMs) { console.log("  " + rd + "/" + d + ": já ajustado"); continue; }
+    const t = Date.now(), o = ajustarPasta(E, dir);
+    if (o) { n++; const pl = m => fci(ciLang(o.units, m)); console.log(`  ${rd}/${d}: alarme falso AFM jogo ${pl("afm_jogo_excess_plano")} · único ${pl("afm_global_excess_plano")} · por habilidade ${pl("afm_hab_excess_plano")} (${((Date.now() - t) / 1000).toFixed(0)} s)`); }
+  }
+  console.log(n ? `Ajuste gravado em ${n} pasta(s) (ajuste.json e AJUSTE.md ao lado de metricas.json).` : "Nada novo a ajustar.");
+}
+
 /* ---------------- linha de comando ---------------- */
 const argv = process.argv.slice(2), cmd = argv[0]; { const i = argv.indexOf("--paralelo"); if (i >= 0) process.env.LAB_PARALELO = argv[i + 1]; }
 const arg = (k, d) => { const i = argv.indexOf("--" + k); return i >= 0 ? argv[i + 1] : d; };
 const opts = { cerebro: arg("cerebro", "ollama:qwen3:8b"), idiomas: arg("idiomas") ? arg("idiomas").split(",") : null, minutos: +arg("minutos", 0), reps: +arg("repeticoes", 2),
   habilidades: arg("habilidades", null), itens: arg("itens") ? +arg("itens") : null, partida: arg("partida", "ambas"), alunos: +arg("alunos", 1), tickets: +arg("tickets", 60), porhab: +arg("porhab", 10),
-  tutor: +arg("tutor", 4), semente: arg("semente", "studx"), rodada: arg("rodada", new Date().toISOString().slice(0, 10)), pastas: arg("pastas", null), saida: arg("saida", null), dificuldade: arg("dificuldade", "autoral"), turnos: +arg("turnos", 6), figuras: arg("figuras", "nao"), papel: arg("papel", "estudo"), idioma: arg("idioma", null), cerebros: arg("cerebros", null), cerebroExplicito: argv.includes("--cerebro") || argv.includes("--cerebros") };
+  tutor: +arg("tutor", 4), semente: arg("semente", "studx"), rodada: arg("rodada", new Date().toISOString().slice(0, 10)), pastas: arg("pastas", null), saida: arg("saida", null), dificuldade: arg("dificuldade", "autoral"), turnos: +arg("turnos", 6), figuras: arg("figuras", "nao"), papel: arg("papel", "estudo"), idioma: arg("idioma", null), cerebros: arg("cerebros", null), cerebroExplicito: argv.includes("--cerebro") || argv.includes("--cerebros"), rodadaExplicita: argv.includes("--rodada"), refazer: argv.includes("--refazer") };
 const run = async () => {
   if (cmd === "piloto") { for (const c of (arg("cerebros") || opts.cerebro).split(",")) await pilot({ ...opts, cerebro: c }); }
   else if (cmd === "triagem") await triage(opts);
   else if (cmd === "calibrar") await calibrate(opts);
   else if (cmd === "consolidar") consolidate(opts);
   else if (cmd === "comparar") compare(opts);
+  else if (cmd === "ajustar") ajustar(opts);
   else if (cmd === "info") info(opts);
   else if (cmd === "traduzir") await translate(opts);
-  else console.log("Uso: node tools/agentes/laboratorio.js info|traduzir|calibrar|triagem|piloto|consolidar|comparar [--cerebro ollama:qwen3:8b] (veja tools/agentes/LEIA-ME.md)");
+  else console.log("Uso: node tools/agentes/laboratorio.js info|traduzir|calibrar|triagem|piloto|consolidar|comparar|ajustar [--cerebro ollama:qwen3:8b] (veja tools/agentes/LEIA-ME.md)");
 };
 if (require.main === module) run().catch(e => { console.error("\nERRO: " + e.message); process.exit(1); });
 module.exports = { makeRng, regimes, unitMetrics, KT, LAB, TRAD };

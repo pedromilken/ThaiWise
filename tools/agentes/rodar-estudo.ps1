@@ -17,7 +17,7 @@ param(
   [ValidateSet("piloto", "completo")][string]$Fase = "piloto",
   [string]$Rodada = "",
   [string]$Cerebros = "qwen3:8b,gemma3:4b",
-  [string]$Apis = "",         # ex.: "deepseek:deepseek-chat" (roda depois dos locais, com chamadas em paralelo)
+  [string]$Apis = "",         # ex.: "deepseek:deepseek-flash" (roda depois dos locais, com triagem e chamadas em paralelo; precisa de $env:DEEPSEEK_API_KEY)
   [switch]$Controle,          # domínio-CONTROLE (ex.: ENEM): a triagem não exige degrau; legibilidade e acerto continuam valendo
   [string]$Idiomas = "",      # ex.: "pt,en,es" (vazio = os idiomas da ferramenta)
   [string]$Tradutor = "deepseek:deepseek-v4-pro"   # preenche o cache de tradução dos idiomas pedidos (uma vez; depois não gasta nada)
@@ -67,13 +67,17 @@ try {
     if ($LASTEXITCODE -ne 0) { $ok = $false; break }
   }
   if ($ok -and $Apis -ne "") { foreach ($s in $Apis.Split(",")) {
+    # API (ex.: deepseek:deepseek-flash): a mesma triagem dos locais antes de gastar com o piloto (a triagem custa centavos)
+    node tools/agentes/laboratorio.js triagem --cerebro $s --rodada $Rodada --papel $papel --paralelo 8 @extra
+    if ($LASTEXITCODE -eq 2) { Write-Host "  $s reprovado na triagem (critérios fixados antes); segue para o próximo." -ForegroundColor Yellow; continue }
+    if ($LASTEXITCODE -ne 0) { $ok = $false; break }
     node tools/agentes/laboratorio.js piloto --cerebro $s --alunos $alunos --repeticoes $reps --rodada $Rodada --paralelo 8 --papel $papel @extra
     if ($LASTEXITCODE -ne 0) { $ok = $false; break } } }
 } finally { [Win32.Power]::SetThreadExecutionState([uint32]"0x80000000") | Out-Null }
 
 if (-not $ok) {
   Write-Host "`nA rodada parou antes do fim. Para continuar de onde parou:" -ForegroundColor Yellow
-  Write-Host "  powershell -ExecutionPolicy Bypass -File tools\agentes\rodar-estudo.ps1 -Fase $Fase -Rodada $Rodada -Cerebros `"$Cerebros`""
+  Write-Host "  powershell -ExecutionPolicy Bypass -File tools\agentes\rodar-estudo.ps1 -Fase $Fase -Rodada $Rodada -Cerebros `"$Cerebros`" -Apis `"$Apis`" -Idiomas `"$Idiomas`""
   exit 1
 }
 node tools/agentes/laboratorio.js consolidar --rodada $Rodada

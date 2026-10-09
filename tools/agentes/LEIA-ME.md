@@ -79,6 +79,28 @@ Limite: o idioma traduzido mede o KT com material **traduzido por máquina**, n�
 
 Com notas que não ensinam (a habilidade da Matriz e questões resolvidas de outros itens), o ENEM tende a não ter degrau: é o papel de **controle**, como engenharia de software no DevWise e o próprio ENEM no artigo dos confundidores. Nele só se mede alarme falso. Rode com `-Controle` (ou `--papel controle`): a triagem deixa de exigir degrau, mas continua exigindo legibilidade e acerto com notas; o papel fica gravado e aparece na comparação.
 
+## KT ajustado: parâmetros do jogo × estimados (validação cruzada por aluno)
+
+    node tools/agentes/laboratorio.js ajustar                 (todas as rodadas; sem LLM, segundos)
+    node tools/agentes/laboratorio.js ajustar --rodada <nome> --refazer
+
+Os parâmetros de KT do jogo são a priori de projeto. Para separar **calibração** de **especificação**, cada rodada é refeita com três variantes de Elo, BKT, PFA e AFM, todas com o mesmo prior correto (C0 medido):
+
+| Variante | Parâmetro de aprendizagem |
+|---|---|
+| jogo | o de `kt-canonico.js` |
+| ajustado (taxa única) | um só para todas as habilidades, estimado por máxima verossimilhança nos OUTROS alunos (deixa-um-aluno-de-fora) |
+| ajustado (por habilidade) | um por habilidade, encolhido para o único (ridge λ = 2) |
+
+Grava `ajuste.json` e `AJUSTE.md` ao lado de `metricas.json` (o piloto já faz isso no fim; `comparar-dominios.ps1` ajusta as rodadas antigas antes de comparar). A comparação ganha a seção "Parâmetros do jogo × ajustados", com o diagnóstico do alarme falso em cada domínio: **calibração** (some com a taxa única), **especificação** (só some com a taxa por habilidade: a taxa única transborda das habilidades com degrau para as planas) ou **persiste**. A TRI fica de fora: é estática por construção.
+
+## Cérebro por API (ex.: DeepSeek como agente)
+
+    $env:DEEPSEEK_API_KEY = "..."   (ou o bloco com Read-Host -AsSecureString)
+    powershell -ExecutionPolicy Bypass -File tools\agentes\rodar-estudo.ps1 -Fase completo -Cerebros "" -Apis "deepseek:deepseek-flash"
+
+O cérebro por API passa pela mesma triagem dos locais e roda com 8 chamadas em paralelo; o modo de raciocínio fica desligado (`LAB_THINKING=1` liga). Em uma rodada "completo" dos quatro domínios o volume é de ~38 milhões de tokens de entrada (o IAWise responde por ~75%, por causa dos episódios de várias rodadas) e ~0,3 milhão de saída.
+
 ## Comparar os domínios
 
 Com as pastas dos repositórios lado a lado (ex.: `Documents\DevWise`, `Documents\IAWise`, ...):
