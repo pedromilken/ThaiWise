@@ -23,6 +23,8 @@ param(
   [string]$Tradutor = "deepseek:deepseek-v4-pro"   # preenche o cache de tradução dos idiomas pedidos (uma vez; depois não gasta nada)
 )
 $ErrorActionPreference = "Stop"
+# "-Cerebros nenhum": só os cérebros por API (o PowerShell descarta um "" passado a powershell -File)
+if ($Cerebros -in @("nenhum", "-", "none")) { $Cerebros = "" }
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Set-Location $repo
 if ($Rodada -eq "") { $Rodada = "$Fase-" + (Get-Date -Format "yyyy-MM-dd") }

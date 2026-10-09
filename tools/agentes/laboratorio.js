@@ -35,7 +35,7 @@
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..");
 const KT = require("./kt-canonico.js");
-const NUCLEO_VERSAO = "1.9";
+const NUCLEO_VERSAO = "1.9.1";
 const MODELS = ["elo", "irt", "bkt", "pfa", "afm"];
 const STEP = 3;                                    /* as notas chegam depois do 3º item de cada habilidade (o adaptador pode fixar outro: passo) */
 const PASSO = () => (ENV && ENV.passo) || STEP;
@@ -523,10 +523,11 @@ function validTr(src, tgt) {
 async function translate(opts) {
   const lang = opts.idioma; if (!lang || lang === "pt") throw new Error("Use --idioma es (ou en, fr...): o português é a língua de origem.");
   if (!process.env.LAB_PARALELO) process.env.LAB_PARALELO = "4";
-  const E = env(opts), brain = makeBrain(opts.cerebro); await preflight(brain);
-  const miss = faltando(E, opts, [lang])[lang], cache = tradCache(lang), name = langNameOf(lang);
+  /* primeiro vê o que falta: com o cache completo não chama o provedor nem pede a chave (a rodada noturna não pode parar num prompt) */
+  const E = env(opts), miss = faltando(E, opts, [lang])[lang], cache = tradCache(lang), name = langNameOf(lang);
+  if (!miss.length) { console.log(`${A.nome} → ${name}: cache completo (${Object.keys(cache).length} textos); nada a traduzir.`); return; }
+  const brain = makeBrain(opts.cerebro); await preflight(brain);
   console.log(`${A.nome} → ${name}: ${miss.length} textos a traduzir (${miss.reduce((s2, x) => s2 + x.length, 0)} caracteres); já no cache: ${Object.keys(cache).length}. Cérebro: ${brain.spec}`);
-  if (!miss.length) { console.log("Nada a fazer."); return; }
   fs.mkdirSync(path.dirname(tradFile(lang)), { recursive: true });
   const save = () => { const f = tradFile(lang), o = {}; for (const k of Object.keys(cache).sort()) o[k] = cache[k]; fs.writeFileSync(f + ".tmp", JSON.stringify(o, null, 1)); fs.renameSync(f + ".tmp", f); };
   const SYS = `You are a professional translator. Translate each string of the JSON array from Brazilian Portuguese (a few strings may already be in English) into natural, concise ${name} for an educational game. Rules: keep EXACTLY unchanged any Chinese characters, Thai script, pinyin, romanizations (Paiboon, RTGS), IPA, numbers, formulas, code and anything inside {braces}; keep leading markers such as "## ", "- ", "* " and separators such as " · ", " → ", " = ", " / ". Do not add explanations. Return ONLY a JSON array of strings with exactly the same number of items, in the same order.`;
