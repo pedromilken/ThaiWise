@@ -34,7 +34,7 @@
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..");
 const KT = require("./kt-canonico.js");
-const NUCLEO_VERSAO = "1.5";
+const NUCLEO_VERSAO = "1.8";
 const MODELS = ["elo", "irt", "bkt", "pfa", "afm"];
 const STEP = 3;                                    /* as notas chegam depois do 3º item de cada habilidade (o adaptador pode fixar outro: passo) */
 const PASSO = () => (ENV && ENV.passo) || STEP;
@@ -515,7 +515,7 @@ function validTr(src, tgt) {
   for (const p of src.match(PROT) || []) if (!tgt.includes(p)) return "perdeu " + p;
   const lead = x => (x.match(/^\s*(##|-|\*|\d+\.)\s/) || [""])[0].trim();
   if (lead(src) !== lead(tgt)) return "marcador inicial";
-  if (src.length > 20 && (tgt.length < .3 * src.length || tgt.length > 3 * src.length)) return "tamanho";
+  if (src.length > 40 && (tgt.length < .3 * src.length || tgt.length > 3 * src.length)) return "tamanho";
   return null;
 }
 async function translate(opts) {
@@ -531,18 +531,24 @@ async function translate(opts) {
   const batches = []; let cur = [], sz = 0;
   for (const x of miss) { if (cur.length && (cur.length >= 30 || sz + x.length > 5000)) { batches.push(cur); cur = []; sz = 0; } cur.push(x); sz += x.length; }
   if (cur.length) batches.push(cur);
-  const r = makeRng("traducao", lang), failed = []; let done = 0, ok = 0;
+  const r = makeRng("traducao", lang), failed = [], avisos = []; let done = 0, ok = 0;
   async function run(batch, tries) {
     const a = await brain.call([{ role: "system", content: SYS }, { role: "user", content: JSON.stringify(batch) }], { temperature: 0.2, max: Math.min(8000, 400 + Math.ceil(batch.reduce((s2, x) => s2 + x.length, 0) * 1.5)), rng: r });
     let arr = null; try { const m = String(a).match(/\[[\s\S]*\]/); arr = m ? JSON.parse(m[0]) : null; } catch (e) { arr = null; }
     const bad = [];
     batch.forEach((src, i) => { const tgt = arr && arr.length === batch.length ? arr[i] : null, why = tgt == null ? "resposta fora do formato" : validTr(src, tgt);
-      if (why) bad.push({ src, why }); else { cache[src] = tgt; ok++; } });
-    if (bad.length && tries > 0) { for (const b of bad) await run([b.src], tries - 1); }
-    else failed.push(...bad);
+      if (why) bad.push({ src, why, tgt }); else { cache[src] = tgt; ok++; } });
+    if (bad.length && tries > 0) { for (const b of bad) await run([b.src], tries - 1); return; }
+    /* Esgotadas as tentativas: "perdeu <termo>" e "tamanho" costumam ser traduções legítimas (um rótulo gramatical em
+       chinês traduzido, "14h" que vira "2 PM", "sala de jantar, refeitório" que vira "comedor"). Essas são ACEITAS com
+       aviso, registradas em <idioma>-avisos.json para revisão humana; formato quebrado ou vazio continua bloqueando. */
+    for (const b of bad) { if (b.tgt && /^(perdeu|tamanho)/.test(b.why)) { cache[b.src] = b.tgt; ok++; avisos.push(b); } else failed.push(b); }
   }
   await Promise.all(batches.map(b => run(b, 2).then(() => { done++; save(); process.stdout.write(`\r  lotes ${done}/${batches.length} · traduzidos ${ok}`); })));
   save(); console.log("");
+  if (avisos.length) { const fa = path.join(path.dirname(tradFile(lang)), lang + "-avisos.json"), prev = fs.existsSync(fa) ? JSON.parse(fs.readFileSync(fa, "utf8")) : [];
+    const all = [...prev.filter(p => !avisos.some(a => a.src === p.src)), ...avisos.map(a => ({ src: a.src, tgt: a.tgt, why: a.why }))];
+    fs.writeFileSync(fa, JSON.stringify(all, null, 1)); console.log(`  ${avisos.length} tradução(ões) aceita(s) com aviso (perdeu um termo ou mudou de tamanho): revise em ${path.relative(ROOT, fa)}.`); }
   const ff = path.join(path.dirname(tradFile(lang)), lang + "-falhas.json");
   if (failed.length) { fs.writeFileSync(ff, JSON.stringify(failed, null, 1)); console.log(`  ${failed.length} texto(s) não passaram na validação; ficaram em português. Veja ${path.relative(ROOT, ff)}. Rode de novo para tentar outra vez.`); }
   else if (fs.existsSync(ff)) fs.unlinkSync(ff);
