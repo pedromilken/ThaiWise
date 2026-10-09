@@ -35,7 +35,7 @@
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..");
 const KT = require("./kt-canonico.js");
-const NUCLEO_VERSAO = "1.9.1";
+const NUCLEO_VERSAO = "1.9.2";
 const MODELS = ["elo", "irt", "bkt", "pfa", "afm"];
 const STEP = 3;                                    /* as notas chegam depois do 3º item de cada habilidade (o adaptador pode fixar outro: passo) */
 const PASSO = () => (ENV && ENV.passo) || STEP;
@@ -748,13 +748,23 @@ const AJP = {
 const ajLL = (qs, m, P) => { let s = 0; for (const q of qs) { const p = AJP[m](q, P); q.obs.forEach((o, i) => { const v = clp(p[i], 1e-4, 1 - 1e-4); s += o.y ? Math.log(v) : Math.log(1 - v); }); } return s; };
 /* AFM e PFA: logística com offset conhecido (o prior), côncava: Newton com ridge para o centro dado */
 function ajNewton(qs, feats, x0, centro, lam) {
-  let x = x0.slice();
-  for (let it = 0; it < 50; it++) { const g = x.map((v, j) => -lam * (v - centro[j])), H = x.map((_, j) => x.map((__, k) => j === k ? -lam : 0));
-    for (const q of qs) for (const o of q.obs) { const z = feats(o), p = sgm(q.a + z.reduce((s, v, j) => s + v * x[j], 0)), w = p * (1 - p);
+  /* Newton amortecido com busca em linha: o passo só é aceito se a verossimilhança penalizada SOBE (sem isso, partindo do
+     parâmetro do jogo com previsões saturadas, o passo podia não sair do lugar: erro achado no painel de 09/10). Parte de 0. */
+  const obj = x => { let s = 0; for (const q of qs) for (const o of q.obs) { const z = feats(o), p = clp(sgm(q.a + z.reduce((t, v, k) => t + v * x[k], 0)), 1e-9, 1 - 1e-9); s += o.y ? Math.log(p) : Math.log(1 - p); }
+    return s - lam / 2 * x.reduce((t, v, k) => t + (v - centro[k]) ** 2, 0); };
+  let x = x0.map(() => 0), f = obj(x);
+  for (let it = 0; it < 100; it++) {
+    const g = x.map((v, j) => -lam * (v - centro[j])), H = x.map((_, j) => x.map((__, k) => j === k ? -lam : 0));
+    for (const q of qs) for (const o of q.obs) { const z = feats(o), p = sgm(q.a + z.reduce((t, v, k) => t + v * x[k], 0)), w = p * (1 - p);
       z.forEach((v, j) => { g[j] += (o.y - p) * v; z.forEach((u, k) => H[j][k] -= w * v * u); }); }
-    let d; if (x.length === 1) d = [-g[0] / Math.min(H[0][0], -1e-6)];
-    else { const det = H[0][0] * H[1][1] - H[0][1] * H[1][0] || -1e-6; d = [-(H[1][1] * g[0] - H[0][1] * g[1]) / det, -(-H[1][0] * g[0] + H[0][0] * g[1]) / det]; }
-    d = d.map(v => clp(v, -1, 1)); x = x.map((v, j) => clp(v + d[j], -5, 5)); if (Math.max(...d.map(Math.abs)) < 1e-6) break; }
+    let d;
+    if (x.length === 1) d = [-g[0] / Math.min(H[0][0], -1e-6)];
+    else { const det = H[0][0] * H[1][1] - H[0][1] * H[1][0]; d = det > 1e-12 ? [-(H[1][1] * g[0] - H[0][1] * g[1]) / det, -(-H[1][0] * g[0] + H[0][0] * g[1]) / det] : g.map(v => v * 0.01); }
+    if (!d.every(isFinite)) d = g.map(v => v * 0.01);
+    let t = 1, ok = false;
+    for (let k = 0; k < 30; k++) { const xn = x.map((v, j) => clp(v + t * d[j], -5, 5)), fn = obj(xn); if (fn >= f - 1e-12) { ok = fn - f; x = xn; f = fn; break; } t /= 2; }
+    if (ok === false || ok < 1e-10) break;
+  }
   return x;
 }
 const AJGRADE = { T: Array.from({ length: 31 }, (_, i) => i * 0.02), S: Array.from({ length: 16 }, (_, i) => i * 0.02), K: Array.from({ length: 41 }, (_, i) => i * 0.1) };
